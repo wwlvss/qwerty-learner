@@ -68,4 +68,4 @@ python3 scripts/data/prepare-tatoeba-usage.py \
 
 无付费 API、无新运行时依赖、无管理员权限要求。网站整体仍未实现 Service Worker 离线冷启动；IndexedDB 中的个人词典和导入资料本地保存，但应定期导出备份。
 
-最终检查：29 项 Chromium 回归和 6 项 Python 数据测试通过；构建和修改代码的 lint/格式检查通过。全项目类型检查仍仅有原来的 4 处 TS2339 错误，没有新增类型错误。
+最终检查：30 项 Chromium 回归和 6 项 Python 数据测试通过；构建和修改代码的 lint/格式检查通过。全项目类型检查仍仅有原来的 4 处 TS2339 错误，没有新增类型错误。

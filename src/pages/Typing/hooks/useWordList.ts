@@ -20,13 +20,17 @@ export function useWordList(): UseWordListResult {
   const [currentChapter, setCurrentChapter] = useAtom(currentChapterAtom)
   const { isReviewMode, reviewRecord } = useAtomValue(reviewModeInfoAtom)
 
-  // Reset current chapter to 0, when currentChapter is greater than chapterCount.
-  if (currentChapter >= currentDictInfo.chapterCount) {
+  const { data: wordList, error, isLoading } = useSWR(currentDictInfo.url, wordListFetcher)
+  // Personal metadata starts at zero while IndexedDB loads. Validate against
+  // loaded words so refreshing chapter 2 does not incorrectly reset it to 1.
+  const chapterCount =
+    currentDictInfo.id === 'personal' && wordList ? Math.ceil(wordList.length / CHAPTER_LENGTH) : currentDictInfo.chapterCount
+  const canValidateChapter = currentDictInfo.id !== 'personal' || wordList !== undefined
+  if (canValidateChapter && currentChapter !== 0 && currentChapter >= chapterCount) {
     setCurrentChapter(0)
   }
 
   const isFirstChapter = !isReviewMode && currentDictInfo.id === 'cet4' && currentChapter === 0
-  const { data: wordList, error, isLoading } = useSWR(currentDictInfo.url, wordListFetcher)
 
   const words: WordWithIndex[] = useMemo(() => {
     let newWords: Word[]

@@ -305,3 +305,19 @@ test('all four formerly relative dictionary paths load through the shared fetche
     expect(dictionary.count).toBeGreaterThan(0)
   }
 })
+
+test('refreshing a later personal chapter waits for local data instead of resetting to chapter one', async ({ page }) => {
+  await page.evaluate(async () => {
+    const path = '/src/features/personal-dictionary/repository.ts'
+    const { addPersonalWords } = await new Function('path', 'return import(path)')(path)
+    await addPersonalWords(
+      Array.from({ length: 21 }, (_, i) => ({ name: `word${String.fromCharCode(97 + i)}`, trans: ['测试'], usphone: '', ukphone: '' })),
+      false,
+    )
+    localStorage.setItem('currentDict', '"personal"')
+    localStorage.setItem('currentChapter', '1')
+  })
+  await page.reload()
+  await expect(page.getByTestId('typing-word')).toHaveText('wordu')
+  expect(await page.evaluate(() => JSON.parse(localStorage.getItem('currentChapter')!))).toBe(1)
+})
