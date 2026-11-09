@@ -23,9 +23,9 @@ export function useWordList(): UseWordListResult {
   const { data: wordList, error, isLoading } = useSWR(currentDictInfo.url, wordListFetcher)
   // Personal metadata starts at zero while IndexedDB loads. Validate against
   // loaded words so refreshing chapter 2 does not incorrectly reset it to 1.
-  const chapterCount =
-    currentDictInfo.id === 'personal' && wordList ? Math.ceil(wordList.length / CHAPTER_LENGTH) : currentDictInfo.chapterCount
-  const canValidateChapter = currentDictInfo.id !== 'personal' || wordList !== undefined
+  const isLocal = currentDictInfo.id === 'personal' || currentDictInfo.id === 'unfamiliar'
+  const chapterCount = isLocal && wordList ? Math.ceil(wordList.length / CHAPTER_LENGTH) : currentDictInfo.chapterCount
+  const canValidateChapter = !isLocal || wordList !== undefined
   if (canValidateChapter && currentChapter !== 0 && currentChapter >= chapterCount) {
     setCurrentChapter(0)
   }

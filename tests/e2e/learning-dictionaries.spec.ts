@@ -12,10 +12,10 @@ test.beforeEach(async ({ page }) => {
 
 test('six dictionaries have separate cards and real chapter counts', async ({ page }) => {
   for (const [name, count] of [
-    ['工作英语', '60 词'],
-    ['农业专业英语', '80 词'],
-    ['日常英语', '40 词'],
-    ['商务英语', '40 词'],
+    ['工作英语', '120 词'],
+    ['农业专业英语', '160 词'],
+    ['日常英语', '100 词'],
+    ['商务英语', '100 词'],
     ['CET-6', '2345 词'],
     ['IELTS', '3575 词'],
   ]) {

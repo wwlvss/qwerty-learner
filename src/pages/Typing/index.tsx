@@ -151,10 +151,10 @@ const App: React.FC = () => {
         <div className="container mx-auto flex h-full flex-1 flex-col items-center justify-center pb-5">
           <div className="container relative mx-auto flex h-full flex-col items-center">
             <div className="container flex flex-grow items-center justify-center">
-              {isLoading && currentDictId === 'personal' && !wordListLoading ? (
+              {isLoading && ['personal', 'unfamiliar'].includes(currentDictId) && !wordListLoading ? (
                 <div className="text-center text-gray-500">
-                  <p>自定义词典目前为空</p>
-                  <Link to="/my-dictionary/custom" className="text-indigo-500 underline">
+                  <p>{currentDictId === 'unfamiliar' ? '不熟词本目前为空' : '自定义词典目前为空'}</p>
+                  <Link to={currentDictId === 'unfamiliar' ? '/unfamiliar' : '/my-dictionary/custom'} className="text-indigo-500 underline">
                     添加或导入单词
                   </Link>
                 </div>

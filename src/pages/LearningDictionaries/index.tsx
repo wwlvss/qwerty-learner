@@ -48,6 +48,11 @@ export default function LearningDictionaries() {
           <p className="text-sm text-gray-500">
             优先学习工作英语和农业专业英语；日常英语优先级高；商务英语与 CET-6 为中；IELTS 留作后续。每个词库按 20 词分章。
           </p>
+          {REACT_APP_DEPLOY_ENV === 'pages' && (
+            <a className="inline-block text-sm text-indigo-500 underline" href="/qwerty-learner/local-study.zip" download>
+              下载本地学习包（含 Windows 启动文件）
+            </a>
+          )}
         </section>
         <div className="grid gap-5 md:grid-cols-2">
           {learningDictionaryPlan.map((plan) => {

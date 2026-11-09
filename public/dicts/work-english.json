@@ -478,5 +478,485 @@
     ],
     "usphone": "ˈrekɔːd , rɪˈkɔːd",
     "ukphone": "ˈrekərd , rɪˈkɔːrd"
+  },
+  {
+    "name": "training",
+    "trans": [
+      "培训；训练"
+    ],
+    "usphone": "ˈtreɪnɪŋ",
+    "ukphone": "ˈtreɪnɪŋ"
+  },
+  {
+    "name": "onboarding",
+    "trans": [
+      "新员工入职引导"
+    ],
+    "usphone": "",
+    "ukphone": ""
+  },
+  {
+    "name": "colleague",
+    "trans": [
+      "同事"
+    ],
+    "usphone": "'kɑliɡ",
+    "ukphone": "'kɒliːg"
+  },
+  {
+    "name": "supervisor",
+    "trans": [
+      "主管；监督者"
+    ],
+    "usphone": "ˈsuːpəvaɪzə",
+    "ukphone": "ˈsuːpərvaɪzər"
+  },
+  {
+    "name": "department",
+    "trans": [
+      "部门"
+    ],
+    "usphone": "dɪˈpɑːtmənt",
+    "ukphone": "dɪˈpɑːrtmənt"
+  },
+  {
+    "name": "teamwork",
+    "trans": [
+      "团队合作"
+    ],
+    "usphone": "ˈti:mwɜ:rk",
+    "ukphone": "ˈti:mwɜ:k"
+  },
+  {
+    "name": "collaboration",
+    "trans": [
+      "协作"
+    ],
+    "usphone": "kə,læbə'reʃən",
+    "ukphone": "kəˌlæbə'reɪʃn"
+  },
+  {
+    "name": "delegate",
+    "trans": [
+      "委派；授权"
+    ],
+    "usphone": "ˈdɛləgɪt; (for v.,) ˈdɛləˌgeɪt",
+    "ukphone": "ˈdɛlɪˌɡeɪt; -ɡɪt; (for v.,) ˈdɛlɪˌɡeɪt"
+  },
+  {
+    "name": "monitor",
+    "trans": [
+      "监测；跟踪"
+    ],
+    "usphone": "'mɔnɪtɚ",
+    "ukphone": "'mɒnɪtə"
+  },
+  {
+    "name": "evaluate",
+    "trans": [
+      "评估"
+    ],
+    "usphone": "ɪ'væljʊ'et",
+    "ukphone": "ɪ'væljueɪt"
+  },
+  {
+    "name": "estimate",
+    "trans": [
+      "估算；估计"
+    ],
+    "usphone": "'ɛstə,met",
+    "ukphone": "'estɪmeɪt"
+  },
+  {
+    "name": "allocate",
+    "trans": [
+      "分配；调配"
+    ],
+    "usphone": "'æləket",
+    "ukphone": "'æləkeɪt"
+  },
+  {
+    "name": "implement",
+    "trans": [
+      "实施；落实"
+    ],
+    "usphone": "'ɪmplɪmɛnt",
+    "ukphone": "'ɪmplɪm(ə)nt"
+  },
+  {
+    "name": "maintain",
+    "trans": [
+      "维护；保持"
+    ],
+    "usphone": "men'ten",
+    "ukphone": "meɪn'teɪn"
+  },
+  {
+    "name": "troubleshoot",
+    "trans": [
+      "排查故障"
+    ],
+    "usphone": "ˈtrʌblʃuːt",
+    "ukphone": "ˈtrʌblʃuːt"
+  },
+  {
+    "name": "inspect",
+    "trans": [
+      "检查；检验"
+    ],
+    "usphone": "ɪn'spɛkt",
+    "ukphone": "ɪn'spekt"
+  },
+  {
+    "name": "verify",
+    "trans": [
+      "核实；验证"
+    ],
+    "usphone": "'vɛrɪfaɪ",
+    "ukphone": "'verɪfaɪ"
+  },
+  {
+    "name": "validate",
+    "trans": [
+      "确认有效性"
+    ],
+    "usphone": "'vælɪdet",
+    "ukphone": "'vælɪdeɪt"
+  },
+  {
+    "name": "document",
+    "trans": [
+      "记录；形成文档"
+    ],
+    "usphone": "dɑkjəmənt",
+    "ukphone": "'dɒkjumənt"
+  },
+  {
+    "name": "archive",
+    "trans": [
+      "归档"
+    ],
+    "usphone": "ˈɑːkaɪv",
+    "ukphone": "ˈɑːrkaɪv"
+  },
+  {
+    "name": "backup",
+    "trans": [
+      "备份；备用副本"
+    ],
+    "usphone": "ˈbækʌp",
+    "ukphone": "ˈbækʌp"
+  },
+  {
+    "name": "access",
+    "trans": [
+      "访问；使用权限"
+    ],
+    "usphone": "'æksɛs",
+    "ukphone": "'ækses"
+  },
+  {
+    "name": "permission",
+    "trans": [
+      "许可；权限"
+    ],
+    "usphone": "pɚ'mɪʃən",
+    "ukphone": "pə'mɪʃn"
+  },
+  {
+    "name": "attachment",
+    "trans": [
+      "附件"
+    ],
+    "usphone": "əˈtætʃmənt",
+    "ukphone": "əˈtætʃmənt"
+  },
+  {
+    "name": "spreadsheet",
+    "trans": [
+      "电子表格"
+    ],
+    "usphone": "ˈsprɛdˌʃit",
+    "ukphone": "ˈspredʃi:t"
+  },
+  {
+    "name": "template",
+    "trans": [
+      "模板"
+    ],
+    "usphone": "ˈtɛmplɪt",
+    "ukphone": "'templeɪt"
+  },
+  {
+    "name": "draft",
+    "trans": [
+      "草稿；起草"
+    ],
+    "usphone": "dræft",
+    "ukphone": "drɑːft"
+  },
+  {
+    "name": "finalize",
+    "trans": [
+      "最终确定"
+    ],
+    "usphone": "ˈfaɪnəlaɪz",
+    "ukphone": "ˈfaɪnəlaɪz"
+  },
+  {
+    "name": "escalate",
+    "trans": [
+      "上报；升级处理"
+    ],
+    "usphone": "ˈeskəleɪt",
+    "ukphone": "ˈeskəleɪt"
+  },
+  {
+    "name": "follow-up",
+    "trans": [
+      "后续跟进"
+    ],
+    "usphone": "ˈfɑloˌʌp",
+    "ukphone": "'fɒləʊ"
+  },
+  {
+    "name": "check in",
+    "trans": [
+      "简短沟通；了解进展"
+    ],
+    "usphone": "",
+    "ukphone": ""
+  },
+  {
+    "name": "catch up",
+    "trans": [
+      "了解最新情况；赶上进度"
+    ],
+    "usphone": "'kætʃʌp",
+    "ukphone": "'kætʃʌp"
+  },
+  {
+    "name": "hand over",
+    "trans": [
+      "移交"
+    ],
+    "usphone": "'hænd,əuvə(r)",
+    "ukphone": "'hænd,əuvə(r)"
+  },
+  {
+    "name": "take over",
+    "trans": [
+      "接手"
+    ],
+    "usphone": "",
+    "ukphone": ""
+  },
+  {
+    "name": "carry out",
+    "trans": [
+      "执行；开展"
+    ],
+    "usphone": "",
+    "ukphone": ""
+  },
+  {
+    "name": "look into",
+    "trans": [
+      "调查；查看"
+    ],
+    "usphone": "",
+    "ukphone": ""
+  },
+  {
+    "name": "sort out",
+    "trans": [
+      "解决；整理"
+    ],
+    "usphone": "",
+    "ukphone": ""
+  },
+  {
+    "name": "get back to",
+    "trans": [
+      "稍后回复"
+    ],
+    "usphone": "",
+    "ukphone": ""
+  },
+  {
+    "name": "keep track of",
+    "trans": [
+      "持续记录；跟踪"
+    ],
+    "usphone": "",
+    "ukphone": ""
+  },
+  {
+    "name": "in charge of",
+    "trans": [
+      "负责"
+    ],
+    "usphone": "",
+    "ukphone": ""
+  },
+  {
+    "name": "on track",
+    "trans": [
+      "按计划进行"
+    ],
+    "usphone": "",
+    "ukphone": ""
+  },
+  {
+    "name": "behind schedule",
+    "trans": [
+      "落后于计划"
+    ],
+    "usphone": "",
+    "ukphone": ""
+  },
+  {
+    "name": "ahead of schedule",
+    "trans": [
+      "提前于计划"
+    ],
+    "usphone": "",
+    "ukphone": ""
+  },
+  {
+    "name": "by the end of",
+    "trans": [
+      "在……结束之前"
+    ],
+    "usphone": "",
+    "ukphone": ""
+  },
+  {
+    "name": "as soon as possible",
+    "trans": [
+      "尽快"
+    ],
+    "usphone": "",
+    "ukphone": ""
+  },
+  {
+    "name": "for your reference",
+    "trans": [
+      "供你参考"
+    ],
+    "usphone": "",
+    "ukphone": ""
+  },
+  {
+    "name": "please find attached",
+    "trans": [
+      "请查收附件"
+    ],
+    "usphone": "",
+    "ukphone": ""
+  },
+  {
+    "name": "could you clarify",
+    "trans": [
+      "能否说明清楚"
+    ],
+    "usphone": "",
+    "ukphone": ""
+  },
+  {
+    "name": "let me know",
+    "trans": [
+      "请告诉我"
+    ],
+    "usphone": "",
+    "ukphone": ""
+  },
+  {
+    "name": "to be confirmed",
+    "trans": [
+      "待确认"
+    ],
+    "usphone": "",
+    "ukphone": ""
+  },
+  {
+    "name": "reschedule",
+    "trans": [
+      "重新安排"
+    ],
+    "usphone": "ˌriːˈʃedjuːl",
+    "ukphone": "ˌriːˈskedʒuːl"
+  },
+  {
+    "name": "postpone",
+    "trans": [
+      "推迟"
+    ],
+    "usphone": "po'spon",
+    "ukphone": "pə'spəun"
+  },
+  {
+    "name": "cancel",
+    "trans": [
+      "取消"
+    ],
+    "usphone": "'kænsl",
+    "ukphone": "'kænsl"
+  },
+  {
+    "name": "synchronize",
+    "trans": [
+      "同步"
+    ],
+    "usphone": "'sɪŋkrənaɪz",
+    "ukphone": "'sɪŋkrənaɪz"
+  },
+  {
+    "name": "streamline",
+    "trans": [
+      "简化；提高效率"
+    ],
+    "usphone": "'strimlaɪn",
+    "ukphone": "'striːmlaɪn"
+  },
+  {
+    "name": "compliance",
+    "trans": [
+      "合规；遵守规定"
+    ],
+    "usphone": "kəmˈplaɪəns",
+    "ukphone": "kəmˈplaɪəns"
+  },
+  {
+    "name": "incident",
+    "trans": [
+      "事件；事故"
+    ],
+    "usphone": "'ɪnsɪdənt",
+    "ukphone": "'ɪnsɪdənt"
+  },
+  {
+    "name": "contingency",
+    "trans": [
+      "意外情况；应急安排"
+    ],
+    "usphone": "kənˈtɪndʒənsi",
+    "ukphone": "kənˈtɪndʒənsi"
+  },
+  {
+    "name": "attendance",
+    "trans": [
+      "出勤；到场情况"
+    ],
+    "usphone": "əˈtendəns",
+    "ukphone": "əˈtendəns"
+  },
+  {
+    "name": "minutes of the meeting",
+    "trans": [
+      "会议纪要"
+    ],
+    "usphone": "",
+    "ukphone": ""
   }
 ]

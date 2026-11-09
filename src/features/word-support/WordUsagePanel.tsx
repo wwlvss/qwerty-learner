@@ -1,5 +1,6 @@
 import { getWordUsage } from './repository'
-import type { UsageSource, WordUsage } from './types'
+import type { UsageExample, UsagePhrase, UsageSource, WordUsage } from './types'
+import SaveUnfamiliarButton from '@/features/unfamiliar-words/SaveUnfamiliarButton'
 import { currentDictIdAtom } from '@/store'
 import { useAtomValue } from 'jotai'
 import { useEffect, useState } from 'react'
@@ -45,8 +46,19 @@ export default function WordUsagePanel({ word }: { word: string }) {
       active = false
     }
   }, [word])
-  const phrases = [...(data?.phrases ?? [])].sort((a, b) => Number(b.context === dictId) - Number(a.context === dictId))
-  const examples = [...(data?.examples ?? [])].sort((a, b) => Number(b.context === dictId) - Number(a.context === dictId))
+  const prioritize = <T extends UsagePhrase | UsageExample>(items: T[]) => {
+    const seen = new Set<string>()
+    return [...items]
+      .sort((a, b) => Number(b.context === dictId) - Number(a.context === dictId))
+      .filter((item) => {
+        const key = item.text.trim().toLowerCase()
+        if (seen.has(key)) return false
+        seen.add(key)
+        return true
+      })
+  }
+  const phrases = prioritize(data?.phrases ?? [])
+  const examples = prioritize(data?.examples ?? [])
   return (
     <div
       className="mb-4 space-y-3 border-b border-gray-100 pb-4 text-gray-700 dark:border-gray-700 dark:text-gray-200"
@@ -61,6 +73,7 @@ export default function WordUsagePanel({ word }: { word: string }) {
             {phrases.slice(0, 3).map((phrase, index) => (
               <li key={`${phrase.text}-${index}`}>
                 <strong>{phrase.text}</strong> · {phrase.translation}
+                <SaveUnfamiliarButton compact word={{ name: phrase.text, trans: [phrase.translation], usphone: '', ukphone: '' }} />
                 <SourceLabel source={phrase.source} />
               </li>
             ))}

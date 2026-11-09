@@ -7,7 +7,7 @@ import re
 import runpy
 
 ROOT = Path(__file__).resolve().parents[2]
-COUNTS = {'work-english': 60, 'agriculture-english': 80, 'daily-english': 40, 'business-english': 40}
+COUNTS = {'work-english': 120, 'agriculture-english': 160, 'daily-english': 100, 'business-english': 100}
 
 
 def main():

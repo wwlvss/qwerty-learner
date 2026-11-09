@@ -218,3 +218,263 @@ business-english	replenishment	补货	stock replenishment	库存补货	The team 
 business-english	demand	需求	market demand	市场需求	Market demand changes throughout the year.	市场需求在一年中会发生变化。
 business-english	partner	合作伙伴	a business partner	商业合作伙伴	We discussed the plan with our partner.	我们与合作伙伴讨论了这个计划。
 business-english	coordinate	商务协调	coordinate delivery	协调交货	Please coordinate delivery with the supplier.	请与供应商协调交货。
+work-english	training	培训；训练	attend training	参加培训	The training covers the new reporting process.	这次培训涵盖新的汇报流程。
+work-english	onboarding	新员工入职引导	onboarding checklist	入职清单	The onboarding checklist includes a system login.	入职清单包括系统登录事项。
+work-english	colleague	同事	ask a colleague	询问同事	A colleague will help me review the file.	一位同事会帮我检查文件。
+work-english	supervisor	主管；监督者	contact the supervisor	联系主管	Please contact your supervisor about the delay.	请就延误事宜联系你的主管。
+work-english	department	部门	finance department	财务部门	The finance department needs the receipt.	财务部门需要这张收据。
+work-english	teamwork	团队合作	improve teamwork	改善团队合作	Good teamwork helps us finish complex tasks.	良好的团队合作有助于我们完成复杂任务。
+work-english	collaboration	协作	cross-team collaboration	跨团队协作	This project requires close collaboration with the field team.	这个项目需要与现场团队密切协作。
+work-english	delegate	委派；授权	delegate a task	委派任务	We can delegate routine checks to the support team.	我们可以把例行检查交给支持团队。
+work-english	monitor	监测；跟踪	monitor progress	跟踪进度	Please monitor the delivery status this afternoon.	请在今天下午跟踪交付状态。
+work-english	evaluate	评估	evaluate the results	评估结果	We need to evaluate the results before changing the plan.	我们需要先评估结果，再调整计划。
+work-english	estimate	估算；估计	estimate the cost	估算费用	Can you estimate how long the repair will take?	你能估算维修需要多长时间吗？
+work-english	allocate	分配；调配	allocate resources	分配资源	We will allocate more time to equipment checks.	我们将为设备检查分配更多时间。
+work-english	implement	实施；落实	implement a plan	实施计划	The team will implement the revised process next week.	团队将在下周实施修订后的流程。
+work-english	maintain	维护；保持	maintain equipment	维护设备	We maintain the equipment according to the service schedule.	我们按保养计划维护设备。
+work-english	troubleshoot	排查故障	troubleshoot a problem	排查问题	The technician will troubleshoot the connection problem.	技术员将排查连接问题。
+work-english	inspect	检查；检验	inspect the equipment	检查设备	Please inspect the equipment before the shift starts.	请在班次开始前检查设备。
+work-english	verify	核实；验证	verify the figures	核实数字	We must verify the figures in the weekly report.	我们必须核实周报中的数字。
+work-english	validate	确认有效性	validate the data	验证数据有效性	Please validate the data before sharing the results.	请在分享结果前验证数据的有效性。
+work-english	document	记录；形成文档	document a change	记录变更	Please document each change to the procedure.	请记录对流程的每一项变更。
+work-english	archive	归档	archive old files	归档旧文件	We archive completed reports at the end of each month.	我们在每个月末归档已完成的报告。
+work-english	backup	备份；备用副本	create a backup	创建备份	Keep a backup of the original spreadsheet.	保留原始电子表格的备份。
+work-english	access	访问；使用权限	request access	申请访问权限	I need access to the shared project folder.	我需要共享项目文件夹的访问权限。
+work-english	permission	许可；权限	grant permission	授予权限	Please request permission before changing the settings.	更改设置前请先申请许可。
+work-english	attachment	附件	email attachment	邮件附件	The attachment contains the updated task list.	附件中包含更新后的任务清单。
+work-english	spreadsheet	电子表格	update a spreadsheet	更新电子表格	Please enter the latest readings in the spreadsheet.	请在电子表格中填入最新读数。
+work-english	template	模板	use a template	使用模板	Use the standard template for your weekly summary.	请使用标准模板编写周总结。
+work-english	draft	草稿；起草	review a draft	审阅草稿	I will send you a draft before lunch.	我会在午餐前把草稿发给你。
+work-english	finalize	最终确定	finalize the schedule	最终确定日程	We need to finalize the schedule by Wednesday.	我们需要在周三前最终确定日程。
+work-english	escalate	上报；升级处理	escalate an issue	上报问题	Please escalate the issue if the system remains unavailable.	如果系统仍不可用，请上报这个问题。
+work-english	follow-up	后续跟进	follow-up meeting	跟进会议	The follow-up meeting is scheduled for Thursday.	跟进会议安排在周四。
+work-english	check in	简短沟通；了解进展	check in with the team	与团队简短沟通	I will check in with the team after lunch.	午餐后我会与团队简短沟通。
+work-english	catch up	了解最新情况；赶上进度	catch up on updates	了解最新进展	Let's catch up on the project after the meeting.	开完会后我们聊聊项目的最新情况。
+work-english	hand over	移交	hand over the task	移交任务	Please hand over the task before your leave starts.	请在休假开始前移交任务。
+work-english	take over	接手	take over a project	接手项目	Maya will take over the project next month.	玛雅将在下个月接手这个项目。
+work-english	carry out	执行；开展	carry out a check	开展检查	We will carry out a routine check tomorrow.	我们明天将开展一次例行检查。
+work-english	look into	调查；查看	look into an issue	调查问题	I will look into the missing delivery record.	我会调查缺失的交付记录。
+work-english	sort out	解决；整理	sort out a problem	解决问题	We need to sort out the access problem today.	我们今天需要解决访问权限问题。
+work-english	get back to	稍后回复	get back to a colleague	稍后回复同事	I will get back to you after checking the figures.	核实数字后我会回复你。
+work-english	keep track of	持续记录；跟踪	keep track of changes	跟踪变更	Use this log to keep track of equipment changes.	用这份日志跟踪设备变更。
+work-english	in charge of	负责	in charge of maintenance	负责维护	Who is in charge of the maintenance schedule?	谁负责维护计划？
+work-english	on track	按计划进行	keep a project on track	让项目按计划进行	The installation is on track for Friday.	安装工作正在按计划推进，预计周五完成。
+work-english	behind schedule	落后于计划	fall behind schedule	落后于进度	The repair is behind schedule because a part is missing.	维修因缺少一个零件而落后于计划。
+work-english	ahead of schedule	提前于计划	finish ahead of schedule	提前完成	The team completed the inspection ahead of schedule.	团队提前完成了检查。
+work-english	by the end of	在……结束之前	by the end of the day	在当天结束之前	Please send the figures by the end of the day.	请在今天结束前发送这些数字。
+work-english	as soon as possible	尽快	reply as soon as possible	尽快回复	Please confirm the delivery time as soon as possible.	请尽快确认交付时间。
+work-english	for your reference	供你参考	attach a file for your reference	附上文件供你参考	I have attached the checklist for your reference.	我已附上清单供你参考。
+work-english	please find attached	请查收附件	please find attached the report	请查收报告附件	Please find attached the updated inspection report.	请查收附件中的最新检查报告。
+work-english	could you clarify	能否说明清楚	could you clarify the requirement	能否说明具体要求	Could you clarify which figures we should report?	能否说明我们应该汇报哪些数字？
+work-english	let me know	请告诉我	let me know your availability	请告诉我你何时有空	Please let me know if the deadline changes.	如果截止时间有变，请告诉我。
+work-english	to be confirmed	待确认	date to be confirmed	日期待确认	The installation date is still to be confirmed.	安装日期仍待确认。
+work-english	reschedule	重新安排	reschedule a meeting	重新安排会议	We may need to reschedule the site visit.	我们可能需要重新安排现场考察。
+work-english	postpone	推迟	postpone a task	推迟任务	We will postpone the repair until the spare part arrives.	我们将把维修推迟到备件到货后。
+work-english	cancel	取消	cancel a meeting	取消会议	We need to cancel the meeting because the site is closed.	由于现场关闭，我们需要取消会议。
+work-english	synchronize	同步	synchronize files	同步文件	Please synchronize the files before leaving the office.	离开办公室前请同步文件。
+work-english	streamline	简化；提高效率	streamline a process	简化流程	We want to streamline the weekly reporting process.	我们希望简化每周的汇报流程。
+work-english	compliance	合规；遵守规定	compliance check	合规检查	The team will review compliance with the safety procedure.	团队将检查安全流程的遵守情况。
+work-english	incident	事件；事故	incident report	事件报告	Please record the incident in the daily log.	请把这次事件记录在每日日志中。
+work-english	contingency	意外情况；应急安排	contingency plan	应急预案	We need a contingency plan for a power outage.	我们需要一份停电应急预案。
+work-english	attendance	出勤；到场情况	confirm attendance	确认出席	Please confirm your attendance at the safety training.	请确认你是否参加安全培训。
+work-english	minutes of the meeting	会议纪要	review the minutes of the meeting	审阅会议纪要	Please review the minutes of the meeting before Friday.	请在周五前审阅会议纪要。
+agriculture-english	root	根	root growth	根系生长	Healthy root growth depends on suitable soil conditions.	健康的根系生长取决于适宜的土壤条件。
+agriculture-english	stem	茎	stem diameter	茎粗	Record the stem diameter during the weekly inspection.	在每周检查时记录茎粗。
+agriculture-english	leaf	叶片	leaf color	叶色	A change in leaf color may require further inspection.	叶色变化可能需要进一步检查。
+agriculture-english	shoot	新梢；芽条	shoot growth	新梢生长	We measured shoot growth in the trial plot.	我们测量了试验小区的新梢生长情况。
+agriculture-english	bud	芽	flower bud	花芽	The flower bud is visible on the branch.	枝条上可以看见花芽。
+agriculture-english	canopy	冠层	canopy cover	冠层覆盖	The sensor measures canopy temperature.	这个传感器测量冠层温度。
+agriculture-english	biomass	生物量	crop biomass	作物生物量	The trial compares biomass between two varieties.	这项试验比较两个品种的生物量。
+agriculture-english	growth stage	生育期	identify the growth stage	判断生育期	Record the growth stage before collecting samples.	采样前先记录生育期。
+agriculture-english	vegetative growth	营养生长	monitor vegetative growth	监测营养生长	The team is monitoring vegetative growth in the greenhouse.	团队正在监测温室内的营养生长情况。
+agriculture-english	reproductive growth	生殖生长	reproductive growth stage	生殖生长期	Water demand can change during reproductive growth.	生殖生长期间需水量可能发生变化。
+agriculture-english	maturity	成熟；成熟度	harvest maturity	采收成熟度	Check fruit maturity before planning the harvest.	安排采收前先检查果实成熟度。
+agriculture-english	dormancy	休眠	break dormancy	打破休眠	The buds remain in dormancy during cold weather.	寒冷天气期间芽仍处于休眠状态。
+agriculture-english	propagation	繁殖	plant propagation	植物繁殖	The nursery uses several methods of plant propagation.	苗圃采用多种植物繁殖方法。
+agriculture-english	cutting	插条；扦插材料	rooted cutting	生根插条	Place each cutting in a labeled tray.	把每根插条放入有标签的育苗盘中。
+agriculture-english	grafting	嫁接	grafting technique	嫁接技术	The training includes a demonstration of grafting.	这次培训包括嫁接示范。
+agriculture-english	rootstock	砧木	select a rootstock	选择砧木	Choose a rootstock suited to local soil conditions.	选择适合当地土壤条件的砧木。
+agriculture-english	scion	接穗	healthy scion	健康接穗	The technician checks each scion before grafting.	技术员在嫁接前检查每个接穗。
+agriculture-english	seed treatment	种子处理	seed treatment record	种子处理记录	Keep a record of every seed treatment.	保留每次种子处理的记录。
+agriculture-english	seedbed	苗床；播种床	prepare a seedbed	准备苗床	The team will prepare the seedbed this week.	团队将在本周准备苗床。
+agriculture-english	plug tray	穴盘	fill a plug tray	填装穴盘	Each plug tray has a label showing the sowing date.	每个穴盘都有标明播种日期的标签。
+agriculture-english	substrate	基质	growing substrate	栽培基质	Check the moisture of the substrate before watering.	浇水前检查基质湿度。
+agriculture-english	peat	泥炭	peat substrate	泥炭基质	The substrate supplier lists the proportion of peat.	基质供应商列出了泥炭比例。
+agriculture-english	coco coir	椰糠	coco coir substrate	椰糠基质	This greenhouse uses coco coir as a growing medium.	这座温室使用椰糠作为栽培基质。
+agriculture-english	perlite	珍珠岩	mix with perlite	与珍珠岩混合	The substrate contains perlite for improved aeration.	基质中含有珍珠岩，以改善通气性。
+agriculture-english	aeration	通气；曝气	soil aeration	土壤通气	Soil compaction can reduce aeration around the roots.	土壤板结会降低根部周围的通气性。
+agriculture-english	waterlogging	渍水；涝害	prevent waterlogging	防止渍水	Poor drainage can lead to waterlogging after heavy rain.	排水不良会在大雨后导致渍水。
+agriculture-english	drought	干旱	drought stress	干旱胁迫	The trial compares crop responses to drought.	试验比较作物对干旱的反应。
+agriculture-english	wilting	萎蔫	leaf wilting	叶片萎蔫	Check the roots and soil when wilting appears.	出现萎蔫时，检查根系和土壤。
+agriculture-english	field capacity	田间持水量	measure field capacity	测定田间持水量	The laboratory estimated field capacity for this soil.	实验室估算了这种土壤的田间持水量。
+agriculture-english	infiltration	入渗	water infiltration	水分入渗	Surface crusting can slow water infiltration.	地表结皮会减慢水分入渗。
+agriculture-english	evaporation	蒸发	reduce evaporation	减少蒸发	Mulch can help reduce evaporation from the soil surface.	覆盖物有助于减少土壤表面蒸发。
+agriculture-english	transpiration	蒸腾	plant transpiration	植物蒸腾	The study measures transpiration under different conditions.	研究测量不同条件下的蒸腾情况。
+agriculture-english	evapotranspiration	蒸散	reference evapotranspiration	参考蒸散量	Weather data help us estimate evapotranspiration.	气象数据有助于我们估算蒸散量。
+agriculture-english	runoff	地表径流	reduce runoff	减少地表径流	Heavy rain can cause runoff from bare soil.	大雨可能导致裸露土壤产生地表径流。
+agriculture-english	leaching	淋失；淋洗	nutrient leaching	养分淋失	Excess water may increase nutrient leaching.	过量水分可能增加养分淋失。
+agriculture-english	water table	地下水位	monitor the water table	监测地下水位	The team monitors the water table near the orchard.	团队监测果园附近的地下水位。
+agriculture-english	soil sample	土壤样品	collect a soil sample	采集土壤样品	Label each soil sample with its location and depth.	在每份土壤样品上标注地点和深度。
+agriculture-english	soil test	土壤检测	soil test report	土壤检测报告	Review the soil test before planning fertilizer use.	规划肥料使用前先查看土壤检测结果。
+agriculture-english	bulk density	容重	soil bulk density	土壤容重	The laboratory measured bulk density in the soil cores.	实验室测定了土芯的容重。
+agriculture-english	porosity	孔隙度	soil porosity	土壤孔隙度	Soil porosity affects the movement of air and water.	土壤孔隙度影响空气和水分的移动。
+agriculture-english	clay	黏土；黏粒	clay content	黏粒含量	This soil has a high clay content.	这种土壤的黏粒含量很高。
+agriculture-english	silt	粉砂；粉粒	silt content	粉粒含量	The soil test reports the proportions of sand and silt.	土壤检测报告列出了砂粒和粉粒的比例。
+agriculture-english	loam	壤土	loam soil	壤土	The demonstration plot has loam soil.	示范小区的土壤为壤土。
+agriculture-english	sandy soil	砂质土壤	sandy soil management	砂质土壤管理	Water moves quickly through this sandy soil.	水在这种砂质土壤中移动很快。
+agriculture-english	cation exchange capacity	阳离子交换量	measure cation exchange capacity	测定阳离子交换量	The report includes cation exchange capacity.	报告中包括阳离子交换量。
+agriculture-english	calcium	钙	calcium supply	钙供应	The nutrient analysis includes calcium.	养分分析包括钙。
+agriculture-english	magnesium	镁	magnesium deficiency	缺镁	A laboratory test can help assess magnesium status.	实验室检测有助于评估镁的状况。
+agriculture-english	sulfur	硫	sulfur nutrition	硫营养	The fertilizer label lists its sulfur content.	肥料标签列出了其硫含量。
+agriculture-english	iron	铁	iron availability	铁的有效性	Soil conditions can affect iron availability.	土壤条件会影响铁的有效性。
+agriculture-english	zinc	锌	zinc deficiency	缺锌	The tissue test includes zinc and other micronutrients.	植物组织检测包括锌及其他微量元素。
+agriculture-english	boron	硼	boron analysis	硼分析	Check the boron result in the laboratory report.	查看实验室报告中的硼检测结果。
+agriculture-english	manganese	锰	manganese content	锰含量	The laboratory measured manganese in the leaf sample.	实验室测定了叶片样品中的锰含量。
+agriculture-english	copper	铜	copper content	铜含量	The water quality report includes copper.	水质报告中包括铜。
+agriculture-english	molybdenum	钼	molybdenum nutrition	钼营养	The training covers molybdenum as a plant micronutrient.	培训介绍钼作为植物微量营养元素的作用。
+agriculture-english	nitrate	硝酸根；硝酸盐	nitrate concentration	硝酸盐浓度	The laboratory measured nitrate in the irrigation water.	实验室测定了灌溉水中的硝酸盐。
+agriculture-english	ammonium	铵离子；铵态	ammonium nitrogen	铵态氮	The nutrient report lists ammonium nitrogen separately.	养分报告单独列出了铵态氮。
+agriculture-english	stock solution	母液	prepare a stock solution	配制母液	Label the stock solution tank clearly.	清楚标记母液罐。
+agriculture-english	injection ratio	注入比例	check the injection ratio	检查注入比例	The technician checks the injection ratio during calibration.	技术员在校准过程中检查注入比例。
+agriculture-english	dosing pump	计量泵	dosing pump calibration	计量泵校准	The dosing pump needs a maintenance check.	计量泵需要进行维护检查。
+agriculture-english	pressure regulator	压力调节器	adjust a pressure regulator	调整压力调节器	The technician checks the pressure regulator before irrigation.	技术员在灌溉前检查压力调节器。
+agriculture-english	lateral line	支管；灌溉毛管	inspect a lateral line	检查灌溉毛管	A leak was found in the lateral line.	灌溉毛管中发现了一处漏水。
+agriculture-english	mainline	主管	irrigation mainline	灌溉主管	The mainline supplies water to the irrigation blocks.	主管向各个灌溉区供水。
+agriculture-english	backflow preventer	防回流装置	inspect the backflow preventer	检查防回流装置	The backflow preventer is included in the inspection checklist.	防回流装置被列入检查清单。
+agriculture-english	flushing	冲洗	line flushing	管线冲洗	Record the date of each line flushing.	记录每次管线冲洗的日期。
+agriculture-english	clogging	堵塞	emitter clogging	滴头堵塞	Uneven flow may indicate emitter clogging.	流量不均可能表明滴头堵塞。
+agriculture-english	uniformity	均匀性	irrigation uniformity	灌溉均匀性	The team measured irrigation uniformity in the field.	团队测量了田间灌溉均匀性。
+agriculture-english	calibration	校准	flow meter calibration	流量计校准	Keep a record of the sensor calibration.	保留传感器校准记录。
+agriculture-english	flow meter	流量计	read the flow meter	读取流量计	Read the flow meter before and after irrigation.	在灌溉前后读取流量计。
+agriculture-english	pressure gauge	压力表	check the pressure gauge	检查压力表	The pressure gauge is installed near the filter.	压力表安装在过滤器附近。
+agriculture-english	moisture sensor	水分传感器	soil moisture sensor	土壤水分传感器	The moisture sensor sends readings to the controller.	水分传感器将读数发送给控制器。
+agriculture-english	tensiometer	张力计	soil tensiometer	土壤张力计	Check the tensiometer during the morning inspection.	在早间巡查时检查张力计。
+agriculture-english	irrigation interval	灌溉间隔	adjust the irrigation interval	调整灌溉间隔	The irrigation interval is recorded in the field log.	田间日志中记录了灌溉间隔。
+agriculture-english	irrigation duration	灌溉时长	check irrigation duration	检查灌溉时长	The controller displays the irrigation duration.	控制器显示灌溉时长。
+agriculture-english	crop protection	作物保护；植保	crop protection plan	植保计划	The agronomist will review the crop protection plan.	农艺师将审阅植保计划。
+agriculture-english	beneficial insect	益虫	identify a beneficial insect	识别益虫	The guide helps workers identify a beneficial insect.	这份指南帮助工人识别益虫。
+agriculture-english	predator	捕食性天敌	predator population	捕食性天敌种群	Scouting records include predator observations.	巡查记录包括对捕食性天敌的观察。
+agriculture-english	parasitoid	寄生性天敌；拟寄生生物	parasitoid wasp	寄生蜂	The training explains the role of a parasitoid in pest control.	培训介绍寄生性天敌在害虫防治中的作用。
+agriculture-english	sticky trap	粘虫板；粘虫陷阱	check a sticky trap	检查粘虫板	Label each sticky trap with its installation date.	在每张粘虫板上标注安装日期。
+agriculture-english	pheromone trap	信息素诱捕器	inspect a pheromone trap	检查信息素诱捕器	Record the catch from each pheromone trap.	记录每个信息素诱捕器的捕获量。
+agriculture-english	economic threshold	经济阈值；防治指标	assess the economic threshold	评估防治指标	The agronomist considers the economic threshold before recommending action.	农艺师在建议采取措施前会考虑防治指标。
+daily-english	good morning	早上好	say good morning	说早上好	Good morning, how are you today?	早上好，你今天怎么样？
+daily-english	nice to meet you	很高兴认识你	nice to meet you too	我也很高兴认识你	It is nice to meet you in person.	很高兴当面认识你。
+daily-english	excuse me	劳驾；打扰一下	excuse me please	不好意思，借过一下	Excuse me, is this seat available?	打扰一下，这个座位有人吗？
+daily-english	you are welcome	不客气	you are welcome to join	欢迎你参加	You are welcome, I am glad I could help.	不客气，很高兴能帮上忙。
+daily-english	see you later	回头见	say see you later	说回头见	I need to go now, so see you later.	我现在得走了，回头见。
+daily-english	take care	保重；小心	take care on the way home	回家路上小心	Take care on the wet steps.	湿滑的台阶上要小心。
+daily-english	how much	多少钱；多少	how much is it	这个多少钱	How much does this ticket cost?	这张票多少钱？
+daily-english	how long	多长时间	how long does it take	需要多长时间	How long does the bus journey take?	乘公交需要多长时间？
+daily-english	where is	……在哪里	where is the station	车站在哪里	Where is the nearest pharmacy?	最近的药店在哪里？
+daily-english	could I have	我可以要……吗	could I have some water	可以给我一些水吗	Could I have a glass of water, please?	请给我一杯水好吗？
+daily-english	cash	现金	pay in cash	现金付款	Can I pay in cash here?	这里可以用现金付款吗？
+daily-english	credit card	信用卡	pay by credit card	用信用卡付款	Do you accept this credit card?	你们接受这张信用卡吗？
+daily-english	checkout	收银处；结账	self-service checkout	自助结账处	The checkout is near the entrance.	收银处在入口附近。
+daily-english	queue	队伍；排队	join the queue	排队	Please join the queue at the counter.	请在柜台前排队。
+daily-english	counter	柜台	service counter	服务柜台	You can collect your ticket at the counter.	你可以在柜台取票。
+daily-english	entrance	入口	main entrance	正门入口	The entrance is on the left side of the building.	入口在大楼的左侧。
+daily-english	exit	出口	emergency exit	紧急出口	Please keep the emergency exit clear.	请保持紧急出口畅通。
+daily-english	elevator	电梯	take the elevator	乘电梯	Take the elevator to the third floor.	乘电梯到三楼。
+daily-english	stairs	楼梯	use the stairs	走楼梯	The stairs are next to the elevator.	楼梯在电梯旁边。
+daily-english	intersection	十字路口；交叉口	busy intersection	繁忙路口	Turn left at the next intersection.	在下一个路口左转。
+daily-english	turn left	左转	turn left at the corner	在拐角处左转	Please turn left after the traffic lights.	请过红绿灯后左转。
+daily-english	turn right	右转	turn right at the station	在车站处右转	Turn right when you reach the bank.	到银行时右转。
+daily-english	go straight	直走	go straight ahead	一直往前走	Go straight until you see the supermarket.	一直直走，直到看见超市。
+daily-english	get on	上车	get on the bus	上公交车	We can get on the bus at the next stop.	我们可以在下一站上公交车。
+daily-english	get off	下车	get off the train	下火车	Please get off at the central station.	请在中央车站下车。
+daily-english	transfer	换乘；转移	transfer to another line	换乘另一条线路	You need to transfer at the next station.	你需要在下一站换乘。
+daily-english	round trip	往返行程	round trip ticket	往返票	I need a ticket for a round trip to the city.	我需要一张进城的往返票。
+daily-english	one way	单程	one way ticket	单程票	The fare is ten dollars one way.	单程票价是十美元。
+daily-english	luggage	行李	carry luggage	携带行李	Can I leave my luggage here for an hour?	我可以把行李放在这里一小时吗？
+daily-english	check-in	登记入住；办理登机	check-in time	登记入住时间	What is the check-in time at this hotel?	这家酒店的入住时间是几点？
+daily-english	check out	退房；结账离开	check out of a hotel	从酒店退房	We need to check out before noon.	我们需要在中午前退房。
+daily-english	booking	预订	confirm a booking	确认预订	I would like to confirm my booking for tonight.	我想确认今晚的预订。
+daily-english	menu	菜单	read the menu	看菜单	Could we have the menu, please?	请给我们菜单好吗？
+daily-english	order	点餐；订单	place an order	下单	Are you ready to order your food?	你准备好点餐了吗？
+daily-english	bill	账单	ask for the bill	索要账单	Could we have the bill, please?	请帮我们结账好吗？
+daily-english	takeaway	外带餐食	takeaway coffee	外带咖啡	I would like a takeaway coffee.	我想要一杯外带咖啡。
+daily-english	dine in	在店内用餐	dine in or take away	堂食或外带	We would like to dine in today.	我们今天想在店内用餐。
+daily-english	allergy	过敏	food allergy	食物过敏	Please tell the staff about your food allergy.	请告知工作人员你的食物过敏情况。
+daily-english	vegetarian	素食的；素食者	vegetarian meal	素食餐	Do you have a vegetarian option?	你们有素食选项吗？
+daily-english	spicy	辛辣的	less spicy	少辣	Could you make this dish less spicy?	这道菜能做得不那么辣吗？
+daily-english	thirsty	口渴的	feel thirsty	感到口渴	I feel thirsty after the walk.	走路后我觉得口渴。
+daily-english	hungry	饥饿的	feel hungry	感到饥饿	We are hungry after the long journey.	长途旅行后我们都饿了。
+daily-english	tired	疲倦的	feel tired	感到疲倦	I feel tired and need some rest.	我觉得累了，需要休息一下。
+daily-english	headache	头痛	have a headache	头痛	I have a headache and would like to rest.	我头痛，想休息一下。
+daily-english	fever	发热；发烧	have a fever	发烧	Please tell the doctor if you have a fever.	如果你发烧，请告诉医生。
+daily-english	cough	咳嗽	have a cough	咳嗽	I have had a cough since yesterday.	我从昨天起一直咳嗽。
+daily-english	sore throat	咽喉痛	have a sore throat	喉咙痛	I have a sore throat and need to see a doctor.	我喉咙痛，需要看医生。
+daily-english	emergency	紧急情况	in an emergency	在紧急情况下	Who should I call in an emergency?	遇到紧急情况我应该给谁打电话？
+daily-english	insurance	保险	health insurance	健康保险	Does your insurance cover this appointment?	你的保险涵盖这次就诊吗？
+daily-english	prescription	处方	collect a prescription	领取处方药	The pharmacist will check your prescription.	药剂师会检查你的处方。
+daily-english	laundry	洗衣；待洗衣物	do the laundry	洗衣服	I usually do the laundry on Saturday.	我通常在周六洗衣服。
+daily-english	rent	租金；租用	pay the rent	付租金	The rent is due at the start of the month.	租金在月初到期。
+daily-english	utility bill	水电等公共事业账单	pay a utility bill	支付水电账单	You can pay the utility bill online.	你可以在线支付水电账单。
+daily-english	repair	维修	repair a bike	修自行车	How much will it cost to repair this bike?	修这辆自行车要多少钱？
+daily-english	package	包裹	collect a package	领取包裹	There is a package waiting at the front desk.	前台有一个包裹等你领取。
+daily-english	neighbor	邻居	ask a neighbor	询问邻居	Our neighbor helped us find the building.	我们的邻居帮我们找到了那栋楼。
+daily-english	appointment time	预约时间	confirm an appointment time	确认预约时间	Could you confirm my appointment time?	你能确认一下我的预约时间吗？
+daily-english	available seat	空座位	find an available seat	找一个空座位	Is there an available seat near the window?	窗边有空座位吗？
+daily-english	out of stock	缺货	currently out of stock	目前缺货	The item I wanted is out of stock.	我想要的商品缺货了。
+daily-english	try on	试穿	try on a jacket	试穿夹克	May I try on this jacket?	我可以试穿这件夹克吗？
+business-english	inquiry	询价；询问	product inquiry	产品询价	Thank you for your inquiry about our products.	感谢你对我们产品的询价。
+business-english	request for quotation	询价单；报价请求	send a request for quotation	发送询价单	Please send a request for quotation to three suppliers.	请向三家供应商发送询价单。
+business-english	pro forma invoice	形式发票	issue a pro forma invoice	开具形式发票	The supplier will issue a pro forma invoice for review.	供应商将开具形式发票供审核。
+business-english	commercial invoice	商业发票	prepare a commercial invoice	准备商业发票	Please check the product details on the commercial invoice.	请核对商业发票上的产品信息。
+business-english	packing list	装箱单	check the packing list	核对装箱单	The packing list shows the contents of each carton.	装箱单列明了每个纸箱的内容。
+business-english	bill of lading	提单	copy of the bill of lading	提单副本	Please send a copy of the bill of lading.	请发送一份提单副本。
+business-english	certificate of origin	原产地证书	provide a certificate of origin	提供原产地证书	The customer requested a certificate of origin.	客户要求提供原产地证书。
+business-english	purchase requisition	采购申请	approve a purchase requisition	批准采购申请	The manager must approve the purchase requisition first.	经理必须先批准采购申请。
+business-english	vendor	供应商	approved vendor	获批供应商	We need to add the vendor to our approved list.	我们需要把这家供应商加入批准名单。
+business-english	manufacturer	制造商	contact the manufacturer	联系制造商	The manufacturer can provide the technical drawings.	制造商可以提供技术图纸。
+business-english	distributor	经销商	local distributor	当地经销商	Please contact the local distributor for spare parts.	购买备件请联系当地经销商。
+business-english	wholesaler	批发商	regional wholesaler	区域批发商	The wholesaler supplies equipment to local retailers.	这家批发商向当地零售商供应设备。
+business-english	retailer	零售商	online retailer	在线零售商	The retailer will confirm the final selling price.	零售商将确认最终售价。
+business-english	stakeholder	利益相关方	stakeholder meeting	利益相关方会议	We should inform each stakeholder about the revised timeline.	我们应该告知每位利益相关方修订后的时间表。
+business-english	end user	最终用户	end user requirements	最终用户需求	The design should reflect the needs of the end user.	设计应体现最终用户的需求。
+business-english	product catalog	产品目录	send a product catalog	发送产品目录	Could you send your latest product catalog?	你能发送最新的产品目录吗？
+business-english	technical specification	技术规格	confirm a technical specification	确认技术规格	Please confirm the technical specification before ordering.	下单前请确认技术规格。
+business-english	sample	样品	request a sample	索取样品	We would like to inspect a sample before placing an order.	我们希望在下单前检验样品。
+business-english	minimum order quantity	最小起订量	confirm the minimum order quantity	确认最小起订量	What is the minimum order quantity for this model?	这个型号的最小起订量是多少？
+business-english	bulk order	批量订单	place a bulk order	下批量订单	We plan to place a bulk order after testing the samples.	测试样品后，我们计划下批量订单。
+business-english	trial order	试订单	place a trial order	下试订单	We would like to start with a small trial order.	我们希望先下一个小额试订单。
+business-english	repeat order	重复订单；返单	confirm a repeat order	确认返单	The customer has confirmed a repeat order for the same model.	客户已确认同一型号的返单。
+business-english	order confirmation	订单确认	written order confirmation	书面订单确认	Please send the order confirmation by email.	请通过电子邮件发送订单确认。
+business-english	order status	订单状态	check the order status	查询订单状态	Could you update us on the order status?	你能告知我们最新的订单状态吗？
+business-english	backorder	延期交货订单；欠货	item on backorder	待补货商品	This item is on backorder until next month.	这件商品处于待补货状态，要等到下个月。
+business-english	purchase agreement	采购协议	sign a purchase agreement	签署采购协议	The purchase agreement includes the delivery requirements.	采购协议包括交货要求。
+business-english	payment terms	付款条件	agree on payment terms	商定付款条件	We need to agree on payment terms before signing.	我们需要在签约前商定付款条件。
+business-english	advance payment	预付款	request an advance payment	要求预付款	The contract specifies the amount of the advance payment.	合同规定了预付款金额。
+business-english	bank transfer	银行转账	pay by bank transfer	通过银行转账付款	We will make the payment by bank transfer.	我们将通过银行转账付款。
+business-english	letter of credit	信用证	open a letter of credit	开立信用证	The buyer will discuss the letter of credit with the bank.	买方将与银行商议信用证事宜。
+business-english	currency	货币	payment currency	付款币种	Please confirm the currency used in the quotation.	请确认报价使用的币种。
+business-english	exchange rate	汇率	current exchange rate	当前汇率	The final cost depends on the exchange rate.	最终成本取决于汇率。
+business-english	transaction fee	交易手续费	bank transaction fee	银行交易手续费	Please check who is responsible for the transaction fee.	请确认交易手续费由谁承担。
+business-english	credit note	贷项通知单；贷记单	issue a credit note	开具贷项通知单	The supplier will issue a credit note for the returned items.	供应商将为退货开具贷项通知单。
+business-english	outstanding balance	未结余额；未付款项	settle the outstanding balance	结清未付余额	Please confirm the outstanding balance on the account.	请确认账户的未结余额。
+business-english	payment reminder	付款提醒	send a payment reminder	发送付款提醒	We sent a payment reminder before the due date.	我们在到期日前发送了付款提醒。
+business-english	delivery date	交货日期	confirm the delivery date	确认交货日期	The delivery date must be confirmed in writing.	交货日期必须以书面形式确认。
+business-english	shipping address	收货地址	verify the shipping address	核实收货地址	Please verify the shipping address before dispatch.	发货前请核实收货地址。
+business-english	dispatch	发货；派送	ready for dispatch	准备发货	The goods are ready for dispatch tomorrow.	货物已准备好，明天可以发运。
+business-english	tracking number	物流单号	send a tracking number	发送物流单号	Could you send the tracking number after dispatch?	发货后你能发送物流单号吗？
+business-english	estimated arrival	预计到达时间	confirm estimated arrival	确认预计到达时间	The carrier will update the estimated arrival tomorrow.	承运商明天会更新预计到达时间。
+business-english	partial shipment	分批装运	accept a partial shipment	接受分批装运	Does the customer accept a partial shipment?	客户接受分批装运吗？
+business-english	freight forwarder	货运代理	contact the freight forwarder	联系货运代理	The freight forwarder will arrange collection from the factory.	货运代理将安排到工厂提货。
+business-english	carrier	承运商	select a carrier	选择承运商	The carrier confirmed the collection time.	承运商确认了提货时间。
+business-english	warehouse	仓库	warehouse address	仓库地址	The goods will remain in the warehouse until Friday.	货物将留在仓库中，直到周五。
+business-english	customs clearance	清关	complete customs clearance	完成清关	The broker will handle customs clearance.	报关代理将办理清关。
+business-english	import duty	进口关税	calculate import duty	计算进口关税	Please confirm whether import duty is included in the estimate.	请确认估算中是否包含进口关税。
+business-english	tax	税；税款	tax invoice	税务发票	Does the quoted price include tax?	报价是否含税？
+business-english	insurance coverage	保险保障范围	check insurance coverage	检查保险保障范围	Please check the insurance coverage for this shipment.	请检查这批货物的保险保障范围。
+business-english	damaged goods	受损货物	report damaged goods	报告货损	Please take photos of the damaged goods before returning them.	请在退回前为受损货物拍照。
+business-english	shortage	短缺；少货	quantity shortage	数量短缺	We reported a shortage of two cartons.	我们报告少了两个纸箱。
+business-english	discrepancy	不符；差异	invoice discrepancy	发票差异	There is a discrepancy between the invoice and the purchase order.	发票与采购订单之间存在不符。
+business-english	replacement	替换品；更换	send a replacement	发送替换品	The supplier agreed to send a replacement.	供应商同意发送替换品。
+business-english	return authorization	退货授权	request return authorization	申请退货授权	Please request return authorization before sending the item back.	寄回商品前请先申请退货授权。
+business-english	after-sales service	售后服务	after-sales service team	售后服务团队	Our after-sales service team will contact you tomorrow.	我们的售后服务团队明天会联系你。
+business-english	service agreement	服务协议	renew a service agreement	续签服务协议	The service agreement covers routine inspections.	服务协议涵盖例行检查。
+business-english	non-disclosure agreement	保密协议	sign a non-disclosure agreement	签署保密协议	Both parties will sign a non-disclosure agreement.	双方将签署保密协议。
+business-english	validity	有效期；有效性	quotation validity	报价有效期	Please check the validity of this quotation.	请检查这份报价的有效期。
+business-english	expiration date	到期日；失效日期	check the expiration date	检查到期日	The offer has an expiration date of Friday.	这份报价于周五到期。
+business-english	mutual agreement	双方协议；共同同意	by mutual agreement	经双方同意	The delivery schedule can be changed by mutual agreement.	交货计划可经双方同意后更改。

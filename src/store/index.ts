@@ -17,6 +17,7 @@ import { atom } from 'jotai'
 import { atomWithStorage } from 'jotai/utils'
 
 export const personalDictionaryCountAtom = atom(0)
+export const unfamiliarDictionaryCountAtom = atom(0)
 
 export const currentDictIdAtom = atomWithStorage('currentDict', 'cet4')
 export const currentDictInfoAtom = atom<Dictionary>((get) => {
@@ -26,8 +27,8 @@ export const currentDictInfoAtom = atom<Dictionary>((get) => {
   if (!dict) {
     dict = idDictionaryMap.cet4
   }
-  if (id === 'personal') {
-    const length = get(personalDictionaryCountAtom)
+  if (id === 'personal' || id === 'unfamiliar') {
+    const length = get(id === 'personal' ? personalDictionaryCountAtom : unfamiliarDictionaryCountAtom)
     return { ...dict, length, chapterCount: Math.ceil(length / 20) }
   }
   return dict

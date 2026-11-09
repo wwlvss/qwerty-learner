@@ -19,6 +19,9 @@ const Header: React.FC<PropsWithChildren> = ({ children }) => {
           <Link to="/my-dictionary" className="whitespace-nowrap text-sm text-indigo-500">
             我的词典
           </Link>
+          <Link to="/unfamiliar" className="whitespace-nowrap text-sm text-indigo-500">
+            不熟词本
+          </Link>
           <Link to="/roots" className="whitespace-nowrap text-sm text-indigo-500" title="打开我的词根库">
             我的词根库
           </Link>

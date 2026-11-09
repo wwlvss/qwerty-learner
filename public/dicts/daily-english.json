@@ -318,5 +318,485 @@
     ],
     "usphone": "liːv",
     "ukphone": "liːv"
+  },
+  {
+    "name": "good morning",
+    "trans": [
+      "早上好"
+    ],
+    "usphone": "",
+    "ukphone": ""
+  },
+  {
+    "name": "nice to meet you",
+    "trans": [
+      "很高兴认识你"
+    ],
+    "usphone": "",
+    "ukphone": ""
+  },
+  {
+    "name": "excuse me",
+    "trans": [
+      "劳驾；打扰一下"
+    ],
+    "usphone": "",
+    "ukphone": ""
+  },
+  {
+    "name": "you are welcome",
+    "trans": [
+      "不客气"
+    ],
+    "usphone": "",
+    "ukphone": ""
+  },
+  {
+    "name": "see you later",
+    "trans": [
+      "回头见"
+    ],
+    "usphone": "",
+    "ukphone": ""
+  },
+  {
+    "name": "take care",
+    "trans": [
+      "保重；小心"
+    ],
+    "usphone": "",
+    "ukphone": ""
+  },
+  {
+    "name": "how much",
+    "trans": [
+      "多少钱；多少"
+    ],
+    "usphone": "haʊ mʌtʃ",
+    "ukphone": "haʊ mʌtʃ"
+  },
+  {
+    "name": "how long",
+    "trans": [
+      "多长时间"
+    ],
+    "usphone": "",
+    "ukphone": ""
+  },
+  {
+    "name": "where is",
+    "trans": [
+      "……在哪里"
+    ],
+    "usphone": "",
+    "ukphone": ""
+  },
+  {
+    "name": "could I have",
+    "trans": [
+      "我可以要……吗"
+    ],
+    "usphone": "",
+    "ukphone": ""
+  },
+  {
+    "name": "cash",
+    "trans": [
+      "现金"
+    ],
+    "usphone": "kæʃ",
+    "ukphone": "kæʃ"
+  },
+  {
+    "name": "credit card",
+    "trans": [
+      "信用卡"
+    ],
+    "usphone": "",
+    "ukphone": ""
+  },
+  {
+    "name": "checkout",
+    "trans": [
+      "收银处；结账"
+    ],
+    "usphone": "ˈtʃekaʊt",
+    "ukphone": "ˈtʃekaʊt"
+  },
+  {
+    "name": "queue",
+    "trans": [
+      "队伍；排队"
+    ],
+    "usphone": "kju",
+    "ukphone": "kjuː"
+  },
+  {
+    "name": "counter",
+    "trans": [
+      "柜台"
+    ],
+    "usphone": "'kaʊntɚ",
+    "ukphone": "'kauntə"
+  },
+  {
+    "name": "entrance",
+    "trans": [
+      "入口"
+    ],
+    "usphone": "ˈentrəns , ɪnˈtrɑːns",
+    "ukphone": "ˈentrəns , ɪnˈtræns"
+  },
+  {
+    "name": "exit",
+    "trans": [
+      "出口"
+    ],
+    "usphone": "ˈeksɪt",
+    "ukphone": "ˈeksɪt"
+  },
+  {
+    "name": "elevator",
+    "trans": [
+      "电梯"
+    ],
+    "usphone": "'ɛlɪvetɚ",
+    "ukphone": "'elɪveɪtə"
+  },
+  {
+    "name": "stairs",
+    "trans": [
+      "楼梯"
+    ],
+    "usphone": "sterz",
+    "ukphone": "steəz"
+  },
+  {
+    "name": "intersection",
+    "trans": [
+      "十字路口；交叉口"
+    ],
+    "usphone": ",ɪntɚ'sɛkʃən",
+    "ukphone": "ˌɪntə'sekʃn"
+  },
+  {
+    "name": "turn left",
+    "trans": [
+      "左转"
+    ],
+    "usphone": "tɝn lɛft",
+    "ukphone": "tɜːn lɛft"
+  },
+  {
+    "name": "turn right",
+    "trans": [
+      "右转"
+    ],
+    "usphone": "tɝn raɪt",
+    "ukphone": "tɜːn raɪt"
+  },
+  {
+    "name": "go straight",
+    "trans": [
+      "直走"
+    ],
+    "usphone": "ɡoʊ streɪt",
+    "ukphone": "ɡəʊ streɪt"
+  },
+  {
+    "name": "get on",
+    "trans": [
+      "上车"
+    ],
+    "usphone": "",
+    "ukphone": ""
+  },
+  {
+    "name": "get off",
+    "trans": [
+      "下车"
+    ],
+    "usphone": "",
+    "ukphone": ""
+  },
+  {
+    "name": "transfer",
+    "trans": [
+      "换乘；转移"
+    ],
+    "usphone": "træns'fɝ",
+    "ukphone": "træns'fɜː"
+  },
+  {
+    "name": "round trip",
+    "trans": [
+      "往返行程"
+    ],
+    "usphone": "",
+    "ukphone": ""
+  },
+  {
+    "name": "one way",
+    "trans": [
+      "单程"
+    ],
+    "usphone": "",
+    "ukphone": ""
+  },
+  {
+    "name": "luggage",
+    "trans": [
+      "行李"
+    ],
+    "usphone": "'lʌɡɪdʒ",
+    "ukphone": "'lʌgɪdʒ"
+  },
+  {
+    "name": "check-in",
+    "trans": [
+      "登记入住；办理登机"
+    ],
+    "usphone": "'tʃek,in",
+    "ukphone": "'tʃek,in"
+  },
+  {
+    "name": "check out",
+    "trans": [
+      "退房；结账离开"
+    ],
+    "usphone": "",
+    "ukphone": ""
+  },
+  {
+    "name": "booking",
+    "trans": [
+      "预订"
+    ],
+    "usphone": "ˈbʊkɪŋ",
+    "ukphone": "ˈbʊkɪŋ"
+  },
+  {
+    "name": "menu",
+    "trans": [
+      "菜单"
+    ],
+    "usphone": "'mɛnju",
+    "ukphone": "'menjuː"
+  },
+  {
+    "name": "order",
+    "trans": [
+      "点餐；订单"
+    ],
+    "usphone": "ˈɔːdə",
+    "ukphone": "ˈɔːrdər"
+  },
+  {
+    "name": "bill",
+    "trans": [
+      "账单"
+    ],
+    "usphone": "bɪl",
+    "ukphone": "bɪl"
+  },
+  {
+    "name": "takeaway",
+    "trans": [
+      "外带餐食"
+    ],
+    "usphone": "ˈteɪkəweɪ",
+    "ukphone": "ˈteɪkəweɪ"
+  },
+  {
+    "name": "dine in",
+    "trans": [
+      "在店内用餐"
+    ],
+    "usphone": "",
+    "ukphone": ""
+  },
+  {
+    "name": "allergy",
+    "trans": [
+      "过敏"
+    ],
+    "usphone": "'ælɚdʒi",
+    "ukphone": "'ælədʒɪ"
+  },
+  {
+    "name": "vegetarian",
+    "trans": [
+      "素食的；素食者"
+    ],
+    "usphone": "ˌvɛdʒəˈtɛrɪən",
+    "ukphone": "ˌvedʒə'teəriən"
+  },
+  {
+    "name": "spicy",
+    "trans": [
+      "辛辣的"
+    ],
+    "usphone": "ˈspaɪsi",
+    "ukphone": "ˈspaɪsi"
+  },
+  {
+    "name": "thirsty",
+    "trans": [
+      "口渴的"
+    ],
+    "usphone": "'θɝsti",
+    "ukphone": "'θɜːsti"
+  },
+  {
+    "name": "hungry",
+    "trans": [
+      "饥饿的"
+    ],
+    "usphone": "ˈhʌŋɡri",
+    "ukphone": "ˈhʌŋɡri"
+  },
+  {
+    "name": "tired",
+    "trans": [
+      "疲倦的"
+    ],
+    "usphone": "ˈtaɪəd",
+    "ukphone": "ˈtaɪərd"
+  },
+  {
+    "name": "headache",
+    "trans": [
+      "头痛"
+    ],
+    "usphone": "ˈhedeɪk",
+    "ukphone": "ˈhedeɪk"
+  },
+  {
+    "name": "fever",
+    "trans": [
+      "发热；发烧"
+    ],
+    "usphone": "ˈfiːvə",
+    "ukphone": "ˈfiːvər"
+  },
+  {
+    "name": "cough",
+    "trans": [
+      "咳嗽"
+    ],
+    "usphone": "kɒf",
+    "ukphone": "kɔːf"
+  },
+  {
+    "name": "sore throat",
+    "trans": [
+      "咽喉痛"
+    ],
+    "usphone": "",
+    "ukphone": ""
+  },
+  {
+    "name": "emergency",
+    "trans": [
+      "紧急情况"
+    ],
+    "usphone": "ɪ'mɝdʒənsi",
+    "ukphone": "i'mɜːdʒənsi"
+  },
+  {
+    "name": "insurance",
+    "trans": [
+      "保险"
+    ],
+    "usphone": "ɪn'ʃʊrəns",
+    "ukphone": "ɪn'ʃuərəns"
+  },
+  {
+    "name": "prescription",
+    "trans": [
+      "处方"
+    ],
+    "usphone": "prɪ'skrɪpʃən",
+    "ukphone": "prɪ'skrɪpʃn"
+  },
+  {
+    "name": "laundry",
+    "trans": [
+      "洗衣；待洗衣物"
+    ],
+    "usphone": "'lɔndri",
+    "ukphone": "'lɔːndri"
+  },
+  {
+    "name": "rent",
+    "trans": [
+      "租金；租用"
+    ],
+    "usphone": "rɛnt",
+    "ukphone": "rent"
+  },
+  {
+    "name": "utility bill",
+    "trans": [
+      "水电等公共事业账单"
+    ],
+    "usphone": "",
+    "ukphone": ""
+  },
+  {
+    "name": "repair",
+    "trans": [
+      "维修"
+    ],
+    "usphone": "rɪˈpeə",
+    "ukphone": "rɪˈper"
+  },
+  {
+    "name": "package",
+    "trans": [
+      "包裹"
+    ],
+    "usphone": "'pækɪdʒ",
+    "ukphone": "'pækɪdʒ"
+  },
+  {
+    "name": "neighbor",
+    "trans": [
+      "邻居"
+    ],
+    "usphone": "'neibə",
+    "ukphone": "'neibə"
+  },
+  {
+    "name": "appointment time",
+    "trans": [
+      "预约时间"
+    ],
+    "usphone": "",
+    "ukphone": ""
+  },
+  {
+    "name": "available seat",
+    "trans": [
+      "空座位"
+    ],
+    "usphone": "",
+    "ukphone": ""
+  },
+  {
+    "name": "out of stock",
+    "trans": [
+      "缺货"
+    ],
+    "usphone": "",
+    "ukphone": ""
+  },
+  {
+    "name": "try on",
+    "trans": [
+      "试穿"
+    ],
+    "usphone": "",
+    "ukphone": ""
   }
 ]

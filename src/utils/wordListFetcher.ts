@@ -1,6 +1,10 @@
 import type { Word } from '@/typings'
 
 export async function wordListFetcher(url: string): Promise<Word[]> {
+  if (url === 'unfamiliar://words') {
+    const { db } = await import('@/utils/db')
+    return db.unfamiliarWords.orderBy('addedAt').toArray()
+  }
   if (url === 'personal://words') {
     const { db } = await import('@/utils/db')
     return db.personalWords.orderBy('position').toArray()

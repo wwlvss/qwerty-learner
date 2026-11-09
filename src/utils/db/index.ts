@@ -3,6 +3,7 @@ import { ChapterRecord, ReviewRecord, WordRecord } from './record'
 import { etymologySchema } from '@/features/etymology/schema'
 import type { DisplayMode, EtymologyEntry, Root, RootLearningState, RootWordRelation } from '@/features/etymology/types'
 import type { PersonalWord } from '@/features/personal-dictionary/types'
+import type { UnfamiliarWord } from '@/features/unfamiliar-words/types'
 import type { WordUsage } from '@/features/word-support/types'
 import { TypingContext, TypingStateActionType } from '@/pages/Typing/store'
 import type { TypingState } from '@/pages/Typing/store/type'
@@ -13,6 +14,7 @@ import { useAtomValue } from 'jotai'
 import { useCallback, useContext } from 'react'
 
 class RecordDB extends Dexie {
+  unfamiliarWords!: Table<UnfamiliarWord, string>
   personalWords!: Table<PersonalWord, string>
   wordUsageEntries!: Table<WordUsage, string>
   etymologyEntries!: Table<EtymologyEntry, string>
@@ -51,6 +53,7 @@ class RecordDB extends Dexie {
     })
     this.version(4).stores(etymologySchema)
     this.version(5).stores({ personalWords: 'id,addedAt,position', wordUsageEntries: 'normalizedWord' })
+    this.version(6).stores({ unfamiliarWords: 'id,addedAt,kind,*sourceDicts' })
   }
 }
 

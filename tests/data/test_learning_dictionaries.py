@@ -6,10 +6,16 @@ ROOT = Path(__file__).parents[2]
 
 
 class LearningDictionariesTest(unittest.TestCase):
+    def test_expansion_preserves_previously_shipped_chapters_and_word_order(self):
+        original = json.loads((ROOT / 'tests/data/fixtures/topic-v1-word-order.json').read_text())
+        for context, names in original.items():
+            current = json.loads((ROOT / f'public/dicts/{context}.json').read_text())
+            self.assertEqual([word['name'] for word in current[:len(names)]], names)
+
     def test_each_topic_word_has_its_own_contextual_phrase_and_example(self):
         pack = json.loads((ROOT / 'public/data/learning-dictionaries/usage.json').read_text())
         usage = {entry['normalizedWord']: entry for entry in pack['entries']}
-        counts = {'work-english': 60, 'agriculture-english': 80, 'daily-english': 40, 'business-english': 40}
+        counts = {'work-english': 120, 'agriculture-english': 160, 'daily-english': 100, 'business-english': 100}
         for context, count in counts.items():
             words = json.loads((ROOT / f'public/dicts/{context}.json').read_text())
             self.assertEqual(len(words), count)

@@ -24,7 +24,7 @@ def resources():
         item = {key: value.group(2) for key, value in fields.items()}
         if item['url'].startswith('./dicts/'):
             item['url'] = '/' + item['url'][2:]
-        if item['url'] != 'personal://words':
+        if item['url'] not in ('personal://words', 'unfamiliar://words'):
             result.append(item)
     return result
 

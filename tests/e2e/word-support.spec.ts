@@ -168,7 +168,7 @@ test('complete database backups include personal words and imported usage', asyn
     await addon.importInto(db, blob, { clearTablesBeforeImport: true, overwriteValues: true })
     return { version: db.verno, words: await db.personalWords.count(), usage: await db.wordUsageEntries.count() }
   })
-  expect(result).toEqual({ version: 5, words: 1, usage: 1 })
+  expect(result).toEqual({ version: 6, words: 1, usage: 1 })
 })
 
 test('real v4 upgrade keeps existing etymologies, root favorites and word history', async ({ page }) => {
@@ -246,7 +246,7 @@ test('real v4 upgrade keeps existing etymologies, root favorites and word histor
       roots: await db.roots.count(),
     }
   }, fixture)
-  expect(restored.version).toBe(5)
+  expect(restored.version).toBe(6)
   expect(restored.favorite.createdAt).toBe(1234)
   expect(restored.entry.memoryTip).toBe('existing memory note')
   expect(restored.record.wrongCount).toBe(2)

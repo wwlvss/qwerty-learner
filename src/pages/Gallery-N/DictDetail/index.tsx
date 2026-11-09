@@ -73,6 +73,11 @@ export default function DictDetail({ dictionary: dict }: { dictionary: Dictionar
         <p className="mt-1">{dict.chapterCount} 章节</p>
         <p>共 {dict.length} 词</p>
         <p>{dict.description}</p>
+        {dict.id === 'unfamiliar' && (
+          <Link to="/unfamiliar" className="text-indigo-500 underline">
+            管理不熟词本：收藏与备注
+          </Link>
+        )}
         {dict.id === 'personal' && (
           <Link to="/my-dictionary/custom" className="text-indigo-500 underline">
             管理自定义词典：添加和导入单词

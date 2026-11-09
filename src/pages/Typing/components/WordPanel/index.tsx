@@ -7,6 +7,7 @@ import Translation from './components/Translation'
 import WordComponent from './components/Word'
 import EtymologyPanel from '@/features/etymology/EtymologyPanel'
 import { useEtymologyFeedback } from '@/features/etymology/useEtymologyFeedback'
+import SaveUnfamiliarButton from '@/features/unfamiliar-words/SaveUnfamiliarButton'
 import { usePrefetchPronunciationSound } from '@/hooks/usePronunciation'
 import {
   currentDictInfoAtom,
@@ -204,6 +205,11 @@ export default function WordPanel() {
                 onMouseEnter={() => handleShowTranslation(true)}
                 onMouseLeave={() => handleShowTranslation(false)}
               />
+              {dict.language === 'en' && (state.isTyping || etymology.active) && (
+                <div className="my-3 flex justify-center">
+                  <SaveUnfamiliarButton word={currentWord} />
+                </div>
+              )}
               {etymology.feedback && (
                 <EtymologyPanel
                   initialWord={currentWord.name}

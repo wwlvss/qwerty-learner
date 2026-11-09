@@ -3,7 +3,7 @@ import DictRequest from './DictRequest'
 import { LanguageTabSwitcher } from './LanguageTabSwitcher'
 import Layout from '@/components/Layout'
 import { dictionaries } from '@/resources/dictionary'
-import { currentDictInfoAtom, personalDictionaryCountAtom } from '@/store'
+import { currentDictInfoAtom, personalDictionaryCountAtom, unfamiliarDictionaryCountAtom } from '@/store'
 import type { Dictionary, LanguageCategoryType } from '@/typings'
 import groupBy, { groupByDictTags } from '@/utils/groupBy'
 import * as ScrollArea from '@radix-ui/react-scroll-area'
@@ -33,12 +33,21 @@ export default function GalleryPage() {
   const [galleryState, setGalleryState] = useImmer<GalleryState>(initialGalleryState)
   const navigate = useNavigate()
   const currentDictInfo = useAtomValue(currentDictInfoAtom)
+  const unfamiliarCount = useAtomValue(unfamiliarDictionaryCountAtom)
   const personalCount = useAtomValue(personalDictionaryCountAtom)
 
   const { groupedByCategoryAndTag } = useMemo(() => {
     const currentLanguageCategoryDicts = dictionaries
       .filter((dict) => dict.languageCategory === galleryState.currentLanguageTab)
-      .map((dict) => (dict.id === 'personal' ? { ...dict, length: personalCount, chapterCount: Math.ceil(personalCount / 20) } : dict))
+      .map((dict) =>
+        dict.id === 'personal' || dict.id === 'unfamiliar'
+          ? {
+              ...dict,
+              length: dict.id === 'personal' ? personalCount : unfamiliarCount,
+              chapterCount: Math.ceil((dict.id === 'personal' ? personalCount : unfamiliarCount) / 20),
+            }
+          : dict,
+      )
     const groupedByCategory = Object.entries(groupBy(currentLanguageCategoryDicts, (dict) => dict.category))
     const groupedByCategoryAndTag = groupedByCategory.map(
       ([category, dicts]) => [category, groupByDictTags(dicts)] as [string, Record<string, Dictionary[]>],
@@ -47,7 +56,7 @@ export default function GalleryPage() {
     return {
       groupedByCategoryAndTag,
     }
-  }, [galleryState.currentLanguageTab, personalCount])
+  }, [galleryState.currentLanguageTab, personalCount, unfamiliarCount])
 
   const onBack = useCallback(() => {
     navigate('/')
