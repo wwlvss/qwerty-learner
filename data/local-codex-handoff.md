@@ -1,52 +1,58 @@
-# 本地 Codex 交接与 Windows 启动
+# 本地 Codex 交接与新手启动
 
-## 先分清两种本地使用
+## 你只需要先完成 Codex 本身的安装与登录
 
-- 只学习：网页版“我的词典”下载 `local-study.zip`，解压并运行 `start-windows.cmd`。这是已构建的网站，不是源码开发目录。
-- 用 Codex 继续开发：获取此 GitHub 仓库源码，安装 Node.js、Git、Yarn 和 Codex，再把源码文件夹作为 Codex 项目打开。不要让 Codex 修改静态包的压缩 JS 来代替源码修改。
+你不需要先自己装好 Node.js、Git、Yarn，也不用先学终端。这些准备工作可以在本地 Codex 启动后交给它检查和完成。详细技术命令放在后文，主要给 Codex 参考，不要求你逐条手工执行。
 
-仓库：https://github.com/wwlvss/qwerty-learner ，分支 `master`。网页版 https://wwlvss.github.io/qwerty-learner/ 。Git 中的提交、词库和文档可以交接；浏览器 IndexedDB 中的个人学习数据需要另外导出。
+1. 打开官方 Codex 应用页面：https://chatgpt.com/codex?app-landing-page=true 。下载页面提供的、适合你系统的桌面应用，正常安装，使用自己的 ChatGPT 账号登录。不要把仍在浏览器运行的云端任务误当成已能操作你电脑的本地 Codex。
+2. 在电脑上新建一个普通文件夹，例如桌面上的“英语学习项目”。在本地 Codex 中新建/添加项目或打开文件夹，选择这个目录；不同版本菜单名称可能不同。
+3. 下载并解压完整交接包：https://wwlvss.github.io/qwerty-learner/data/codex-handoff.zip 。打开 FIRST_MESSAGE_TO_CODEX.txt，把全文复制给本地 Codex。无需先手动克隆项目，它的首个任务就是检查环境、准备工具和获取源码。
+4. 本地 Codex 会准备必要开发环境、启动网站并给出浏览器地址。账号登录、系统安装确认等必须本人完成的动作，按它给出的单个步骤操作。不要把密码或密钥发到聊天里。
 
-## Windows 安装顺序
+如果官方下载页没有适合你系统的桌面应用，使用官方独立 CLI 安装说明：https://github.com/openai/codex#readme 。独立安装器不要求事先安装 Node/Git；先完成 Codex 本身，再由它准备本项目环境。不要随意安装来源不明的同名软件。
 
-1. 安装 Node.js 24 LTS：https://nodejs.org/ 。项目云端也使用 Node.js 24，不需要因此升级项目依赖。
-2. 安装 Git：https://git-scm.com/downloads/win 。重新打开 PowerShell，确认 `node --version`、`npm.cmd --version`、`git --version` 可运行。
-3. 可使用官方 Codex 桌面应用并选择源码目录，也可以通过官方支持的 npm 方式安装 CLI：
+## 交接文件怎么看
+
+- FIRST_MESSAGE_TO_CODEX.txt：你发给本地 Codex 的第一条消息，已包含项目地址、安装授权、你的背景、核心规则和后续目标。
+- MASTER_HANDOFF.md：从最初目标到当前状态的完整背景。
+- current-progress.md / project-progress.xlsx：25 项完成率、已完成和待办；数据覆盖率单独列。
+- requirements/：最初分析要求和完整词根需求原文，明确标记过时规则。
+- 本文后半部分：技术、测试、数据迁移和故障处理参考。
+
+源码仓库：https://github.com/wwlvss/qwerty-learner ，分支 master。网站：https://wwlvss.github.io/qwerty-learner/ 。完整源码 ZIP：https://github.com/wwlvss/qwerty-learner/archive/refs/heads/master.zip 。
+
+## 不要混淆三个包/目录
+
+| 名称                              | 用途                                           |
+| --------------------------------- | ---------------------------------------------- |
+| codex-handoff.zip 完整交接包      | 背景、要求、安装任务、进度表；不是完整应用源码 |
+| GitHub 源码仓库或 master 源码 ZIP | 本地 Codex 继续开发的实际项目                  |
+| local-study.zip 学习启动包        | 已构建网页，可直接学习；不适合作为源码开发目录 |
+
+Codex 首次拿到空目录也可以先获取源码；如果你的应用明确提示当前环境缺少 Git 或不能打开目录，把具体提示交给当前助手，不要盲目覆盖或重置已有文件。
+
+## 以下是给本地 Codex 的环境准备参考
+
+1. 检测操作系统、架构、目录和已有工具。目标 Node.js24 LTS、Git、Yarn Classic1.22.22；优先复用兼容版本，优先当前用户或便携安装，不干扰其他项目。
+2. 官方来源：https://nodejs.org/ 、https://git-scm.com/ 、https://github.com/openai/codex 。用户已请求协助安装，不应把本可自动完成的工作退回成一长串手工命令。
+3. 源码 master：git clone；已有目录先 git status，不 reset/clean/覆盖。没有 Git 时可先取得官方 GitHub 源码 ZIP，随后再补 Git；交接包不等于源码。
+4. 在源码目录执行 Yarn Classic 的 frozen-lockfile 安装并运行 yarn start。默认地址 http://localhost:5173，使用实际终端结果。给用户保留清楚、便捷的再次启动方法。
+5. Windows 可用 npm.cmd/yarn.cmd/codex.cmd，避免 PowerShell 优先调用受执行策略限制的.ps1。不要要求为普通项目运行永久改系统执行策略。
+6. 锁文件有 npmmirror 下载地址。网络失败可参考 scripts/install-ci.sh：临时副本替换为官方 npm 下载位置，保留版本/完整性，不重写仓库锁文件。Windows 做等效安全处理，不用升级依赖或删锁文件解决。
+7. 先启动学习页面，再按需要准备 Python3 与测试浏览器。Python 用于数据生成/数据测试，不是首次跑已生成词库的前提。
+
+高级用户或本地 Codex 可参考（以下不要求新手亲自逐条运行）：
 
 ```powershell
-npm.cmd install -g @openai/codex
+# 假设 Node / Git 已按本机情况准备好
 npm.cmd install -g yarn@1.22.22
-codex.cmd
-```
-
-若 PowerShell 找不到 `codex.cmd`，可运行 `& "$env:APPDATA\npm\codex.cmd"`。
-
-首次运行 Codex 选择 **Sign in with ChatGPT**，按账号可用权限/额度登录；不要把密钥写入仓库。Windows 使用 `.cmd` 形式调用 npm/yarn 可避免 PowerShell 把命令当作受执行策略限制的 `.ps1`；不要求为了本项目修改系统执行策略。
-
-Codex 官方安装参考：https://github.com/openai/codex#readme 。官方应用入口：https://chatgpt.com/codex?app-landing-page=true 。安装渠道和系统支持以官方说明为准。
-
-4. 获取源码、安装锁定依赖并启动：
-
-```powershell
-cd $HOME
-mkdir projects -Force
-cd projects
 git clone https://github.com/wwlvss/qwerty-learner.git
 cd qwerty-learner
 yarn.cmd install --frozen-lockfile
 yarn.cmd start
 ```
 
-浏览器打开终端显示的地址，通常为 http://localhost:5173 。另开一个 PowerShell：
-
-```powershell
-cd $HOME\projects\qwerty-learner
-codex.cmd
-```
-
-若仓库已存在，先 `git status`，保留本地未提交内容，再 `git pull --ff-only origin master`。不要覆盖或重置本地改动。也可下载源码 ZIP，但 Git 克隆更方便后续更新。
-
-原锁文件有 npmmirror 下载地址。网络失败时参考 `scripts/install-ci.sh`：它在临时目录替换下载域名为官方 npm、保留版本与完整性校验，不重写仓库锁文件。Windows 若需相同处理，应让本地 Codex 实现等效的安全临时安装流程；不要靠升级依赖或删除锁文件解决。
+若选择 npm 方式安装 Codex，官方支持 npm install -g @openai/codex；Windows 可用 npm.cmd。已经安装桌面 Codex 时不必为本项目重复安装另一套 CLI。Codex 账号可用权限和额度以官方实际情况为准，不要求用户购买学习 API。
 
 ## 当前代码与约束
 
