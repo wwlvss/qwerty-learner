@@ -1,0 +1,964 @@
+{
+  "method": "每项5个明确里程碑，按已交付数量计算，20%为一步；这是范围内的交付估算，不是工期、测试覆盖率或全词库数据覆盖率。无未定义权重的总体完成率。",
+  "items": [
+    {
+      "name": "原有打字与答对流程",
+      "priority": "高",
+      "milestones": [
+        {
+          "label": "保留原核心输入",
+          "done": true
+        },
+        {
+          "label": "答对保留完整单词",
+          "done": true
+        },
+        {
+          "label": "回车空格确认下一词",
+          "done": true
+        },
+        {
+          "label": "暂停阅读计时",
+          "done": true
+        },
+        {
+          "label": "逐词和章节记录",
+          "done": true
+        }
+      ],
+      "evidence": "src/pages/Typing",
+      "percent": 100,
+      "completed": [
+        "保留原核心输入",
+        "答对保留完整单词",
+        "回车空格确认下一词",
+        "暂停阅读计时",
+        "逐词和章节记录"
+      ],
+      "remaining": []
+    },
+    {
+      "name": "独立词库与章节",
+      "priority": "高",
+      "milestones": [
+        {
+          "label": "原六个词库独立",
+          "done": true
+        },
+        {
+          "label": "新增农场词库",
+          "done": true
+        },
+        {
+          "label": "每库单独章节",
+          "done": true
+        },
+        {
+          "label": "每库单独记录",
+          "done": true
+        },
+        {
+          "label": "保留旧自定义词典",
+          "done": true
+        }
+      ],
+      "evidence": "src/features/learning-dictionaries/plan.ts",
+      "percent": 100,
+      "completed": [
+        "原六个词库独立",
+        "新增农场词库",
+        "每库单独章节",
+        "每库单独记录",
+        "保留旧自定义词典"
+      ],
+      "remaining": []
+    },
+    {
+      "name": "不熟词本",
+      "priority": "高",
+      "milestones": [
+        {
+          "label": "单词短语主动收藏",
+          "done": true
+        },
+        {
+          "label": "标签与备注",
+          "done": true
+        },
+        {
+          "label": "搜索和分类",
+          "done": true
+        },
+        {
+          "label": "独立练习",
+          "done": true
+        },
+        {
+          "label": "JSON和Anki导出",
+          "done": true
+        }
+      ],
+      "evidence": "src/features/unfamiliar-words",
+      "percent": 100,
+      "completed": [
+        "单词短语主动收藏",
+        "标签与备注",
+        "搜索和分类",
+        "独立练习",
+        "JSON和Anki导出"
+      ],
+      "remaining": []
+    },
+    {
+      "name": "个人设置与简洁排版",
+      "priority": "中",
+      "milestones": [
+        {
+          "label": "简洁与完整工具切换",
+          "done": true
+        },
+        {
+          "label": "释义资料显示控制",
+          "done": true
+        },
+        {
+          "label": "发音与音效选项",
+          "done": true
+        },
+        {
+          "label": "本机偏好持久化",
+          "done": true
+        },
+        {
+          "label": "手机入口修正",
+          "done": true
+        }
+      ],
+      "evidence": "src/features/learning-preferences",
+      "percent": 100,
+      "completed": [
+        "简洁与完整工具切换",
+        "释义资料显示控制",
+        "发音与音效选项",
+        "本机偏好持久化",
+        "手机入口修正"
+      ],
+      "remaining": []
+    },
+    {
+      "name": "音标与发音语速",
+      "priority": "高",
+      "milestones": [
+        {
+          "label": "去掉音标前缀保留音标",
+          "done": true
+        },
+        {
+          "label": "正确传入播放倍速",
+          "done": true
+        },
+        {
+          "label": "已有播放器同步速率",
+          "done": true
+        },
+        {
+          "label": "两个设置入口共享配置",
+          "done": true
+        },
+        {
+          "label": "真实HTML音频节点速率与刷新验收",
+          "done": true
+        }
+      ],
+      "evidence": "src/hooks/usePronunciation.ts",
+      "percent": 100,
+      "completed": [
+        "去掉音标前缀保留音标",
+        "正确传入播放倍速",
+        "已有播放器同步速率",
+        "两个设置入口共享配置",
+        "真实HTML音频节点速率与刷新验收"
+      ],
+      "remaining": []
+    },
+    {
+      "name": "多义词释义",
+      "priority": "最高",
+      "milestones": [
+        {
+          "label": "保留场景义和其他义",
+          "done": true
+        },
+        {
+          "label": "原词库释义汇总",
+          "done": true
+        },
+        {
+          "label": "分片缓存与来源",
+          "done": true
+        },
+        {
+          "label": "查询与收藏复用",
+          "done": true
+        },
+        {
+          "label": "接入权威词典并整理词义去重",
+          "done": false
+        }
+      ],
+      "evidence": "src/features/word-support",
+      "percent": 80,
+      "completed": [
+        "保留场景义和其他义",
+        "原词库释义汇总",
+        "分片缓存与来源",
+        "查询与收藏复用"
+      ],
+      "remaining": [
+        "接入权威词典并整理词义去重"
+      ]
+    },
+    {
+      "name": "选词查询与收藏",
+      "priority": "最高",
+      "milestones": [
+        {
+          "label": "阅读文字可选可复制",
+          "done": true
+        },
+        {
+          "label": "单词本地释义查询",
+          "done": true
+        },
+        {
+          "label": "原有短语整句译文匹配",
+          "done": true
+        },
+        {
+          "label": "选词收藏和手填释义",
+          "done": true
+        },
+        {
+          "label": "任意未知短语或整句的可靠自动翻译",
+          "done": false
+        }
+      ],
+      "evidence": "src/features/selection-lookup",
+      "percent": 80,
+      "completed": [
+        "阅读文字可选可复制",
+        "单词本地释义查询",
+        "原有短语整句译文匹配",
+        "选词收藏和手填释义"
+      ],
+      "remaining": [
+        "任意未知短语或整句的可靠自动翻译"
+      ]
+    },
+    {
+      "name": "农场英语资料整合",
+      "priority": "最高",
+      "milestones": [
+        {
+          "label": "119原词条和64沟通句保留",
+          "done": true
+        },
+        {
+          "label": "41扩展词条与例句",
+          "done": true
+        },
+        {
+          "label": "个人岗位地区品种代号",
+          "done": true
+        },
+        {
+          "label": "练习检索收藏和构词笔记",
+          "done": true
+        },
+        {
+          "label": "对照真实农场SOP和专业人员校核术语",
+          "done": false
+        }
+      ],
+      "evidence": "scripts/data/build-farm-english.py",
+      "percent": 80,
+      "completed": [
+        "119原词条和64沟通句保留",
+        "41扩展词条与例句",
+        "个人岗位地区品种代号",
+        "练习检索收藏和构词笔记"
+      ],
+      "remaining": [
+        "对照真实农场SOP和专业人员校核术语"
+      ]
+    },
+    {
+      "name": "短语与例句系统",
+      "priority": "高",
+      "milestones": [
+        {
+          "label": "展示与目标区间",
+          "done": true
+        },
+        {
+          "label": "本地分片和数据包导入",
+          "done": true
+        },
+        {
+          "label": "来源类型区分",
+          "done": true
+        },
+        {
+          "label": "补充合法真实双语语料",
+          "done": false
+        },
+        {
+          "label": "扩大词条覆盖并做质量抽检",
+          "done": false
+        }
+      ],
+      "evidence": "src/features/word-support",
+      "percent": 60,
+      "completed": [
+        "展示与目标区间",
+        "本地分片和数据包导入",
+        "来源类型区分"
+      ],
+      "remaining": [
+        "补充合法真实双语语料",
+        "扩大词条覆盖并做质量抽检"
+      ]
+    },
+    {
+      "name": "可靠词根词源",
+      "priority": "高",
+      "milestones": [
+        {
+          "label": "词根浏览和关系",
+          "done": true
+        },
+        {
+          "label": "收藏状态与历史",
+          "done": true
+        },
+        {
+          "label": "数据包导入和来源",
+          "done": true
+        },
+        {
+          "label": "扩大逐条核实数据",
+          "done": false
+        },
+        {
+          "label": "建立可验证的构词与词形处理",
+          "done": false
+        }
+      ],
+      "evidence": "src/features/etymology",
+      "percent": 60,
+      "completed": [
+        "词根浏览和关系",
+        "收藏状态与历史",
+        "数据包导入和来源"
+      ],
+      "remaining": [
+        "扩大逐条核实数据",
+        "建立可验证的构词与词形处理"
+      ]
+    },
+    {
+      "name": "近义词与近义表达",
+      "priority": "高",
+      "milestones": [
+        {
+          "label": "整理带语境的原创近义组",
+          "done": true
+        },
+        {
+          "label": "答对后展示差别",
+          "done": true
+        },
+        {
+          "label": "近义词可收藏与划词查询",
+          "done": true
+        },
+        {
+          "label": "扩大资料覆盖并做词典核对",
+          "done": false
+        },
+        {
+          "label": "个性化易混专项练习",
+          "done": false
+        }
+      ],
+      "evidence": "src/features/word-support/SynonymPanel.tsx",
+      "percent": 60,
+      "completed": [
+        "整理带语境的原创近义组",
+        "答对后展示差别",
+        "近义词可收藏与划词查询"
+      ],
+      "remaining": [
+        "扩大资料覆盖并做词典核对",
+        "个性化易混专项练习"
+      ]
+    },
+    {
+      "name": "学习历史与断点续学",
+      "priority": "高",
+      "milestones": [
+        {
+          "label": "逐词历史",
+          "done": true
+        },
+        {
+          "label": "章节结果",
+          "done": true
+        },
+        {
+          "label": "错题复习记录",
+          "done": true
+        },
+        {
+          "label": "普通章节逐词断点",
+          "done": false
+        },
+        {
+          "label": "持久化会话与词典版本快照",
+          "done": false
+        }
+      ],
+      "evidence": "src/utils/db",
+      "percent": 60,
+      "completed": [
+        "逐词历史",
+        "章节结果",
+        "错题复习记录"
+      ],
+      "remaining": [
+        "普通章节逐词断点",
+        "持久化会话与词典版本快照"
+      ]
+    },
+    {
+      "name": "备份与安全恢复",
+      "priority": "最高",
+      "milestones": [
+        {
+          "label": "完整数据库导出",
+          "done": true
+        },
+        {
+          "label": "完整恢复入口",
+          "done": true
+        },
+        {
+          "label": "覆盖新增表",
+          "done": true
+        },
+        {
+          "label": "导入预检差异合并与回滚",
+          "done": false
+        },
+        {
+          "label": "备份提醒和恢复演练",
+          "done": false
+        }
+      ],
+      "evidence": "src/utils/db/data-export.ts",
+      "percent": 60,
+      "completed": [
+        "完整数据库导出",
+        "完整恢复入口",
+        "覆盖新增表"
+      ],
+      "remaining": [
+        "导入预检差异合并与回滚",
+        "备份提醒和恢复演练"
+      ]
+    },
+    {
+      "name": "Anki TSV 导出",
+      "priority": "中",
+      "milestones": [
+        {
+          "label": "七词库及个人收藏导出",
+          "done": true
+        },
+        {
+          "label": "多义释义例句备注",
+          "done": true
+        },
+        {
+          "label": "HTML转义与字段检查",
+          "done": true
+        },
+        {
+          "label": "浏览器下载验证",
+          "done": true
+        },
+        {
+          "label": "真实Anki客户端导入验收",
+          "done": false
+        }
+      ],
+      "evidence": "src/features/anki/export.ts",
+      "percent": 80,
+      "completed": [
+        "七词库及个人收藏导出",
+        "多义释义例句备注",
+        "HTML转义与字段检查",
+        "浏览器下载验证"
+      ],
+      "remaining": [
+        "真实Anki客户端导入验收"
+      ]
+    },
+    {
+      "name": "本地启动包",
+      "priority": "高",
+      "milestones": [
+        {
+          "label": "普通构建打包",
+          "done": true
+        },
+        {
+          "label": "本机静态服务器",
+          "done": true
+        },
+        {
+          "label": "Windows便携Node启动脚本",
+          "done": true
+        },
+        {
+          "label": "包校验与Linux浏览器检查",
+          "done": true
+        },
+        {
+          "label": "Windows实机与企业策略验收",
+          "done": false
+        }
+      ],
+      "evidence": "scripts/local-study",
+      "percent": 80,
+      "completed": [
+        "普通构建打包",
+        "本机静态服务器",
+        "Windows便携Node启动脚本",
+        "包校验与Linux浏览器检查"
+      ],
+      "remaining": [
+        "Windows实机与企业策略验收"
+      ]
+    },
+    {
+      "name": "手机版",
+      "priority": "中",
+      "milestones": [
+        {
+          "label": "本站路由和导航",
+          "done": true
+        },
+        {
+          "label": "小屏阅读与设置",
+          "done": true
+        },
+        {
+          "label": "收藏和资料访问",
+          "done": true
+        },
+        {
+          "label": "手机软键盘输入",
+          "done": false
+        },
+        {
+          "label": "真实iOS和Android验收",
+          "done": false
+        }
+      ],
+      "evidence": "docs/personal-learning/mobile.md",
+      "percent": 60,
+      "completed": [
+        "本站路由和导航",
+        "小屏阅读与设置",
+        "收藏和资料访问"
+      ],
+      "remaining": [
+        "手机软键盘输入",
+        "真实iOS和Android验收"
+      ]
+    },
+    {
+      "name": "离线使用",
+      "priority": "中",
+      "milestones": [
+        {
+          "label": "本机静态资源",
+          "done": true
+        },
+        {
+          "label": "本地IndexedDB数据",
+          "done": true
+        },
+        {
+          "label": "浏览器ServiceWorker冷启动",
+          "done": false
+        },
+        {
+          "label": "离线发音资源",
+          "done": false
+        },
+        {
+          "label": "资源版本升级与下载管理",
+          "done": false
+        }
+      ],
+      "evidence": "docs/personal-learning/local-deployment.md",
+      "percent": 40,
+      "completed": [
+        "本机静态资源",
+        "本地IndexedDB数据"
+      ],
+      "remaining": [
+        "浏览器ServiceWorker冷启动",
+        "离线发音资源",
+        "资源版本升级与下载管理"
+      ]
+    },
+    {
+      "name": "薄弱词汇分析",
+      "priority": "高",
+      "milestones": [
+        {
+          "label": "原错题统计",
+          "done": true
+        },
+        {
+          "label": "原按键速度统计",
+          "done": true
+        },
+        {
+          "label": "区分回忆和抄写数据",
+          "done": false
+        },
+        {
+          "label": "近期权重与提示失败指标",
+          "done": false
+        },
+        {
+          "label": "可解释薄弱词推荐",
+          "done": false
+        }
+      ],
+      "evidence": "src/pages/Analysis",
+      "percent": 40,
+      "completed": [
+        "原错题统计",
+        "原按键速度统计"
+      ],
+      "remaining": [
+        "区分回忆和抄写数据",
+        "近期权重与提示失败指标",
+        "可解释薄弱词推荐"
+      ]
+    },
+    {
+      "name": "ECDICT正式接入",
+      "priority": "高",
+      "milestones": [
+        {
+          "label": "固定合法版本",
+          "done": false
+        },
+        {
+          "label": "清洗映射与许可",
+          "done": false
+        },
+        {
+          "label": "释义词性词形导入",
+          "done": false
+        },
+        {
+          "label": "索引与迁移",
+          "done": false
+        },
+        {
+          "label": "质量和覆盖验收",
+          "done": false
+        }
+      ],
+      "evidence": "docs/personal-learning/roadmap.md",
+      "percent": 0,
+      "completed": [],
+      "remaining": [
+        "固定合法版本",
+        "清洗映射与许可",
+        "释义词性词形导入",
+        "索引与迁移",
+        "质量和覆盖验收"
+      ]
+    },
+    {
+      "name": "Tatoeba正式语料",
+      "priority": "高",
+      "milestones": [
+        {
+          "label": "本地预处理工具",
+          "done": true
+        },
+        {
+          "label": "用法包校验导入",
+          "done": true
+        },
+        {
+          "label": "取得真实合法导出",
+          "done": false
+        },
+        {
+          "label": "双语关联与作者归属",
+          "done": false
+        },
+        {
+          "label": "筛选抽检和覆盖报告",
+          "done": false
+        }
+      ],
+      "evidence": "scripts/data/prepare-tatoeba-usage.py",
+      "percent": 40,
+      "completed": [
+        "本地预处理工具",
+        "用法包校验导入"
+      ],
+      "remaining": [
+        "取得真实合法导出",
+        "双语关联与作者归属",
+        "筛选抽检和覆盖报告"
+      ]
+    },
+    {
+      "name": "例句填空",
+      "priority": "高",
+      "milestones": [
+        {
+          "label": "题目和答案规则",
+          "done": false
+        },
+        {
+          "label": "作答提示评分",
+          "done": false
+        },
+        {
+          "label": "记录与保存",
+          "done": false
+        },
+        {
+          "label": "回忆型复习流程",
+          "done": false
+        },
+        {
+          "label": "浏览器验收",
+          "done": false
+        }
+      ],
+      "evidence": "docs/personal-learning/roadmap.md",
+      "percent": 0,
+      "completed": [],
+      "remaining": [
+        "题目和答案规则",
+        "作答提示评分",
+        "记录与保存",
+        "回忆型复习流程",
+        "浏览器验收"
+      ]
+    },
+    {
+      "name": "完整句子输入",
+      "priority": "高",
+      "milestones": [
+        {
+          "label": "句子输入界面",
+          "done": false
+        },
+        {
+          "label": "空格标点规则",
+          "done": false
+        },
+        {
+          "label": "错误对齐",
+          "done": false
+        },
+        {
+          "label": "会话与练习日志",
+          "done": false
+        },
+        {
+          "label": "浏览器验收",
+          "done": false
+        }
+      ],
+      "evidence": "docs/personal-learning/roadmap.md",
+      "percent": 0,
+      "completed": [],
+      "remaining": [
+        "句子输入界面",
+        "空格标点规则",
+        "错误对齐",
+        "会话与练习日志",
+        "浏览器验收"
+      ]
+    },
+    {
+      "name": "FSRS复习",
+      "priority": "高",
+      "milestones": [
+        {
+          "label": "兼容依赖验证",
+          "done": false
+        },
+        {
+          "label": "卡片与复习日志",
+          "done": false
+        },
+        {
+          "label": "显式评分与到期队列",
+          "done": false
+        },
+        {
+          "label": "事务撤销迁移",
+          "done": false
+        },
+        {
+          "label": "调度测试验收",
+          "done": false
+        }
+      ],
+      "evidence": "docs/personal-learning/roadmap.md",
+      "percent": 0,
+      "completed": [],
+      "remaining": [
+        "兼容依赖验证",
+        "卡片与复习日志",
+        "显式评分与到期队列",
+        "事务撤销迁移",
+        "调度测试验收"
+      ]
+    },
+    {
+      "name": "自动近义易混辨析",
+      "priority": "中",
+      "milestones": [
+        {
+          "label": "有来源的近义关系",
+          "done": false
+        },
+        {
+          "label": "词义和语境对比",
+          "done": false
+        },
+        {
+          "label": "易混词专项题",
+          "done": false
+        },
+        {
+          "label": "个人错误关联",
+          "done": false
+        },
+        {
+          "label": "质量审核",
+          "done": false
+        }
+      ],
+      "evidence": "docs/personal-learning/roadmap.md",
+      "percent": 0,
+      "completed": [],
+      "remaining": [
+        "有来源的近义关系",
+        "词义和语境对比",
+        "易混词专项题",
+        "个人错误关联",
+        "质量审核"
+      ]
+    },
+    {
+      "name": "个人模式隐私",
+      "priority": "高",
+      "milestones": [
+        {
+          "label": "学习记录本机保存",
+          "done": true
+        },
+        {
+          "label": "统一关闭原统计默认项",
+          "done": false
+        },
+        {
+          "label": "可见的外发开关",
+          "done": false
+        },
+        {
+          "label": "最小化外发字段",
+          "done": false
+        },
+        {
+          "label": "隐私与恢复说明验收",
+          "done": false
+        }
+      ],
+      "evidence": "src/index.tsx",
+      "percent": 20,
+      "completed": [
+        "学习记录本机保存"
+      ],
+      "remaining": [
+        "统一关闭原统计默认项",
+        "可见的外发开关",
+        "最小化外发字段",
+        "隐私与恢复说明验收"
+      ]
+    }
+  ],
+  "coverage": [
+    {
+      "name": "原词库中文释义",
+      "count": 40643,
+      "total": 42917,
+      "percent": 94.701
+    },
+    {
+      "name": "短语资料",
+      "count": 15619,
+      "total": 42917,
+      "percent": 36.394
+    },
+    {
+      "name": "例句资料",
+      "count": 655,
+      "total": 42917,
+      "percent": 1.526
+    },
+    {
+      "name": "可靠历史词源",
+      "count": 14,
+      "total": 42917,
+      "percent": 0.033
+    },
+    {
+      "name": "近义表达教学资料",
+      "count": 61,
+      "total": 42917,
+      "percent": 0.142
+    }
+  ],
+  "inventory": {
+    "englishDictionaries": 317,
+    "availableDictionaries": 317,
+    "uniqueEntries": 42917,
+    "definitionEntries": 40643,
+    "phraseEntries": 15619,
+    "exampleEntries": 655,
+    "etymologyEntries": 14,
+    "synonymGroups": 32,
+    "synonymEntries": 61,
+    "missingDictionaries": []
+  }
+}
