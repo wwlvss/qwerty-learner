@@ -1,12 +1,12 @@
 import EtymologyContent from './EtymologyContent'
 import type { EtymologyContentProps } from './EtymologyContent'
-import { useEffect, useRef } from 'react'
+import { useLayoutEffect, useRef } from 'react'
 
 const interactive = 'button, a, input, select, textarea, summary, [contenteditable="true"], [role="button"]'
 
-export default function EtymologyPanel({ onClose, ...content }: EtymologyContentProps & { onClose: () => void }) {
+export default function EtymologyPanel({ onNext, ...content }: EtymologyContentProps & { onNext: () => void }) {
   const panel = useRef<HTMLElement>(null)
-  useEffect(() => {
+  useLayoutEffect(() => {
     panel.current?.focus({ preventScroll: true })
     let pressed = ''
     const isContinueKey = (event: KeyboardEvent) =>
@@ -29,7 +29,7 @@ export default function EtymologyPanel({ onClose, ...content }: EtymologyContent
       event.stopImmediatePropagation()
       pressed = ''
       // Wait until key release so a held Space/Enter never spills into the next word.
-      onClose()
+      onNext()
     }
     const blur = () => {
       pressed = ''
@@ -42,7 +42,7 @@ export default function EtymologyPanel({ onClose, ...content }: EtymologyContent
       window.removeEventListener('keyup', up, true)
       window.removeEventListener('blur', blur)
     }
-  }, [onClose])
+  }, [onNext])
   return (
     <section
       ref={panel}
@@ -53,14 +53,14 @@ export default function EtymologyPanel({ onClose, ...content }: EtymologyContent
     >
       <div className="mb-3 flex flex-wrap items-center justify-between gap-3 border-b border-gray-100 pb-3 dark:border-gray-700">
         <div>
-          <p className="font-semibold text-green-600 dark:text-green-400">{content.completion ? '输入正确' : '词源说明'}</p>
-          <p className="text-xs text-gray-500">{content.completion ? '按回车或空格，继续下一个词' : '按回车或空格，返回当前练习'}</p>
+          <p className="font-semibold text-green-600 dark:text-green-400">输入正确</p>
+          <p className="text-xs text-gray-500">当前单词已保留，按回车或空格进入下一个词</p>
         </div>
-        <button type="button" className="my-btn-primary" onClick={onClose}>
-          {content.completion ? '继续练习' : '关闭词源'}
+        <button type="button" className="my-btn-primary" onClick={onNext}>
+          下一个词
         </button>
       </div>
-      <EtymologyContent {...content} compact onNavigate={onClose} />
+      <EtymologyContent {...content} compact onNavigate={onNext} />
     </section>
   )
 }

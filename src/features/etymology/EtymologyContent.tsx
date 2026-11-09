@@ -34,9 +34,19 @@ export default function EtymologyContent({
     }
     setLoading(true)
     setError('')
-    void getEtymologyEntry(selectedWord)
+    let timer: ReturnType<typeof setTimeout> | undefined
+    void Promise.race([
+      getEtymologyEntry(selectedWord),
+      new Promise<undefined>((resolve) => {
+        timer = setTimeout(() => resolve(undefined), 1500)
+      }),
+    ])
       .then((data) => {
-        if (active) setEntry(data)
+        if (active) {
+          const reliable = !completion || data?.verificationStatus === 'verified'
+          setEntry(reliable ? data : undefined)
+          if (data && !reliable) setError('现有资料待核实，可在词根库查看。')
+        }
       })
       .catch(() => {
         if (active) {
@@ -45,12 +55,14 @@ export default function EtymologyContent({
         }
       })
       .finally(() => {
+        if (timer) clearTimeout(timer)
         if (active) setLoading(false)
       })
     return () => {
       active = false
+      if (timer) clearTimeout(timer)
     }
-  }, [selectedWord, initialWord, initialEntry])
+  }, [selectedWord, initialWord, initialEntry, completion])
   return (
     <>
       {selectedWord !== initialWord && (

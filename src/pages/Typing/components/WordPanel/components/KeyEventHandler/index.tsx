@@ -1,7 +1,7 @@
 import type { WordUpdateAction } from '../InputHandler'
 import { TypingContext } from '@/pages/Typing/store'
 import { isChineseSymbol, isLegal } from '@/utils'
-import { useCallback, useContext, useEffect } from 'react'
+import { useCallback, useContext, useLayoutEffect } from 'react'
 
 export default function KeyEventHandler({ updateInput }: { updateInput: (updateObj: WordUpdateAction) => void }) {
   // eslint-disable-next-line  @typescript-eslint/no-non-null-assertion
@@ -23,7 +23,7 @@ export default function KeyEventHandler({ updateInput }: { updateInput: (updateO
     [updateInput],
   )
 
-  useEffect(() => {
+  useLayoutEffect(() => {
     if (!state.isTyping || state.isEtymologyOpen) return
 
     window.addEventListener('keydown', onKeydown)

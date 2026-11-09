@@ -18,7 +18,7 @@ import {
 } from '@/store'
 import type { Word } from '@/typings'
 import { useAtomValue, useSetAtom } from 'jotai'
-import { useCallback, useContext, useEffect, useMemo, useState } from 'react'
+import { useCallback, useContext, useLayoutEffect, useMemo, useState } from 'react'
 import { useHotkeys } from 'react-hotkeys-hook'
 
 export default function WordPanel() {
@@ -160,7 +160,7 @@ export default function WordPanel() {
   }, [isShowTranslation, state.isTransVisible])
 
   const etymology = useEtymologyFeedback(currentWord?.name ?? '', dict.language === 'en', onFinish)
-  useEffect(() => {
+  useLayoutEffect(() => {
     dispatch({ type: TypingStateActionType.SET_ETYMOLOGY_OPEN, payload: etymology.active })
     return () => {
       dispatch({ type: TypingStateActionType.SET_ETYMOLOGY_OPEN, payload: false })
@@ -207,31 +207,15 @@ export default function WordPanel() {
               {etymology.feedback && (
                 <EtymologyPanel
                   initialWord={currentWord.name}
-                  initialEntry={etymology.feedback.entry}
                   word={currentWord}
                   completion={etymology.feedback.completion}
-                  onClose={etymology.close}
+                  onNext={etymology.next}
                 />
               )}
             </div>
           </div>
         )}
       </div>
-      {dict.language === 'en' && currentWord && (
-        <div className="py-2 text-center text-sm">
-          <button
-            type="button"
-            onClick={etymology.open}
-            disabled={etymology.active}
-            className="text-indigo-500 underline disabled:opacity-50"
-          >
-            查看词源
-          </button>
-          <p role="status" className="mt-1 text-xs text-gray-500">
-            {etymology.notice}
-          </p>
-        </div>
-      )}
       <Progress className={`mb-10 mt-auto ${state.isTyping ? 'opacity-100' : 'opacity-0'}`} />
     </div>
   )

@@ -4,10 +4,10 @@
 
 本模块为原 React 18 / TS 4.9 / Vite 4 / Dexie 3.2 应用的增量功能。没有替换词库、重排章节、更改单词标识、升级依赖或新增付费服务。
 
-- 英语单词完整正确输入后，先等待原逐词保存完成，再决定是否在单词下方显示内嵌词源说明（不弹窗、不遮罩）。默认首次答对显示，也可选每次显示或关闭。
-- 输入错误不会触发卡片。没有可靠词源资料（含待核实资料）时直接继续，并显示提示。资料读取超过 1.5 秒也继续，不阻塞练习。
+- 英语单词完整正确输入后，先完成原逐词保存，然后每次都自动在单词下方显示内嵌词源区域（不弹窗、不遮罩）。上方保留完整、正确的输入结果，只有回车、空格或“下一个词”才推进。
+- 输入错误不会触发卡片。没有可靠词源资料（含待核实资料）时显示提示，仍保留当前词等待确认。资料读取超过 1.5 秒则显示无资料提示，不自动跳词，也不妨碍确认下一词。
 - 卡片打开或查找期间暂停原练习计时、输入与切词快捷键。按回车或空格（松开按键后）或点击继续，只推进一次；长按不会把按键误输到下一个词，操作链接、按钮和展开项时保留控件原生键盘行为。答对卡片中的词根链接在新标签页打开，避免离开当前章节时丢失待完成的汇总。单词循环仍按原次数逐次记录。
-- “查看词源”随时手动打开，包括未核实内容。手动查阅不消耗首次答对的自动展示机会。
+- 练习页移除手动打开/关闭入口；旧的首次/关闭设置不再抑制显示。词根库仍可查阅资料（包括明确标记的待核实内容）。
 - 我的词根库 `/roots` 支持词根/含义/关联单词搜索、语言和学习状态筛选、收藏、手动标记掌握/待复习、关联词跳转及查看历史。
 - 阅读不代表掌握；不增加 wordRecords、chapterRecords、reviewRecords 或任何 FSRS 次数。当前仓库没有例句填空或 FSRS 实现，只提供可复用的完成反馈 hook。
 - 释义和音标读取现有词库；当前词库缺失的英文释义、词性、用法明确显示未提供，不自动编造或建立第二份基础词典。没有新增 ECDICT 全量数据。
@@ -25,7 +25,7 @@
 | rootLearningStates | rootId；首次/最近查看、次数、手动状态、通过哪些单词学习 |
 | rootLearningEvents | 自增 id；每次查看时间及来源单词                         |
 | etymologyViews     | normalizedWord；查看次数与首次答对展示时间              |
-| etymologySettings  | key；三种显示模式，纳入数据库备份                       |
+| etymologySettings  | key；保留旧版显示偏好以兼容备份，不再影响自动反馈       |
 | etymologyPackages  | id；数据包导入时间及内置包初始化标记                    |
 
 原词条没有全局 wordId。本模块使用 `en:规范词形` 作为额外关联标识，不修改原 JSON、词库 ID、章节索引或历史记录。当前按词形合并查阅；多义/多词源词应在后续数据版本增加义项区分，不自动合并成一种历史。
@@ -92,7 +92,7 @@ node_modules/.bin/vite build
 node_modules/.bin/tsc --noEmit
 ```
 
-省略 CHROMIUM_PATH 可使用已安装的 Playwright Chromium。专用测试配置仅访问本地应用，不访问线上官网。覆盖正确/错误输入、三种模式、暂停计时、无资料回退、单词循环、完整章节、收藏/掌握/历史、数据包校验、备份恢复、离线阅读，以及真实 v3 → v4 迁移。
+省略 CHROMIUM_PATH 可使用已安装的 Playwright Chromium。专用测试配置仅访问本地应用，不访问线上官网。覆盖正确/错误输入、旧显示偏好兼容、完整单词保留、暂停计时、无资料等待、单词循环、完整章节、收藏/掌握/历史、数据包校验、备份恢复、离线阅读，以及真实 v3 → v4 迁移。
 
 原仓库存在 4 处 TS2339 错误：mixpanel.ts 的 isWordVisible 两处、trackEvent.ts 的 window.gtag 两处；与本模块无关，未顺带修复。
 
@@ -107,11 +107,11 @@ node_modules/.bin/tsc --noEmit
 - `src/utils/db/index.ts`：v4 增量表与类型声明。
 - `src/pages/Typing/store/{index.ts,type.ts}`：词源阅读暂停标记。
 - `src/pages/Typing/index.tsx`：阅读时暂停计时及自动开始监听。
-- `src/pages/Typing/components/WordPanel/index.tsx`：正确完成后的反馈边界和手动查看。
+- `src/pages/Typing/components/WordPanel/index.tsx`：正确完成后的自动反馈及显式下一词边界。
 - `src/pages/Typing/components/WordPanel/components/Word/index.tsx`：完成后禁止额外输入、防止重复保存、保存后进入反馈。
 - `src/pages/Typing/components/WordPanel/components/{KeyEventHandler,TextAreaHandler}/index.tsx`：阅读时停收输入。
 - `src/pages/Typing/components/StartButton/index.tsx`：阅读时停用开始/重启快捷操作。
-- `src/pages/Typing/components/Setting/ViewSetting.tsx`：三种显示设置。
+- `src/pages/Typing/components/Setting/ViewSetting.tsx`：自动显示流程说明（移除旧开关）。
 - `src/components/Header/index.tsx`、`src/index.tsx`：词根库入口和路由。
 - `package.json`：专用测试命令；构建使用 Vite 配置中的部署 base，无依赖变更。
 - `vite.config.ts`、`public/default.conf`：普通部署根路径 / GitHub Pages 前缀及 Nginx SPA 回退，支持深层详情 URL 刷新。
@@ -129,12 +129,12 @@ node_modules/.bin/tsc --noEmit
 - `tests/data/test_prepare_etymology.py`：候选资料提取规则测试。
 - 本文档。
 
-最终验证：18 项 Chromium 功能/迁移/备份测试通过；1 项 Python 数据转换测试通过。新增及修改的运行时代码通过 ESLint，格式与 diff 检查通过；普通生产构建与 GitHub Pages 前缀构建均通过，两种部署下的生产深层详情 URL 都能加载词根和词源卡片，浏览器没有 pageerror。全项目类型检查仍有上述 4 处既有错误，没有新增类型错误。未提交或推送 GitHub。
+最终验证：18 项 Chromium 功能/迁移/备份测试通过；1 项 Python 数据转换测试通过。新增及修改的运行时代码通过 ESLint，格式与 diff 检查通过；普通生产构建与 GitHub Pages 前缀构建均通过，两种部署下的生产深层详情 URL 都能加载词根和词源卡片，浏览器没有 pageerror。全项目类型检查仍有上述 4 处既有错误，没有新增类型错误。源码及静态站点已在用户授权后发布到个人 GitHub 仓库。
 
 ## GitHub Pages 发布
 
 个人仓库：`wwlvss/qwerty-learner`。master 推送后，`deploy-pages.yml` 使用 GitHub 自动提供的 `GITHUB_TOKEN` 更新 `gh-pages` 分支；不需要旧的 ACTIONS_DEPLOY_KEY 或 Gitee 密钥，也不再同步上游 Gitee 仓库。部署使用已验证的 Node 24、Yarn 1.22.22 和冻结锁文件安装；安装脚本只在临时副本中替换下载域名，保留版本、完整性校验和原锁文件。
 
-首次需要在仓库 Settings → Pages 中选择 Deploy from a branch，分支 `gh-pages`、目录 `/(root)`。预期地址为 `https://wwlvss.github.io/qwerty-learner/`，实际启用和可访问状态以 GitHub Pages 显示与 HTTP 验证为准。如果 fork 的 Actions 被禁用，先在 Actions 页面启用工作流，然后手动运行部署工作流。
+如需重新配置，可在仓库 Settings → Pages 中选择 Deploy from a branch，分支 `gh-pages`、目录 `/(root)`。预期地址为 `https://wwlvss.github.io/qwerty-learner/`，实际启用和可访问状态以 GitHub Pages 显示与 HTTP 验证为准。如果 fork 的 Actions 被禁用，先在 Actions 页面启用工作流，然后手动运行部署工作流。
 
 `e2e.yml` 使用专用本地测试配置运行 18 项回归测试，不再把线上官网作为测试目标。

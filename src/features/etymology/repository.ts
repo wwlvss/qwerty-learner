@@ -56,12 +56,6 @@ export async function setDisplayMode(value: DisplayMode) {
   await db.etymologySettings.put({ key: 'displayMode', value })
 }
 
-export async function shouldShowEtymology(word: string) {
-  const mode = await getDisplayMode()
-  if (mode === 'off') return false
-  return mode === 'auto' || !(await db.etymologyViews.get(normalizeWord(word)))?.firstCorrectShownAt
-}
-
 // This service intentionally has no practice-record or scheduling side effects.
 export async function recordEntryView(entry: EtymologyEntry, fromCorrect = false) {
   const now = Date.now()

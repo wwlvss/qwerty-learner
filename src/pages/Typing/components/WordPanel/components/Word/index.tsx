@@ -25,7 +25,7 @@ import type { Word } from '@/typings'
 import { CTRL, getUtcStringForMixpanel } from '@/utils'
 import { useSaveWordRecord } from '@/utils/db'
 import { useAtomValue } from 'jotai'
-import { useCallback, useContext, useEffect, useRef, useState } from 'react'
+import { useCallback, useContext, useEffect, useLayoutEffect, useRef, useState } from 'react'
 import { useHotkeys } from 'react-hotkeys-hook'
 import { useImmer } from 'use-immer'
 
@@ -53,7 +53,8 @@ export default function WordComponent({ word, onFinish }: { word: Word; onFinish
   const wordPronunciationIconRef = useRef<WordPronunciationIconRef>(null)
   const completionSaved = useRef(false)
 
-  useEffect(() => {
+  useLayoutEffect(() => {
+    // Reset before paint so the next word is ready for its first keystroke.
     // run only when word changes
     completionSaved.current = false
     let headword = ''
@@ -296,6 +297,7 @@ export default function WordComponent({ word, onFinish }: { word: Word; onFinish
           data-tip="按 Tab 快捷键显示完整单词"
         >
           <div
+            data-testid="typing-word"
             onMouseEnter={() => handleHoverWord(true)}
             onMouseLeave={() => handleHoverWord(false)}
             className={`flex items-center ${isTextSelectable && 'select-all'} justify-center ${wordState.hasWrong ? style.wrong : ''}`}

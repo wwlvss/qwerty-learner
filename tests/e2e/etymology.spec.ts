@@ -38,18 +38,21 @@ test.beforeEach(async ({ page }) => {
     localStorage.setItem('hintSoundsConfig', JSON.stringify({ isOpen: false }))
   })
   await page.goto('/')
-  await expect(page.getByRole('button', { name: '查看词源', exact: true })).toBeVisible()
+  await expect(page.getByTestId('typing-word')).toBeVisible()
   await page.evaluate(async () => {
     const path = '/src/features/etymology/repository.ts'
     await (await new Function('path', 'return import(path)')(path)).ensureEtymologyData()
   })
 })
 
-test('correct completion saves once; reading pauses timer/input; continue preserves progress', async ({ page }) => {
-  await mode(page, 'auto')
+test('correct completion stays on the full word, automatically shows sources, and pauses timer/input', async ({ page }) => {
   await start(page)
   await typeWord(page, 'cancel')
   await expect(page.getByTestId('etymology-card')).toContainText('cancel')
+  await expect(page.getByTestId('typing-word')).toHaveText('cancel')
+  await expect(page.getByRole('button', { name: '查看词源' })).toHaveCount(0)
+  await expect(page.getByRole('button', { name: '关闭词源' })).toHaveCount(0)
+  await expect(page.getByRole('dialog')).toHaveCount(0)
   await expect.poll(() => counts(page)).toMatchObject({ words: 1, chapters: 0, reviews: 0, views: 1 })
   const timer = page
     .locator('div')
@@ -59,17 +62,16 @@ test('correct completion saves once; reading pauses timer/input; continue preser
   await page.keyboard.type('xxxx')
   await page.waitForTimeout(1300)
   expect(await timer.innerText()).toBe(before)
+  await expect(page.getByTestId('typing-word')).toHaveText('cancel')
   await expect.poll(() => counts(page)).toMatchObject({ words: 1, views: 1 })
-  await expect(page.getByRole('dialog')).toHaveCount(0)
-  await expect(page.getByTestId('etymology-panel')).toBeVisible()
   await page.keyboard.press('Enter')
-  await expect(page.getByRole('dialog')).toHaveCount(0)
   await expect(page.getByTestId('etymology-panel')).toHaveCount(0)
   await typeWord(page, 'explosive')
   await expect.poll(() => counts(page)).toMatchObject({ words: 2, reviews: 0 })
-  await expect(page.getByRole('dialog')).toHaveCount(0)
-  await expect(page.getByTestId('etymology-panel')).toHaveCount(0)
-  await expect(page.getByRole('status').filter({ hasText: 'explosive：暂无可靠词源资料' })).toBeVisible()
+  await expect(page.getByTestId('etymology-panel')).toContainText('暂无可靠词源资料')
+  await expect(page.getByTestId('typing-word')).toHaveText('explosive')
+  await page.waitForTimeout(500)
+  await expect(page.getByTestId('typing-word')).toHaveText('explosive')
 })
 
 test('wrong input has no card; retry keeps original mistake record', async ({ page }) => {
@@ -90,42 +92,37 @@ test('wrong input has no card; retry keeps original mistake record', async ({ pa
   expect(record[0].mistakes['0']).toEqual(['x'])
 })
 
-test('off mode auto-advances and manual reopen does not save another word', async ({ page }) => {
+test('old off preference cannot suppress automatic feedback or skip the completed word', async ({ page }) => {
   await mode(page, 'off')
   await start(page)
   await typeWord(page, 'cancel')
-  await expect.poll(() => counts(page)).toMatchObject({ words: 1, views: 0 })
-  await expect(page.getByRole('dialog')).toHaveCount(0)
-  await expect(page.getByTestId('etymology-panel')).toHaveCount(0)
-  await page.reload()
-  await page.getByRole('button', { name: '查看词源' }).click()
   await expect(page.getByTestId('etymology-card')).toContainText('cancel')
-  await page.getByRole('button', { name: '关闭词源' }).click()
+  await expect(page.getByTestId('typing-word')).toHaveText('cancel')
+  await expect.poll(() => counts(page)).toMatchObject({ words: 1, views: 1 })
+  await page.getByRole('button', { name: '下一个词' }).click()
+  await expect(page.getByTestId('typing-word')).toHaveText('explosive')
   expect((await counts(page)).words).toBe(1)
 })
 
-test('first mode persists across reload; auto mode still opens again', async ({ page }) => {
-  await start(page)
-  await typeWord(page, 'cancel')
-  await expect(page.getByTestId('etymology-card')).toBeVisible()
-  await page.getByRole('button', { name: '继续练习' }).click()
-  await page.reload()
-  await start(page)
-  await typeWord(page, 'cancel')
-  await expect.poll(() => counts(page)).toMatchObject({ words: 2, views: 1 })
-  await expect(page.getByRole('dialog')).toHaveCount(0)
-  await expect(page.getByTestId('etymology-panel')).toHaveCount(0)
-  await mode(page, 'auto')
-  await page.reload()
-  await start(page)
-  await typeWord(page, 'cancel')
-  await expect(page.getByTestId('etymology-card')).toBeVisible()
-  await expect.poll(() => counts(page)).toMatchObject({ words: 3, views: 1 })
-  const total = await page.evaluate(async () => {
-    const path = '/src/utils/db/index.ts'
-    return (await (await new Function('path', 'return import(path)')(path)).db.etymologyViews.get('cancel')).viewCount
-  })
-  expect(total).toBe(2)
+test('old first preference and previous views cannot suppress feedback on repeated correct words', async ({ page }) => {
+  await mode(page, 'first')
+  for (let i = 1; i <= 3; i++) {
+    if (i > 1) await page.reload()
+    await expect(page.getByTestId('typing-word')).toBeVisible()
+    await start(page)
+    await typeWord(page, 'cancel')
+    await expect(page.getByTestId('etymology-card')).toBeVisible()
+    await expect(page.getByTestId('typing-word')).toHaveText('cancel')
+    await expect
+      .poll(() =>
+        page.evaluate(async () => {
+          const path = '/src/utils/db/index.ts'
+          return (await (await new Function('path', 'return import(path)')(path)).db.etymologyViews.get('cancel')).viewCount
+        }),
+      )
+      .toBe(i)
+    expect((await counts(page)).words).toBe(i)
+  }
 })
 
 test('root and related-word navigation, search and filters', async ({ page }) => {
@@ -147,9 +144,9 @@ test('root and related-word navigation, search and filters', async ({ page }) =>
 })
 
 test('favorites, explicit mastery and learning provenance survive refresh', async ({ page }) => {
-  await page.getByRole('button', { name: '查看词源' }).click()
+  await start(page)
+  await typeWord(page, 'cancel')
   await expect(page.getByTestId('etymology-card')).toBeVisible()
-  await page.getByRole('button', { name: '关闭词源' }).click()
   await page.goto('/roots/la-cancell')
   const detail = page.getByRole('region', { name: '词根详情' })
   await expect(detail).toContainText('cancel')
@@ -160,7 +157,7 @@ test('favorites, explicit mastery and learning provenance survive refresh', asyn
   await expect(page.getByLabel('个人掌握状态')).toHaveValue('mastered')
   await detail.getByRole('button', { name: '取消收藏', exact: true }).click()
   await expect(detail.getByRole('button', { name: '收藏词根', exact: true })).toBeVisible()
-  expect((await counts(page)).words).toBe(0)
+  expect((await counts(page)).words).toBe(1)
   expect((await counts(page)).reviews).toBe(0)
 })
 
@@ -196,19 +193,24 @@ test('backup download/restore preserves old tables and offline imported card rea
   await page.goto('/roots/la-port')
   const detail = page.getByRole('region', { name: '词根详情' })
   await detail.getByRole('button', { name: '收藏词根', exact: true }).click()
-  await page.getByLabel('词源卡片显示').selectOption('auto')
+  await mode(page, 'auto')
   const downloadEvent = page.waitForEvent('download')
   await page.getByRole('button', { name: '导出词根备份' }).click()
   const download = await downloadEvent
   const path = await download.path()
   expect(path).toBeTruthy()
   await detail.getByRole('button', { name: '取消收藏', exact: true }).click()
-  await page.getByLabel('词源卡片显示').selectOption('off')
+  await mode(page, 'off')
   const before = await counts(page)
   await page.getByLabel('恢复词根备份').setInputFiles(path!)
   await expect(page.getByRole('status')).toContainText('词根备份已恢复')
   await expect(detail.getByRole('button', { name: '取消收藏', exact: true })).toBeVisible()
-  await expect(page.getByLabel('词源卡片显示')).toHaveValue('auto')
+  expect(
+    await page.evaluate(async () => {
+      const path = '/src/features/etymology/repository.ts'
+      return (await new Function('path', 'return import(path)')(path)).getDisplayMode()
+    }),
+  ).toBe('auto')
   expect(await counts(page)).toEqual(before)
   // Warm the lazy dialog modules before taking the browser offline; full app offline boot is separate.
   await page.getByRole('button', { name: 'transport', exact: true }).click()
@@ -252,22 +254,23 @@ test('valid package imports; malformed references and active URLs reject atomica
   expect((await counts(page)).words).toBe(0)
 })
 
-test('single-word loop records once per completion without repeated first card', async ({ page }) => {
+test('single-word loops wait for confirmation after every correct repetition', async ({ page }) => {
   await page.evaluate(() => localStorage.setItem('loopWordConfig', JSON.stringify({ times: 3 })))
   await page.reload()
+  await expect(page.getByTestId('typing-word')).toBeVisible()
   await start(page)
-  await typeWord(page, 'cancel')
-  await expect(page.getByTestId('etymology-card')).toBeVisible()
-  await page.getByRole('button', { name: '继续练习' }).click()
-  await typeWord(page, 'cancel')
-  await expect.poll(() => counts(page)).toMatchObject({ words: 2, views: 1 })
-  await typeWord(page, 'cancel')
-  await expect.poll(() => counts(page)).toMatchObject({ words: 3, views: 1 })
-  await expect(page.getByRole('dialog')).toHaveCount(0)
-  await expect(page.getByTestId('etymology-panel')).toHaveCount(0)
+  for (let i = 1; i <= 3; i++) {
+    await typeWord(page, 'cancel')
+    await expect(page.getByTestId('etymology-card')).toBeVisible()
+    await expect(page.getByTestId('typing-word')).toHaveText('cancel')
+    await expect.poll(() => counts(page)).toMatchObject({ words: i, views: 1 })
+    await page.keyboard.press('Space')
+    await expect(page.getByTestId('etymology-panel')).toHaveCount(0)
+  }
+  await expect(page.getByTestId('typing-word')).toHaveText('explosive')
 })
 
-test('full legacy chapter saves 20 words and one chapter with unchanged counts', async ({ page }) => {
+test('chapter saves 20 words and one chapter only after explicit final confirmation', async ({ page }) => {
   await mode(page, 'off')
   const words = [
     'cancel',
@@ -295,8 +298,14 @@ test('full legacy chapter saves 20 words and one chapter with unchanged counts',
   for (let i = 0; i < words.length; i++) {
     await typeWord(page, words[i])
     await expect.poll(async () => (await counts(page)).words).toBe(i + 1)
+    await expect(page.getByTestId('etymology-panel')).toBeVisible()
+    await expect(page.getByTestId('typing-word')).toHaveText(words[i])
+    expect((await counts(page)).chapters).toBe(0)
+    await page.keyboard.press('Enter')
+    await expect(page.getByTestId('etymology-panel')).toHaveCount(0)
+    if (i + 1 < words.length) await expect(page.getByTestId('typing-word')).toHaveText(words[i + 1])
   }
-  await expect.poll(() => counts(page)).toMatchObject({ words: 20, chapters: 1, reviews: 0, views: 0 })
+  await expect.poll(() => counts(page)).toMatchObject({ words: 20, chapters: 1, reviews: 0, views: 1 })
   const chapter = await page.evaluate(async () => {
     const path = '/src/utils/db/index.ts'
     return (await (await new Function('path', 'return import(path)')(path)).db.chapterRecords.toArray())[0]
@@ -361,7 +370,7 @@ test('v3 database upgrades without changing original records', async ({ page }) 
     })
   })
   await page.goto('/')
-  await expect(page.getByRole('button', { name: '查看词源' })).toBeVisible()
+  await expect(page.getByTestId('typing-word')).toBeVisible()
   await expect.poll(() => counts(page)).toMatchObject({ words: 1, chapters: 1, reviews: 1 })
   const record = await page.evaluate(async () => {
     const path = '/src/utils/db/index.ts'
@@ -374,21 +383,22 @@ test('v3 database upgrades without changing original records', async ({ page }) 
   expect(record.review.isFinished).toBe(false)
 })
 
-test('manual lookup does not consume first correct display; Enter advances only once', async ({ page }) => {
-  await page.getByRole('button', { name: '查看词源' }).click()
-  await expect(page.getByTestId('etymology-card')).toBeVisible()
-  await page.getByRole('button', { name: '关闭词源' }).click()
+test('correct words with unavailable source data still wait for explicit confirmation', async ({ page }) => {
+  await page.evaluate(async () => {
+    const path = '/src/utils/db/index.ts'
+    await (await new Function('path', 'return import(path)')(path)).db.etymologyEntries.delete('en:cancel')
+  })
   await start(page)
   await typeWord(page, 'cancel')
-  await expect(page.getByRole('button', { name: '继续练习' })).toBeVisible()
+  await expect(page.getByTestId('etymology-panel')).toContainText('暂无可靠词源资料')
+  await page.waitForTimeout(1700)
+  await expect(page.getByTestId('typing-word')).toHaveText('cancel')
+  expect((await counts(page)).words).toBe(1)
   await page.keyboard.press('Enter')
-  await expect(page.getByRole('dialog')).toHaveCount(0)
-  await expect(page.getByTestId('etymology-panel')).toHaveCount(0)
-  await typeWord(page, 'explosive')
-  await expect.poll(() => counts(page)).toMatchObject({ words: 2, chapters: 0, reviews: 0 })
+  await expect(page.getByTestId('typing-word')).toHaveText('explosive')
 })
 
-test('pending data is manual-only and never treated as a reliable automatic card', async ({ page }) => {
+test('pending data is not stated as fact and still cannot auto-advance the word', async ({ page }) => {
   await page.evaluate(async () => {
     const path = '/src/utils/db/index.ts'
     const { db } = await new Function('path', 'return import(path)')(path)
@@ -396,12 +406,10 @@ test('pending data is manual-only and never treated as a reliable automatic card
   })
   await start(page)
   await typeWord(page, 'cancel')
+  await expect(page.getByTestId('etymology-panel')).toContainText('待核实')
+  await expect(page.getByTestId('etymology-card')).toHaveCount(0)
+  await expect(page.getByTestId('typing-word')).toHaveText('cancel')
   await expect.poll(() => counts(page)).toMatchObject({ words: 1, views: 0 })
-  await expect(page.getByRole('dialog')).toHaveCount(0)
-  await expect(page.getByTestId('etymology-panel')).toHaveCount(0)
-  await page.reload()
-  await page.getByRole('button', { name: '查看词源' }).click()
-  await expect(page.getByTestId('etymology-card')).toContainText('待核实 · 不作为确定事实')
 })
 
 test('legacy full database backup includes and restores the new tables', async ({ page }) => {
@@ -439,7 +447,7 @@ test('root navigation from completion keeps the current saved word and pending c
   await page.bringToFront()
   await expect(page.getByTestId('etymology-card')).toBeVisible()
   await expect.poll(() => counts(page)).toMatchObject({ words: 1, chapters: 0, reviews: 0 })
-  await page.getByRole('button', { name: '继续练习' }).click()
+  await page.getByRole('button', { name: '下一个词' }).click()
   await expect(page.getByRole('dialog')).toHaveCount(0)
   await expect(page.getByTestId('etymology-panel')).toHaveCount(0)
   expect((await counts(page)).words).toBe(1)
@@ -472,20 +480,18 @@ for (const key of ['Enter', 'Space']) {
   })
 }
 
-test('Space on a disclosure keeps reading; manual inline lookup resumes the same word', async ({ page }) => {
-  await page.getByRole('button', { name: '查看词源' }).click()
-  await expect(page.getByTestId('etymology-panel')).toBeVisible()
+test('Space on a disclosure keeps the completed word visible until explicit next action', async ({ page }) => {
+  await start(page)
+  await typeWord(page, 'cancel')
+  await expect(page.getByTestId('etymology-card')).toBeVisible()
   const summary = page.getByText('同源词、词根与关系详情', { exact: true })
   await summary.focus()
   await page.keyboard.press('Space')
   await expect(summary.locator('..')).toHaveAttribute('open', '')
-  await expect(page.getByTestId('etymology-panel')).toBeVisible()
-  expect((await counts(page)).words).toBe(0)
+  await expect(page.getByTestId('typing-word')).toHaveText('cancel')
+  expect((await counts(page)).words).toBe(1)
   await page.getByTestId('etymology-panel').focus()
   await page.keyboard.press('Space')
-  await expect(page.getByTestId('etymology-panel')).toHaveCount(0)
-  await start(page)
-  await typeWord(page, 'cancel')
-  await expect(page.getByTestId('etymology-panel')).toBeVisible()
+  await expect(page.getByTestId('typing-word')).toHaveText('explosive')
   expect((await counts(page)).words).toBe(1)
 })
