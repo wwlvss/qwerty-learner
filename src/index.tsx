@@ -4,6 +4,7 @@ import { ErrorBook } from './pages/ErrorBook'
 import { FriendLinks } from './pages/FriendLinks'
 import MobilePage from './pages/Mobile'
 import TypingPage from './pages/Typing'
+import PersonalDictionarySync from '@/features/personal-dictionary/PersonalDictionarySync'
 import { isOpenDarkModeAtom } from '@/store'
 import { Analytics } from '@vercel/analytics/react'
 import 'animate.css'
@@ -17,6 +18,7 @@ import { BrowserRouter, Navigate, Route, Routes } from 'react-router-dom'
 
 const AnalysisPage = lazy(() => import('./pages/Analysis'))
 const GalleryPage = lazy(() => import('./pages/Gallery-N'))
+const MyDictionary = lazy(() => import('./pages/MyDictionary'))
 const RootLibrary = lazy(() => import('./pages/RootLibrary'))
 
 if (process.env.NODE_ENV === 'production') {
@@ -50,6 +52,7 @@ function Root() {
 
   return (
     <React.StrictMode>
+      <PersonalDictionarySync />
       <BrowserRouter basename={REACT_APP_DEPLOY_ENV === 'pages' ? '/qwerty-learner' : ''}>
         <Suspense fallback={<Loading />}>
           <Routes>
@@ -62,6 +65,7 @@ function Root() {
                 <Route path="/analysis" element={<AnalysisPage />} />
                 <Route path="/error-book" element={<ErrorBook />} />
                 <Route path="/friend-links" element={<FriendLinks />} />
+                <Route path="/my-dictionary" element={<MyDictionary />} />
                 <Route path="/roots" element={<RootLibrary />} />
                 <Route path="/roots/:rootId" element={<RootLibrary />} />
                 <Route path="/*" element={<Navigate to="/" />} />

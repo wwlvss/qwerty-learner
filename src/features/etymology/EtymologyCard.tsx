@@ -92,7 +92,7 @@ export default function EtymologyCard({
             {baseWord.ukphone && `英 [${baseWord.ukphone}]`}
           </p>
         )}
-        {!compact && <p className="text-xs text-gray-500">英文释义、词性和用法：当前基础词库未提供，暂不推测。</p>}
+        {!compact && <p className="text-xs text-gray-500">英文释义和词性：当前基础词库未提供，暂不推测。</p>}
         <span className="text-xs text-amber-700 dark:text-amber-300">
           {entry.verificationStatus === 'verified' ? '有来源支持' : '待核实 · 不作为确定事实'} · 资料可信度{' '}
           {Math.round(entry.confidence * 100)}%

@@ -12,7 +12,7 @@ import type { Dictionary } from '@/typings'
 import range from '@/utils/range'
 import { useAtom, useSetAtom } from 'jotai'
 import { useCallback, useMemo, useState } from 'react'
-import { useNavigate } from 'react-router-dom'
+import { Link, useNavigate } from 'react-router-dom'
 import IcOutlineCollectionsBookmark from '~icons/ic/outline-collections-bookmark'
 import MajesticonsPaperFoldTextLine from '~icons/majesticons/paper-fold-text-line'
 import PajamasReviewList from '~icons/pajamas/review-list'
@@ -73,6 +73,11 @@ export default function DictDetail({ dictionary: dict }: { dictionary: Dictionar
         <p className="mt-1">{dict.chapterCount} 章节</p>
         <p>共 {dict.length} 词</p>
         <p>{dict.description}</p>
+        {dict.id === 'personal' && (
+          <Link to="/my-dictionary" className="text-indigo-500 underline">
+            管理我的词典：添加和导入单词
+          </Link>
+        )}
         <div className="absolute bottom-5 right-4">
           <ToggleGroup type="single" value={curTab} onValueChange={handleTabChange}>
             <ToggleGroupItem

@@ -16,6 +16,9 @@ const Header: React.FC<PropsWithChildren> = ({ children }) => {
         </NavLink>
         <nav className="my-card on element flex w-auto content-center items-center justify-end space-x-3 rounded-xl bg-white p-4 transition-colors duration-300 dark:bg-gray-800">
           {children}
+          <Link to="/my-dictionary" className="whitespace-nowrap text-sm text-indigo-500">
+            我的词典
+          </Link>
           <Link to="/roots" className="whitespace-nowrap text-sm text-indigo-500" title="打开我的词根库">
             我的词根库
           </Link>

@@ -225,9 +225,12 @@ export default function WordComponent({ word, onFinish }: { word: Word; onFinish
         } else {
           state.letterMistake[inputLength - 1] = [inputChar]
         }
-
-        const currentState = JSON.parse(JSON.stringify(state))
-        dispatch({ type: TypingStateActionType.REPORT_WRONG_WORD, payload: { letterMistake: currentState.letterMistake } })
+      })
+      // State updater functions can run twice in StrictMode. Report the actual
+      // keystroke once, outside the updater, and merge only this new mistake.
+      dispatch({
+        type: TypingStateActionType.REPORT_WRONG_WORD,
+        payload: { letterMistake: { [inputLength - 1]: [inputChar] } },
       })
 
       if (currentChapter === 0 && state.chapterData.index === 0 && wordState.wrongCount >= 3) {

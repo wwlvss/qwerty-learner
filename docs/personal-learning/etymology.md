@@ -14,7 +14,7 @@
 
 ## 数据库与兼容
 
-`RecordDB` 从版本 3 增量升级到 4，保留全部旧表和记录，不调用 clear/reset。新增：
+词源模块最初把 `RecordDB` 从版本 3 增量升级到 4；当前已在 v5 追加个人词典和用法表（见 usage.md），保留全部旧表和记录，不调用 clear/reset。词源模块新增：
 
 | 表                 | 主键和作用                                              |
 | ------------------ | ------------------------------------------------------- |
@@ -129,7 +129,7 @@ node_modules/.bin/tsc --noEmit
 - `tests/data/test_prepare_etymology.py`：候选资料提取规则测试。
 - 本文档。
 
-最终验证：18 项 Chromium 功能/迁移/备份测试通过；1 项 Python 数据转换测试通过。新增及修改的运行时代码通过 ESLint，格式与 diff 检查通过；普通生产构建与 GitHub Pages 前缀构建均通过，两种部署下的生产深层详情 URL 都能加载词根和词源卡片，浏览器没有 pageerror。全项目类型检查仍有上述 4 处既有错误，没有新增类型错误。源码及静态站点已在用户授权后发布到个人 GitHub 仓库。
+最终验证：29 项 Chromium 功能/迁移/备份测试通过；6 项 Python 数据转换测试通过。新增及修改的运行时代码通过 ESLint，格式与 diff 检查通过；普通生产构建与 GitHub Pages 前缀构建均通过，两种部署下的生产深层详情 URL 都能加载词根和词源卡片，浏览器没有 pageerror。全项目类型检查仍有上述 4 处既有错误，没有新增类型错误。源码及静态站点已在用户授权后发布到个人 GitHub 仓库。
 
 ## GitHub Pages 发布
 
@@ -137,4 +137,4 @@ node_modules/.bin/tsc --noEmit
 
 如需重新配置，可在仓库 Settings → Pages 中选择 Deploy from a branch，分支 `gh-pages`、目录 `/(root)`。预期地址为 `https://wwlvss.github.io/qwerty-learner/`，实际启用和可访问状态以 GitHub Pages 显示与 HTTP 验证为准。如果 fork 的 Actions 被禁用，先在 Actions 页面启用工作流，然后手动运行部署工作流。
 
-`e2e.yml` 使用专用本地测试配置运行 18 项回归测试，不再把线上官网作为测试目标。
+`e2e.yml` 使用专用本地测试配置运行 29 项回归测试，不再把线上官网作为测试目标。

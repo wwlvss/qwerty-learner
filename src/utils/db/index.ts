@@ -2,6 +2,8 @@ import type { IChapterRecord, IReviewRecord, IRevisionDictRecord, IWordRecord, L
 import { ChapterRecord, ReviewRecord, WordRecord } from './record'
 import { etymologySchema } from '@/features/etymology/schema'
 import type { DisplayMode, EtymologyEntry, Root, RootLearningState, RootWordRelation } from '@/features/etymology/types'
+import type { PersonalWord } from '@/features/personal-dictionary/types'
+import type { WordUsage } from '@/features/word-support/types'
 import { TypingContext, TypingStateActionType } from '@/pages/Typing/store'
 import type { TypingState } from '@/pages/Typing/store/type'
 import { currentChapterAtom, currentDictIdAtom, isReviewModeAtom } from '@/store'
@@ -11,6 +13,8 @@ import { useAtomValue } from 'jotai'
 import { useCallback, useContext } from 'react'
 
 class RecordDB extends Dexie {
+  personalWords!: Table<PersonalWord, string>
+  wordUsageEntries!: Table<WordUsage, string>
   etymologyEntries!: Table<EtymologyEntry, string>
   roots!: Table<Root, string>
   rootWordRelations!: Table<RootWordRelation, string>
@@ -46,6 +50,7 @@ class RecordDB extends Dexie {
       reviewRecords: '++id,dict,createTime,isFinished',
     })
     this.version(4).stores(etymologySchema)
+    this.version(5).stores({ personalWords: 'id,addedAt,position', wordUsageEntries: 'normalizedWord' })
   }
 }
 

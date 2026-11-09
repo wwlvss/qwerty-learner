@@ -1,5 +1,6 @@
 import EtymologyContent from './EtymologyContent'
 import type { EtymologyContentProps } from './EtymologyContent'
+import WordUsagePanel from '@/features/word-support/WordUsagePanel'
 import { useLayoutEffect, useRef } from 'react'
 
 const interactive = 'button, a, input, select, textarea, summary, [contenteditable="true"], [role="button"]'
@@ -60,6 +61,7 @@ export default function EtymologyPanel({ onNext, ...content }: EtymologyContentP
           下一个词
         </button>
       </div>
+      <WordUsagePanel word={content.initialWord} />
       <EtymologyContent {...content} compact onNavigate={onNext} />
     </section>
   )

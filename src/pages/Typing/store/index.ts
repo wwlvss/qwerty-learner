@@ -122,6 +122,9 @@ export const typingReducer = (state: TypingState, action: TypingStateAction) => 
       break
     case TypingStateActionType.REPORT_CORRECT_WORD: {
       state.chapterData.correctCount += 1
+      state.timerData.accuracy = Math.round(
+        (state.chapterData.correctCount / (state.chapterData.correctCount + state.chapterData.wrongCount)) * 100,
+      )
 
       const wordLog = state.chapterData.userInputLogs[state.chapterData.index]
       wordLog.correctCount += 1
@@ -129,6 +132,9 @@ export const typingReducer = (state: TypingState, action: TypingStateAction) => 
     }
     case TypingStateActionType.REPORT_WRONG_WORD: {
       state.chapterData.wrongCount += 1
+      state.timerData.accuracy = Math.round(
+        (state.chapterData.correctCount / (state.chapterData.correctCount + state.chapterData.wrongCount)) * 100,
+      )
 
       const letterMistake = action.payload.letterMistake
       const wordLog = state.chapterData.userInputLogs[state.chapterData.index]

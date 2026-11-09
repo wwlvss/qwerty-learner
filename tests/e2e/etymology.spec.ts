@@ -90,6 +90,7 @@ test('wrong input has no card; retry keeps original mistake record', async ({ pa
   expect(record).toHaveLength(1)
   expect(record[0].wrongCount).toBe(1)
   expect(record[0].mistakes['0']).toEqual(['x'])
+  await expect(page.getByText('正确率', { exact: true }).locator('..')).toContainText('86')
 })
 
 test('old off preference cannot suppress automatic feedback or skip the completed word', async ({ page }) => {
@@ -315,7 +316,7 @@ test('chapter saves 20 words and one chapter only after explicit final confirmat
   expect(chapter.correctCount).toBe(words.join('').length)
 })
 
-test('v3 database upgrades without changing original records', async ({ page }) => {
+test('v3 database upgrades to v5 without changing original records', async ({ page }) => {
   // Close app connections, then use a blank same-origin document to construct a real v3 database.
   await page.goto('/roots')
   await page.evaluate(async () => {
@@ -377,7 +378,7 @@ test('v3 database upgrades without changing original records', async ({ page }) 
     const { db } = await new Function('path', 'return import(path)')(path)
     return { version: db.verno, word: await db.wordRecords.get(99), review: await db.reviewRecords.get(99) }
   })
-  expect(record.version).toBe(4)
+  expect(record.version).toBe(5)
   expect(record.word.word).toBe('sentinel')
   expect(record.word.wrongCount).toBe(2)
   expect(record.review.isFinished).toBe(false)

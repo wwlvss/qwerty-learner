@@ -3,7 +3,7 @@ import path from 'node:path'
 
 export default defineConfig({
   testDir: './e2e',
-  testMatch: 'etymology.spec.ts',
+  testMatch: ['etymology.spec.ts', 'word-support.spec.ts'],
   outputDir: '../test-results/etymology',
   timeout: 30000,
   workers: 2,
