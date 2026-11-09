@@ -24,13 +24,13 @@ export default function KeyEventHandler({ updateInput }: { updateInput: (updateO
   )
 
   useEffect(() => {
-    if (!state.isTyping) return
+    if (!state.isTyping || state.isEtymologyOpen) return
 
     window.addEventListener('keydown', onKeydown)
     return () => {
       window.removeEventListener('keydown', onKeydown)
     }
-  }, [onKeydown, state.isTyping])
+  }, [onKeydown, state.isTyping, state.isEtymologyOpen])
 
   return <></>
 }

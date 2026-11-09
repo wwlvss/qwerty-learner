@@ -60,9 +60,10 @@
   "scripts": {
     "dev": "vite",
     "start": "vite",
-    "build": "cross-env CI=false vite build --base=./",
+    "build": "cross-env CI=false vite build",
     "test": "echo \"No tests\"",
     "test:e2e": "playwright test",
+    "test:etymology": "playwright test --config=tests/etymology.config.ts",
     "lint": "eslint .",
     "prettier": "prettier --write .",
     "prepare": "husky install"

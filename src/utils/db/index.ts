@@ -1,5 +1,7 @@
 import type { IChapterRecord, IReviewRecord, IRevisionDictRecord, IWordRecord, LetterMistakes } from './record'
 import { ChapterRecord, ReviewRecord, WordRecord } from './record'
+import { etymologySchema } from '@/features/etymology/schema'
+import type { DisplayMode, EtymologyEntry, Root, RootLearningState, RootWordRelation } from '@/features/etymology/types'
 import { TypingContext, TypingStateActionType } from '@/pages/Typing/store'
 import type { TypingState } from '@/pages/Typing/store/type'
 import { currentChapterAtom, currentDictIdAtom, isReviewModeAtom } from '@/store'
@@ -9,6 +11,18 @@ import { useAtomValue } from 'jotai'
 import { useCallback, useContext } from 'react'
 
 class RecordDB extends Dexie {
+  etymologyEntries!: Table<EtymologyEntry, string>
+  roots!: Table<Root, string>
+  rootWordRelations!: Table<RootWordRelation, string>
+  rootFavorites!: Table<{ rootId: string; createdAt: number }, string>
+  rootLearningStates!: Table<RootLearningState, string>
+  rootLearningEvents!: Table<{ id?: number; rootId: string; word: string; viewedAt: number }, number>
+  etymologyViews!: Table<
+    { normalizedWord: string; firstViewedAt: number; lastViewedAt: number; viewCount: number; firstCorrectShownAt?: number },
+    string
+  >
+  etymologySettings!: Table<{ key: string; value: DisplayMode }, string>
+  etymologyPackages!: Table<{ id: string; importedAt: number }, string>
   wordRecords!: Table<IWordRecord, number>
   chapterRecords!: Table<IChapterRecord, number>
   reviewRecords!: Table<IReviewRecord, number>
@@ -31,6 +45,7 @@ class RecordDB extends Dexie {
       chapterRecords: '++id,timeStamp,dict,chapter,time,[dict+chapter]',
       reviewRecords: '++id,dict,createTime,isFinished',
     })
+    this.version(4).stores(etymologySchema)
   }
 }
 

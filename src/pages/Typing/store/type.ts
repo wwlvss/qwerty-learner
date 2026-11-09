@@ -51,4 +51,5 @@ export type TypingState = {
   isLoopSingleWord: boolean
   // 是否正在保存数据
   isSavingRecord: boolean
+  isEtymologyOpen: boolean
 }

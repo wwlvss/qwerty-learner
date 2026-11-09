@@ -17,6 +17,7 @@ import { BrowserRouter, Navigate, Route, Routes } from 'react-router-dom'
 
 const AnalysisPage = lazy(() => import('./pages/Analysis'))
 const GalleryPage = lazy(() => import('./pages/Gallery-N'))
+const RootLibrary = lazy(() => import('./pages/RootLibrary'))
 
 if (process.env.NODE_ENV === 'production') {
   // for prod
@@ -61,6 +62,8 @@ function Root() {
                 <Route path="/analysis" element={<AnalysisPage />} />
                 <Route path="/error-book" element={<ErrorBook />} />
                 <Route path="/friend-links" element={<FriendLinks />} />
+                <Route path="/roots" element={<RootLibrary />} />
+                <Route path="/roots/:rootId" element={<RootLibrary />} />
                 <Route path="/*" element={<Navigate to="/" />} />
               </>
             )}

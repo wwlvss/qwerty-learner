@@ -51,9 +51,11 @@ export default function WordComponent({ word, onFinish }: { word: Word; onFinish
 
   const [showTipAlert, setShowTipAlert] = useState(false)
   const wordPronunciationIconRef = useRef<WordPronunciationIconRef>(null)
+  const completionSaved = useRef(false)
 
   useEffect(() => {
     // run only when word changes
+    completionSaved.current = false
     let headword = ''
     try {
       headword = word.name.replace(new RegExp(' ', 'g'), EXPLICIT_SPACE)
@@ -75,7 +77,7 @@ export default function WordComponent({ word, onFinish }: { word: Word; onFinish
     (updateAction: WordUpdateAction) => {
       switch (updateAction.type) {
         case 'add':
-          if (wordState.hasWrong) return
+          if (wordState.hasWrong || wordState.isFinished) return
 
           if (updateAction.value === ' ') {
             updateAction.event.preventDefault()
@@ -93,7 +95,7 @@ export default function WordComponent({ word, onFinish }: { word: Word; onFinish
           console.warn('unknown update type', updateAction)
       }
     },
-    [wordState.hasWrong, setWordState],
+    [wordState.hasWrong, wordState.isFinished, setWordState],
   )
 
   const handleHoverWord = useCallback((checked: boolean) => {
@@ -105,7 +107,7 @@ export default function WordComponent({ word, onFinish }: { word: Word; onFinish
     () => {
       handleHoverWord(true)
     },
-    { enableOnFormTags: true, preventDefault: true },
+    { enableOnFormTags: true, preventDefault: true, enabled: !state.isEtymologyOpen },
     [],
   )
 
@@ -114,7 +116,7 @@ export default function WordComponent({ word, onFinish }: { word: Word; onFinish
     () => {
       handleHoverWord(false)
     },
-    { enableOnFormTags: true, keyup: true, preventDefault: true },
+    { enableOnFormTags: true, keyup: true, preventDefault: true, enabled: !state.isEtymologyOpen },
     [],
   )
   useHotkeys(
@@ -125,7 +127,7 @@ export default function WordComponent({ word, onFinish }: { word: Word; onFinish
       }
     },
     [state.isTyping],
-    { enableOnFormTags: true, preventDefault: true },
+    { enableOnFormTags: true, preventDefault: true, enabled: !state.isEtymologyOpen },
   )
 
   useEffect(() => {
@@ -251,7 +253,8 @@ export default function WordComponent({ word, onFinish }: { word: Word; onFinish
   }, [wordState.hasWrong, setWordState])
 
   useEffect(() => {
-    if (wordState.isFinished) {
+    if (wordState.isFinished && !completionSaved.current) {
+      completionSaved.current = true
       dispatch({ type: TypingStateActionType.SET_IS_SAVING_RECORD, payload: true })
 
       // wordLogUploader({
@@ -262,14 +265,12 @@ export default function WordComponent({ word, onFinish }: { word: Word; onFinish
       //   countCorrect: wordState.correctCount,
       //   countTypo: wordState.wrongCount,
       // })
-      saveWordRecord({
+      void saveWordRecord({
         word: word.name,
         wrongCount: wordState.wrongCount,
         letterTimeArray: wordState.letterTimeArray,
         letterMistake: wordState.letterMistake,
-      })
-
-      onFinish()
+      }).then(onFinish)
     }
     // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [wordState.isFinished])

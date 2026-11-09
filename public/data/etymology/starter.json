@@ -1,0 +1,1010 @@
+{
+  "format": "qwerty-etymology",
+  "version": 1,
+  "id": "webster-reviewed-demo-v1",
+  "entries": [
+    {
+      "id": "en:cancel",
+      "wordId": "en:cancel",
+      "normalizedWord": "cancel",
+      "morphologicalAnalysis": [
+        {
+          "kind": "stem",
+          "text": "cancel",
+          "start": 0,
+          "end": 6,
+          "meaning": "历史上与 cancellare 有关；不再强拆",
+          "rootId": "la-cancell"
+        }
+      ],
+      "morphologyNote": "高亮为有资料支持的学习拆解，不表示现代英语仍可自由组合；历史借入路径请看下方。",
+      "originLanguage": "拉丁语",
+      "originalForm": "cancellare ← cancelli",
+      "originalMeaning": "作格栅状、划去 ← 格栅",
+      "historicalEvolution": [
+        "拉丁语 cancelli（格栅）→ cancellare（画交叉线、涂销）",
+        "词典对照古法语 canceler，英语有划去文字、取消等义"
+      ],
+      "etymologyExplanation": "根据所列历史词典整理；未核实精确进入英语的年代，不提供推测日期。",
+      "memoryTip": "用交叉线划掉文字，帮助联想到“取消”。这是辅助联想，不是额外词源证据。",
+      "sources": [
+        {
+          "name": "Webster’s Unabridged Dictionary · Project Gutenberg #29765",
+          "url": "https://raw.githubusercontent.com/GITenberg/Webster-s-Unabridged-Dictionary_29765/master/29765-8.txt",
+          "license": "Public-domain dictionary (US); Project Gutenberg distribution terms; check local law outside US",
+          "originalEntry": "cancel",
+          "evidence": "Etym: [L. cancellare to make like a lattice, to strike or cross out (cf. Fr. canceller, OF. canceler) fr. cancelli lattice, crossbars, dim. of cancer lattice; cf. Gr. Chancel.]",
+          "verificationStatus": "verified"
+        }
+      ],
+      "confidence": 0.9,
+      "verificationStatus": "verified",
+      "updatedAt": "2026-11-09"
+    },
+    {
+      "id": "en:cancellate",
+      "wordId": "en:cancellate",
+      "normalizedWord": "cancellate",
+      "morphologicalAnalysis": [],
+      "morphologyNote": "暂无可靠的逐段构词分析；不根据拼写强行拆解。",
+      "originLanguage": "拉丁语",
+      "originalForm": "cancellatus ← cancellare",
+      "originalMeaning": "格栅状的",
+      "historicalEvolution": [
+        "拉丁语 cancellatus（cancellare 的分词）→ 英语 cancellate",
+        "用于描述网格状或交叉纹理"
+      ],
+      "etymologyExplanation": "根据所列历史词典整理；未核实精确进入英语的年代，不提供推测日期。",
+      "memoryTip": "将 cancel 的“划线”与 cancellate 的网格状纹理联系起来记忆。",
+      "sources": [
+        {
+          "name": "Webster’s Unabridged Dictionary · Project Gutenberg #29765",
+          "url": "https://raw.githubusercontent.com/GITenberg/Webster-s-Unabridged-Dictionary_29765/master/29765-8.txt",
+          "license": "Public-domain dictionary (US); Project Gutenberg distribution terms; check local law outside US",
+          "originalEntry": "cancellate",
+          "evidence": "Etym: [L. cancellatus, p. p. of cancellare, See Cancel, v. t.]",
+          "verificationStatus": "verified"
+        }
+      ],
+      "confidence": 0.9,
+      "verificationStatus": "verified",
+      "updatedAt": "2026-11-09"
+    },
+    {
+      "id": "en:inspect",
+      "wordId": "en:inspect",
+      "normalizedWord": "inspect",
+      "morphologicalAnalysis": [
+        {
+          "kind": "prefix",
+          "text": "in",
+          "start": 0,
+          "end": 2,
+          "meaning": "向内"
+        },
+        {
+          "kind": "root",
+          "text": "spect",
+          "start": 2,
+          "end": 7,
+          "meaning": "看、观察",
+          "rootId": "la-spect"
+        }
+      ],
+      "morphologyNote": "高亮为有资料支持的学习拆解，不表示现代英语仍可自由组合；历史借入路径请看下方。",
+      "originLanguage": "拉丁语",
+      "originalForm": "inspectus ← inspicere",
+      "originalMeaning": "查看、检查",
+      "historicalEvolution": [
+        "拉丁语 in- + specere / spicere，与 inspicere 有关",
+        "inspectus（分词形式）；词典另对照法语 inspecter / 拉丁语 inspectare",
+        "英语中形成仔细检查、正式检验等用法"
+      ],
+      "etymologyExplanation": "根据所列历史词典整理；未核实精确进入英语的年代，不提供推测日期。",
+      "memoryTip": "把 in- 的向内与 spect 的观察联系起来，辅助理解“检查”。",
+      "sources": [
+        {
+          "name": "Webster’s Unabridged Dictionary · Project Gutenberg #29765",
+          "url": "https://raw.githubusercontent.com/GITenberg/Webster-s-Unabridged-Dictionary_29765/master/29765-8.txt",
+          "license": "Public-domain dictionary (US); Project Gutenberg distribution terms; check local law outside US",
+          "originalEntry": "inspect",
+          "evidence": "Etym: [L. inspectus, p. p. of inspicere to inspect; pref. in- in + specere to look at, to view: cf. F. inspecter, fr. L. inspectare, freq. fr. inspicere. See Spy.]",
+          "verificationStatus": "verified"
+        }
+      ],
+      "confidence": 0.9,
+      "verificationStatus": "verified",
+      "updatedAt": "2026-11-09"
+    },
+    {
+      "id": "en:inspection",
+      "wordId": "en:inspection",
+      "normalizedWord": "inspection",
+      "morphologicalAnalysis": [
+        {
+          "kind": "stem",
+          "text": "inspect",
+          "start": 0,
+          "end": 7,
+          "meaning": "与 inspect 同一拉丁语词族",
+          "rootId": "la-spect"
+        },
+        {
+          "kind": "suffix",
+          "text": "ion",
+          "start": 7,
+          "end": 10,
+          "meaning": "名词形式（学习拆解）"
+        }
+      ],
+      "morphologyNote": "高亮为有资料支持的学习拆解，不表示现代英语仍可自由组合；历史借入路径请看下方。",
+      "originLanguage": "拉丁语",
+      "originalForm": "inspectio",
+      "originalMeaning": "仔细查看、检查",
+      "historicalEvolution": [
+        "拉丁语 inspectio；词典对照法语 inspection",
+        "英语中表示检查的过程、正式检验"
+      ],
+      "etymologyExplanation": "根据所列历史词典整理；未核实精确进入英语的年代，不提供推测日期。",
+      "memoryTip": "联系 inspect 与 inspection，记住动词与名词的功能差别。",
+      "sources": [
+        {
+          "name": "Webster’s Unabridged Dictionary · Project Gutenberg #29765",
+          "url": "https://raw.githubusercontent.com/GITenberg/Webster-s-Unabridged-Dictionary_29765/master/29765-8.txt",
+          "license": "Public-domain dictionary (US); Project Gutenberg distribution terms; check local law outside US",
+          "originalEntry": "inspection",
+          "evidence": "Etym: [L. inspectio: cf. F. inspection.]",
+          "verificationStatus": "verified"
+        },
+        {
+          "name": "Webster’s Unabridged Dictionary · Project Gutenberg #29765",
+          "url": "https://raw.githubusercontent.com/GITenberg/Webster-s-Unabridged-Dictionary_29765/master/29765-8.txt",
+          "license": "Public-domain dictionary (US); Project Gutenberg distribution terms; check local law outside US",
+          "originalEntry": "inspect",
+          "evidence": "Etym: [L. inspectus, p. p. of inspicere to inspect; pref. in- in + specere to look at, to view: cf. F. inspecter, fr. L. inspectare, freq. fr. inspicere. See Spy.]",
+          "verificationStatus": "verified"
+        }
+      ],
+      "confidence": 0.9,
+      "verificationStatus": "verified",
+      "updatedAt": "2026-11-09"
+    },
+    {
+      "id": "en:spectator",
+      "wordId": "en:spectator",
+      "normalizedWord": "spectator",
+      "morphologicalAnalysis": [],
+      "morphologyNote": "暂无可靠的逐段构词分析；不根据拼写强行拆解。",
+      "originLanguage": "拉丁语",
+      "originalForm": "spectator",
+      "originalMeaning": "观看者",
+      "historicalEvolution": [
+        "拉丁语 spectator；词典对照法语 spectateur，并参见 spectacle",
+        "英语中表示现场观看者、观众"
+      ],
+      "etymologyExplanation": "根据所列历史词典整理；未核实精确进入英语的年代，不提供推测日期。",
+      "memoryTip": "spect 的观看意象可以联系 spectator（观众）与 inspect（检查）。",
+      "sources": [
+        {
+          "name": "Webster’s Unabridged Dictionary · Project Gutenberg #29765",
+          "url": "https://raw.githubusercontent.com/GITenberg/Webster-s-Unabridged-Dictionary_29765/master/29765-8.txt",
+          "license": "Public-domain dictionary (US); Project Gutenberg distribution terms; check local law outside US",
+          "originalEntry": "spectator",
+          "evidence": "Etym: [L. spectator: cf. F. spectateur. See Spectacle.]",
+          "verificationStatus": "verified"
+        },
+        {
+          "name": "Webster’s Unabridged Dictionary · Project Gutenberg #29765",
+          "url": "https://raw.githubusercontent.com/GITenberg/Webster-s-Unabridged-Dictionary_29765/master/29765-8.txt",
+          "license": "Public-domain dictionary (US); Project Gutenberg distribution terms; check local law outside US",
+          "originalEntry": "spectacle",
+          "evidence": "Etym: [F., fr. L. spectaculum, fr. spectare to look at, to behold, v. intens. fr. specere. See Spy.]",
+          "verificationStatus": "verified"
+        }
+      ],
+      "confidence": 0.9,
+      "verificationStatus": "verified",
+      "updatedAt": "2026-11-09"
+    },
+    {
+      "id": "en:spectacle",
+      "wordId": "en:spectacle",
+      "normalizedWord": "spectacle",
+      "morphologicalAnalysis": [],
+      "morphologyNote": "暂无可靠的逐段构词分析；不根据拼写强行拆解。",
+      "originLanguage": "拉丁语",
+      "originalForm": "spectaculum ← spectare ← specere",
+      "originalMeaning": "可观看的事物、景象",
+      "historicalEvolution": [
+        "拉丁语 specere → spectare → spectaculum",
+        "经法语相关形式，英语中表示景象；复数也用于眼镜"
+      ],
+      "etymologyExplanation": "根据所列历史词典整理；未核实精确进入英语的年代，不提供推测日期。",
+      "memoryTip": "把 spectacle 的景象与“看”联系起来，注意不要靠拼写推断其他词。",
+      "sources": [
+        {
+          "name": "Webster’s Unabridged Dictionary · Project Gutenberg #29765",
+          "url": "https://raw.githubusercontent.com/GITenberg/Webster-s-Unabridged-Dictionary_29765/master/29765-8.txt",
+          "license": "Public-domain dictionary (US); Project Gutenberg distribution terms; check local law outside US",
+          "originalEntry": "spectacle",
+          "evidence": "Etym: [F., fr. L. spectaculum, fr. spectare to look at, to behold, v. intens. fr. specere. See Spy.]",
+          "verificationStatus": "verified"
+        }
+      ],
+      "confidence": 0.9,
+      "verificationStatus": "verified",
+      "updatedAt": "2026-11-09"
+    },
+    {
+      "id": "en:respect",
+      "wordId": "en:respect",
+      "normalizedWord": "respect",
+      "morphologicalAnalysis": [
+        {
+          "kind": "prefix",
+          "text": "re",
+          "start": 0,
+          "end": 2,
+          "meaning": "回、再"
+        },
+        {
+          "kind": "root",
+          "text": "spect",
+          "start": 2,
+          "end": 7,
+          "meaning": "看、关注",
+          "rootId": "la-spect"
+        }
+      ],
+      "morphologyNote": "高亮为有资料支持的学习拆解，不表示现代英语仍可自由组合；历史借入路径请看下方。",
+      "originLanguage": "拉丁语",
+      "originalForm": "respectare ← respicere / respectum",
+      "originalMeaning": "回看、重视",
+      "historicalEvolution": [
+        "拉丁语 re- + specere / spicere，与 respicere、respectare 有关",
+        "词典对照法语 respecter；英语有重视、尊敬等含义"
+      ],
+      "etymologyExplanation": "根据所列历史词典整理；未核实精确进入英语的年代，不提供推测日期。",
+      "memoryTip": "从关注、重视联想到尊重；这是记忆桥梁，不代表精确的历史年代顺序。",
+      "sources": [
+        {
+          "name": "Webster’s Unabridged Dictionary · Project Gutenberg #29765",
+          "url": "https://raw.githubusercontent.com/GITenberg/Webster-s-Unabridged-Dictionary_29765/master/29765-8.txt",
+          "license": "Public-domain dictionary (US); Project Gutenberg distribution terms; check local law outside US",
+          "originalEntry": "respect",
+          "evidence": "Etym: [L. respectare, v. intens. from respicere, respectum, to look back, respect; pref. re- re- + specere, spicere, to look, to view: cf. F. respecter. See Spy, and cf. Respite.]",
+          "verificationStatus": "verified"
+        }
+      ],
+      "confidence": 0.9,
+      "verificationStatus": "verified",
+      "updatedAt": "2026-11-09"
+    },
+    {
+      "id": "en:perspective",
+      "wordId": "en:perspective",
+      "normalizedWord": "perspective",
+      "morphologicalAnalysis": [],
+      "morphologyNote": "暂无可靠的逐段构词分析；不根据拼写强行拆解。",
+      "originLanguage": "拉丁语",
+      "originalForm": "perspicere / perspectum",
+      "originalMeaning": "看穿、透视",
+      "historicalEvolution": [
+        "拉丁语 per- + specere / spicere，形成 perspicere / perspectum",
+        "词典区分形容词与名词路径，名词对照法语 perspective、意大利语 perspettiva 的相关形式",
+        "历史英语涉及视觉、透视；本包不声称穷尽现代“观点”义的演变"
+      ],
+      "etymologyExplanation": "根据所列历史词典整理；未核实精确进入英语的年代，不提供推测日期。",
+      "memoryTip": "将 perspective 与观看的角度联系起来，具体用法仍需结合例句。",
+      "sources": [
+        {
+          "name": "Webster’s Unabridged Dictionary · Project Gutenberg #29765",
+          "url": "https://raw.githubusercontent.com/GITenberg/Webster-s-Unabridged-Dictionary_29765/master/29765-8.txt",
+          "license": "Public-domain dictionary (US); Project Gutenberg distribution terms; check local law outside US",
+          "originalEntry": "perspective",
+          "evidence": "Etym: [L. perspicere, perspectum, to look through; per + spicere, specere, to look: cf. F. perspectif; or from E. perspective, n. See Spy, n.]",
+          "verificationStatus": "verified"
+        }
+      ],
+      "confidence": 0.9,
+      "verificationStatus": "verified",
+      "updatedAt": "2026-11-09"
+    },
+    {
+      "id": "en:transport",
+      "wordId": "en:transport",
+      "normalizedWord": "transport",
+      "morphologicalAnalysis": [
+        {
+          "kind": "prefix",
+          "text": "trans",
+          "start": 0,
+          "end": 5,
+          "meaning": "跨越"
+        },
+        {
+          "kind": "root",
+          "text": "port",
+          "start": 5,
+          "end": 9,
+          "meaning": "携带",
+          "rootId": "la-port"
+        }
+      ],
+      "morphologyNote": "高亮为有资料支持的学习拆解，不表示现代英语仍可自由组合；历史借入路径请看下方。",
+      "originLanguage": "拉丁语",
+      "originalForm": "transportare",
+      "originalMeaning": "跨越地携带",
+      "historicalEvolution": [
+        "拉丁语 trans + portare → transportare；词典对照法语 transporter",
+        "英语中表示把人或物从一处运到另一处"
+      ],
+      "etymologyExplanation": "根据所列历史词典整理；未核实精确进入英语的年代，不提供推测日期。",
+      "memoryTip": "把物品跨地点携带，联想到运输。",
+      "sources": [
+        {
+          "name": "Webster’s Unabridged Dictionary · Project Gutenberg #29765",
+          "url": "https://raw.githubusercontent.com/GITenberg/Webster-s-Unabridged-Dictionary_29765/master/29765-8.txt",
+          "license": "Public-domain dictionary (US); Project Gutenberg distribution terms; check local law outside US",
+          "originalEntry": "transport",
+          "evidence": "Etym: [F. transporter, L. transportare; trans across + portare to carry. See Port bearing, demeanor.]",
+          "verificationStatus": "verified"
+        }
+      ],
+      "confidence": 0.9,
+      "verificationStatus": "verified",
+      "updatedAt": "2026-11-09"
+    },
+    {
+      "id": "en:portable",
+      "wordId": "en:portable",
+      "normalizedWord": "portable",
+      "morphologicalAnalysis": [
+        {
+          "kind": "root",
+          "text": "port",
+          "start": 0,
+          "end": 4,
+          "meaning": "携带",
+          "rootId": "la-port"
+        },
+        {
+          "kind": "suffix",
+          "text": "able",
+          "start": 4,
+          "end": 8,
+          "meaning": "可……的（对应历史 -abilis）"
+        }
+      ],
+      "morphologyNote": "高亮为有资料支持的学习拆解，不表示现代英语仍可自由组合；历史借入路径请看下方。",
+      "originLanguage": "拉丁语",
+      "originalForm": "portabilis ← portare",
+      "originalMeaning": "可携带的",
+      "historicalEvolution": [
+        "拉丁语 portare → portabilis；词典对照法语 portable",
+        "英语中表示可携带、容易搬运"
+      ],
+      "etymologyExplanation": "根据所列历史词典整理；未核实精确进入英语的年代，不提供推测日期。",
+      "memoryTip": "port 的携带与 portable 的便携联系起来。",
+      "sources": [
+        {
+          "name": "Webster’s Unabridged Dictionary · Project Gutenberg #29765",
+          "url": "https://raw.githubusercontent.com/GITenberg/Webster-s-Unabridged-Dictionary_29765/master/29765-8.txt",
+          "license": "Public-domain dictionary (US); Project Gutenberg distribution terms; check local law outside US",
+          "originalEntry": "portable",
+          "evidence": "Etym: [L. portabilis, fr. portare to carry: cf. F. portable. See Port demeanor.]",
+          "verificationStatus": "verified"
+        }
+      ],
+      "confidence": 0.9,
+      "verificationStatus": "verified",
+      "updatedAt": "2026-11-09"
+    },
+    {
+      "id": "en:import",
+      "wordId": "en:import",
+      "normalizedWord": "import",
+      "morphologicalAnalysis": [
+        {
+          "kind": "prefix",
+          "text": "im",
+          "start": 0,
+          "end": 2,
+          "meaning": "向内（in- 的变体）"
+        },
+        {
+          "kind": "root",
+          "text": "port",
+          "start": 2,
+          "end": 6,
+          "meaning": "携带",
+          "rootId": "la-port"
+        }
+      ],
+      "morphologyNote": "高亮为有资料支持的学习拆解，不表示现代英语仍可自由组合；历史借入路径请看下方。",
+      "originLanguage": "拉丁语",
+      "originalForm": "importare",
+      "originalMeaning": "带入",
+      "historicalEvolution": [
+        "拉丁语 im- + portare → importare",
+        "英语中表示从国外带入、进口；词典说明另一些含义经法语 importer"
+      ],
+      "etymologyExplanation": "根据所列历史词典整理；未核实精确进入英语的年代，不提供推测日期。",
+      "memoryTip": "和 export 配对，区分带入与带出。",
+      "sources": [
+        {
+          "name": "Webster’s Unabridged Dictionary · Project Gutenberg #29765",
+          "url": "https://raw.githubusercontent.com/GITenberg/Webster-s-Unabridged-Dictionary_29765/master/29765-8.txt",
+          "license": "Public-domain dictionary (US); Project Gutenberg distribution terms; check local law outside US",
+          "originalEntry": "import",
+          "evidence": "Etym: [L. importare to bring in, to occasion, to cause; pref. im- in + portare to bear. Sense 3 comes through F. importer, from the Latin. See Port demeanor.]",
+          "verificationStatus": "verified"
+        }
+      ],
+      "confidence": 0.9,
+      "verificationStatus": "verified",
+      "updatedAt": "2026-11-09"
+    },
+    {
+      "id": "en:export",
+      "wordId": "en:export",
+      "normalizedWord": "export",
+      "morphologicalAnalysis": [
+        {
+          "kind": "prefix",
+          "text": "ex",
+          "start": 0,
+          "end": 2,
+          "meaning": "向外"
+        },
+        {
+          "kind": "root",
+          "text": "port",
+          "start": 2,
+          "end": 6,
+          "meaning": "携带",
+          "rootId": "la-port"
+        }
+      ],
+      "morphologyNote": "高亮为有资料支持的学习拆解，不表示现代英语仍可自由组合；历史借入路径请看下方。",
+      "originLanguage": "拉丁语",
+      "originalForm": "exportare",
+      "originalMeaning": "带出",
+      "historicalEvolution": [
+        "拉丁语 ex + portare → exportare；词典对照法语 exporter",
+        "英语中表示运往国外、出口"
+      ],
+      "etymologyExplanation": "根据所列历史词典整理；未核实精确进入英语的年代，不提供推测日期。",
+      "memoryTip": "ex- 的向外与 port 的携带，辅助记住出口。",
+      "sources": [
+        {
+          "name": "Webster’s Unabridged Dictionary · Project Gutenberg #29765",
+          "url": "https://raw.githubusercontent.com/GITenberg/Webster-s-Unabridged-Dictionary_29765/master/29765-8.txt",
+          "license": "Public-domain dictionary (US); Project Gutenberg distribution terms; check local law outside US",
+          "originalEntry": "export",
+          "evidence": "Etym: [L. exportare, exportatum; ex out+portare to carry : cf. F. exporter. See Port demeanor.]",
+          "verificationStatus": "verified"
+        }
+      ],
+      "confidence": 0.9,
+      "verificationStatus": "verified",
+      "updatedAt": "2026-11-09"
+    },
+    {
+      "id": "en:construct",
+      "wordId": "en:construct",
+      "normalizedWord": "construct",
+      "morphologicalAnalysis": [
+        {
+          "kind": "prefix",
+          "text": "con",
+          "start": 0,
+          "end": 3,
+          "meaning": "共同、一起"
+        },
+        {
+          "kind": "root",
+          "text": "struct",
+          "start": 3,
+          "end": 9,
+          "meaning": "排列、建造",
+          "rootId": "la-struct"
+        }
+      ],
+      "morphologyNote": "高亮为有资料支持的学习拆解，不表示现代英语仍可自由组合；历史借入路径请看下方。",
+      "originLanguage": "拉丁语",
+      "originalForm": "constructus ← construere",
+      "originalMeaning": "放在一起、建造",
+      "historicalEvolution": [
+        "拉丁语 con- + struere → construere，分词 constructus",
+        "英语中表示将组成部分按顺序放在一起、建造"
+      ],
+      "etymologyExplanation": "根据所列历史词典整理；未核实精确进入英语的年代，不提供推测日期。",
+      "memoryTip": "把材料共同排列起来，联想到构建。",
+      "sources": [
+        {
+          "name": "Webster’s Unabridged Dictionary · Project Gutenberg #29765",
+          "url": "https://raw.githubusercontent.com/GITenberg/Webster-s-Unabridged-Dictionary_29765/master/29765-8.txt",
+          "license": "Public-domain dictionary (US); Project Gutenberg distribution terms; check local law outside US",
+          "originalEntry": "construct",
+          "evidence": "Etym: [L. constructus, p.p. of construere to bring together, to construct; con- + struere to pile up, set in order. See Structure, and cf. Construe.]",
+          "verificationStatus": "verified"
+        }
+      ],
+      "confidence": 0.9,
+      "verificationStatus": "verified",
+      "updatedAt": "2026-11-09"
+    },
+    {
+      "id": "en:structure",
+      "wordId": "en:structure",
+      "normalizedWord": "structure",
+      "morphologicalAnalysis": [],
+      "morphologyNote": "暂无可靠的逐段构词分析；不根据拼写强行拆解。",
+      "originLanguage": "拉丁语",
+      "originalForm": "structura ← struere / structum",
+      "originalMeaning": "排列、建造",
+      "historicalEvolution": [
+        "拉丁语 struere / structum → structura；词典对照法语 structure",
+        "英语中可表示组成部分的安排、结构或建筑物"
+      ],
+      "etymologyExplanation": "根据所列历史词典整理；未核实精确进入英语的年代，不提供推测日期。",
+      "memoryTip": "联系 construct 的构建过程与 structure 的组织结构。",
+      "sources": [
+        {
+          "name": "Webster’s Unabridged Dictionary · Project Gutenberg #29765",
+          "url": "https://raw.githubusercontent.com/GITenberg/Webster-s-Unabridged-Dictionary_29765/master/29765-8.txt",
+          "license": "Public-domain dictionary (US); Project Gutenberg distribution terms; check local law outside US",
+          "originalEntry": "structure",
+          "evidence": "Etym: [L. structura, from struere, structum, to arrange, build, construct; perhaps akin to E. strew: cf. F. structure. Cf. Construe, Destroy, Instrument, Obstruct.]",
+          "verificationStatus": "verified"
+        }
+      ],
+      "confidence": 0.9,
+      "verificationStatus": "verified",
+      "updatedAt": "2026-11-09"
+    }
+  ],
+  "roots": [
+    {
+      "id": "la-spect",
+      "root": "spect",
+      "language": "拉丁语",
+      "meaning": "看、观察",
+      "originalForm": "specere / spicere; spect-",
+      "explanation": "拉丁语词族的学习标签，不等于所有英语词都由现代前后缀直接拼成。",
+      "relatedRootIds": [],
+      "sources": [
+        {
+          "name": "Webster’s Unabridged Dictionary · Project Gutenberg #29765",
+          "url": "https://raw.githubusercontent.com/GITenberg/Webster-s-Unabridged-Dictionary_29765/master/29765-8.txt",
+          "license": "Public-domain dictionary (US); Project Gutenberg distribution terms; check local law outside US",
+          "originalEntry": "inspect",
+          "evidence": "Etym: [L. inspectus, p. p. of inspicere to inspect; pref. in- in + specere to look at, to view: cf. F. inspecter, fr. L. inspectare, freq. fr. inspicere. See Spy.]",
+          "verificationStatus": "verified"
+        },
+        {
+          "name": "Webster’s Unabridged Dictionary · Project Gutenberg #29765",
+          "url": "https://raw.githubusercontent.com/GITenberg/Webster-s-Unabridged-Dictionary_29765/master/29765-8.txt",
+          "license": "Public-domain dictionary (US); Project Gutenberg distribution terms; check local law outside US",
+          "originalEntry": "respect",
+          "evidence": "Etym: [L. respectare, v. intens. from respicere, respectum, to look back, respect; pref. re- re- + specere, spicere, to look, to view: cf. F. respecter. See Spy, and cf. Respite.]",
+          "verificationStatus": "verified"
+        },
+        {
+          "name": "Webster’s Unabridged Dictionary · Project Gutenberg #29765",
+          "url": "https://raw.githubusercontent.com/GITenberg/Webster-s-Unabridged-Dictionary_29765/master/29765-8.txt",
+          "license": "Public-domain dictionary (US); Project Gutenberg distribution terms; check local law outside US",
+          "originalEntry": "perspective",
+          "evidence": "Etym: [L. perspicere, perspectum, to look through; per + spicere, specere, to look: cf. F. perspectif; or from E. perspective, n. See Spy, n.]",
+          "verificationStatus": "verified"
+        },
+        {
+          "name": "Webster’s Unabridged Dictionary · Project Gutenberg #29765",
+          "url": "https://raw.githubusercontent.com/GITenberg/Webster-s-Unabridged-Dictionary_29765/master/29765-8.txt",
+          "license": "Public-domain dictionary (US); Project Gutenberg distribution terms; check local law outside US",
+          "originalEntry": "spectator",
+          "evidence": "Etym: [L. spectator: cf. F. spectateur. See Spectacle.]",
+          "verificationStatus": "verified"
+        },
+        {
+          "name": "Webster’s Unabridged Dictionary · Project Gutenberg #29765",
+          "url": "https://raw.githubusercontent.com/GITenberg/Webster-s-Unabridged-Dictionary_29765/master/29765-8.txt",
+          "license": "Public-domain dictionary (US); Project Gutenberg distribution terms; check local law outside US",
+          "originalEntry": "spectacle",
+          "evidence": "Etym: [F., fr. L. spectaculum, fr. spectare to look at, to behold, v. intens. fr. specere. See Spy.]",
+          "verificationStatus": "verified"
+        }
+      ],
+      "confidence": 0.9,
+      "verificationStatus": "verified"
+    },
+    {
+      "id": "la-port",
+      "root": "port",
+      "language": "拉丁语",
+      "meaning": "携带、运输",
+      "originalForm": "portare",
+      "explanation": "本条对应“携带”的拉丁语词族；不要把表示港口等其他来源的 port 自动归入。",
+      "relatedRootIds": [],
+      "sources": [
+        {
+          "name": "Webster’s Unabridged Dictionary · Project Gutenberg #29765",
+          "url": "https://raw.githubusercontent.com/GITenberg/Webster-s-Unabridged-Dictionary_29765/master/29765-8.txt",
+          "license": "Public-domain dictionary (US); Project Gutenberg distribution terms; check local law outside US",
+          "originalEntry": "transport",
+          "evidence": "Etym: [F. transporter, L. transportare; trans across + portare to carry. See Port bearing, demeanor.]",
+          "verificationStatus": "verified"
+        },
+        {
+          "name": "Webster’s Unabridged Dictionary · Project Gutenberg #29765",
+          "url": "https://raw.githubusercontent.com/GITenberg/Webster-s-Unabridged-Dictionary_29765/master/29765-8.txt",
+          "license": "Public-domain dictionary (US); Project Gutenberg distribution terms; check local law outside US",
+          "originalEntry": "portable",
+          "evidence": "Etym: [L. portabilis, fr. portare to carry: cf. F. portable. See Port demeanor.]",
+          "verificationStatus": "verified"
+        },
+        {
+          "name": "Webster’s Unabridged Dictionary · Project Gutenberg #29765",
+          "url": "https://raw.githubusercontent.com/GITenberg/Webster-s-Unabridged-Dictionary_29765/master/29765-8.txt",
+          "license": "Public-domain dictionary (US); Project Gutenberg distribution terms; check local law outside US",
+          "originalEntry": "import",
+          "evidence": "Etym: [L. importare to bring in, to occasion, to cause; pref. im- in + portare to bear. Sense 3 comes through F. importer, from the Latin. See Port demeanor.]",
+          "verificationStatus": "verified"
+        },
+        {
+          "name": "Webster’s Unabridged Dictionary · Project Gutenberg #29765",
+          "url": "https://raw.githubusercontent.com/GITenberg/Webster-s-Unabridged-Dictionary_29765/master/29765-8.txt",
+          "license": "Public-domain dictionary (US); Project Gutenberg distribution terms; check local law outside US",
+          "originalEntry": "export",
+          "evidence": "Etym: [L. exportare, exportatum; ex out+portare to carry : cf. F. exporter. See Port demeanor.]",
+          "verificationStatus": "verified"
+        }
+      ],
+      "confidence": 0.9,
+      "verificationStatus": "verified"
+    },
+    {
+      "id": "la-struct",
+      "root": "struct",
+      "language": "拉丁语",
+      "meaning": "排列、建造",
+      "originalForm": "struere / structum",
+      "explanation": "struct- 与 struere 的历史形式有关；英语中相同拼写本身不是充分证据。",
+      "relatedRootIds": [],
+      "sources": [
+        {
+          "name": "Webster’s Unabridged Dictionary · Project Gutenberg #29765",
+          "url": "https://raw.githubusercontent.com/GITenberg/Webster-s-Unabridged-Dictionary_29765/master/29765-8.txt",
+          "license": "Public-domain dictionary (US); Project Gutenberg distribution terms; check local law outside US",
+          "originalEntry": "construct",
+          "evidence": "Etym: [L. constructus, p.p. of construere to bring together, to construct; con- + struere to pile up, set in order. See Structure, and cf. Construe.]",
+          "verificationStatus": "verified"
+        },
+        {
+          "name": "Webster’s Unabridged Dictionary · Project Gutenberg #29765",
+          "url": "https://raw.githubusercontent.com/GITenberg/Webster-s-Unabridged-Dictionary_29765/master/29765-8.txt",
+          "license": "Public-domain dictionary (US); Project Gutenberg distribution terms; check local law outside US",
+          "originalEntry": "structure",
+          "evidence": "Etym: [L. structura, from struere, structum, to arrange, build, construct; perhaps akin to E. strew: cf. F. structure. Cf. Construe, Destroy, Instrument, Obstruct.]",
+          "verificationStatus": "verified"
+        }
+      ],
+      "confidence": 0.9,
+      "verificationStatus": "verified"
+    },
+    {
+      "id": "la-cancell",
+      "root": "cancell",
+      "language": "拉丁语",
+      "meaning": "格栅；划线涂销",
+      "originalForm": "cancelli / cancellare",
+      "explanation": "cancel 不拆成 can + cel；本条用历史词干建立关系。",
+      "relatedRootIds": [],
+      "sources": [
+        {
+          "name": "Webster’s Unabridged Dictionary · Project Gutenberg #29765",
+          "url": "https://raw.githubusercontent.com/GITenberg/Webster-s-Unabridged-Dictionary_29765/master/29765-8.txt",
+          "license": "Public-domain dictionary (US); Project Gutenberg distribution terms; check local law outside US",
+          "originalEntry": "cancel",
+          "evidence": "Etym: [L. cancellare to make like a lattice, to strike or cross out (cf. Fr. canceller, OF. canceler) fr. cancelli lattice, crossbars, dim. of cancer lattice; cf. Gr. Chancel.]",
+          "verificationStatus": "verified"
+        },
+        {
+          "name": "Webster’s Unabridged Dictionary · Project Gutenberg #29765",
+          "url": "https://raw.githubusercontent.com/GITenberg/Webster-s-Unabridged-Dictionary_29765/master/29765-8.txt",
+          "license": "Public-domain dictionary (US); Project Gutenberg distribution terms; check local law outside US",
+          "originalEntry": "cancellate",
+          "evidence": "Etym: [L. cancellatus, p. p. of cancellare, See Cancel, v. t.]",
+          "verificationStatus": "verified"
+        }
+      ],
+      "confidence": 0.9,
+      "verificationStatus": "verified"
+    }
+  ],
+  "relations": [
+    {
+      "id": "la-cancell:cancel",
+      "rootId": "la-cancell",
+      "wordId": "en:cancel",
+      "normalizedWord": "cancel",
+      "relationType": "cognate",
+      "explanation": "cancel 的词源记录指向 cancellare ← cancelli；词义为“作格栅状、划去 ← 格栅”。",
+      "sources": [
+        {
+          "name": "Webster’s Unabridged Dictionary · Project Gutenberg #29765",
+          "url": "https://raw.githubusercontent.com/GITenberg/Webster-s-Unabridged-Dictionary_29765/master/29765-8.txt",
+          "license": "Public-domain dictionary (US); Project Gutenberg distribution terms; check local law outside US",
+          "originalEntry": "cancel",
+          "evidence": "Etym: [L. cancellare to make like a lattice, to strike or cross out (cf. Fr. canceller, OF. canceler) fr. cancelli lattice, crossbars, dim. of cancer lattice; cf. Gr. Chancel.]",
+          "verificationStatus": "verified"
+        }
+      ],
+      "verificationStatus": "verified"
+    },
+    {
+      "id": "la-cancell:cancellate",
+      "rootId": "la-cancell",
+      "wordId": "en:cancellate",
+      "normalizedWord": "cancellate",
+      "relationType": "cognate",
+      "explanation": "cancellate 的词源记录指向 cancellatus ← cancellare；词义为“格栅状的”。",
+      "sources": [
+        {
+          "name": "Webster’s Unabridged Dictionary · Project Gutenberg #29765",
+          "url": "https://raw.githubusercontent.com/GITenberg/Webster-s-Unabridged-Dictionary_29765/master/29765-8.txt",
+          "license": "Public-domain dictionary (US); Project Gutenberg distribution terms; check local law outside US",
+          "originalEntry": "cancellate",
+          "evidence": "Etym: [L. cancellatus, p. p. of cancellare, See Cancel, v. t.]",
+          "verificationStatus": "verified"
+        }
+      ],
+      "verificationStatus": "verified"
+    },
+    {
+      "id": "la-spect:inspect",
+      "rootId": "la-spect",
+      "wordId": "en:inspect",
+      "normalizedWord": "inspect",
+      "relationType": "shared_root",
+      "explanation": "inspect 的词源记录指向 inspectus ← inspicere；词义为“查看、检查”。",
+      "sources": [
+        {
+          "name": "Webster’s Unabridged Dictionary · Project Gutenberg #29765",
+          "url": "https://raw.githubusercontent.com/GITenberg/Webster-s-Unabridged-Dictionary_29765/master/29765-8.txt",
+          "license": "Public-domain dictionary (US); Project Gutenberg distribution terms; check local law outside US",
+          "originalEntry": "inspect",
+          "evidence": "Etym: [L. inspectus, p. p. of inspicere to inspect; pref. in- in + specere to look at, to view: cf. F. inspecter, fr. L. inspectare, freq. fr. inspicere. See Spy.]",
+          "verificationStatus": "verified"
+        }
+      ],
+      "verificationStatus": "verified"
+    },
+    {
+      "id": "la-spect:inspection",
+      "rootId": "la-spect",
+      "wordId": "en:inspection",
+      "normalizedWord": "inspection",
+      "relationType": "shared_root",
+      "explanation": "inspection 的词源记录指向 inspectio；词义为“仔细查看、检查”。",
+      "sources": [
+        {
+          "name": "Webster’s Unabridged Dictionary · Project Gutenberg #29765",
+          "url": "https://raw.githubusercontent.com/GITenberg/Webster-s-Unabridged-Dictionary_29765/master/29765-8.txt",
+          "license": "Public-domain dictionary (US); Project Gutenberg distribution terms; check local law outside US",
+          "originalEntry": "inspection",
+          "evidence": "Etym: [L. inspectio: cf. F. inspection.]",
+          "verificationStatus": "verified"
+        },
+        {
+          "name": "Webster’s Unabridged Dictionary · Project Gutenberg #29765",
+          "url": "https://raw.githubusercontent.com/GITenberg/Webster-s-Unabridged-Dictionary_29765/master/29765-8.txt",
+          "license": "Public-domain dictionary (US); Project Gutenberg distribution terms; check local law outside US",
+          "originalEntry": "inspect",
+          "evidence": "Etym: [L. inspectus, p. p. of inspicere to inspect; pref. in- in + specere to look at, to view: cf. F. inspecter, fr. L. inspectare, freq. fr. inspicere. See Spy.]",
+          "verificationStatus": "verified"
+        }
+      ],
+      "verificationStatus": "verified"
+    },
+    {
+      "id": "la-spect:spectator",
+      "rootId": "la-spect",
+      "wordId": "en:spectator",
+      "normalizedWord": "spectator",
+      "relationType": "shared_root",
+      "explanation": "spectator 的词源记录指向 spectator；词义为“观看者”。",
+      "sources": [
+        {
+          "name": "Webster’s Unabridged Dictionary · Project Gutenberg #29765",
+          "url": "https://raw.githubusercontent.com/GITenberg/Webster-s-Unabridged-Dictionary_29765/master/29765-8.txt",
+          "license": "Public-domain dictionary (US); Project Gutenberg distribution terms; check local law outside US",
+          "originalEntry": "spectator",
+          "evidence": "Etym: [L. spectator: cf. F. spectateur. See Spectacle.]",
+          "verificationStatus": "verified"
+        },
+        {
+          "name": "Webster’s Unabridged Dictionary · Project Gutenberg #29765",
+          "url": "https://raw.githubusercontent.com/GITenberg/Webster-s-Unabridged-Dictionary_29765/master/29765-8.txt",
+          "license": "Public-domain dictionary (US); Project Gutenberg distribution terms; check local law outside US",
+          "originalEntry": "spectacle",
+          "evidence": "Etym: [F., fr. L. spectaculum, fr. spectare to look at, to behold, v. intens. fr. specere. See Spy.]",
+          "verificationStatus": "verified"
+        }
+      ],
+      "verificationStatus": "verified"
+    },
+    {
+      "id": "la-spect:spectacle",
+      "rootId": "la-spect",
+      "wordId": "en:spectacle",
+      "normalizedWord": "spectacle",
+      "relationType": "shared_root",
+      "explanation": "spectacle 的词源记录指向 spectaculum ← spectare ← specere；词义为“可观看的事物、景象”。",
+      "sources": [
+        {
+          "name": "Webster’s Unabridged Dictionary · Project Gutenberg #29765",
+          "url": "https://raw.githubusercontent.com/GITenberg/Webster-s-Unabridged-Dictionary_29765/master/29765-8.txt",
+          "license": "Public-domain dictionary (US); Project Gutenberg distribution terms; check local law outside US",
+          "originalEntry": "spectacle",
+          "evidence": "Etym: [F., fr. L. spectaculum, fr. spectare to look at, to behold, v. intens. fr. specere. See Spy.]",
+          "verificationStatus": "verified"
+        }
+      ],
+      "verificationStatus": "verified"
+    },
+    {
+      "id": "la-spect:respect",
+      "rootId": "la-spect",
+      "wordId": "en:respect",
+      "normalizedWord": "respect",
+      "relationType": "cognate",
+      "explanation": "respect 的词源记录指向 respectare ← respicere / respectum；词义为“回看、重视”。",
+      "sources": [
+        {
+          "name": "Webster’s Unabridged Dictionary · Project Gutenberg #29765",
+          "url": "https://raw.githubusercontent.com/GITenberg/Webster-s-Unabridged-Dictionary_29765/master/29765-8.txt",
+          "license": "Public-domain dictionary (US); Project Gutenberg distribution terms; check local law outside US",
+          "originalEntry": "respect",
+          "evidence": "Etym: [L. respectare, v. intens. from respicere, respectum, to look back, respect; pref. re- re- + specere, spicere, to look, to view: cf. F. respecter. See Spy, and cf. Respite.]",
+          "verificationStatus": "verified"
+        }
+      ],
+      "verificationStatus": "verified"
+    },
+    {
+      "id": "la-spect:perspective",
+      "rootId": "la-spect",
+      "wordId": "en:perspective",
+      "normalizedWord": "perspective",
+      "relationType": "cognate",
+      "explanation": "perspective 的词源记录指向 perspicere / perspectum；词义为“看穿、透视”。",
+      "sources": [
+        {
+          "name": "Webster’s Unabridged Dictionary · Project Gutenberg #29765",
+          "url": "https://raw.githubusercontent.com/GITenberg/Webster-s-Unabridged-Dictionary_29765/master/29765-8.txt",
+          "license": "Public-domain dictionary (US); Project Gutenberg distribution terms; check local law outside US",
+          "originalEntry": "perspective",
+          "evidence": "Etym: [L. perspicere, perspectum, to look through; per + spicere, specere, to look: cf. F. perspectif; or from E. perspective, n. See Spy, n.]",
+          "verificationStatus": "verified"
+        }
+      ],
+      "verificationStatus": "verified"
+    },
+    {
+      "id": "la-port:transport",
+      "rootId": "la-port",
+      "wordId": "en:transport",
+      "normalizedWord": "transport",
+      "relationType": "shared_root",
+      "explanation": "transport 的词源记录指向 transportare；词义为“跨越地携带”。",
+      "sources": [
+        {
+          "name": "Webster’s Unabridged Dictionary · Project Gutenberg #29765",
+          "url": "https://raw.githubusercontent.com/GITenberg/Webster-s-Unabridged-Dictionary_29765/master/29765-8.txt",
+          "license": "Public-domain dictionary (US); Project Gutenberg distribution terms; check local law outside US",
+          "originalEntry": "transport",
+          "evidence": "Etym: [F. transporter, L. transportare; trans across + portare to carry. See Port bearing, demeanor.]",
+          "verificationStatus": "verified"
+        }
+      ],
+      "verificationStatus": "verified"
+    },
+    {
+      "id": "la-port:portable",
+      "rootId": "la-port",
+      "wordId": "en:portable",
+      "normalizedWord": "portable",
+      "relationType": "shared_root",
+      "explanation": "portable 的词源记录指向 portabilis ← portare；词义为“可携带的”。",
+      "sources": [
+        {
+          "name": "Webster’s Unabridged Dictionary · Project Gutenberg #29765",
+          "url": "https://raw.githubusercontent.com/GITenberg/Webster-s-Unabridged-Dictionary_29765/master/29765-8.txt",
+          "license": "Public-domain dictionary (US); Project Gutenberg distribution terms; check local law outside US",
+          "originalEntry": "portable",
+          "evidence": "Etym: [L. portabilis, fr. portare to carry: cf. F. portable. See Port demeanor.]",
+          "verificationStatus": "verified"
+        }
+      ],
+      "verificationStatus": "verified"
+    },
+    {
+      "id": "la-port:import",
+      "rootId": "la-port",
+      "wordId": "en:import",
+      "normalizedWord": "import",
+      "relationType": "shared_root",
+      "explanation": "import 的词源记录指向 importare；词义为“带入”。",
+      "sources": [
+        {
+          "name": "Webster’s Unabridged Dictionary · Project Gutenberg #29765",
+          "url": "https://raw.githubusercontent.com/GITenberg/Webster-s-Unabridged-Dictionary_29765/master/29765-8.txt",
+          "license": "Public-domain dictionary (US); Project Gutenberg distribution terms; check local law outside US",
+          "originalEntry": "import",
+          "evidence": "Etym: [L. importare to bring in, to occasion, to cause; pref. im- in + portare to bear. Sense 3 comes through F. importer, from the Latin. See Port demeanor.]",
+          "verificationStatus": "verified"
+        }
+      ],
+      "verificationStatus": "verified"
+    },
+    {
+      "id": "la-port:export",
+      "rootId": "la-port",
+      "wordId": "en:export",
+      "normalizedWord": "export",
+      "relationType": "shared_root",
+      "explanation": "export 的词源记录指向 exportare；词义为“带出”。",
+      "sources": [
+        {
+          "name": "Webster’s Unabridged Dictionary · Project Gutenberg #29765",
+          "url": "https://raw.githubusercontent.com/GITenberg/Webster-s-Unabridged-Dictionary_29765/master/29765-8.txt",
+          "license": "Public-domain dictionary (US); Project Gutenberg distribution terms; check local law outside US",
+          "originalEntry": "export",
+          "evidence": "Etym: [L. exportare, exportatum; ex out+portare to carry : cf. F. exporter. See Port demeanor.]",
+          "verificationStatus": "verified"
+        }
+      ],
+      "verificationStatus": "verified"
+    },
+    {
+      "id": "la-struct:construct",
+      "rootId": "la-struct",
+      "wordId": "en:construct",
+      "normalizedWord": "construct",
+      "relationType": "shared_root",
+      "explanation": "construct 的词源记录指向 constructus ← construere；词义为“放在一起、建造”。",
+      "sources": [
+        {
+          "name": "Webster’s Unabridged Dictionary · Project Gutenberg #29765",
+          "url": "https://raw.githubusercontent.com/GITenberg/Webster-s-Unabridged-Dictionary_29765/master/29765-8.txt",
+          "license": "Public-domain dictionary (US); Project Gutenberg distribution terms; check local law outside US",
+          "originalEntry": "construct",
+          "evidence": "Etym: [L. constructus, p.p. of construere to bring together, to construct; con- + struere to pile up, set in order. See Structure, and cf. Construe.]",
+          "verificationStatus": "verified"
+        }
+      ],
+      "verificationStatus": "verified"
+    },
+    {
+      "id": "la-struct:structure",
+      "rootId": "la-struct",
+      "wordId": "en:structure",
+      "normalizedWord": "structure",
+      "relationType": "cognate",
+      "explanation": "structure 的词源记录指向 structura ← struere / structum；词义为“排列、建造”。",
+      "sources": [
+        {
+          "name": "Webster’s Unabridged Dictionary · Project Gutenberg #29765",
+          "url": "https://raw.githubusercontent.com/GITenberg/Webster-s-Unabridged-Dictionary_29765/master/29765-8.txt",
+          "license": "Public-domain dictionary (US); Project Gutenberg distribution terms; check local law outside US",
+          "originalEntry": "structure",
+          "evidence": "Etym: [L. structura, from struere, structum, to arrange, build, construct; perhaps akin to E. strew: cf. F. structure. Cf. Construe, Destroy, Instrument, Obstruct.]",
+          "verificationStatus": "verified"
+        }
+      ],
+      "verificationStatus": "verified"
+    }
+  ]
+}

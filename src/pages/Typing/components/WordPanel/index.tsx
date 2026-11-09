@@ -5,17 +5,27 @@ import Progress from '../Progress'
 import Phonetic from './components/Phonetic'
 import Translation from './components/Translation'
 import WordComponent from './components/Word'
+import EtymologyDialog from '@/features/etymology/EtymologyDialog'
+import { useEtymologyFeedback } from '@/features/etymology/useEtymologyFeedback'
 import { usePrefetchPronunciationSound } from '@/hooks/usePronunciation'
-import { isReviewModeAtom, isShowPrevAndNextWordAtom, loopWordConfigAtom, phoneticConfigAtom, reviewModeInfoAtom } from '@/store'
+import {
+  currentDictInfoAtom,
+  isReviewModeAtom,
+  isShowPrevAndNextWordAtom,
+  loopWordConfigAtom,
+  phoneticConfigAtom,
+  reviewModeInfoAtom,
+} from '@/store'
 import type { Word } from '@/typings'
 import { useAtomValue, useSetAtom } from 'jotai'
-import { useCallback, useContext, useMemo, useState } from 'react'
+import { useCallback, useContext, useEffect, useMemo, useState } from 'react'
 import { useHotkeys } from 'react-hotkeys-hook'
 
 export default function WordPanel() {
   // eslint-disable-next-line  @typescript-eslint/no-non-null-assertion
   const { state, dispatch } = useContext(TypingContext)!
   const phoneticConfig = useAtomValue(phoneticConfigAtom)
+  const dict = useAtomValue(currentDictInfoAtom)
   const isShowPrevAndNextWord = useAtomValue(isShowPrevAndNextWordAtom)
   const [wordComponentKey, setWordComponentKey] = useState(0)
   const [currentWordExerciseCount, setCurrentWordExerciseCount] = useState(0)
@@ -92,6 +102,7 @@ export default function WordPanel() {
 
   const onSkipWord = useCallback(
     (type: 'prev' | 'next') => {
+      if (state.isEtymologyOpen) return
       if (type === 'prev') {
         dispatch({ type: TypingStateActionType.SKIP_2_WORD_INDEX, newIndex: prevIndex })
       }
@@ -100,7 +111,7 @@ export default function WordPanel() {
         dispatch({ type: TypingStateActionType.SKIP_2_WORD_INDEX, newIndex: nextIndex })
       }
     },
-    [dispatch, prevIndex, nextIndex],
+    [dispatch, prevIndex, nextIndex, state.isEtymologyOpen],
   )
 
   useHotkeys(
@@ -131,7 +142,7 @@ export default function WordPanel() {
     () => {
       handleShowTranslation(true)
     },
-    { enableOnFormTags: true, preventDefault: true },
+    { enableOnFormTags: true, preventDefault: true, enabled: !state.isEtymologyOpen },
     [],
   )
 
@@ -140,7 +151,7 @@ export default function WordPanel() {
     () => {
       handleShowTranslation(false)
     },
-    { enableOnFormTags: true, keyup: true, preventDefault: true },
+    { enableOnFormTags: true, keyup: true, preventDefault: true, enabled: !state.isEtymologyOpen },
     [],
   )
 
@@ -148,10 +159,18 @@ export default function WordPanel() {
     return isShowTranslation || state.isTransVisible
   }, [isShowTranslation, state.isTransVisible])
 
+  const etymology = useEtymologyFeedback(currentWord?.name ?? '', dict.language === 'en', onFinish)
+  useEffect(() => {
+    dispatch({ type: TypingStateActionType.SET_ETYMOLOGY_OPEN, payload: etymology.active })
+    return () => {
+      dispatch({ type: TypingStateActionType.SET_ETYMOLOGY_OPEN, payload: false })
+    }
+  }, [etymology.active, dispatch])
+
   return (
     <div className="container flex h-full w-full flex-col items-center justify-center">
       <div className="container flex h-24 w-full shrink-0 grow-0 justify-between px-12 pt-10">
-        {isShowPrevAndNextWord && state.isTyping && (
+        {isShowPrevAndNextWord && state.isTyping && !etymology.active && (
           <>
             <PrevAndNextWord type="prev" />
             <PrevAndNextWord type="next" />
@@ -161,7 +180,7 @@ export default function WordPanel() {
       <div className="container flex flex-grow flex-col items-center justify-center">
         {currentWord && (
           <div className="relative flex w-full justify-center">
-            {!state.isTyping && (
+            {!state.isTyping && !etymology.active && (
               <div className="absolute flex h-full w-full justify-center">
                 <div className="z-10 flex w-full items-center backdrop-blur-sm">
                   <p className="w-full select-none text-center text-xl text-gray-600 dark:text-gray-50">
@@ -171,7 +190,13 @@ export default function WordPanel() {
               </div>
             )}
             <div className="relative">
-              <WordComponent word={currentWord} onFinish={onFinish} key={wordComponentKey} />
+              <WordComponent
+                word={currentWord}
+                onFinish={() => {
+                  void etymology.complete()
+                }}
+                key={wordComponentKey}
+              />
               {phoneticConfig.isOpen && <Phonetic word={currentWord} />}
               <Translation
                 trans={currentWord.trans.join('；')}
@@ -183,6 +208,30 @@ export default function WordPanel() {
           </div>
         )}
       </div>
+      {dict.language === 'en' && currentWord && (
+        <div className="py-2 text-center text-sm">
+          <button
+            type="button"
+            onClick={etymology.open}
+            disabled={etymology.active}
+            className="text-indigo-500 underline disabled:opacity-50"
+          >
+            查看词源
+          </button>
+          <p role="status" className="mt-1 text-xs text-gray-500">
+            {etymology.notice}
+          </p>
+        </div>
+      )}
+      {etymology.dialog && currentWord && (
+        <EtymologyDialog
+          initialWord={currentWord.name}
+          initialEntry={etymology.dialog.entry}
+          word={currentWord}
+          completion={etymology.dialog.completion}
+          onClose={etymology.close}
+        />
+      )}
       <Progress className={`mb-10 mt-auto ${state.isTyping ? 'opacity-100' : 'opacity-0'}`} />
     </div>
   )

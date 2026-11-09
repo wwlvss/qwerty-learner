@@ -1,5 +1,6 @@
 import styles from './index.module.css'
 import { defaultFontSizeConfig } from '@/constants'
+import EtymologySettings from '@/features/etymology/EtymologySettings'
 import { fontSizeConfigAtom } from '@/store'
 import * as ScrollArea from '@radix-ui/react-scroll-area'
 import * as Slider from '@radix-ui/react-slider'
@@ -37,6 +38,9 @@ export default function ViewSetting() {
     <ScrollArea.Root className="flex-1 select-none overflow-y-auto ">
       <ScrollArea.Viewport className="h-full w-full px-3">
         <div className={styles.tabContent}>
+          <div className={styles.section}>
+            <EtymologySettings />
+          </div>
           <div className={styles.section}>
             <span className={styles.sectionLabel}>字体设置</span>
             <div className={styles.block}>

@@ -78,7 +78,7 @@ const App: React.FC = () => {
   }, [state.chapterData.words])
 
   useEffect(() => {
-    if (!state.isTyping) {
+    if (!state.isTyping && !state.isEtymologyOpen) {
       const onKeyDown = (e: KeyboardEvent) => {
         if (!isLoading && e.key !== 'Enter' && (isLegal(e.key) || e.key === ' ') && !e.altKey && !e.ctrlKey && !e.metaKey) {
           e.preventDefault()
@@ -89,7 +89,7 @@ const App: React.FC = () => {
 
       return () => window.removeEventListener('keydown', onKeyDown)
     }
-  }, [state.isTyping, isLoading, dispatch])
+  }, [state.isTyping, state.isEtymologyOpen, isLoading, dispatch])
 
   useEffect(() => {
     if (words !== undefined) {
@@ -116,13 +116,13 @@ const App: React.FC = () => {
   useEffect(() => {
     // 启动计时器
     let intervalId: number
-    if (state.isTyping) {
+    if (state.isTyping && !state.isEtymologyOpen) {
       intervalId = window.setInterval(() => {
         dispatch({ type: TypingStateActionType.TICK_TIMER })
       }, 1000)
     }
     return () => clearInterval(intervalId)
-  }, [state.isTyping, dispatch])
+  }, [state.isTyping, state.isEtymologyOpen, dispatch])
 
   useConfetti(state.isFinished)
 

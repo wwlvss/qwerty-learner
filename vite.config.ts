@@ -15,6 +15,7 @@ export default defineConfig(async ({ mode }) => {
     return getLastCommit((err, commit) => (err ? 'unknown' : resolve(commit.shortHash)))
   })
   return {
+    base: process.env.REACT_APP_DEPLOY_ENV === 'pages' ? '/qwerty-learner/' : '/',
     plugins: [
       react({ babel: { plugins: [jotaiDebugLabel, jotaiReactRefresh] } }),
       visualizer() as PluginOption,

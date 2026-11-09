@@ -11,14 +11,15 @@ export default function TextAreaHandler({ updateInput }: { updateInput: (updateO
   useEffect(() => {
     if (!textareaRef.current) return
 
-    if (state.isTyping) {
+    if (state.isTyping && !state.isEtymologyOpen) {
       textareaRef.current.focus()
     } else {
       textareaRef.current.blur()
     }
-  }, [state.isTyping])
+  }, [state.isTyping, state.isEtymologyOpen])
 
   const onInput = (e: FormEvent<HTMLTextAreaElement>) => {
+    if (state.isEtymologyOpen) return
     const nativeEvent = e.nativeEvent as InputEvent
     if (!nativeEvent.isComposing && nativeEvent.data !== null) {
       updateInput({ type: 'add', value: nativeEvent.data, event: e })
@@ -32,10 +33,10 @@ export default function TextAreaHandler({ updateInput }: { updateInput: (updateO
   const onBlur = useCallback(() => {
     if (!textareaRef.current) return
 
-    if (state.isTyping) {
+    if (state.isTyping && !state.isEtymologyOpen) {
       textareaRef.current.focus()
     }
-  }, [state.isTyping])
+  }, [state.isTyping, state.isEtymologyOpen])
 
   return (
     <textarea

@@ -12,14 +12,17 @@ export default function StartButton({ isLoading }: { isLoading: boolean }) {
   const randomConfig = useAtomValue(randomConfigAtom)
 
   const onToggleIsTyping = useCallback(() => {
-    !isLoading && dispatch({ type: TypingStateActionType.TOGGLE_IS_TYPING })
-  }, [isLoading, dispatch])
+    !isLoading && !state.isEtymologyOpen && dispatch({ type: TypingStateActionType.TOGGLE_IS_TYPING })
+  }, [isLoading, state.isEtymologyOpen, dispatch])
 
   const onClickRestart = useCallback(() => {
+    if (state.isEtymologyOpen) return
     dispatch({ type: TypingStateActionType.REPEAT_CHAPTER, shouldShuffle: randomConfig.isOpen })
-  }, [dispatch, randomConfig.isOpen])
+  }, [dispatch, randomConfig.isOpen, state.isEtymologyOpen])
 
-  useHotkeys('enter', onToggleIsTyping, { enableOnFormTags: true, preventDefault: true }, [onToggleIsTyping])
+  useHotkeys('enter', onToggleIsTyping, { enableOnFormTags: true, preventDefault: true, enabled: !state.isEtymologyOpen }, [
+    onToggleIsTyping,
+  ])
 
   const [isShowReStartButton, setIsShowReStartButton] = useState(false)
   const { refs, context } = useFloating({

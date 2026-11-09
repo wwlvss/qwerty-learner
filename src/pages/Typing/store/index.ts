@@ -27,6 +27,7 @@ export const initialState: TypingState = {
   isTransVisible: true,
   isLoopSingleWord: false,
   isSavingRecord: false,
+  isEtymologyOpen: false,
 }
 
 export const initialUserInputLog: UserInputLog = {
@@ -37,6 +38,7 @@ export const initialUserInputLog: UserInputLog = {
 }
 
 export enum TypingStateActionType {
+  SET_ETYMOLOGY_OPEN = 'SET_ETYMOLOGY_OPEN',
   SETUP_CHAPTER = 'SETUP_CHAPTER',
   SET_IS_SKIP = 'SET_IS_SKIP',
   SET_IS_TYPING = 'SET_IS_TYPING',
@@ -62,6 +64,7 @@ export enum TypingStateActionType {
 }
 
 export type TypingStateAction =
+  | { type: TypingStateActionType.SET_ETYMOLOGY_OPEN; payload: boolean }
   | { type: TypingStateActionType.SETUP_CHAPTER; payload: { words: WordWithIndex[]; shouldShuffle: boolean; initialIndex?: number } }
   | { type: TypingStateActionType.SET_IS_SKIP; payload: boolean }
   | { type: TypingStateActionType.SET_IS_TYPING; payload: boolean }
@@ -91,6 +94,9 @@ type Dispatch = (action: TypingStateAction) => void
 
 export const typingReducer = (state: TypingState, action: TypingStateAction) => {
   switch (action.type) {
+    case TypingStateActionType.SET_ETYMOLOGY_OPEN:
+      state.isEtymologyOpen = action.payload
+      break
     case TypingStateActionType.SETUP_CHAPTER: {
       const newState = structuredClone(initialState)
       const words = action.payload.shouldShuffle ? shuffle(action.payload.words) : action.payload.words
