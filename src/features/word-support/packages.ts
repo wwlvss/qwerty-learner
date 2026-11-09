@@ -31,6 +31,7 @@ export function validateUsagePackage(input: unknown): UsagePackage {
       throw new Error('短语或例句列表无效')
     for (const phrase of entry.phrases) {
       if (!phrase || typeof phrase !== 'object') throw new Error('短语无效')
+      if (phrase.context !== undefined) text(phrase.context, 80)
       text(phrase.text)
       text(phrase.translation)
       if (!phrase.text.trim()) throw new Error('短语不得为空')
@@ -38,6 +39,7 @@ export function validateUsagePackage(input: unknown): UsagePackage {
     }
     for (const example of entry.examples) {
       if (!example || typeof example !== 'object') throw new Error('例句无效')
+      if (example.context !== undefined) text(example.context, 80)
       text(example.text)
       if (example.translation !== undefined) text(example.translation)
       const { targetStart: start, targetEnd: end } = example

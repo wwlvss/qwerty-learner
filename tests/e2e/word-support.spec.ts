@@ -28,13 +28,14 @@ test('every completed English word shows usage without requiring etymology data'
 
 test('a real independent personal dictionary reuses existing definitions, persists and records separately', async ({ page }) => {
   await page.getByRole('link', { name: '我的词典', exact: true }).click()
+  await page.getByRole('link', { name: '管理自定义词典', exact: true }).click()
   await page.getByLabel('英语单词或短语').fill('maintain')
-  await page.getByRole('button', { name: '添加到我的词典' }).click()
+  await page.getByRole('button', { name: '添加到自定义词典' }).click()
   await expect(page.getByRole('status')).toContainText('已保存')
   await page.reload()
   await expect(page.getByRole('button', { name: '移除 maintain' })).toBeVisible()
   await expect(page.getByText('独立于 CET-4 / CET-6', { exact: false })).toContainText('1 词')
-  await page.getByRole('button', { name: '练习我的词典' }).click()
+  await page.getByRole('button', { name: '练习自定义词典' }).click()
   await expect(page.getByTestId('typing-word')).toHaveText('maintain')
   await page.getByRole('button', { name: '开始', exact: true }).click()
   await page.keyboard.type('maintain', { delay: 35 })
@@ -59,21 +60,21 @@ test('a real independent personal dictionary reuses existing definitions, persis
 })
 
 test('personal dictionary appears alongside CET dictionaries with correct chapters', async ({ page }) => {
-  await page.goto('/my-dictionary')
+  await page.goto('/my-dictionary/custom')
   await page.getByText('批量添加和导入', { exact: true }).click()
   await page.getByLabel('批量单词').fill(Array.from({ length: 21 }, (_, i) => `word${String.fromCharCode(97 + i)}\t测试释义`).join('\n'))
   await page.getByRole('button', { name: '保存批量单词' }).click()
   await expect(page.getByRole('status')).toContainText('批量单词已保存')
   await page.goto('/gallery')
-  const card = page.getByRole('button').filter({ has: page.getByRole('heading', { name: '我的词典', exact: true }) })
+  const card = page.getByRole('button').filter({ has: page.getByRole('heading', { name: '自定义词典', exact: true }) })
   await expect(card).toContainText('21 词')
   await card.click()
   await expect(page.getByRole('dialog')).toContainText('2 章节')
-  await expect(page.getByRole('link', { name: '管理我的词典：添加和导入单词' })).toBeVisible()
+  await expect(page.getByRole('link', { name: '管理自定义词典：添加和导入单词' })).toBeVisible()
 })
 
 test('personal dictionary imports/exports in order, deduplicates and never deletes practice history', async ({ page }) => {
-  await page.goto('/my-dictionary')
+  await page.goto('/my-dictionary/custom')
   const pack = {
     format: 'qwerty-personal-dictionary',
     version: 1,
@@ -84,12 +85,12 @@ test('personal dictionary imports/exports in order, deduplicates and never delet
     ],
   }
   await page
-    .getByLabel('导入我的词典', { exact: true })
+    .getByLabel('导入自定义词典', { exact: true })
     .setInputFiles({ name: 'personal.json', mimeType: 'application/json', buffer: Buffer.from(JSON.stringify(pack)) })
   await expect(page.getByRole('status')).toContainText('已合并导入')
   await expect(page.getByText('独立于 CET-4 / CET-6', { exact: false })).toContainText('2 词')
   const event = page.waitForEvent('download')
-  await page.getByRole('button', { name: '导出我的词典', exact: true }).click()
+  await page.getByRole('button', { name: '导出自定义词典', exact: true }).click()
   const download = await event
   const stream = await download.createReadStream()
   const chunks: Buffer[] = []
@@ -113,15 +114,15 @@ test('personal dictionary imports/exports in order, deduplicates and never delet
 test('empty personal dictionary offers a management link rather than an endless spinner', async ({ page }) => {
   await page.evaluate(() => localStorage.setItem('currentDict', '"personal"'))
   await page.reload()
-  await expect(page.getByText('我的词典目前为空', { exact: true })).toBeVisible()
+  await expect(page.getByText('自定义词典目前为空', { exact: true })).toBeVisible()
   await expect(page.getByRole('link', { name: '添加或导入单词', exact: true })).toBeVisible()
 })
 
 test('local usage packs work for previously unknown words; invalid target spans reject atomically', async ({ page }) => {
-  await page.goto('/my-dictionary')
+  await page.goto('/my-dictionary/custom')
   await page.getByLabel('英语单词或短语').fill('quokka')
   await page.getByLabel('中文释义').fill('短尾矮袋鼠')
-  await page.getByRole('button', { name: '添加到我的词典' }).click()
+  await page.getByRole('button', { name: '添加到自定义词典' }).click()
   await expect(page.getByRole('status')).toContainText('已保存')
   const source = { name: 'Test-owned example', url: 'https://example.org/test', license: 'CC0-1.0', kind: 'original' }
   const pack = {
@@ -145,7 +146,7 @@ test('local usage packs work for previously unknown words; invalid target spans 
     .setInputFiles({ name: 'bad.json', mimeType: 'application/json', buffer: Buffer.from(JSON.stringify(pack)) })
   await expect(page.getByRole('status')).toContainText('例句目标位置')
   await page.reload()
-  await page.getByRole('button', { name: '练习我的词典' }).click()
+  await page.getByRole('button', { name: '练习自定义词典' }).click()
   await expect(page.getByTestId('typing-word')).toHaveText('quokka')
   await page.getByRole('button', { name: '开始', exact: true }).click()
   await page.keyboard.type('quokka', { delay: 35 })
@@ -232,8 +233,8 @@ test('real v4 upgrade keeps existing etymologies, root favorites and word histor
       request.onerror = () => reject(request.error)
     })
   }, fixture)
-  await page.goto('/my-dictionary')
-  await expect(page.getByRole('heading', { name: '我的词典', exact: true })).toBeVisible()
+  await page.goto('/my-dictionary/custom')
+  await expect(page.getByRole('heading', { name: '自定义词典', exact: true })).toBeVisible()
   const restored = await page.evaluate(async (fixture) => {
     const path = '/src/utils/db/index.ts'
     const { db } = await new Function('path', 'return import(path)')(path)
@@ -253,7 +254,7 @@ test('real v4 upgrade keeps existing etymologies, root favorites and word histor
 })
 
 test('bulk plain words reuse dictionary meanings without overwriting supplied definitions', async ({ page }) => {
-  await page.goto('/my-dictionary')
+  await page.goto('/my-dictionary/custom')
   await page.getByText('批量添加和导入', { exact: true }).click()
   await page.getByLabel('批量单词').fill('cancel\nmaintain\t我的专用释义')
   await page.getByRole('button', { name: '保存批量单词' }).click()
@@ -268,11 +269,11 @@ test('bulk plain words reuse dictionary meanings without overwriting supplied de
 })
 
 test('spaces inside a personal phrase are typed normally and only continue after completion', async ({ page }) => {
-  await page.goto('/my-dictionary')
+  await page.goto('/my-dictionary/custom')
   await page.getByLabel('英语单词或短语').fill('take care of')
-  await page.getByRole('button', { name: '添加到我的词典' }).click()
+  await page.getByRole('button', { name: '添加到自定义词典' }).click()
   await expect(page.getByRole('status')).toContainText('已保存')
-  await page.getByRole('button', { name: '练习我的词典' }).click()
+  await page.getByRole('button', { name: '练习自定义词典' }).click()
   await expect(page.getByTestId('typing-word')).toHaveText('take␣care␣of')
   await page.getByRole('button', { name: '开始', exact: true }).click()
   await page.keyboard.type('take care of', { delay: 35 })

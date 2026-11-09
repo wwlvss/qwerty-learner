@@ -4155,17 +4155,66 @@ const indonesianDicts: DictionaryResource[] = [
   },
 ]
 
+// Independent topic dictionaries: separate files, IDs, chapters and learning records.
+const personalLearning: DictionaryResource[] = [
+  {
+    id: 'work-english',
+    name: '工作英语',
+    description: '工作沟通、安排任务、进度汇报；首期 60 词',
+    category: '我的学习词库',
+    tags: ['我的学习词库'],
+    url: '/dicts/work-english.json',
+    length: 60,
+    language: 'en',
+    languageCategory: 'en',
+  },
+  {
+    id: 'agriculture-english',
+    name: '农业专业英语',
+    description: '种植、灌溉、水肥、植保；首期 80 词',
+    category: '我的学习词库',
+    tags: ['我的学习词库'],
+    url: '/dicts/agriculture-english.json',
+    length: 80,
+    language: 'en',
+    languageCategory: 'en',
+  },
+  {
+    id: 'daily-english',
+    name: '日常英语',
+    description: '日常交流、生活表达；首期 40 词',
+    category: '我的学习词库',
+    tags: ['我的学习词库'],
+    url: '/dicts/daily-english.json',
+    length: 40,
+    language: 'en',
+    languageCategory: 'en',
+  },
+  {
+    id: 'business-english',
+    name: '商务英语',
+    description: '会议、邮件、采购、协调；首期 40 词',
+    category: '我的学习词库',
+    tags: ['我的学习词库'],
+    url: '/dicts/business-english.json',
+    length: 40,
+    language: 'en',
+    languageCategory: 'en',
+  },
+]
+
 /**
  * Built-in dictionaries in an array.
  * Why arrays? Because it keeps the order across browsers.
  */
 export const dictionaryResources: DictionaryResource[] = [
+  ...personalLearning,
   {
     id: 'personal',
-    name: '我的词典',
+    name: '自定义词典',
     description: '在本机添加和导入的个人英语词典',
     category: '个人词典',
-    tags: ['我的词典'],
+    tags: ['自定义词典'],
     url: 'personal://words',
     length: 0,
     language: 'en',

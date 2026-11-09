@@ -5,11 +5,13 @@ export interface UsageSource {
   kind: 'original' | 'builtin' | 'tatoeba'
 }
 export interface UsagePhrase {
+  context?: string
   text: string
   translation: string
   source: UsageSource
 }
 export interface UsageExample {
+  context?: string
   text: string
   translation?: string
   targetStart: number

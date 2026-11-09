@@ -45,7 +45,9 @@ def main():
     phrases = {}
     missing = []
     dictionaries = resources()
-    for resource in dictionaries:
+    # Keep lookup definitions from existing dictionaries stable; topic files only fill gaps.
+    topic_ids = {'work-english', 'agriculture-english', 'daily-english', 'business-english'}
+    for resource in sorted(dictionaries, key=lambda resource: resource['id'] in topic_ids):
         path = ROOT / ('public' + resource['url'])
         if not path.is_file():
             missing.append(resource['id'])
@@ -67,11 +69,19 @@ def main():
             entry = usage.setdefault(target, {'normalizedWord': target, 'phrases': [], 'examples': []})
             if len(entry['phrases']) < 6:
                 entry['phrases'].append(data)
-    authored = json.loads((output / 'authored.json').read_text())
-    for entry in authored['entries']:
-        target = usage.setdefault(entry['normalizedWord'], {'normalizedWord': entry['normalizedWord'], 'phrases': [], 'examples': []})
-        target['phrases'] = entry['phrases'] + target['phrases'][:5]
-        target['examples'] = entry['examples']
+    for authored_path in [output / 'authored.json', ROOT / 'public/data/learning-dictionaries/usage.json']:
+        authored = json.loads(authored_path.read_text())
+        for entry in authored['entries']:
+            target = usage.setdefault(entry['normalizedWord'], {'normalizedWord': entry['normalizedWord'], 'phrases': [], 'examples': []})
+            for field in ['phrases', 'examples']:
+                combined = entry[field] + target[field]
+                seen = set()
+                target[field] = []
+                for item in combined:
+                    key = (item['text'], item.get('context'))
+                    if key not in seen:
+                        target[field].append(item)
+                        seen.add(key)
     for name, data in [('catalog', catalog), ('usage', usage)]:
         shards = {letter: {} for letter in list('abcdefghijklmnopqrstuvwxyz') + ['other']}
         for word, entry in sorted(data.items()):

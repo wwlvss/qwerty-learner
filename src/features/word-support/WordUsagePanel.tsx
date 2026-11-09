@@ -1,5 +1,7 @@
 import { getWordUsage } from './repository'
 import type { UsageSource, WordUsage } from './types'
+import { currentDictIdAtom } from '@/store'
+import { useAtomValue } from 'jotai'
 import { useEffect, useState } from 'react'
 
 function SourceLabel({ source }: { source: UsageSource }) {
@@ -22,6 +24,7 @@ function SourceLabel({ source }: { source: UsageSource }) {
   )
 }
 export default function WordUsagePanel({ word }: { word: string }) {
+  const dictId = useAtomValue(currentDictIdAtom)
   const [data, setData] = useState<WordUsage>()
   const [loading, setLoading] = useState(true)
   useEffect(() => {
@@ -42,6 +45,8 @@ export default function WordUsagePanel({ word }: { word: string }) {
       active = false
     }
   }, [word])
+  const phrases = [...(data?.phrases ?? [])].sort((a, b) => Number(b.context === dictId) - Number(a.context === dictId))
+  const examples = [...(data?.examples ?? [])].sort((a, b) => Number(b.context === dictId) - Number(a.context === dictId))
   return (
     <div
       className="mb-4 space-y-3 border-b border-gray-100 pb-4 text-gray-700 dark:border-gray-700 dark:text-gray-200"
@@ -53,7 +58,7 @@ export default function WordUsagePanel({ word }: { word: string }) {
           <p className="text-sm text-gray-500">读取本地短语…</p>
         ) : data?.phrases.length ? (
           <ul className="mt-2 space-y-2 text-sm">
-            {data.phrases.slice(0, 3).map((phrase, index) => (
+            {phrases.slice(0, 3).map((phrase, index) => (
               <li key={`${phrase.text}-${index}`}>
                 <strong>{phrase.text}</strong> · {phrase.translation}
                 <SourceLabel source={phrase.source} />
@@ -70,7 +75,7 @@ export default function WordUsagePanel({ word }: { word: string }) {
           <p className="text-sm text-gray-500">读取本地例句…</p>
         ) : data?.examples.length ? (
           <ul className="mt-2 space-y-3 text-sm">
-            {data.examples.slice(0, 2).map((example, index) => (
+            {examples.slice(0, 2).map((example, index) => (
               <li key={index}>
                 <p>
                   {example.text.slice(0, example.targetStart)}

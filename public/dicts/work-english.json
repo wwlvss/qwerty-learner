@@ -1,0 +1,482 @@
+[
+  {
+    "name": "schedule",
+    "trans": [
+      "日程；安排"
+    ],
+    "usphone": "ˈskedʒʊl; skɛdʒʊl",
+    "ukphone": "'ʃedjuːl"
+  },
+  {
+    "name": "task",
+    "trans": [
+      "任务"
+    ],
+    "usphone": "tɑːsk",
+    "ukphone": "tæsk"
+  },
+  {
+    "name": "deadline",
+    "trans": [
+      "截止时间"
+    ],
+    "usphone": "ˈdedlaɪn",
+    "ukphone": "'dedlaɪn"
+  },
+  {
+    "name": "report",
+    "trans": [
+      "汇报；报告"
+    ],
+    "usphone": "rɪˈpɔːt",
+    "ukphone": "rɪˈpɔːrt"
+  },
+  {
+    "name": "update",
+    "trans": [
+      "更新；最新情况"
+    ],
+    "usphone": ",ʌp'det",
+    "ukphone": "ˌʌp'deɪt"
+  },
+  {
+    "name": "confirm",
+    "trans": [
+      "确认"
+    ],
+    "usphone": "kən'fɝm",
+    "ukphone": "kən'fɜːm"
+  },
+  {
+    "name": "arrange",
+    "trans": [
+      "安排"
+    ],
+    "usphone": "ə'rendʒ",
+    "ukphone": "ə'reɪndʒ"
+  },
+  {
+    "name": "assign",
+    "trans": [
+      "指派；分配"
+    ],
+    "usphone": "ə'saɪn",
+    "ukphone": "ə'saɪn"
+  },
+  {
+    "name": "follow up",
+    "trans": [
+      "跟进"
+    ],
+    "usphone": "",
+    "ukphone": ""
+  },
+  {
+    "name": "coordinate",
+    "trans": [
+      "协调"
+    ],
+    "usphone": "ko'ɔrdɪnet",
+    "ukphone": "kəʊ'ɔ:dɪneɪt"
+  },
+  {
+    "name": "priority",
+    "trans": [
+      "优先事项"
+    ],
+    "usphone": "praɪ'ɔrəti",
+    "ukphone": "praɪ'ɒrəti"
+  },
+  {
+    "name": "progress",
+    "trans": [
+      "进展"
+    ],
+    "usphone": "ˈprəʊɡres , prəˈɡres",
+    "ukphone": "ˈprɑːɡres , prəˈɡres"
+  },
+  {
+    "name": "issue",
+    "trans": [
+      "问题；待办事项"
+    ],
+    "usphone": "'ɪʃu",
+    "ukphone": "'ɪʃu:"
+  },
+  {
+    "name": "resolve",
+    "trans": [
+      "解决"
+    ],
+    "usphone": "rɪ'zɑlv",
+    "ukphone": "rɪ'zɒlv"
+  },
+  {
+    "name": "review",
+    "trans": [
+      "审查；回顾"
+    ],
+    "usphone": "rɪˈvjuː",
+    "ukphone": "rɪˈvjuː"
+  },
+  {
+    "name": "approve",
+    "trans": [
+      "批准"
+    ],
+    "usphone": "ə'prʊv",
+    "ukphone": "ə'pruːv"
+  },
+  {
+    "name": "revise",
+    "trans": [
+      "修订"
+    ],
+    "usphone": "rɪ'vaɪz",
+    "ukphone": "rɪ'vaɪz"
+  },
+  {
+    "name": "submit",
+    "trans": [
+      "提交"
+    ],
+    "usphone": "səb'mɪt",
+    "ukphone": "səb'mɪt"
+  },
+  {
+    "name": "complete",
+    "trans": [
+      "完成"
+    ],
+    "usphone": "kəmˈpliːt",
+    "ukphone": "kəmˈpliːt"
+  },
+  {
+    "name": "prepare",
+    "trans": [
+      "准备"
+    ],
+    "usphone": "prɪ'pɛr",
+    "ukphone": "prɪ'peə"
+  },
+  {
+    "name": "attend",
+    "trans": [
+      "参加"
+    ],
+    "usphone": "əˈtend",
+    "ukphone": "əˈtend"
+  },
+  {
+    "name": "discuss",
+    "trans": [
+      "讨论"
+    ],
+    "usphone": "dɪˈskʌs",
+    "ukphone": "dɪˈskʌs"
+  },
+  {
+    "name": "notify",
+    "trans": [
+      "通知"
+    ],
+    "usphone": "'notə'fai",
+    "ukphone": "'nəutɪfaɪ"
+  },
+  {
+    "name": "clarify",
+    "trans": [
+      "澄清；说明"
+    ],
+    "usphone": "'klærəfaɪ",
+    "ukphone": "'klærəfaɪ"
+  },
+  {
+    "name": "check",
+    "trans": [
+      "检查；核对"
+    ],
+    "usphone": "tʃek",
+    "ukphone": "tʃek"
+  },
+  {
+    "name": "respond",
+    "trans": [
+      "回复"
+    ],
+    "usphone": "rɪ'spɑnd",
+    "ukphone": "rɪ'spɒnd"
+  },
+  {
+    "name": "remind",
+    "trans": [
+      "提醒"
+    ],
+    "usphone": "rɪ'maɪnd",
+    "ukphone": "rɪ'maɪnd"
+  },
+  {
+    "name": "availability",
+    "trans": [
+      "可用时间；可用性"
+    ],
+    "usphone": "əˌveɪləˈbɪləti",
+    "ukphone": "əˌveɪləˈbɪləti"
+  },
+  {
+    "name": "workload",
+    "trans": [
+      "工作量"
+    ],
+    "usphone": "ˈwɜːkləʊd",
+    "ukphone": "ˈwɜːrkloʊd"
+  },
+  {
+    "name": "meeting",
+    "trans": [
+      "工作会议"
+    ],
+    "usphone": "ˈmiːtɪŋ",
+    "ukphone": "ˈmiːtɪŋ"
+  },
+  {
+    "name": "agenda",
+    "trans": [
+      "会议议程"
+    ],
+    "usphone": "ə'dʒɛndə",
+    "ukphone": "ə'dʒendə"
+  },
+  {
+    "name": "minutes",
+    "trans": [
+      "会议纪要"
+    ],
+    "usphone": "'mɪnɪts",
+    "ukphone": "'mɪnɪts"
+  },
+  {
+    "name": "summary",
+    "trans": [
+      "摘要；总结"
+    ],
+    "usphone": "'sʌməri",
+    "ukphone": "'sʌməri"
+  },
+  {
+    "name": "action item",
+    "trans": [
+      "行动事项；待办事项"
+    ],
+    "usphone": "",
+    "ukphone": ""
+  },
+  {
+    "name": "status",
+    "trans": [
+      "状态"
+    ],
+    "usphone": "ˈstetəs",
+    "ukphone": "'steɪtəs"
+  },
+  {
+    "name": "responsibility",
+    "trans": [
+      "职责；责任"
+    ],
+    "usphone": "rɪˌspɑːnsəˈbɪləti",
+    "ukphone": "rɪˌspɒnsə'bɪləti"
+  },
+  {
+    "name": "deliverable",
+    "trans": [
+      "需交付的成果"
+    ],
+    "usphone": "",
+    "ukphone": ""
+  },
+  {
+    "name": "milestone",
+    "trans": [
+      "里程碑；阶段目标"
+    ],
+    "usphone": "ˈmaɪlstəʊn",
+    "ukphone": "ˈmaɪlstoʊn"
+  },
+  {
+    "name": "timeline",
+    "trans": [
+      "时间安排"
+    ],
+    "usphone": "",
+    "ukphone": ""
+  },
+  {
+    "name": "constraint",
+    "trans": [
+      "限制条件"
+    ],
+    "usphone": "kənˈstreɪnt",
+    "ukphone": "kənˈstreɪnt"
+  },
+  {
+    "name": "dependency",
+    "trans": [
+      "依赖关系"
+    ],
+    "usphone": "dɪˈpendənsi",
+    "ukphone": "dɪˈpendənsi"
+  },
+  {
+    "name": "feedback",
+    "trans": [
+      "反馈"
+    ],
+    "usphone": "'fidbæk",
+    "ukphone": "'fiːdbæk"
+  },
+  {
+    "name": "handover",
+    "trans": [
+      "交接"
+    ],
+    "usphone": "",
+    "ukphone": ""
+  },
+  {
+    "name": "overtime",
+    "trans": [
+      "加班"
+    ],
+    "usphone": "ˈəʊvətaɪm",
+    "ukphone": "ˈoʊvərtaɪm"
+  },
+  {
+    "name": "leave",
+    "trans": [
+      "休假"
+    ],
+    "usphone": "liːv",
+    "ukphone": "liːv"
+  },
+  {
+    "name": "on leave",
+    "trans": [
+      "正在休假"
+    ],
+    "usphone": "",
+    "ukphone": ""
+  },
+  {
+    "name": "work remotely",
+    "trans": [
+      "远程工作"
+    ],
+    "usphone": "",
+    "ukphone": ""
+  },
+  {
+    "name": "on site",
+    "trans": [
+      "在现场"
+    ],
+    "usphone": "",
+    "ukphone": ""
+  },
+  {
+    "name": "urgent",
+    "trans": [
+      "紧急的"
+    ],
+    "usphone": "'ɝdʒənt",
+    "ukphone": "'ɜːdʒənt"
+  },
+  {
+    "name": "pending",
+    "trans": [
+      "待处理的"
+    ],
+    "usphone": "ˈpendɪŋ",
+    "ukphone": "ˈpendɪŋ"
+  },
+  {
+    "name": "delay",
+    "trans": [
+      "延误"
+    ],
+    "usphone": "dɪˈleɪ",
+    "ukphone": "dɪˈleɪ"
+  },
+  {
+    "name": "risk",
+    "trans": [
+      "风险"
+    ],
+    "usphone": "rɪsk",
+    "ukphone": "rɪsk"
+  },
+  {
+    "name": "goal",
+    "trans": [
+      "目标"
+    ],
+    "usphone": "ɡəʊl",
+    "ukphone": "ɡoʊl"
+  },
+  {
+    "name": "objective",
+    "trans": [
+      "具体目标"
+    ],
+    "usphone": "əb'dʒɛktɪv",
+    "ukphone": "əb'dʒektɪv"
+  },
+  {
+    "name": "resource",
+    "trans": [
+      "资源"
+    ],
+    "usphone": "'risɔrs",
+    "ukphone": "rɪ'sɔːs; rɪ'zɔːs"
+  },
+  {
+    "name": "budget",
+    "trans": [
+      "预算"
+    ],
+    "usphone": "'bʌdʒɪt",
+    "ukphone": "'bʌdʒɪt"
+  },
+  {
+    "name": "quality",
+    "trans": [
+      "质量"
+    ],
+    "usphone": "ˈkwɒləti",
+    "ukphone": "ˈkwɑːləti"
+  },
+  {
+    "name": "performance",
+    "trans": [
+      "工作表现；性能"
+    ],
+    "usphone": "pɚ'fɔrməns",
+    "ukphone": "pə'fɔːməns"
+  },
+  {
+    "name": "procedure",
+    "trans": [
+      "程序；操作流程"
+    ],
+    "usphone": "prə'sidʒɚ",
+    "ukphone": "prə'siːdʒə"
+  },
+  {
+    "name": "record",
+    "trans": [
+      "记录"
+    ],
+    "usphone": "ˈrekɔːd , rɪˈkɔːd",
+    "ukphone": "ˈrekərd , rɪˈkɔːrd"
+  }
+]

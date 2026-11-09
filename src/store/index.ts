@@ -34,6 +34,7 @@ export const currentDictInfoAtom = atom<Dictionary>((get) => {
 })
 
 export const currentChapterAtom = atomWithStorage('currentChapter', 0)
+export const learningDictionaryChaptersAtom = atomWithStorage<Record<string, number>>('learningDictionaryChapters', {})
 
 export const loopWordConfigAtom = atomForConfig<{ times: LoopWordTimesOption }>('loopWordConfig', {
   times: 1,

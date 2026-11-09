@@ -153,8 +153,8 @@ const App: React.FC = () => {
             <div className="container flex flex-grow items-center justify-center">
               {isLoading && currentDictId === 'personal' && !wordListLoading ? (
                 <div className="text-center text-gray-500">
-                  <p>我的词典目前为空</p>
-                  <Link to="/my-dictionary" className="text-indigo-500 underline">
+                  <p>自定义词典目前为空</p>
+                  <Link to="/my-dictionary/custom" className="text-indigo-500 underline">
                     添加或导入单词
                   </Link>
                 </div>

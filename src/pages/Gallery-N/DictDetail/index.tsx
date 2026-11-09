@@ -74,8 +74,8 @@ export default function DictDetail({ dictionary: dict }: { dictionary: Dictionar
         <p>共 {dict.length} 词</p>
         <p>{dict.description}</p>
         {dict.id === 'personal' && (
-          <Link to="/my-dictionary" className="text-indigo-500 underline">
-            管理我的词典：添加和导入单词
+          <Link to="/my-dictionary/custom" className="text-indigo-500 underline">
+            管理自定义词典：添加和导入单词
           </Link>
         )}
         <div className="absolute bottom-5 right-4">
