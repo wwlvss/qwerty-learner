@@ -4,6 +4,7 @@ export const learningPreferencesAtom = atomForConfig('learningPreferences', {
   simpleLayout: true,
   hideTranslationsInDictation: true,
   showDefinitions: true,
+  showSynonyms: true,
   showPhrases: true,
   showExamples: true,
   showEtymology: true,

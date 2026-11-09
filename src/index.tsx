@@ -22,6 +22,8 @@ const GalleryPage = lazy(() => import('./pages/Gallery-N'))
 const MyDictionary = lazy(() => import('./pages/MyDictionary'))
 const CustomDictionary = lazy(() => import('./pages/MyDictionary/CustomDictionary'))
 const UnfamiliarWords = lazy(() => import('./pages/UnfamiliarWords'))
+const ProjectProgress = lazy(() => import('./pages/ProjectProgress'))
+const FarmEnglish = lazy(() => import('./pages/FarmEnglish'))
 const RootLibrary = lazy(() => import('./pages/RootLibrary'))
 
 if (process.env.NODE_ENV === 'production') {
@@ -53,6 +55,8 @@ function Root() {
             <Route path="/my-dictionary" element={<MyDictionary />} />
             <Route path="/my-dictionary/custom" element={<CustomDictionary />} />
             <Route path="/unfamiliar" element={<UnfamiliarWords />} />
+            <Route path="/progress" element={<ProjectProgress />} />
+            <Route path="/farm" element={<FarmEnglish />} />
             <Route path="/roots" element={<RootLibrary />} />
             <Route path="/roots/:rootId" element={<RootLibrary />} />
             <Route path="/*" element={<Navigate to="/" />} />

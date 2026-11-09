@@ -1,0 +1,4901 @@
+{
+  "format": "qwerty-word-usage",
+  "version": 1,
+  "entries": [
+    {
+      "normalizedWord": "timesheet",
+      "phrases": [],
+      "examples": [
+        {
+          "text": "Please complete your timesheet before leaving.",
+          "translation": "请下班前填写工时表。",
+          "targetStart": 21,
+          "targetEnd": 30,
+          "source": {
+            "name": "龙潭农场英语学习资料_词根词缀与蓝莓生产QA扩展版(1).xlsx · 用户学习资料",
+            "url": "https://github.com/wwlvss/qwerty-learner/blob/master/docs/personal-learning/farm-english.md",
+            "license": "用户提供的学习资料；原文未声明开放许可",
+            "kind": "user"
+          },
+          "context": "farm-english"
+        }
+      ]
+    },
+    {
+      "normalizedWord": "work category",
+      "phrases": [
+        {
+          "text": "work category",
+          "translation": "工作分类",
+          "source": {
+            "name": "龙潭农场英语学习资料_词根词缀与蓝莓生产QA扩展版(1).xlsx · 用户学习资料",
+            "url": "https://github.com/wwlvss/qwerty-learner/blob/master/docs/personal-learning/farm-english.md",
+            "license": "用户提供的学习资料；原文未声明开放许可",
+            "kind": "user"
+          },
+          "context": "farm-english"
+        }
+      ],
+      "examples": [
+        {
+          "text": "Select the correct work category.",
+          "translation": "选择正确的工作分类。",
+          "targetStart": 19,
+          "targetEnd": 32,
+          "source": {
+            "name": "龙潭农场英语学习资料_词根词缀与蓝莓生产QA扩展版(1).xlsx · 用户学习资料",
+            "url": "https://github.com/wwlvss/qwerty-learner/blob/master/docs/personal-learning/farm-english.md",
+            "license": "用户提供的学习资料；原文未声明开放许可",
+            "kind": "user"
+          },
+          "context": "farm-english"
+        },
+        {
+          "text": "Which work category should we use for this task?",
+          "translation": "这项工作应该使用哪个工时类别？",
+          "targetStart": 6,
+          "targetEnd": 19,
+          "source": {
+            "name": "龙潭农场英语学习资料_词根词缀与蓝莓生产QA扩展版(1).xlsx · 用户学习资料",
+            "url": "https://github.com/wwlvss/qwerty-learner/blob/master/docs/personal-learning/farm-english.md",
+            "license": "用户提供的学习资料；原文未声明开放许可",
+            "kind": "user"
+          },
+          "context": "farm-english"
+        }
+      ]
+    },
+    {
+      "normalizedWord": "labor hours",
+      "phrases": [
+        {
+          "text": "labor hours",
+          "translation": "人工工时",
+          "source": {
+            "name": "龙潭农场英语学习资料_词根词缀与蓝莓生产QA扩展版(1).xlsx · 用户学习资料",
+            "url": "https://github.com/wwlvss/qwerty-learner/blob/master/docs/personal-learning/farm-english.md",
+            "license": "用户提供的学习资料；原文未声明开放许可",
+            "kind": "user"
+          },
+          "context": "farm-english"
+        }
+      ],
+      "examples": [
+        {
+          "text": "We need to verify the labor hours.",
+          "translation": "我们需要核实人工工时。",
+          "targetStart": 22,
+          "targetEnd": 33,
+          "source": {
+            "name": "龙潭农场英语学习资料_词根词缀与蓝莓生产QA扩展版(1).xlsx · 用户学习资料",
+            "url": "https://github.com/wwlvss/qwerty-learner/blob/master/docs/personal-learning/farm-english.md",
+            "license": "用户提供的学习资料；原文未声明开放许可",
+            "kind": "user"
+          },
+          "context": "farm-english"
+        }
+      ]
+    },
+    {
+      "normalizedWord": "piece rate",
+      "phrases": [
+        {
+          "text": "piece rate",
+          "translation": "计件单价",
+          "source": {
+            "name": "龙潭农场英语学习资料_词根词缀与蓝莓生产QA扩展版(1).xlsx · 用户学习资料",
+            "url": "https://github.com/wwlvss/qwerty-learner/blob/master/docs/personal-learning/farm-english.md",
+            "license": "用户提供的学习资料；原文未声明开放许可",
+            "kind": "user"
+          },
+          "context": "farm-english"
+        }
+      ],
+      "examples": [
+        {
+          "text": "The piece rate needs approval.",
+          "translation": "计件单价需要审批。",
+          "targetStart": 4,
+          "targetEnd": 14,
+          "source": {
+            "name": "龙潭农场英语学习资料_词根词缀与蓝莓生产QA扩展版(1).xlsx · 用户学习资料",
+            "url": "https://github.com/wwlvss/qwerty-learner/blob/master/docs/personal-learning/farm-english.md",
+            "license": "用户提供的学习资料；原文未声明开放许可",
+            "kind": "user"
+          },
+          "context": "farm-english"
+        },
+        {
+          "text": "The current piece rate should be reviewed based on actual productivity.",
+          "translation": "当前计件单价应根据实际效率复核。",
+          "targetStart": 12,
+          "targetEnd": 22,
+          "source": {
+            "name": "龙潭农场英语学习资料_词根词缀与蓝莓生产QA扩展版(1).xlsx · 用户学习资料",
+            "url": "https://github.com/wwlvss/qwerty-learner/blob/master/docs/personal-learning/farm-english.md",
+            "license": "用户提供的学习资料；原文未声明开放许可",
+            "kind": "user"
+          },
+          "context": "farm-english"
+        }
+      ]
+    },
+    {
+      "normalizedWord": "piecework",
+      "phrases": [],
+      "examples": [
+        {
+          "text": "This task is paid by piecework.",
+          "translation": "这项工作按件计酬。",
+          "targetStart": 21,
+          "targetEnd": 30,
+          "source": {
+            "name": "龙潭农场英语学习资料_词根词缀与蓝莓生产QA扩展版(1).xlsx · 用户学习资料",
+            "url": "https://github.com/wwlvss/qwerty-learner/blob/master/docs/personal-learning/farm-english.md",
+            "license": "用户提供的学习资料；原文未声明开放许可",
+            "kind": "user"
+          },
+          "context": "farm-english"
+        }
+      ]
+    },
+    {
+      "normalizedWord": "attendance record",
+      "phrases": [
+        {
+          "text": "attendance record",
+          "translation": "考勤记录",
+          "source": {
+            "name": "龙潭农场英语学习资料_词根词缀与蓝莓生产QA扩展版(1).xlsx · 用户学习资料",
+            "url": "https://github.com/wwlvss/qwerty-learner/blob/master/docs/personal-learning/farm-english.md",
+            "license": "用户提供的学习资料；原文未声明开放许可",
+            "kind": "user"
+          },
+          "context": "farm-english"
+        }
+      ],
+      "examples": [
+        {
+          "text": "Check the attendance record first.",
+          "translation": "先核对考勤记录。",
+          "targetStart": 10,
+          "targetEnd": 27,
+          "source": {
+            "name": "龙潭农场英语学习资料_词根词缀与蓝莓生产QA扩展版(1).xlsx · 用户学习资料",
+            "url": "https://github.com/wwlvss/qwerty-learner/blob/master/docs/personal-learning/farm-english.md",
+            "license": "用户提供的学习资料；原文未声明开放许可",
+            "kind": "user"
+          },
+          "context": "farm-english"
+        }
+      ]
+    },
+    {
+      "normalizedWord": "work order",
+      "phrases": [
+        {
+          "text": "work order",
+          "translation": "工作单",
+          "source": {
+            "name": "龙潭农场英语学习资料_词根词缀与蓝莓生产QA扩展版(1).xlsx · 用户学习资料",
+            "url": "https://github.com/wwlvss/qwerty-learner/blob/master/docs/personal-learning/farm-english.md",
+            "license": "用户提供的学习资料；原文未声明开放许可",
+            "kind": "user"
+          },
+          "context": "farm-english"
+        }
+      ],
+      "examples": [
+        {
+          "text": "Please follow the work order.",
+          "translation": "请按工作单操作。",
+          "targetStart": 18,
+          "targetEnd": 28,
+          "source": {
+            "name": "龙潭农场英语学习资料_词根词缀与蓝莓生产QA扩展版(1).xlsx · 用户学习资料",
+            "url": "https://github.com/wwlvss/qwerty-learner/blob/master/docs/personal-learning/farm-english.md",
+            "license": "用户提供的学习资料；原文未声明开放许可",
+            "kind": "user"
+          },
+          "context": "farm-english"
+        }
+      ]
+    },
+    {
+      "normalizedWord": "maintenance log",
+      "phrases": [
+        {
+          "text": "maintenance log",
+          "translation": "维护记录",
+          "source": {
+            "name": "龙潭农场英语学习资料_词根词缀与蓝莓生产QA扩展版(1).xlsx · 用户学习资料",
+            "url": "https://github.com/wwlvss/qwerty-learner/blob/master/docs/personal-learning/farm-english.md",
+            "license": "用户提供的学习资料；原文未声明开放许可",
+            "kind": "user"
+          },
+          "context": "farm-english"
+        }
+      ],
+      "examples": [
+        {
+          "text": "Upload the maintenance log.",
+          "translation": "上传维护记录。",
+          "targetStart": 11,
+          "targetEnd": 26,
+          "source": {
+            "name": "龙潭农场英语学习资料_词根词缀与蓝莓生产QA扩展版(1).xlsx · 用户学习资料",
+            "url": "https://github.com/wwlvss/qwerty-learner/blob/master/docs/personal-learning/farm-english.md",
+            "license": "用户提供的学习资料；原文未声明开放许可",
+            "kind": "user"
+          },
+          "context": "farm-english"
+        }
+      ]
+    },
+    {
+      "normalizedWord": "inspection checklist",
+      "phrases": [
+        {
+          "text": "inspection checklist",
+          "translation": "巡检清单",
+          "source": {
+            "name": "龙潭农场英语学习资料_词根词缀与蓝莓生产QA扩展版(1).xlsx · 用户学习资料",
+            "url": "https://github.com/wwlvss/qwerty-learner/blob/master/docs/personal-learning/farm-english.md",
+            "license": "用户提供的学习资料；原文未声明开放许可",
+            "kind": "user"
+          },
+          "context": "farm-english"
+        }
+      ],
+      "examples": [
+        {
+          "text": "Use the inspection checklist.",
+          "translation": "使用巡检清单。",
+          "targetStart": 8,
+          "targetEnd": 28,
+          "source": {
+            "name": "龙潭农场英语学习资料_词根词缀与蓝莓生产QA扩展版(1).xlsx · 用户学习资料",
+            "url": "https://github.com/wwlvss/qwerty-learner/blob/master/docs/personal-learning/farm-english.md",
+            "license": "用户提供的学习资料；原文未声明开放许可",
+            "kind": "user"
+          },
+          "context": "farm-english"
+        }
+      ]
+    },
+    {
+      "normalizedWord": "supporting evidence",
+      "phrases": [
+        {
+          "text": "supporting evidence",
+          "translation": "佐证材料",
+          "source": {
+            "name": "龙潭农场英语学习资料_词根词缀与蓝莓生产QA扩展版(1).xlsx · 用户学习资料",
+            "url": "https://github.com/wwlvss/qwerty-learner/blob/master/docs/personal-learning/farm-english.md",
+            "license": "用户提供的学习资料；原文未声明开放许可",
+            "kind": "user"
+          },
+          "context": "farm-english"
+        }
+      ],
+      "examples": [
+        {
+          "text": "Attach supporting evidence.",
+          "translation": "附上佐证材料。",
+          "targetStart": 7,
+          "targetEnd": 26,
+          "source": {
+            "name": "龙潭农场英语学习资料_词根词缀与蓝莓生产QA扩展版(1).xlsx · 用户学习资料",
+            "url": "https://github.com/wwlvss/qwerty-learner/blob/master/docs/personal-learning/farm-english.md",
+            "license": "用户提供的学习资料；原文未声明开放许可",
+            "kind": "user"
+          },
+          "context": "farm-english"
+        }
+      ]
+    },
+    {
+      "normalizedWord": "approval",
+      "phrases": [],
+      "examples": [
+        {
+          "text": "This requires approval.",
+          "translation": "这需要审批。",
+          "targetStart": 14,
+          "targetEnd": 22,
+          "source": {
+            "name": "龙潭农场英语学习资料_词根词缀与蓝莓生产QA扩展版(1).xlsx · 用户学习资料",
+            "url": "https://github.com/wwlvss/qwerty-learner/blob/master/docs/personal-learning/farm-english.md",
+            "license": "用户提供的学习资料；原文未声明开放许可",
+            "kind": "user"
+          },
+          "context": "farm-english"
+        },
+        {
+          "text": "We should not create a new category without approval.",
+          "translation": "未经批准不应自创工时类别。",
+          "targetStart": 44,
+          "targetEnd": 52,
+          "source": {
+            "name": "龙潭农场英语学习资料_词根词缀与蓝莓生产QA扩展版(1).xlsx · 用户学习资料",
+            "url": "https://github.com/wwlvss/qwerty-learner/blob/master/docs/personal-learning/farm-english.md",
+            "license": "用户提供的学习资料；原文未声明开放许可",
+            "kind": "user"
+          },
+          "context": "farm-english"
+        }
+      ]
+    },
+    {
+      "normalizedWord": "workload",
+      "phrases": [],
+      "examples": [
+        {
+          "text": "The workload is increasing.",
+          "translation": "工作量正在增加。",
+          "targetStart": 4,
+          "targetEnd": 12,
+          "source": {
+            "name": "龙潭农场英语学习资料_词根词缀与蓝莓生产QA扩展版(1).xlsx · 用户学习资料",
+            "url": "https://github.com/wwlvss/qwerty-learner/blob/master/docs/personal-learning/farm-english.md",
+            "license": "用户提供的学习资料；原文未声明开放许可",
+            "kind": "user"
+          },
+          "context": "farm-english"
+        }
+      ]
+    },
+    {
+      "normalizedWord": "record",
+      "phrases": [],
+      "examples": [
+        {
+          "text": "Record the actual working time.",
+          "translation": "记录实际工作时间。",
+          "targetStart": 0,
+          "targetEnd": 6,
+          "source": {
+            "name": "龙潭农场英语学习资料_词根词缀与蓝莓生产QA扩展版(1).xlsx · 用户学习资料",
+            "url": "https://github.com/wwlvss/qwerty-learner/blob/master/docs/personal-learning/farm-english.md",
+            "license": "用户提供的学习资料；原文未声明开放许可",
+            "kind": "user"
+          },
+          "context": "farm-english"
+        },
+        {
+          "text": "Record the actual time you spent on each task.",
+          "translation": "记录每项工作的实际耗时。",
+          "targetStart": 0,
+          "targetEnd": 6,
+          "source": {
+            "name": "龙潭农场英语学习资料_词根词缀与蓝莓生产QA扩展版(1).xlsx · 用户学习资料",
+            "url": "https://github.com/wwlvss/qwerty-learner/blob/master/docs/personal-learning/farm-english.md",
+            "license": "用户提供的学习资料；原文未声明开放许可",
+            "kind": "user"
+          },
+          "context": "farm-english"
+        },
+        {
+          "text": "Do not record the same hours under two categories.",
+          "translation": "不要将相同工时填入两个类别。",
+          "targetStart": 7,
+          "targetEnd": 13,
+          "source": {
+            "name": "龙潭农场英语学习资料_词根词缀与蓝莓生产QA扩展版(1).xlsx · 用户学习资料",
+            "url": "https://github.com/wwlvss/qwerty-learner/blob/master/docs/personal-learning/farm-english.md",
+            "license": "用户提供的学习资料；原文未声明开放许可",
+            "kind": "user"
+          },
+          "context": "farm-english"
+        },
+        {
+          "text": "Please record the harvest volume by variety and date.",
+          "translation": "请按品种和日期记录采收量。",
+          "targetStart": 7,
+          "targetEnd": 13,
+          "source": {
+            "name": "龙潭农场英语学习资料_词根词缀与蓝莓生产QA扩展版(1).xlsx · 用户学习资料",
+            "url": "https://github.com/wwlvss/qwerty-learner/blob/master/docs/personal-learning/farm-english.md",
+            "license": "用户提供的学习资料；原文未声明开放许可",
+            "kind": "user"
+          },
+          "context": "farm-english"
+        },
+        {
+          "text": "Record the defect rate for each variety.",
+          "translation": "记录每个品种的缺陷率。",
+          "targetStart": 0,
+          "targetEnd": 6,
+          "source": {
+            "name": "龙潭农场英语学习资料_词根词缀与蓝莓生产QA扩展版(1).xlsx · 用户学习资料",
+            "url": "https://github.com/wwlvss/qwerty-learner/blob/master/docs/personal-learning/farm-english.md",
+            "license": "用户提供的学习资料；原文未声明开放许可",
+            "kind": "user"
+          },
+          "context": "farm-english"
+        },
+        {
+          "text": "Please record shoot growth by variety.",
+          "translation": "请按品种记录新梢生长。",
+          "targetStart": 7,
+          "targetEnd": 13,
+          "source": {
+            "name": "龙潭农场英语学习资料_词根词缀与蓝莓生产QA扩展版(1).xlsx · 用户学习资料",
+            "url": "https://github.com/wwlvss/qwerty-learner/blob/master/docs/personal-learning/farm-english.md",
+            "license": "用户提供的学习资料；原文未声明开放许可",
+            "kind": "user"
+          },
+          "context": "farm-english"
+        }
+      ]
+    },
+    {
+      "normalizedWord": "submit",
+      "phrases": [],
+      "examples": [
+        {
+          "text": "Submit the form today.",
+          "translation": "今天提交表单。",
+          "targetStart": 0,
+          "targetEnd": 6,
+          "source": {
+            "name": "龙潭农场英语学习资料_词根词缀与蓝莓生产QA扩展版(1).xlsx · 用户学习资料",
+            "url": "https://github.com/wwlvss/qwerty-learner/blob/master/docs/personal-learning/farm-english.md",
+            "license": "用户提供的学习资料；原文未声明开放许可",
+            "kind": "user"
+          },
+          "context": "farm-english"
+        }
+      ]
+    },
+    {
+      "normalizedWord": "verify",
+      "phrases": [],
+      "examples": [
+        {
+          "text": "Verify the hours with the supervisor.",
+          "translation": "和主管核实工时。",
+          "targetStart": 0,
+          "targetEnd": 6,
+          "source": {
+            "name": "龙潭农场英语学习资料_词根词缀与蓝莓生产QA扩展版(1).xlsx · 用户学习资料",
+            "url": "https://github.com/wwlvss/qwerty-learner/blob/master/docs/personal-learning/farm-english.md",
+            "license": "用户提供的学习资料；原文未声明开放许可",
+            "kind": "user"
+          },
+          "context": "farm-english"
+        },
+        {
+          "text": "Our production team can verify the work, but HR should clarify the reporting rules.",
+          "translation": "生产团队可以核实工作，但人事应明确填报规则。",
+          "targetStart": 24,
+          "targetEnd": 30,
+          "source": {
+            "name": "龙潭农场英语学习资料_词根词缀与蓝莓生产QA扩展版(1).xlsx · 用户学习资料",
+            "url": "https://github.com/wwlvss/qwerty-learner/blob/master/docs/personal-learning/farm-english.md",
+            "license": "用户提供的学习资料；原文未声明开放许可",
+            "kind": "user"
+          },
+          "context": "farm-english"
+        }
+      ]
+    },
+    {
+      "normalizedWord": "allocate",
+      "phrases": [],
+      "examples": [
+        {
+          "text": "Allocate workers to different tasks.",
+          "translation": "把工人分配到不同任务。",
+          "targetStart": 0,
+          "targetEnd": 8,
+          "source": {
+            "name": "龙潭农场英语学习资料_词根词缀与蓝莓生产QA扩展版(1).xlsx · 用户学习资料",
+            "url": "https://github.com/wwlvss/qwerty-learner/blob/master/docs/personal-learning/farm-english.md",
+            "license": "用户提供的学习资料；原文未声明开放许可",
+            "kind": "user"
+          },
+          "context": "farm-english"
+        }
+      ]
+    },
+    {
+      "normalizedWord": "classify",
+      "phrases": [],
+      "examples": [
+        {
+          "text": "Classify the work correctly.",
+          "translation": "正确归类工作。",
+          "targetStart": 0,
+          "targetEnd": 8,
+          "source": {
+            "name": "龙潭农场英语学习资料_词根词缀与蓝莓生产QA扩展版(1).xlsx · 用户学习资料",
+            "url": "https://github.com/wwlvss/qwerty-learner/blob/master/docs/personal-learning/farm-english.md",
+            "license": "用户提供的学习资料；原文未声明开放许可",
+            "kind": "user"
+          },
+          "context": "farm-english"
+        }
+      ]
+    },
+    {
+      "normalizedWord": "approve",
+      "phrases": [],
+      "examples": [
+        {
+          "text": "Who can approve this category?",
+          "translation": "谁可以批准这个分类？",
+          "targetStart": 8,
+          "targetEnd": 15,
+          "source": {
+            "name": "龙潭农场英语学习资料_词根词缀与蓝莓生产QA扩展版(1).xlsx · 用户学习资料",
+            "url": "https://github.com/wwlvss/qwerty-learner/blob/master/docs/personal-learning/farm-english.md",
+            "license": "用户提供的学习资料；原文未声明开放许可",
+            "kind": "user"
+          },
+          "context": "farm-english"
+        },
+        {
+          "text": "Could you approve the proposed work schedule?",
+          "translation": "能否批准拟定工作计划？",
+          "targetStart": 10,
+          "targetEnd": 17,
+          "source": {
+            "name": "龙潭农场英语学习资料_词根词缀与蓝莓生产QA扩展版(1).xlsx · 用户学习资料",
+            "url": "https://github.com/wwlvss/qwerty-learner/blob/master/docs/personal-learning/farm-english.md",
+            "license": "用户提供的学习资料；原文未声明开放许可",
+            "kind": "user"
+          },
+          "context": "farm-english"
+        },
+        {
+          "text": "I can provide the field records, but I cannot approve the HR policy.",
+          "translation": "我可以提供现场记录，但不能审批人事政策。",
+          "targetStart": 46,
+          "targetEnd": 53,
+          "source": {
+            "name": "龙潭农场英语学习资料_词根词缀与蓝莓生产QA扩展版(1).xlsx · 用户学习资料",
+            "url": "https://github.com/wwlvss/qwerty-learner/blob/master/docs/personal-learning/farm-english.md",
+            "license": "用户提供的学习资料；原文未声明开放许可",
+            "kind": "user"
+          },
+          "context": "farm-english"
+        }
+      ]
+    },
+    {
+      "normalizedWord": "revise",
+      "phrases": [],
+      "examples": [
+        {
+          "text": "Please revise the entry.",
+          "translation": "请修改这条记录。",
+          "targetStart": 7,
+          "targetEnd": 13,
+          "source": {
+            "name": "龙潭农场英语学习资料_词根词缀与蓝莓生产QA扩展版(1).xlsx · 用户学习资料",
+            "url": "https://github.com/wwlvss/qwerty-learner/blob/master/docs/personal-learning/farm-english.md",
+            "license": "用户提供的学习资料；原文未声明开放许可",
+            "kind": "user"
+          },
+          "context": "farm-english"
+        }
+      ]
+    },
+    {
+      "normalizedWord": "duplicate",
+      "phrases": [],
+      "examples": [
+        {
+          "text": "Do not duplicate the hours.",
+          "translation": "不要重复计入工时。",
+          "targetStart": 7,
+          "targetEnd": 16,
+          "source": {
+            "name": "龙潭农场英语学习资料_词根词缀与蓝莓生产QA扩展版(1).xlsx · 用户学习资料",
+            "url": "https://github.com/wwlvss/qwerty-learner/blob/master/docs/personal-learning/farm-english.md",
+            "license": "用户提供的学习资料；原文未声明开放许可",
+            "kind": "user"
+          },
+          "context": "farm-english"
+        }
+      ]
+    },
+    {
+      "normalizedWord": "lawn mower",
+      "phrases": [
+        {
+          "text": "lawn mower",
+          "translation": "除草机",
+          "source": {
+            "name": "龙潭农场英语学习资料_词根词缀与蓝莓生产QA扩展版(1).xlsx · 用户学习资料",
+            "url": "https://github.com/wwlvss/qwerty-learner/blob/master/docs/personal-learning/farm-english.md",
+            "license": "用户提供的学习资料；原文未声明开放许可",
+            "kind": "user"
+          },
+          "context": "farm-english"
+        }
+      ],
+      "examples": [
+        {
+          "text": "The lawn mower needs maintenance.",
+          "translation": "除草机需要维护。",
+          "targetStart": 4,
+          "targetEnd": 14,
+          "source": {
+            "name": "龙潭农场英语学习资料_词根词缀与蓝莓生产QA扩展版(1).xlsx · 用户学习资料",
+            "url": "https://github.com/wwlvss/qwerty-learner/blob/master/docs/personal-learning/farm-english.md",
+            "license": "用户提供的学习资料；原文未声明开放许可",
+            "kind": "user"
+          },
+          "context": "farm-english"
+        }
+      ]
+    },
+    {
+      "normalizedWord": "sprayer",
+      "phrases": [],
+      "examples": [
+        {
+          "text": "Check the sprayer before use.",
+          "translation": "使用前检查打药机。",
+          "targetStart": 10,
+          "targetEnd": 17,
+          "source": {
+            "name": "龙潭农场英语学习资料_词根词缀与蓝莓生产QA扩展版(1).xlsx · 用户学习资料",
+            "url": "https://github.com/wwlvss/qwerty-learner/blob/master/docs/personal-learning/farm-english.md",
+            "license": "用户提供的学习资料；原文未声明开放许可",
+            "kind": "user"
+          },
+          "context": "farm-english"
+        }
+      ]
+    },
+    {
+      "normalizedWord": "automatic sprayer",
+      "phrases": [
+        {
+          "text": "automatic sprayer",
+          "translation": "自动打药机",
+          "source": {
+            "name": "龙潭农场英语学习资料_词根词缀与蓝莓生产QA扩展版(1).xlsx · 用户学习资料",
+            "url": "https://github.com/wwlvss/qwerty-learner/blob/master/docs/personal-learning/farm-english.md",
+            "license": "用户提供的学习资料；原文未声明开放许可",
+            "kind": "user"
+          },
+          "context": "farm-english"
+        }
+      ],
+      "examples": [
+        {
+          "text": "Inspect the automatic sprayer.",
+          "translation": "检查自动打药机。",
+          "targetStart": 12,
+          "targetEnd": 29,
+          "source": {
+            "name": "龙潭农场英语学习资料_词根词缀与蓝莓生产QA扩展版(1).xlsx · 用户学习资料",
+            "url": "https://github.com/wwlvss/qwerty-learner/blob/master/docs/personal-learning/farm-english.md",
+            "license": "用户提供的学习资料；原文未声明开放许可",
+            "kind": "user"
+          },
+          "context": "farm-english"
+        }
+      ]
+    },
+    {
+      "normalizedWord": "automatic weeder",
+      "phrases": [
+        {
+          "text": "automatic weeder",
+          "translation": "自动除草机",
+          "source": {
+            "name": "龙潭农场英语学习资料_词根词缀与蓝莓生产QA扩展版(1).xlsx · 用户学习资料",
+            "url": "https://github.com/wwlvss/qwerty-learner/blob/master/docs/personal-learning/farm-english.md",
+            "license": "用户提供的学习资料；原文未声明开放许可",
+            "kind": "user"
+          },
+          "context": "farm-english"
+        }
+      ],
+      "examples": [
+        {
+          "text": "The automatic weeder needs repair.",
+          "translation": "自动除草机需要维修。",
+          "targetStart": 4,
+          "targetEnd": 20,
+          "source": {
+            "name": "龙潭农场英语学习资料_词根词缀与蓝莓生产QA扩展版(1).xlsx · 用户学习资料",
+            "url": "https://github.com/wwlvss/qwerty-learner/blob/master/docs/personal-learning/farm-english.md",
+            "license": "用户提供的学习资料；原文未声明开放许可",
+            "kind": "user"
+          },
+          "context": "farm-english"
+        }
+      ]
+    },
+    {
+      "normalizedWord": "forklift",
+      "phrases": [],
+      "examples": [
+        {
+          "text": "The forklift is unavailable.",
+          "translation": "叉车暂时不能使用。",
+          "targetStart": 4,
+          "targetEnd": 12,
+          "source": {
+            "name": "龙潭农场英语学习资料_词根词缀与蓝莓生产QA扩展版(1).xlsx · 用户学习资料",
+            "url": "https://github.com/wwlvss/qwerty-learner/blob/master/docs/personal-learning/farm-english.md",
+            "license": "用户提供的学习资料；原文未声明开放许可",
+            "kind": "user"
+          },
+          "context": "farm-english"
+        }
+      ]
+    },
+    {
+      "normalizedWord": "tricycle",
+      "phrases": [],
+      "examples": [
+        {
+          "text": "Check the tricycle brakes.",
+          "translation": "检查三轮车刹车。",
+          "targetStart": 10,
+          "targetEnd": 18,
+          "source": {
+            "name": "龙潭农场英语学习资料_词根词缀与蓝莓生产QA扩展版(1).xlsx · 用户学习资料",
+            "url": "https://github.com/wwlvss/qwerty-learner/blob/master/docs/personal-learning/farm-english.md",
+            "license": "用户提供的学习资料；原文未声明开放许可",
+            "kind": "user"
+          },
+          "context": "farm-english"
+        }
+      ]
+    },
+    {
+      "normalizedWord": "pressure washer",
+      "phrases": [
+        {
+          "text": "pressure washer",
+          "translation": "高压清洗机",
+          "source": {
+            "name": "龙潭农场英语学习资料_词根词缀与蓝莓生产QA扩展版(1).xlsx · 用户学习资料",
+            "url": "https://github.com/wwlvss/qwerty-learner/blob/master/docs/personal-learning/farm-english.md",
+            "license": "用户提供的学习资料；原文未声明开放许可",
+            "kind": "user"
+          },
+          "context": "farm-english"
+        }
+      ],
+      "examples": [
+        {
+          "text": "Clean the pressure washer filter.",
+          "translation": "清洗高压清洗机过滤器。",
+          "targetStart": 10,
+          "targetEnd": 25,
+          "source": {
+            "name": "龙潭农场英语学习资料_词根词缀与蓝莓生产QA扩展版(1).xlsx · 用户学习资料",
+            "url": "https://github.com/wwlvss/qwerty-learner/blob/master/docs/personal-learning/farm-english.md",
+            "license": "用户提供的学习资料；原文未声明开放许可",
+            "kind": "user"
+          },
+          "context": "farm-english"
+        }
+      ]
+    },
+    {
+      "normalizedWord": "engine oil",
+      "phrases": [
+        {
+          "text": "engine oil",
+          "translation": "机油",
+          "source": {
+            "name": "龙潭农场英语学习资料_词根词缀与蓝莓生产QA扩展版(1).xlsx · 用户学习资料",
+            "url": "https://github.com/wwlvss/qwerty-learner/blob/master/docs/personal-learning/farm-english.md",
+            "license": "用户提供的学习资料；原文未声明开放许可",
+            "kind": "user"
+          },
+          "context": "farm-english"
+        }
+      ],
+      "examples": [
+        {
+          "text": "Change the engine oil.",
+          "translation": "更换机油。",
+          "targetStart": 11,
+          "targetEnd": 21,
+          "source": {
+            "name": "龙潭农场英语学习资料_词根词缀与蓝莓生产QA扩展版(1).xlsx · 用户学习资料",
+            "url": "https://github.com/wwlvss/qwerty-learner/blob/master/docs/personal-learning/farm-english.md",
+            "license": "用户提供的学习资料；原文未声明开放许可",
+            "kind": "user"
+          },
+          "context": "farm-english"
+        }
+      ]
+    },
+    {
+      "normalizedWord": "blade",
+      "phrases": [],
+      "examples": [
+        {
+          "text": "Replace the worn blade.",
+          "translation": "更换磨损刀片。",
+          "targetStart": 17,
+          "targetEnd": 22,
+          "source": {
+            "name": "龙潭农场英语学习资料_词根词缀与蓝莓生产QA扩展版(1).xlsx · 用户学习资料",
+            "url": "https://github.com/wwlvss/qwerty-learner/blob/master/docs/personal-learning/farm-english.md",
+            "license": "用户提供的学习资料；原文未声明开放许可",
+            "kind": "user"
+          },
+          "context": "farm-english"
+        }
+      ]
+    },
+    {
+      "normalizedWord": "fuel container",
+      "phrases": [
+        {
+          "text": "fuel container",
+          "translation": "油桶",
+          "source": {
+            "name": "龙潭农场英语学习资料_词根词缀与蓝莓生产QA扩展版(1).xlsx · 用户学习资料",
+            "url": "https://github.com/wwlvss/qwerty-learner/blob/master/docs/personal-learning/farm-english.md",
+            "license": "用户提供的学习资料；原文未声明开放许可",
+            "kind": "user"
+          },
+          "context": "farm-english"
+        }
+      ],
+      "examples": []
+    },
+    {
+      "normalizedWord": "gasoline",
+      "phrases": [],
+      "examples": [
+        {
+          "text": "We need more gasoline.",
+          "translation": "我们需要更多汽油。",
+          "targetStart": 13,
+          "targetEnd": 21,
+          "source": {
+            "name": "龙潭农场英语学习资料_词根词缀与蓝莓生产QA扩展版(1).xlsx · 用户学习资料",
+            "url": "https://github.com/wwlvss/qwerty-learner/blob/master/docs/personal-learning/farm-english.md",
+            "license": "用户提供的学习资料；原文未声明开放许可",
+            "kind": "user"
+          },
+          "context": "farm-english"
+        }
+      ]
+    },
+    {
+      "normalizedWord": "diesel",
+      "phrases": [],
+      "examples": [
+        {
+          "text": "This machine uses diesel.",
+          "translation": "这台机器使用柴油。",
+          "targetStart": 18,
+          "targetEnd": 24,
+          "source": {
+            "name": "龙潭农场英语学习资料_词根词缀与蓝莓生产QA扩展版(1).xlsx · 用户学习资料",
+            "url": "https://github.com/wwlvss/qwerty-learner/blob/master/docs/personal-learning/farm-english.md",
+            "license": "用户提供的学习资料；原文未声明开放许可",
+            "kind": "user"
+          },
+          "context": "farm-english"
+        }
+      ]
+    },
+    {
+      "normalizedWord": "inspect",
+      "phrases": [],
+      "examples": [
+        {
+          "text": "Inspect the mower every week.",
+          "translation": "每周检查除草机。",
+          "targetStart": 0,
+          "targetEnd": 7,
+          "source": {
+            "name": "龙潭农场英语学习资料_词根词缀与蓝莓生产QA扩展版(1).xlsx · 用户学习资料",
+            "url": "https://github.com/wwlvss/qwerty-learner/blob/master/docs/personal-learning/farm-english.md",
+            "license": "用户提供的学习资料；原文未声明开放许可",
+            "kind": "user"
+          },
+          "context": "farm-english"
+        }
+      ]
+    },
+    {
+      "normalizedWord": "repair",
+      "phrases": [],
+      "examples": [
+        {
+          "text": "Repair the damaged connection.",
+          "translation": "维修损坏的接口。",
+          "targetStart": 0,
+          "targetEnd": 6,
+          "source": {
+            "name": "龙潭农场英语学习资料_词根词缀与蓝莓生产QA扩展版(1).xlsx · 用户学习资料",
+            "url": "https://github.com/wwlvss/qwerty-learner/blob/master/docs/personal-learning/farm-english.md",
+            "license": "用户提供的学习资料；原文未声明开放许可",
+            "kind": "user"
+          },
+          "context": "farm-english"
+        },
+        {
+          "text": "Two workers will spray, and one will repair the plastic film.",
+          "translation": "两人点喷，一人修棚膜。",
+          "targetStart": 37,
+          "targetEnd": 43,
+          "source": {
+            "name": "龙潭农场英语学习资料_词根词缀与蓝莓生产QA扩展版(1).xlsx · 用户学习资料",
+            "url": "https://github.com/wwlvss/qwerty-learner/blob/master/docs/personal-learning/farm-english.md",
+            "license": "用户提供的学习资料；原文未声明开放许可",
+            "kind": "user"
+          },
+          "context": "farm-english"
+        },
+        {
+          "text": "Please confirm who is responsible for this repair.",
+          "translation": "请确认谁负责这项维修。",
+          "targetStart": 43,
+          "targetEnd": 49,
+          "source": {
+            "name": "龙潭农场英语学习资料_词根词缀与蓝莓生产QA扩展版(1).xlsx · 用户学习资料",
+            "url": "https://github.com/wwlvss/qwerty-learner/blob/master/docs/personal-learning/farm-english.md",
+            "license": "用户提供的学习资料；原文未声明开放许可",
+            "kind": "user"
+          },
+          "context": "farm-english"
+        },
+        {
+          "text": "This task involves both inspection and repair, so the hours should be separated.",
+          "translation": "这项工作包括检查和维修，因此工时应拆分。",
+          "targetStart": 39,
+          "targetEnd": 45,
+          "source": {
+            "name": "龙潭农场英语学习资料_词根词缀与蓝莓生产QA扩展版(1).xlsx · 用户学习资料",
+            "url": "https://github.com/wwlvss/qwerty-learner/blob/master/docs/personal-learning/farm-english.md",
+            "license": "用户提供的学习资料；原文未声明开放许可",
+            "kind": "user"
+          },
+          "context": "farm-english"
+        },
+        {
+          "text": "The repair is delayed because we are waiting for replacement parts.",
+          "translation": "维修延迟，因为我们在等备件。",
+          "targetStart": 4,
+          "targetEnd": 10,
+          "source": {
+            "name": "龙潭农场英语学习资料_词根词缀与蓝莓生产QA扩展版(1).xlsx · 用户学习资料",
+            "url": "https://github.com/wwlvss/qwerty-learner/blob/master/docs/personal-learning/farm-english.md",
+            "license": "用户提供的学习资料；原文未声明开放许可",
+            "kind": "user"
+          },
+          "context": "farm-english"
+        },
+        {
+          "text": "If we delay this repair, irrigation uniformity may be affected.",
+          "translation": "如果推迟维修，灌溉均匀度可能受影响。",
+          "targetStart": 17,
+          "targetEnd": 23,
+          "source": {
+            "name": "龙潭农场英语学习资料_词根词缀与蓝莓生产QA扩展版(1).xlsx · 用户学习资料",
+            "url": "https://github.com/wwlvss/qwerty-learner/blob/master/docs/personal-learning/farm-english.md",
+            "license": "用户提供的学习资料；原文未声明开放许可",
+            "kind": "user"
+          },
+          "context": "farm-english"
+        }
+      ]
+    },
+    {
+      "normalizedWord": "replace",
+      "phrases": [],
+      "examples": [
+        {
+          "text": "Replace the blade.",
+          "translation": "更换刀片。",
+          "targetStart": 0,
+          "targetEnd": 7,
+          "source": {
+            "name": "龙潭农场英语学习资料_词根词缀与蓝莓生产QA扩展版(1).xlsx · 用户学习资料",
+            "url": "https://github.com/wwlvss/qwerty-learner/blob/master/docs/personal-learning/farm-english.md",
+            "license": "用户提供的学习资料；原文未声明开放许可",
+            "kind": "user"
+          },
+          "context": "farm-english"
+        }
+      ]
+    },
+    {
+      "normalizedWord": "calibrate",
+      "phrases": [],
+      "examples": [
+        {
+          "text": "Calibrate the sprayer.",
+          "translation": "校准打药机。",
+          "targetStart": 0,
+          "targetEnd": 9,
+          "source": {
+            "name": "龙潭农场英语学习资料_词根词缀与蓝莓生产QA扩展版(1).xlsx · 用户学习资料",
+            "url": "https://github.com/wwlvss/qwerty-learner/blob/master/docs/personal-learning/farm-english.md",
+            "license": "用户提供的学习资料；原文未声明开放许可",
+            "kind": "user"
+          },
+          "context": "farm-english"
+        }
+      ]
+    },
+    {
+      "normalizedWord": "refuel",
+      "phrases": [],
+      "examples": [
+        {
+          "text": "Refuel the machine.",
+          "translation": "给机器加油。",
+          "targetStart": 0,
+          "targetEnd": 6,
+          "source": {
+            "name": "龙潭农场英语学习资料_词根词缀与蓝莓生产QA扩展版(1).xlsx · 用户学习资料",
+            "url": "https://github.com/wwlvss/qwerty-learner/blob/master/docs/personal-learning/farm-english.md",
+            "license": "用户提供的学习资料；原文未声明开放许可",
+            "kind": "user"
+          },
+          "context": "farm-english"
+        }
+      ]
+    },
+    {
+      "normalizedWord": "lubricate",
+      "phrases": [],
+      "examples": [
+        {
+          "text": "Lubricate the moving parts.",
+          "translation": "润滑活动部件。",
+          "targetStart": 0,
+          "targetEnd": 9,
+          "source": {
+            "name": "龙潭农场英语学习资料_词根词缀与蓝莓生产QA扩展版(1).xlsx · 用户学习资料",
+            "url": "https://github.com/wwlvss/qwerty-learner/blob/master/docs/personal-learning/farm-english.md",
+            "license": "用户提供的学习资料；原文未声明开放许可",
+            "kind": "user"
+          },
+          "context": "farm-english"
+        }
+      ]
+    },
+    {
+      "normalizedWord": "irrigation system",
+      "phrases": [
+        {
+          "text": "irrigation system",
+          "translation": "灌溉系统",
+          "source": {
+            "name": "龙潭农场英语学习资料_词根词缀与蓝莓生产QA扩展版(1).xlsx · 用户学习资料",
+            "url": "https://github.com/wwlvss/qwerty-learner/blob/master/docs/personal-learning/farm-english.md",
+            "license": "用户提供的学习资料；原文未声明开放许可",
+            "kind": "user"
+          },
+          "context": "farm-english"
+        }
+      ],
+      "examples": [
+        {
+          "text": "Check the irrigation system.",
+          "translation": "检查灌溉系统。",
+          "targetStart": 10,
+          "targetEnd": 27,
+          "source": {
+            "name": "龙潭农场英语学习资料_词根词缀与蓝莓生产QA扩展版(1).xlsx · 用户学习资料",
+            "url": "https://github.com/wwlvss/qwerty-learner/blob/master/docs/personal-learning/farm-english.md",
+            "license": "用户提供的学习资料；原文未声明开放许可",
+            "kind": "user"
+          },
+          "context": "farm-english"
+        }
+      ]
+    },
+    {
+      "normalizedWord": "mainline",
+      "phrases": [],
+      "examples": [
+        {
+          "text": "Flush the mainline.",
+          "translation": "冲洗主管。",
+          "targetStart": 10,
+          "targetEnd": 18,
+          "source": {
+            "name": "龙潭农场英语学习资料_词根词缀与蓝莓生产QA扩展版(1).xlsx · 用户学习资料",
+            "url": "https://github.com/wwlvss/qwerty-learner/blob/master/docs/personal-learning/farm-english.md",
+            "license": "用户提供的学习资料；原文未声明开放许可",
+            "kind": "user"
+          },
+          "context": "farm-english"
+        }
+      ]
+    },
+    {
+      "normalizedWord": "lateral pipe",
+      "phrases": [
+        {
+          "text": "lateral pipe",
+          "translation": "支管／20管",
+          "source": {
+            "name": "龙潭农场英语学习资料_词根词缀与蓝莓生产QA扩展版(1).xlsx · 用户学习资料",
+            "url": "https://github.com/wwlvss/qwerty-learner/blob/master/docs/personal-learning/farm-english.md",
+            "license": "用户提供的学习资料；原文未声明开放许可",
+            "kind": "user"
+          },
+          "context": "farm-english"
+        }
+      ],
+      "examples": [
+        {
+          "text": "Inspect the lateral pipe.",
+          "translation": "检查支管。",
+          "targetStart": 12,
+          "targetEnd": 24,
+          "source": {
+            "name": "龙潭农场英语学习资料_词根词缀与蓝莓生产QA扩展版(1).xlsx · 用户学习资料",
+            "url": "https://github.com/wwlvss/qwerty-learner/blob/master/docs/personal-learning/farm-english.md",
+            "license": "用户提供的学习资料；原文未声明开放许可",
+            "kind": "user"
+          },
+          "context": "farm-english"
+        }
+      ]
+    },
+    {
+      "normalizedWord": "drip emitter",
+      "phrases": [
+        {
+          "text": "drip emitter",
+          "translation": "滴头",
+          "source": {
+            "name": "龙潭农场英语学习资料_词根词缀与蓝莓生产QA扩展版(1).xlsx · 用户学习资料",
+            "url": "https://github.com/wwlvss/qwerty-learner/blob/master/docs/personal-learning/farm-english.md",
+            "license": "用户提供的学习资料；原文未声明开放许可",
+            "kind": "user"
+          },
+          "context": "farm-english"
+        }
+      ],
+      "examples": [
+        {
+          "text": "The drip emitter is blocked.",
+          "translation": "滴头堵塞了。",
+          "targetStart": 4,
+          "targetEnd": 16,
+          "source": {
+            "name": "龙潭农场英语学习资料_词根词缀与蓝莓生产QA扩展版(1).xlsx · 用户学习资料",
+            "url": "https://github.com/wwlvss/qwerty-learner/blob/master/docs/personal-learning/farm-english.md",
+            "license": "用户提供的学习资料；原文未声明开放许可",
+            "kind": "user"
+          },
+          "context": "farm-english"
+        }
+      ]
+    },
+    {
+      "normalizedWord": "drip stake",
+      "phrases": [
+        {
+          "text": "drip stake",
+          "translation": "滴箭",
+          "source": {
+            "name": "龙潭农场英语学习资料_词根词缀与蓝莓生产QA扩展版(1).xlsx · 用户学习资料",
+            "url": "https://github.com/wwlvss/qwerty-learner/blob/master/docs/personal-learning/farm-english.md",
+            "license": "用户提供的学习资料；原文未声明开放许可",
+            "kind": "user"
+          },
+          "context": "farm-english"
+        }
+      ],
+      "examples": [
+        {
+          "text": "Replace the damaged drip stake.",
+          "translation": "更换损坏的滴箭。",
+          "targetStart": 20,
+          "targetEnd": 30,
+          "source": {
+            "name": "龙潭农场英语学习资料_词根词缀与蓝莓生产QA扩展版(1).xlsx · 用户学习资料",
+            "url": "https://github.com/wwlvss/qwerty-learner/blob/master/docs/personal-learning/farm-english.md",
+            "license": "用户提供的学习资料；原文未声明开放许可",
+            "kind": "user"
+          },
+          "context": "farm-english"
+        }
+      ]
+    },
+    {
+      "normalizedWord": "micro tubing",
+      "phrases": [
+        {
+          "text": "micro tubing",
+          "translation": "毛管",
+          "source": {
+            "name": "龙潭农场英语学习资料_词根词缀与蓝莓生产QA扩展版(1).xlsx · 用户学习资料",
+            "url": "https://github.com/wwlvss/qwerty-learner/blob/master/docs/personal-learning/farm-english.md",
+            "license": "用户提供的学习资料；原文未声明开放许可",
+            "kind": "user"
+          },
+          "context": "farm-english"
+        }
+      ],
+      "examples": [
+        {
+          "text": "The micro tubing is leaking.",
+          "translation": "毛管漏水了。",
+          "targetStart": 4,
+          "targetEnd": 16,
+          "source": {
+            "name": "龙潭农场英语学习资料_词根词缀与蓝莓生产QA扩展版(1).xlsx · 用户学习资料",
+            "url": "https://github.com/wwlvss/qwerty-learner/blob/master/docs/personal-learning/farm-english.md",
+            "license": "用户提供的学习资料；原文未声明开放许可",
+            "kind": "user"
+          },
+          "context": "farm-english"
+        }
+      ]
+    },
+    {
+      "normalizedWord": "filter",
+      "phrases": [],
+      "examples": [
+        {
+          "text": "Clean the filter.",
+          "translation": "清洗过滤器。",
+          "targetStart": 10,
+          "targetEnd": 16,
+          "source": {
+            "name": "龙潭农场英语学习资料_词根词缀与蓝莓生产QA扩展版(1).xlsx · 用户学习资料",
+            "url": "https://github.com/wwlvss/qwerty-learner/blob/master/docs/personal-learning/farm-english.md",
+            "license": "用户提供的学习资料；原文未声明开放许可",
+            "kind": "user"
+          },
+          "context": "farm-english"
+        },
+        {
+          "text": "Finish the filter cleaning before lunch.",
+          "translation": "午饭前完成过滤器清洗。",
+          "targetStart": 11,
+          "targetEnd": 17,
+          "source": {
+            "name": "龙潭农场英语学习资料_词根词缀与蓝莓生产QA扩展版(1).xlsx · 用户学习资料",
+            "url": "https://github.com/wwlvss/qwerty-learner/blob/master/docs/personal-learning/farm-english.md",
+            "license": "用户提供的学习资料；原文未声明开放许可",
+            "kind": "user"
+          },
+          "context": "farm-english"
+        },
+        {
+          "text": "The pressure dropped after we cleaned the filter.",
+          "translation": "清洗过滤器后压力下降了。",
+          "targetStart": 42,
+          "targetEnd": 48,
+          "source": {
+            "name": "龙潭农场英语学习资料_词根词缀与蓝莓生产QA扩展版(1).xlsx · 用户学习资料",
+            "url": "https://github.com/wwlvss/qwerty-learner/blob/master/docs/personal-learning/farm-english.md",
+            "license": "用户提供的学习资料；原文未声明开放许可",
+            "kind": "user"
+          },
+          "context": "farm-english"
+        },
+        {
+          "text": "We completed the filter cleaning, but the pressure is still below target.",
+          "translation": "过滤器已清洗，但压力仍低于目标。",
+          "targetStart": 17,
+          "targetEnd": 23,
+          "source": {
+            "name": "龙潭农场英语学习资料_词根词缀与蓝莓生产QA扩展版(1).xlsx · 用户学习资料",
+            "url": "https://github.com/wwlvss/qwerty-learner/blob/master/docs/personal-learning/farm-english.md",
+            "license": "用户提供的学习资料；原文未声明开放许可",
+            "kind": "user"
+          },
+          "context": "farm-english"
+        }
+      ]
+    },
+    {
+      "normalizedWord": "filter disc",
+      "phrases": [
+        {
+          "text": "filter disc",
+          "translation": "过滤碟片",
+          "source": {
+            "name": "龙潭农场英语学习资料_词根词缀与蓝莓生产QA扩展版(1).xlsx · 用户学习资料",
+            "url": "https://github.com/wwlvss/qwerty-learner/blob/master/docs/personal-learning/farm-english.md",
+            "license": "用户提供的学习资料；原文未声明开放许可",
+            "kind": "user"
+          },
+          "context": "farm-english"
+        }
+      ],
+      "examples": []
+    },
+    {
+      "normalizedWord": "pump house",
+      "phrases": [
+        {
+          "text": "pump house",
+          "translation": "泵房",
+          "source": {
+            "name": "龙潭农场英语学习资料_词根词缀与蓝莓生产QA扩展版(1).xlsx · 用户学习资料",
+            "url": "https://github.com/wwlvss/qwerty-learner/blob/master/docs/personal-learning/farm-english.md",
+            "license": "用户提供的学习资料；原文未声明开放许可",
+            "kind": "user"
+          },
+          "context": "farm-english"
+        }
+      ],
+      "examples": [
+        {
+          "text": "The pump house needs inspection.",
+          "translation": "泵房需要检查。",
+          "targetStart": 4,
+          "targetEnd": 14,
+          "source": {
+            "name": "龙潭农场英语学习资料_词根词缀与蓝莓生产QA扩展版(1).xlsx · 用户学习资料",
+            "url": "https://github.com/wwlvss/qwerty-learner/blob/master/docs/personal-learning/farm-english.md",
+            "license": "用户提供的学习资料；原文未声明开放许可",
+            "kind": "user"
+          },
+          "context": "farm-english"
+        }
+      ]
+    },
+    {
+      "normalizedWord": "fertigation",
+      "phrases": [],
+      "examples": [
+        {
+          "text": "Check the fertigation system.",
+          "translation": "检查水肥一体化系统。",
+          "targetStart": 10,
+          "targetEnd": 21,
+          "source": {
+            "name": "龙潭农场英语学习资料_词根词缀与蓝莓生产QA扩展版(1).xlsx · 用户学习资料",
+            "url": "https://github.com/wwlvss/qwerty-learner/blob/master/docs/personal-learning/farm-english.md",
+            "license": "用户提供的学习资料；原文未声明开放许可",
+            "kind": "user"
+          },
+          "context": "farm-english"
+        }
+      ]
+    },
+    {
+      "normalizedWord": "solenoid valve",
+      "phrases": [
+        {
+          "text": "solenoid valve",
+          "translation": "电磁阀",
+          "source": {
+            "name": "龙潭农场英语学习资料_词根词缀与蓝莓生产QA扩展版(1).xlsx · 用户学习资料",
+            "url": "https://github.com/wwlvss/qwerty-learner/blob/master/docs/personal-learning/farm-english.md",
+            "license": "用户提供的学习资料；原文未声明开放许可",
+            "kind": "user"
+          },
+          "context": "farm-english"
+        }
+      ],
+      "examples": [
+        {
+          "text": "The solenoid valve is not opening.",
+          "translation": "电磁阀没有打开。",
+          "targetStart": 4,
+          "targetEnd": 18,
+          "source": {
+            "name": "龙潭农场英语学习资料_词根词缀与蓝莓生产QA扩展版(1).xlsx · 用户学习资料",
+            "url": "https://github.com/wwlvss/qwerty-learner/blob/master/docs/personal-learning/farm-english.md",
+            "license": "用户提供的学习资料；原文未声明开放许可",
+            "kind": "user"
+          },
+          "context": "farm-english"
+        }
+      ]
+    },
+    {
+      "normalizedWord": "pressure gauge",
+      "phrases": [
+        {
+          "text": "pressure gauge",
+          "translation": "压力表",
+          "source": {
+            "name": "龙潭农场英语学习资料_词根词缀与蓝莓生产QA扩展版(1).xlsx · 用户学习资料",
+            "url": "https://github.com/wwlvss/qwerty-learner/blob/master/docs/personal-learning/farm-english.md",
+            "license": "用户提供的学习资料；原文未声明开放许可",
+            "kind": "user"
+          },
+          "context": "farm-english"
+        }
+      ],
+      "examples": [
+        {
+          "text": "Read the pressure gauge.",
+          "translation": "读取压力表。",
+          "targetStart": 9,
+          "targetEnd": 23,
+          "source": {
+            "name": "龙潭农场英语学习资料_词根词缀与蓝莓生产QA扩展版(1).xlsx · 用户学习资料",
+            "url": "https://github.com/wwlvss/qwerty-learner/blob/master/docs/personal-learning/farm-english.md",
+            "license": "用户提供的学习资料；原文未声明开放许可",
+            "kind": "user"
+          },
+          "context": "farm-english"
+        }
+      ]
+    },
+    {
+      "normalizedWord": "flow rate",
+      "phrases": [
+        {
+          "text": "flow rate",
+          "translation": "流量",
+          "source": {
+            "name": "龙潭农场英语学习资料_词根词缀与蓝莓生产QA扩展版(1).xlsx · 用户学习资料",
+            "url": "https://github.com/wwlvss/qwerty-learner/blob/master/docs/personal-learning/farm-english.md",
+            "license": "用户提供的学习资料；原文未声明开放许可",
+            "kind": "user"
+          },
+          "context": "farm-english"
+        }
+      ],
+      "examples": [
+        {
+          "text": "Record the flow rate.",
+          "translation": "记录流量。",
+          "targetStart": 11,
+          "targetEnd": 20,
+          "source": {
+            "name": "龙潭农场英语学习资料_词根词缀与蓝莓生产QA扩展版(1).xlsx · 用户学习资料",
+            "url": "https://github.com/wwlvss/qwerty-learner/blob/master/docs/personal-learning/farm-english.md",
+            "license": "用户提供的学习资料；原文未声明开放许可",
+            "kind": "user"
+          },
+          "context": "farm-english"
+        }
+      ]
+    },
+    {
+      "normalizedWord": "uniformity test",
+      "phrases": [
+        {
+          "text": "uniformity test",
+          "translation": "均匀度测定",
+          "source": {
+            "name": "龙潭农场英语学习资料_词根词缀与蓝莓生产QA扩展版(1).xlsx · 用户学习资料",
+            "url": "https://github.com/wwlvss/qwerty-learner/blob/master/docs/personal-learning/farm-english.md",
+            "license": "用户提供的学习资料；原文未声明开放许可",
+            "kind": "user"
+          },
+          "context": "farm-english"
+        }
+      ],
+      "examples": [
+        {
+          "text": "Carry out a uniformity test.",
+          "translation": "进行均匀度测定。",
+          "targetStart": 12,
+          "targetEnd": 27,
+          "source": {
+            "name": "龙潭农场英语学习资料_词根词缀与蓝莓生产QA扩展版(1).xlsx · 用户学习资料",
+            "url": "https://github.com/wwlvss/qwerty-learner/blob/master/docs/personal-learning/farm-english.md",
+            "license": "用户提供的学习资料；原文未声明开放许可",
+            "kind": "user"
+          },
+          "context": "farm-english"
+        },
+        {
+          "text": "The uniformity test is scheduled for Wednesday.",
+          "translation": "均匀度测定安排在周三。",
+          "targetStart": 4,
+          "targetEnd": 19,
+          "source": {
+            "name": "龙潭农场英语学习资料_词根词缀与蓝莓生产QA扩展版(1).xlsx · 用户学习资料",
+            "url": "https://github.com/wwlvss/qwerty-learner/blob/master/docs/personal-learning/farm-english.md",
+            "license": "用户提供的学习资料；原文未声明开放许可",
+            "kind": "user"
+          },
+          "context": "farm-english"
+        }
+      ]
+    },
+    {
+      "normalizedWord": "uv system",
+      "phrases": [
+        {
+          "text": "UV system",
+          "translation": "紫外线系统",
+          "source": {
+            "name": "龙潭农场英语学习资料_词根词缀与蓝莓生产QA扩展版(1).xlsx · 用户学习资料",
+            "url": "https://github.com/wwlvss/qwerty-learner/blob/master/docs/personal-learning/farm-english.md",
+            "license": "用户提供的学习资料；原文未声明开放许可",
+            "kind": "user"
+          },
+          "context": "farm-english"
+        }
+      ],
+      "examples": [
+        {
+          "text": "Inspect the UV system.",
+          "translation": "检查紫外线系统。",
+          "targetStart": 12,
+          "targetEnd": 21,
+          "source": {
+            "name": "龙潭农场英语学习资料_词根词缀与蓝莓生产QA扩展版(1).xlsx · 用户学习资料",
+            "url": "https://github.com/wwlvss/qwerty-learner/blob/master/docs/personal-learning/farm-english.md",
+            "license": "用户提供的学习资料；原文未声明开放许可",
+            "kind": "user"
+          },
+          "context": "farm-english"
+        }
+      ]
+    },
+    {
+      "normalizedWord": "drainage pump",
+      "phrases": [
+        {
+          "text": "drainage pump",
+          "translation": "排水泵",
+          "source": {
+            "name": "龙潭农场英语学习资料_词根词缀与蓝莓生产QA扩展版(1).xlsx · 用户学习资料",
+            "url": "https://github.com/wwlvss/qwerty-learner/blob/master/docs/personal-learning/farm-english.md",
+            "license": "用户提供的学习资料；原文未声明开放许可",
+            "kind": "user"
+          },
+          "context": "farm-english"
+        }
+      ],
+      "examples": [
+        {
+          "text": "The drainage pump is running.",
+          "translation": "排水泵正在运行。",
+          "targetStart": 4,
+          "targetEnd": 17,
+          "source": {
+            "name": "龙潭农场英语学习资料_词根词缀与蓝莓生产QA扩展版(1).xlsx · 用户学习资料",
+            "url": "https://github.com/wwlvss/qwerty-learner/blob/master/docs/personal-learning/farm-english.md",
+            "license": "用户提供的学习资料；原文未声明开放许可",
+            "kind": "user"
+          },
+          "context": "farm-english"
+        }
+      ]
+    },
+    {
+      "normalizedWord": "nutrient solution",
+      "phrases": [
+        {
+          "text": "nutrient solution",
+          "translation": "营养液",
+          "source": {
+            "name": "龙潭农场英语学习资料_词根词缀与蓝莓生产QA扩展版(1).xlsx · 用户学习资料",
+            "url": "https://github.com/wwlvss/qwerty-learner/blob/master/docs/personal-learning/farm-english.md",
+            "license": "用户提供的学习资料；原文未声明开放许可",
+            "kind": "user"
+          },
+          "context": "farm-english"
+        }
+      ],
+      "examples": [
+        {
+          "text": "Measure the nutrient solution EC.",
+          "translation": "测量营养液EC。",
+          "targetStart": 12,
+          "targetEnd": 29,
+          "source": {
+            "name": "龙潭农场英语学习资料_词根词缀与蓝莓生产QA扩展版(1).xlsx · 用户学习资料",
+            "url": "https://github.com/wwlvss/qwerty-learner/blob/master/docs/personal-learning/farm-english.md",
+            "license": "用户提供的学习资料；原文未声明开放许可",
+            "kind": "user"
+          },
+          "context": "farm-english"
+        },
+        {
+          "text": "Please check the EC and pH of the nutrient solution.",
+          "translation": "请检查营养液的EC和pH。",
+          "targetStart": 34,
+          "targetEnd": 51,
+          "source": {
+            "name": "龙潭农场英语学习资料_词根词缀与蓝莓生产QA扩展版(1).xlsx · 用户学习资料",
+            "url": "https://github.com/wwlvss/qwerty-learner/blob/master/docs/personal-learning/farm-english.md",
+            "license": "用户提供的学习资料；原文未声明开放许可",
+            "kind": "user"
+          },
+          "context": "farm-english"
+        }
+      ]
+    },
+    {
+      "normalizedWord": "flush",
+      "phrases": [],
+      "examples": [
+        {
+          "text": "Flush the irrigation lines.",
+          "translation": "冲洗灌溉管线。",
+          "targetStart": 0,
+          "targetEnd": 5,
+          "source": {
+            "name": "龙潭农场英语学习资料_词根词缀与蓝莓生产QA扩展版(1).xlsx · 用户学习资料",
+            "url": "https://github.com/wwlvss/qwerty-learner/blob/master/docs/personal-learning/farm-english.md",
+            "license": "用户提供的学习资料；原文未声明开放许可",
+            "kind": "user"
+          },
+          "context": "farm-english"
+        }
+      ]
+    },
+    {
+      "normalizedWord": "unclog",
+      "phrases": [],
+      "examples": [
+        {
+          "text": "Unclog the drip emitter.",
+          "translation": "疏通滴头。",
+          "targetStart": 0,
+          "targetEnd": 6,
+          "source": {
+            "name": "龙潭农场英语学习资料_词根词缀与蓝莓生产QA扩展版(1).xlsx · 用户学习资料",
+            "url": "https://github.com/wwlvss/qwerty-learner/blob/master/docs/personal-learning/farm-english.md",
+            "license": "用户提供的学习资料；原文未声明开放许可",
+            "kind": "user"
+          },
+          "context": "farm-english"
+        }
+      ]
+    },
+    {
+      "normalizedWord": "leak",
+      "phrases": [],
+      "examples": [
+        {
+          "text": "If you find a leak, mark the location and report it.",
+          "translation": "如果发现漏水，标记位置并报告。",
+          "targetStart": 14,
+          "targetEnd": 18,
+          "source": {
+            "name": "龙潭农场英语学习资料_词根词缀与蓝莓生产QA扩展版(1).xlsx · 用户学习资料",
+            "url": "https://github.com/wwlvss/qwerty-learner/blob/master/docs/personal-learning/farm-english.md",
+            "license": "用户提供的学习资料；原文未声明开放许可",
+            "kind": "user"
+          },
+          "context": "farm-english"
+        }
+      ]
+    },
+    {
+      "normalizedWord": "measure",
+      "phrases": [],
+      "examples": [
+        {
+          "text": "Measure the pressure at the end.",
+          "translation": "测量末端压力。",
+          "targetStart": 0,
+          "targetEnd": 7,
+          "source": {
+            "name": "龙潭农场英语学习资料_词根词缀与蓝莓生产QA扩展版(1).xlsx · 用户学习资料",
+            "url": "https://github.com/wwlvss/qwerty-learner/blob/master/docs/personal-learning/farm-english.md",
+            "license": "用户提供的学习资料；原文未声明开放许可",
+            "kind": "user"
+          },
+          "context": "farm-english"
+        }
+      ]
+    },
+    {
+      "normalizedWord": "adjust",
+      "phrases": [],
+      "examples": [
+        {
+          "text": "Adjust the irrigation schedule.",
+          "translation": "调整灌溉计划。",
+          "targetStart": 0,
+          "targetEnd": 6,
+          "source": {
+            "name": "龙潭农场英语学习资料_词根词缀与蓝莓生产QA扩展版(1).xlsx · 用户学习资料",
+            "url": "https://github.com/wwlvss/qwerty-learner/blob/master/docs/personal-learning/farm-english.md",
+            "license": "用户提供的学习资料；原文未声明开放许可",
+            "kind": "user"
+          },
+          "context": "farm-english"
+        }
+      ]
+    },
+    {
+      "normalizedWord": "install",
+      "phrases": [],
+      "examples": [
+        {
+          "text": "Install the irrigation pipe.",
+          "translation": "安装灌溉管道。",
+          "targetStart": 0,
+          "targetEnd": 7,
+          "source": {
+            "name": "龙潭农场英语学习资料_词根词缀与蓝莓生产QA扩展版(1).xlsx · 用户学习资料",
+            "url": "https://github.com/wwlvss/qwerty-learner/blob/master/docs/personal-learning/farm-english.md",
+            "license": "用户提供的学习资料；原文未声明开放许可",
+            "kind": "user"
+          },
+          "context": "farm-english"
+        }
+      ]
+    },
+    {
+      "normalizedWord": "clean",
+      "phrases": [],
+      "examples": [
+        {
+          "text": "Clean the pump house filters.",
+          "translation": "清洗泵房过滤器。",
+          "targetStart": 0,
+          "targetEnd": 5,
+          "source": {
+            "name": "龙潭农场英语学习资料_词根词缀与蓝莓生产QA扩展版(1).xlsx · 用户学习资料",
+            "url": "https://github.com/wwlvss/qwerty-learner/blob/master/docs/personal-learning/farm-english.md",
+            "license": "用户提供的学习资料；原文未声明开放许可",
+            "kind": "user"
+          },
+          "context": "farm-english"
+        }
+      ]
+    },
+    {
+      "normalizedWord": "greenhouse tunnel",
+      "phrases": [
+        {
+          "text": "greenhouse tunnel",
+          "translation": "大棚",
+          "source": {
+            "name": "龙潭农场英语学习资料_词根词缀与蓝莓生产QA扩展版(1).xlsx · 用户学习资料",
+            "url": "https://github.com/wwlvss/qwerty-learner/blob/master/docs/personal-learning/farm-english.md",
+            "license": "用户提供的学习资料；原文未声明开放许可",
+            "kind": "user"
+          },
+          "context": "farm-english"
+        }
+      ],
+      "examples": []
+    },
+    {
+      "normalizedWord": "ground cover fabric",
+      "phrases": [
+        {
+          "text": "ground cover fabric",
+          "translation": "地布",
+          "source": {
+            "name": "龙潭农场英语学习资料_词根词缀与蓝莓生产QA扩展版(1).xlsx · 用户学习资料",
+            "url": "https://github.com/wwlvss/qwerty-learner/blob/master/docs/personal-learning/farm-english.md",
+            "license": "用户提供的学习资料；原文未声明开放许可",
+            "kind": "user"
+          },
+          "context": "farm-english"
+        }
+      ],
+      "examples": []
+    },
+    {
+      "normalizedWord": "substrate",
+      "phrases": [],
+      "examples": [
+        {
+          "text": "Check the substrate moisture.",
+          "translation": "检查基质含水量。",
+          "targetStart": 10,
+          "targetEnd": 19,
+          "source": {
+            "name": "龙潭农场英语学习资料_词根词缀与蓝莓生产QA扩展版(1).xlsx · 用户学习资料",
+            "url": "https://github.com/wwlvss/qwerty-learner/blob/master/docs/personal-learning/farm-english.md",
+            "license": "用户提供的学习资料；原文未声明开放许可",
+            "kind": "user"
+          },
+          "context": "farm-english"
+        },
+        {
+          "text": "We adjusted the irrigation schedule based on the substrate moisture.",
+          "translation": "我们根据基质含水量调整了灌溉计划。",
+          "targetStart": 49,
+          "targetEnd": 58,
+          "source": {
+            "name": "龙潭农场英语学习资料_词根词缀与蓝莓生产QA扩展版(1).xlsx · 用户学习资料",
+            "url": "https://github.com/wwlvss/qwerty-learner/blob/master/docs/personal-learning/farm-english.md",
+            "license": "用户提供的学习资料；原文未声明开放许可",
+            "kind": "user"
+          },
+          "context": "farm-english"
+        }
+      ]
+    },
+    {
+      "normalizedWord": "planting pot",
+      "phrases": [
+        {
+          "text": "planting pot",
+          "translation": "种植盆",
+          "source": {
+            "name": "龙潭农场英语学习资料_词根词缀与蓝莓生产QA扩展版(1).xlsx · 用户学习资料",
+            "url": "https://github.com/wwlvss/qwerty-learner/blob/master/docs/personal-learning/farm-english.md",
+            "license": "用户提供的学习资料；原文未声明开放许可",
+            "kind": "user"
+          },
+          "context": "farm-english"
+        }
+      ],
+      "examples": [
+        {
+          "text": "Each planting pot holds 25 liters.",
+          "translation": "每个种植盆容量25升。",
+          "targetStart": 5,
+          "targetEnd": 17,
+          "source": {
+            "name": "龙潭农场英语学习资料_词根词缀与蓝莓生产QA扩展版(1).xlsx · 用户学习资料",
+            "url": "https://github.com/wwlvss/qwerty-learner/blob/master/docs/personal-learning/farm-english.md",
+            "license": "用户提供的学习资料；原文未声明开放许可",
+            "kind": "user"
+          },
+          "context": "farm-english"
+        }
+      ]
+    },
+    {
+      "normalizedWord": "weed control",
+      "phrases": [
+        {
+          "text": "weed control",
+          "translation": "除草",
+          "source": {
+            "name": "龙潭农场英语学习资料_词根词缀与蓝莓生产QA扩展版(1).xlsx · 用户学习资料",
+            "url": "https://github.com/wwlvss/qwerty-learner/blob/master/docs/personal-learning/farm-english.md",
+            "license": "用户提供的学习资料；原文未声明开放许可",
+            "kind": "user"
+          },
+          "context": "farm-english"
+        }
+      ],
+      "examples": [
+        {
+          "text": "We need to schedule weed control.",
+          "translation": "我们需要安排除草。",
+          "targetStart": 20,
+          "targetEnd": 32,
+          "source": {
+            "name": "龙潭农场英语学习资料_词根词缀与蓝莓生产QA扩展版(1).xlsx · 用户学习资料",
+            "url": "https://github.com/wwlvss/qwerty-learner/blob/master/docs/personal-learning/farm-english.md",
+            "license": "用户提供的学习资料；原文未声明开放许可",
+            "kind": "user"
+          },
+          "context": "farm-english"
+        }
+      ]
+    },
+    {
+      "normalizedWord": "pesticide application",
+      "phrases": [
+        {
+          "text": "pesticide application",
+          "translation": "施药",
+          "source": {
+            "name": "龙潭农场英语学习资料_词根词缀与蓝莓生产QA扩展版(1).xlsx · 用户学习资料",
+            "url": "https://github.com/wwlvss/qwerty-learner/blob/master/docs/personal-learning/farm-english.md",
+            "license": "用户提供的学习资料；原文未声明开放许可",
+            "kind": "user"
+          },
+          "context": "farm-english"
+        }
+      ],
+      "examples": [
+        {
+          "text": "Record the pesticide application.",
+          "translation": "记录施药作业。",
+          "targetStart": 11,
+          "targetEnd": 32,
+          "source": {
+            "name": "龙潭农场英语学习资料_词根词缀与蓝莓生产QA扩展版(1).xlsx · 用户学习资料",
+            "url": "https://github.com/wwlvss/qwerty-learner/blob/master/docs/personal-learning/farm-english.md",
+            "license": "用户提供的学习资料；原文未声明开放许可",
+            "kind": "user"
+          },
+          "context": "farm-english"
+        },
+        {
+          "text": "Make sure the pesticide application follows the approved procedure.",
+          "translation": "确保施药按照批准的程序执行。",
+          "targetStart": 14,
+          "targetEnd": 35,
+          "source": {
+            "name": "龙潭农场英语学习资料_词根词缀与蓝莓生产QA扩展版(1).xlsx · 用户学习资料",
+            "url": "https://github.com/wwlvss/qwerty-learner/blob/master/docs/personal-learning/farm-english.md",
+            "license": "用户提供的学习资料；原文未声明开放许可",
+            "kind": "user"
+          },
+          "context": "farm-english"
+        }
+      ]
+    },
+    {
+      "normalizedWord": "bird netting",
+      "phrases": [
+        {
+          "text": "bird netting",
+          "translation": "防鸟网",
+          "source": {
+            "name": "龙潭农场英语学习资料_词根词缀与蓝莓生产QA扩展版(1).xlsx · 用户学习资料",
+            "url": "https://github.com/wwlvss/qwerty-learner/blob/master/docs/personal-learning/farm-english.md",
+            "license": "用户提供的学习资料；原文未声明开放许可",
+            "kind": "user"
+          },
+          "context": "farm-english"
+        }
+      ],
+      "examples": [
+        {
+          "text": "Repair the bird netting.",
+          "translation": "维修防鸟网。",
+          "targetStart": 11,
+          "targetEnd": 23,
+          "source": {
+            "name": "龙潭农场英语学习资料_词根词缀与蓝莓生产QA扩展版(1).xlsx · 用户学习资料",
+            "url": "https://github.com/wwlvss/qwerty-learner/blob/master/docs/personal-learning/farm-english.md",
+            "license": "用户提供的学习资料；原文未声明开放许可",
+            "kind": "user"
+          },
+          "context": "farm-english"
+        }
+      ]
+    },
+    {
+      "normalizedWord": "plastic film",
+      "phrases": [
+        {
+          "text": "plastic film",
+          "translation": "棚膜",
+          "source": {
+            "name": "龙潭农场英语学习资料_词根词缀与蓝莓生产QA扩展版(1).xlsx · 用户学习资料",
+            "url": "https://github.com/wwlvss/qwerty-learner/blob/master/docs/personal-learning/farm-english.md",
+            "license": "用户提供的学习资料；原文未声明开放许可",
+            "kind": "user"
+          },
+          "context": "farm-english"
+        }
+      ],
+      "examples": [
+        {
+          "text": "The plastic film has come loose.",
+          "translation": "棚膜松脱了。",
+          "targetStart": 4,
+          "targetEnd": 16,
+          "source": {
+            "name": "龙潭农场英语学习资料_词根词缀与蓝莓生产QA扩展版(1).xlsx · 用户学习资料",
+            "url": "https://github.com/wwlvss/qwerty-learner/blob/master/docs/personal-learning/farm-english.md",
+            "license": "用户提供的学习资料；原文未声明开放许可",
+            "kind": "user"
+          },
+          "context": "farm-english"
+        },
+        {
+          "text": "Two workers will spray, and one will repair the plastic film.",
+          "translation": "两人点喷，一人修棚膜。",
+          "targetStart": 48,
+          "targetEnd": 60,
+          "source": {
+            "name": "龙潭农场英语学习资料_词根词缀与蓝莓生产QA扩展版(1).xlsx · 用户学习资料",
+            "url": "https://github.com/wwlvss/qwerty-learner/blob/master/docs/personal-learning/farm-english.md",
+            "license": "用户提供的学习资料；原文未声明开放许可",
+            "kind": "user"
+          },
+          "context": "farm-english"
+        }
+      ]
+    },
+    {
+      "normalizedWord": "spray",
+      "phrases": [],
+      "examples": [
+        {
+          "text": "Spray only the approved area.",
+          "translation": "只喷施批准区域。",
+          "targetStart": 0,
+          "targetEnd": 5,
+          "source": {
+            "name": "龙潭农场英语学习资料_词根词缀与蓝莓生产QA扩展版(1).xlsx · 用户学习资料",
+            "url": "https://github.com/wwlvss/qwerty-learner/blob/master/docs/personal-learning/farm-english.md",
+            "license": "用户提供的学习资料；原文未声明开放许可",
+            "kind": "user"
+          },
+          "context": "farm-english"
+        },
+        {
+          "text": "Two workers will spray, and one will repair the plastic film.",
+          "translation": "两人点喷，一人修棚膜。",
+          "targetStart": 17,
+          "targetEnd": 22,
+          "source": {
+            "name": "龙潭农场英语学习资料_词根词缀与蓝莓生产QA扩展版(1).xlsx · 用户学习资料",
+            "url": "https://github.com/wwlvss/qwerty-learner/blob/master/docs/personal-learning/farm-english.md",
+            "license": "用户提供的学习资料；原文未声明开放许可",
+            "kind": "user"
+          },
+          "context": "farm-english"
+        },
+        {
+          "text": "Keep the spray records for traceability.",
+          "translation": "保留施药记录以便追溯。",
+          "targetStart": 9,
+          "targetEnd": 14,
+          "source": {
+            "name": "龙潭农场英语学习资料_词根词缀与蓝莓生产QA扩展版(1).xlsx · 用户学习资料",
+            "url": "https://github.com/wwlvss/qwerty-learner/blob/master/docs/personal-learning/farm-english.md",
+            "license": "用户提供的学习资料；原文未声明开放许可",
+            "kind": "user"
+          },
+          "context": "farm-english"
+        }
+      ]
+    },
+    {
+      "normalizedWord": "weed",
+      "phrases": [],
+      "examples": [
+        {
+          "text": "We need to weed this area.",
+          "translation": "我们需要清除这片区域的杂草。",
+          "targetStart": 11,
+          "targetEnd": 15,
+          "source": {
+            "name": "龙潭农场英语学习资料_词根词缀与蓝莓生产QA扩展版(1).xlsx · 用户学习资料",
+            "url": "https://github.com/wwlvss/qwerty-learner/blob/master/docs/personal-learning/farm-english.md",
+            "license": "用户提供的学习资料；原文未声明开放许可",
+            "kind": "user"
+          },
+          "context": "farm-english"
+        }
+      ]
+    },
+    {
+      "normalizedWord": "secure",
+      "phrases": [],
+      "examples": [
+        {
+          "text": "Secure the loose film.",
+          "translation": "固定松动的棚膜。",
+          "targetStart": 0,
+          "targetEnd": 6,
+          "source": {
+            "name": "龙潭农场英语学习资料_词根词缀与蓝莓生产QA扩展版(1).xlsx · 用户学习资料",
+            "url": "https://github.com/wwlvss/qwerty-learner/blob/master/docs/personal-learning/farm-english.md",
+            "license": "用户提供的学习资料；原文未声明开放许可",
+            "kind": "user"
+          },
+          "context": "farm-english"
+        }
+      ]
+    },
+    {
+      "normalizedWord": "document",
+      "phrases": [],
+      "examples": [
+        {
+          "text": "Document the repair with photos.",
+          "translation": "拍照记录维修过程。",
+          "targetStart": 0,
+          "targetEnd": 8,
+          "source": {
+            "name": "龙潭农场英语学习资料_词根词缀与蓝莓生产QA扩展版(1).xlsx · 用户学习资料",
+            "url": "https://github.com/wwlvss/qwerty-learner/blob/master/docs/personal-learning/farm-english.md",
+            "license": "用户提供的学习资料；原文未声明开放许可",
+            "kind": "user"
+          },
+          "context": "farm-english"
+        }
+      ]
+    },
+    {
+      "normalizedWord": "yield",
+      "phrases": [],
+      "examples": [
+        {
+          "text": "The yield is higher than last season.",
+          "translation": "本季产量高于上一季。",
+          "targetStart": 4,
+          "targetEnd": 9,
+          "source": {
+            "name": "龙潭农场英语学习资料_词根词缀与蓝莓生产QA扩展版(1).xlsx · 用户学习资料",
+            "url": "https://github.com/wwlvss/qwerty-learner/blob/master/docs/personal-learning/farm-english.md",
+            "license": "用户提供的学习资料；原文未声明开放许可",
+            "kind": "user"
+          },
+          "context": "farm-english"
+        },
+        {
+          "text": "The total yield increased by 8% compared with last season.",
+          "translation": "总产量比上一季增加了8%。",
+          "targetStart": 10,
+          "targetEnd": 15,
+          "source": {
+            "name": "龙潭农场英语学习资料_词根词缀与蓝莓生产QA扩展版(1).xlsx · 用户学习资料",
+            "url": "https://github.com/wwlvss/qwerty-learner/blob/master/docs/personal-learning/farm-english.md",
+            "license": "用户提供的学习资料；原文未声明开放许可",
+            "kind": "user"
+          },
+          "context": "farm-english"
+        },
+        {
+          "text": "The yield per hectare was lower than expected.",
+          "translation": "每公顷单产低于预期。",
+          "targetStart": 4,
+          "targetEnd": 9,
+          "source": {
+            "name": "龙潭农场英语学习资料_词根词缀与蓝莓生产QA扩展版(1).xlsx · 用户学习资料",
+            "url": "https://github.com/wwlvss/qwerty-learner/blob/master/docs/personal-learning/farm-english.md",
+            "license": "用户提供的学习资料；原文未声明开放许可",
+            "kind": "user"
+          },
+          "context": "farm-english"
+        }
+      ]
+    },
+    {
+      "normalizedWord": "production",
+      "phrases": [],
+      "examples": [
+        {
+          "text": "We need to record the weekly production.",
+          "translation": "我们需要记录每周产量。",
+          "targetStart": 29,
+          "targetEnd": 39,
+          "source": {
+            "name": "龙潭农场英语学习资料_词根词缀与蓝莓生产QA扩展版(1).xlsx · 用户学习资料",
+            "url": "https://github.com/wwlvss/qwerty-learner/blob/master/docs/personal-learning/farm-english.md",
+            "license": "用户提供的学习资料；原文未声明开放许可",
+            "kind": "user"
+          },
+          "context": "farm-english"
+        },
+        {
+          "text": "Our production team can verify the work, but HR should clarify the reporting rules.",
+          "translation": "生产团队可以核实工作，但人事应明确填报规则。",
+          "targetStart": 4,
+          "targetEnd": 14,
+          "source": {
+            "name": "龙潭农场英语学习资料_词根词缀与蓝莓生产QA扩展版(1).xlsx · 用户学习资料",
+            "url": "https://github.com/wwlvss/qwerty-learner/blob/master/docs/personal-learning/farm-english.md",
+            "license": "用户提供的学习资料；原文未声明开放许可",
+            "kind": "user"
+          },
+          "context": "farm-english"
+        },
+        {
+          "text": "Please update the production forecast every Monday.",
+          "translation": "请每周一更新产量预测。",
+          "targetStart": 18,
+          "targetEnd": 28,
+          "source": {
+            "name": "龙潭农场英语学习资料_词根词缀与蓝莓生产QA扩展版(1).xlsx · 用户学习资料",
+            "url": "https://github.com/wwlvss/qwerty-learner/blob/master/docs/personal-learning/farm-english.md",
+            "license": "用户提供的学习资料；原文未声明开放许可",
+            "kind": "user"
+          },
+          "context": "farm-english"
+        }
+      ]
+    },
+    {
+      "normalizedWord": "harvest",
+      "phrases": [],
+      "examples": [
+        {
+          "text": "The harvest will peak next week.",
+          "translation": "采收高峰预计在下周。",
+          "targetStart": 4,
+          "targetEnd": 11,
+          "source": {
+            "name": "龙潭农场英语学习资料_词根词缀与蓝莓生产QA扩展版(1).xlsx · 用户学习资料",
+            "url": "https://github.com/wwlvss/qwerty-learner/blob/master/docs/personal-learning/farm-english.md",
+            "license": "用户提供的学习资料；原文未声明开放许可",
+            "kind": "user"
+          },
+          "context": "farm-english"
+        },
+        {
+          "text": "The harvest peak is expected next week.",
+          "translation": "预计下周进入采收高峰。",
+          "targetStart": 4,
+          "targetEnd": 11,
+          "source": {
+            "name": "龙潭农场英语学习资料_词根词缀与蓝莓生产QA扩展版(1).xlsx · 用户学习资料",
+            "url": "https://github.com/wwlvss/qwerty-learner/blob/master/docs/personal-learning/farm-english.md",
+            "license": "用户提供的学习资料；原文未声明开放许可",
+            "kind": "user"
+          },
+          "context": "farm-english"
+        },
+        {
+          "text": "Please record the harvest volume by variety and date.",
+          "translation": "请按品种和日期记录采收量。",
+          "targetStart": 18,
+          "targetEnd": 25,
+          "source": {
+            "name": "龙潭农场英语学习资料_词根词缀与蓝莓生产QA扩展版(1).xlsx · 用户学习资料",
+            "url": "https://github.com/wwlvss/qwerty-learner/blob/master/docs/personal-learning/farm-english.md",
+            "license": "用户提供的学习资料；原文未声明开放许可",
+            "kind": "user"
+          },
+          "context": "farm-english"
+        },
+        {
+          "text": "We need to improve labor productivity during peak harvest.",
+          "translation": "采收高峰期我们需要提高劳动生产率。",
+          "targetStart": 50,
+          "targetEnd": 57,
+          "source": {
+            "name": "龙潭农场英语学习资料_词根词缀与蓝莓生产QA扩展版(1).xlsx · 用户学习资料",
+            "url": "https://github.com/wwlvss/qwerty-learner/blob/master/docs/personal-learning/farm-english.md",
+            "license": "用户提供的学习资料；原文未声明开放许可",
+            "kind": "user"
+          },
+          "context": "farm-english"
+        }
+      ]
+    },
+    {
+      "normalizedWord": "harvest volume",
+      "phrases": [
+        {
+          "text": "harvest volume",
+          "translation": "采收量",
+          "source": {
+            "name": "龙潭农场英语学习资料_词根词缀与蓝莓生产QA扩展版(1).xlsx · 用户学习资料",
+            "url": "https://github.com/wwlvss/qwerty-learner/blob/master/docs/personal-learning/farm-english.md",
+            "license": "用户提供的学习资料；原文未声明开放许可",
+            "kind": "user"
+          },
+          "context": "farm-english"
+        }
+      ],
+      "examples": [
+        {
+          "text": "Please update the harvest volume every day.",
+          "translation": "请每天更新采收量。",
+          "targetStart": 18,
+          "targetEnd": 32,
+          "source": {
+            "name": "龙潭农场英语学习资料_词根词缀与蓝莓生产QA扩展版(1).xlsx · 用户学习资料",
+            "url": "https://github.com/wwlvss/qwerty-learner/blob/master/docs/personal-learning/farm-english.md",
+            "license": "用户提供的学习资料；原文未声明开放许可",
+            "kind": "user"
+          },
+          "context": "farm-english"
+        },
+        {
+          "text": "Please record the harvest volume by variety and date.",
+          "translation": "请按品种和日期记录采收量。",
+          "targetStart": 18,
+          "targetEnd": 32,
+          "source": {
+            "name": "龙潭农场英语学习资料_词根词缀与蓝莓生产QA扩展版(1).xlsx · 用户学习资料",
+            "url": "https://github.com/wwlvss/qwerty-learner/blob/master/docs/personal-learning/farm-english.md",
+            "license": "用户提供的学习资料；原文未声明开放许可",
+            "kind": "user"
+          },
+          "context": "farm-english"
+        }
+      ]
+    },
+    {
+      "normalizedWord": "peak",
+      "phrases": [],
+      "examples": [
+        {
+          "text": "The harvest peak is expected in December.",
+          "translation": "预计采收高峰在12月。",
+          "targetStart": 12,
+          "targetEnd": 16,
+          "source": {
+            "name": "龙潭农场英语学习资料_词根词缀与蓝莓生产QA扩展版(1).xlsx · 用户学习资料",
+            "url": "https://github.com/wwlvss/qwerty-learner/blob/master/docs/personal-learning/farm-english.md",
+            "license": "用户提供的学习资料；原文未声明开放许可",
+            "kind": "user"
+          },
+          "context": "farm-english"
+        },
+        {
+          "text": "The harvest peak is expected next week.",
+          "translation": "预计下周进入采收高峰。",
+          "targetStart": 12,
+          "targetEnd": 16,
+          "source": {
+            "name": "龙潭农场英语学习资料_词根词缀与蓝莓生产QA扩展版(1).xlsx · 用户学习资料",
+            "url": "https://github.com/wwlvss/qwerty-learner/blob/master/docs/personal-learning/farm-english.md",
+            "license": "用户提供的学习资料；原文未声明开放许可",
+            "kind": "user"
+          },
+          "context": "farm-english"
+        },
+        {
+          "text": "We need to improve labor productivity during peak harvest.",
+          "translation": "采收高峰期我们需要提高劳动生产率。",
+          "targetStart": 45,
+          "targetEnd": 49,
+          "source": {
+            "name": "龙潭农场英语学习资料_词根词缀与蓝莓生产QA扩展版(1).xlsx · 用户学习资料",
+            "url": "https://github.com/wwlvss/qwerty-learner/blob/master/docs/personal-learning/farm-english.md",
+            "license": "用户提供的学习资料；原文未声明开放许可",
+            "kind": "user"
+          },
+          "context": "farm-english"
+        }
+      ]
+    },
+    {
+      "normalizedWord": "packout rate",
+      "phrases": [
+        {
+          "text": "packout rate",
+          "translation": "商品果率；包装合格率",
+          "source": {
+            "name": "龙潭农场英语学习资料_词根词缀与蓝莓生产QA扩展版(1).xlsx · 用户学习资料",
+            "url": "https://github.com/wwlvss/qwerty-learner/blob/master/docs/personal-learning/farm-english.md",
+            "license": "用户提供的学习资料；原文未声明开放许可",
+            "kind": "user"
+          },
+          "context": "farm-english"
+        }
+      ],
+      "examples": [
+        {
+          "text": "We need to improve the packout rate.",
+          "translation": "我们需要提高商品果率。",
+          "targetStart": 23,
+          "targetEnd": 35,
+          "source": {
+            "name": "龙潭农场英语学习资料_词根词缀与蓝莓生产QA扩展版(1).xlsx · 用户学习资料",
+            "url": "https://github.com/wwlvss/qwerty-learner/blob/master/docs/personal-learning/farm-english.md",
+            "license": "用户提供的学习资料；原文未声明开放许可",
+            "kind": "user"
+          },
+          "context": "farm-english"
+        }
+      ]
+    },
+    {
+      "normalizedWord": "harvest frequency",
+      "phrases": [
+        {
+          "text": "harvest frequency",
+          "translation": "采收频次",
+          "source": {
+            "name": "龙潭农场英语学习资料_词根词缀与蓝莓生产QA扩展版(1).xlsx · 用户学习资料",
+            "url": "https://github.com/wwlvss/qwerty-learner/blob/master/docs/personal-learning/farm-english.md",
+            "license": "用户提供的学习资料；原文未声明开放许可",
+            "kind": "user"
+          },
+          "context": "farm-english"
+        }
+      ],
+      "examples": [
+        {
+          "text": "Harvest frequency may change with fruit maturity.",
+          "translation": "采收频次可能随果实成熟度变化。",
+          "targetStart": 0,
+          "targetEnd": 17,
+          "source": {
+            "name": "龙潭农场英语学习资料_词根词缀与蓝莓生产QA扩展版(1).xlsx · 用户学习资料",
+            "url": "https://github.com/wwlvss/qwerty-learner/blob/master/docs/personal-learning/farm-english.md",
+            "license": "用户提供的学习资料；原文未声明开放许可",
+            "kind": "user"
+          },
+          "context": "farm-english"
+        }
+      ]
+    },
+    {
+      "normalizedWord": "harvest record",
+      "phrases": [
+        {
+          "text": "harvest record",
+          "translation": "采收记录",
+          "source": {
+            "name": "龙潭农场英语学习资料_词根词缀与蓝莓生产QA扩展版(1).xlsx · 用户学习资料",
+            "url": "https://github.com/wwlvss/qwerty-learner/blob/master/docs/personal-learning/farm-english.md",
+            "license": "用户提供的学习资料；原文未声明开放许可",
+            "kind": "user"
+          },
+          "context": "farm-english"
+        }
+      ],
+      "examples": [
+        {
+          "text": "Please check the harvest record by variety.",
+          "translation": "请按品种检查采收记录。",
+          "targetStart": 17,
+          "targetEnd": 31,
+          "source": {
+            "name": "龙潭农场英语学习资料_词根词缀与蓝莓生产QA扩展版(1).xlsx · 用户学习资料",
+            "url": "https://github.com/wwlvss/qwerty-learner/blob/master/docs/personal-learning/farm-english.md",
+            "license": "用户提供的学习资料；原文未声明开放许可",
+            "kind": "user"
+          },
+          "context": "farm-english"
+        }
+      ]
+    },
+    {
+      "normalizedWord": "fruit quality",
+      "phrases": [
+        {
+          "text": "fruit quality",
+          "translation": "果实品质",
+          "source": {
+            "name": "龙潭农场英语学习资料_词根词缀与蓝莓生产QA扩展版(1).xlsx · 用户学习资料",
+            "url": "https://github.com/wwlvss/qwerty-learner/blob/master/docs/personal-learning/farm-english.md",
+            "license": "用户提供的学习资料；原文未声明开放许可",
+            "kind": "user"
+          },
+          "context": "farm-english"
+        }
+      ],
+      "examples": [
+        {
+          "text": "Fruit quality must be checked at harvest.",
+          "translation": "采收时必须检查果实品质。",
+          "targetStart": 0,
+          "targetEnd": 13,
+          "source": {
+            "name": "龙潭农场英语学习资料_词根词缀与蓝莓生产QA扩展版(1).xlsx · 用户学习资料",
+            "url": "https://github.com/wwlvss/qwerty-learner/blob/master/docs/personal-learning/farm-english.md",
+            "license": "用户提供的学习资料；原文未声明开放许可",
+            "kind": "user"
+          },
+          "context": "farm-english"
+        }
+      ]
+    },
+    {
+      "normalizedWord": "firmness",
+      "phrases": [],
+      "examples": [
+        {
+          "text": "Fruit firmness is an important quality indicator.",
+          "translation": "果实硬度是重要的品质指标。",
+          "targetStart": 6,
+          "targetEnd": 14,
+          "source": {
+            "name": "龙潭农场英语学习资料_词根词缀与蓝莓生产QA扩展版(1).xlsx · 用户学习资料",
+            "url": "https://github.com/wwlvss/qwerty-learner/blob/master/docs/personal-learning/farm-english.md",
+            "license": "用户提供的学习资料；原文未声明开放许可",
+            "kind": "user"
+          },
+          "context": "farm-english"
+        },
+        {
+          "text": "We need to check fruit firmness and Brix.",
+          "translation": "我们需要检查果实硬度和糖度。",
+          "targetStart": 23,
+          "targetEnd": 31,
+          "source": {
+            "name": "龙潭农场英语学习资料_词根词缀与蓝莓生产QA扩展版(1).xlsx · 用户学习资料",
+            "url": "https://github.com/wwlvss/qwerty-learner/blob/master/docs/personal-learning/farm-english.md",
+            "license": "用户提供的学习资料；原文未声明开放许可",
+            "kind": "user"
+          },
+          "context": "farm-english"
+        }
+      ]
+    },
+    {
+      "normalizedWord": "soluble solids",
+      "phrases": [
+        {
+          "text": "soluble solids",
+          "translation": "可溶性固形物",
+          "source": {
+            "name": "龙潭农场英语学习资料_词根词缀与蓝莓生产QA扩展版(1).xlsx · 用户学习资料",
+            "url": "https://github.com/wwlvss/qwerty-learner/blob/master/docs/personal-learning/farm-english.md",
+            "license": "用户提供的学习资料；原文未声明开放许可",
+            "kind": "user"
+          },
+          "context": "farm-english"
+        }
+      ],
+      "examples": [
+        {
+          "text": "We measure soluble solids in the sample.",
+          "translation": "我们测量样品的可溶性固形物。",
+          "targetStart": 11,
+          "targetEnd": 25,
+          "source": {
+            "name": "龙潭农场英语学习资料_词根词缀与蓝莓生产QA扩展版(1).xlsx · 用户学习资料",
+            "url": "https://github.com/wwlvss/qwerty-learner/blob/master/docs/personal-learning/farm-english.md",
+            "license": "用户提供的学习资料；原文未声明开放许可",
+            "kind": "user"
+          },
+          "context": "farm-english"
+        }
+      ]
+    },
+    {
+      "normalizedWord": "brix",
+      "phrases": [],
+      "examples": [
+        {
+          "text": "The Brix reading is 12 degrees.",
+          "translation": "糖度读数为12度。",
+          "targetStart": 4,
+          "targetEnd": 8,
+          "source": {
+            "name": "龙潭农场英语学习资料_词根词缀与蓝莓生产QA扩展版(1).xlsx · 用户学习资料",
+            "url": "https://github.com/wwlvss/qwerty-learner/blob/master/docs/personal-learning/farm-english.md",
+            "license": "用户提供的学习资料；原文未声明开放许可",
+            "kind": "user"
+          },
+          "context": "farm-english"
+        },
+        {
+          "text": "We need to check fruit firmness and Brix.",
+          "translation": "我们需要检查果实硬度和糖度。",
+          "targetStart": 36,
+          "targetEnd": 40,
+          "source": {
+            "name": "龙潭农场英语学习资料_词根词缀与蓝莓生产QA扩展版(1).xlsx · 用户学习资料",
+            "url": "https://github.com/wwlvss/qwerty-learner/blob/master/docs/personal-learning/farm-english.md",
+            "license": "用户提供的学习资料；原文未声明开放许可",
+            "kind": "user"
+          },
+          "context": "farm-english"
+        }
+      ]
+    },
+    {
+      "normalizedWord": "acidity",
+      "phrases": [],
+      "examples": [
+        {
+          "text": "We also need to check fruit acidity.",
+          "translation": "我们还需要检测果实酸度。",
+          "targetStart": 28,
+          "targetEnd": 35,
+          "source": {
+            "name": "龙潭农场英语学习资料_词根词缀与蓝莓生产QA扩展版(1).xlsx · 用户学习资料",
+            "url": "https://github.com/wwlvss/qwerty-learner/blob/master/docs/personal-learning/farm-english.md",
+            "license": "用户提供的学习资料；原文未声明开放许可",
+            "kind": "user"
+          },
+          "context": "farm-english"
+        }
+      ]
+    },
+    {
+      "normalizedWord": "bloom",
+      "phrases": [],
+      "examples": [
+        {
+          "text": "The berries should have an even bloom.",
+          "translation": "蓝莓果粉应分布均匀。",
+          "targetStart": 32,
+          "targetEnd": 37,
+          "source": {
+            "name": "龙潭农场英语学习资料_词根词缀与蓝莓生产QA扩展版(1).xlsx · 用户学习资料",
+            "url": "https://github.com/wwlvss/qwerty-learner/blob/master/docs/personal-learning/farm-english.md",
+            "license": "用户提供的学习资料；原文未声明开放许可",
+            "kind": "user"
+          },
+          "context": "farm-english"
+        },
+        {
+          "text": "The berries should have good color and an even bloom.",
+          "translation": "蓝莓应具有良好颜色和均匀果粉。",
+          "targetStart": 47,
+          "targetEnd": 52,
+          "source": {
+            "name": "龙潭农场英语学习资料_词根词缀与蓝莓生产QA扩展版(1).xlsx · 用户学习资料",
+            "url": "https://github.com/wwlvss/qwerty-learner/blob/master/docs/personal-learning/farm-english.md",
+            "license": "用户提供的学习资料；原文未声明开放许可",
+            "kind": "user"
+          },
+          "context": "farm-english"
+        }
+      ]
+    },
+    {
+      "normalizedWord": "berry size",
+      "phrases": [
+        {
+          "text": "berry size",
+          "translation": "果粒大小",
+          "source": {
+            "name": "龙潭农场英语学习资料_词根词缀与蓝莓生产QA扩展版(1).xlsx · 用户学习资料",
+            "url": "https://github.com/wwlvss/qwerty-learner/blob/master/docs/personal-learning/farm-english.md",
+            "license": "用户提供的学习资料；原文未声明开放许可",
+            "kind": "user"
+          },
+          "context": "farm-english"
+        }
+      ],
+      "examples": [
+        {
+          "text": "Berry size varies between varieties.",
+          "translation": "不同品种的果粒大小不同。",
+          "targetStart": 0,
+          "targetEnd": 10,
+          "source": {
+            "name": "龙潭农场英语学习资料_词根词缀与蓝莓生产QA扩展版(1).xlsx · 用户学习资料",
+            "url": "https://github.com/wwlvss/qwerty-learner/blob/master/docs/personal-learning/farm-english.md",
+            "license": "用户提供的学习资料；原文未声明开放许可",
+            "kind": "user"
+          },
+          "context": "farm-english"
+        }
+      ]
+    },
+    {
+      "normalizedWord": "cracking",
+      "phrases": [],
+      "examples": [
+        {
+          "text": "We found some fruit cracking after rain.",
+          "translation": "雨后我们发现部分果实裂果。",
+          "targetStart": 20,
+          "targetEnd": 28,
+          "source": {
+            "name": "龙潭农场英语学习资料_词根词缀与蓝莓生产QA扩展版(1).xlsx · 用户学习资料",
+            "url": "https://github.com/wwlvss/qwerty-learner/blob/master/docs/personal-learning/farm-english.md",
+            "license": "用户提供的学习资料；原文未声明开放许可",
+            "kind": "user"
+          },
+          "context": "farm-english"
+        }
+      ]
+    },
+    {
+      "normalizedWord": "soft fruit",
+      "phrases": [
+        {
+          "text": "soft fruit",
+          "translation": "软果",
+          "source": {
+            "name": "龙潭农场英语学习资料_词根词缀与蓝莓生产QA扩展版(1).xlsx · 用户学习资料",
+            "url": "https://github.com/wwlvss/qwerty-learner/blob/master/docs/personal-learning/farm-english.md",
+            "license": "用户提供的学习资料；原文未声明开放许可",
+            "kind": "user"
+          },
+          "context": "farm-english"
+        }
+      ],
+      "examples": [
+        {
+          "text": "Remove soft fruit during sorting.",
+          "translation": "分选时剔除软果。",
+          "targetStart": 7,
+          "targetEnd": 17,
+          "source": {
+            "name": "龙潭农场英语学习资料_词根词缀与蓝莓生产QA扩展版(1).xlsx · 用户学习资料",
+            "url": "https://github.com/wwlvss/qwerty-learner/blob/master/docs/personal-learning/farm-english.md",
+            "license": "用户提供的学习资料；原文未声明开放许可",
+            "kind": "user"
+          },
+          "context": "farm-english"
+        }
+      ]
+    },
+    {
+      "normalizedWord": "maturity",
+      "phrases": [],
+      "examples": [
+        {
+          "text": "Check fruit maturity before harvesting.",
+          "translation": "采收前检查果实成熟度。",
+          "targetStart": 12,
+          "targetEnd": 20,
+          "source": {
+            "name": "龙潭农场英语学习资料_词根词缀与蓝莓生产QA扩展版(1).xlsx · 用户学习资料",
+            "url": "https://github.com/wwlvss/qwerty-learner/blob/master/docs/personal-learning/farm-english.md",
+            "license": "用户提供的学习资料；原文未声明开放许可",
+            "kind": "user"
+          },
+          "context": "farm-english"
+        }
+      ]
+    },
+    {
+      "normalizedWord": "quality assurance",
+      "phrases": [
+        {
+          "text": "quality assurance",
+          "translation": "质量保证",
+          "source": {
+            "name": "龙潭农场英语学习资料_词根词缀与蓝莓生产QA扩展版(1).xlsx · 用户学习资料",
+            "url": "https://github.com/wwlvss/qwerty-learner/blob/master/docs/personal-learning/farm-english.md",
+            "license": "用户提供的学习资料；原文未声明开放许可",
+            "kind": "user"
+          },
+          "context": "farm-english"
+        }
+      ],
+      "examples": [
+        {
+          "text": "Quality assurance starts in the field.",
+          "translation": "质量保证从田间开始。",
+          "targetStart": 0,
+          "targetEnd": 17,
+          "source": {
+            "name": "龙潭农场英语学习资料_词根词缀与蓝莓生产QA扩展版(1).xlsx · 用户学习资料",
+            "url": "https://github.com/wwlvss/qwerty-learner/blob/master/docs/personal-learning/farm-english.md",
+            "license": "用户提供的学习资料；原文未声明开放许可",
+            "kind": "user"
+          },
+          "context": "farm-english"
+        }
+      ]
+    },
+    {
+      "normalizedWord": "quality control",
+      "phrases": [
+        {
+          "text": "quality control",
+          "translation": "质量控制",
+          "source": {
+            "name": "龙潭农场英语学习资料_词根词缀与蓝莓生产QA扩展版(1).xlsx · 用户学习资料",
+            "url": "https://github.com/wwlvss/qwerty-learner/blob/master/docs/personal-learning/farm-english.md",
+            "license": "用户提供的学习资料；原文未声明开放许可",
+            "kind": "user"
+          },
+          "context": "farm-english"
+        }
+      ],
+      "examples": [
+        {
+          "text": "The QA team carries out quality control checks.",
+          "translation": "QA团队开展质量控制检查。",
+          "targetStart": 24,
+          "targetEnd": 39,
+          "source": {
+            "name": "龙潭农场英语学习资料_词根词缀与蓝莓生产QA扩展版(1).xlsx · 用户学习资料",
+            "url": "https://github.com/wwlvss/qwerty-learner/blob/master/docs/personal-learning/farm-english.md",
+            "license": "用户提供的学习资料；原文未声明开放许可",
+            "kind": "user"
+          },
+          "context": "farm-english"
+        }
+      ]
+    },
+    {
+      "normalizedWord": "sample",
+      "phrases": [],
+      "examples": [
+        {
+          "text": "Take a representative fruit sample.",
+          "translation": "取一个有代表性的果实样品。",
+          "targetStart": 28,
+          "targetEnd": 34,
+          "source": {
+            "name": "龙潭农场英语学习资料_词根词缀与蓝莓生产QA扩展版(1).xlsx · 用户学习资料",
+            "url": "https://github.com/wwlvss/qwerty-learner/blob/master/docs/personal-learning/farm-english.md",
+            "license": "用户提供的学习资料；原文未声明开放许可",
+            "kind": "user"
+          },
+          "context": "farm-english"
+        },
+        {
+          "text": "Please take a representative sample from each batch.",
+          "translation": "请从每个批次抽取有代表性的样品。",
+          "targetStart": 29,
+          "targetEnd": 35,
+          "source": {
+            "name": "龙潭农场英语学习资料_词根词缀与蓝莓生产QA扩展版(1).xlsx · 用户学习资料",
+            "url": "https://github.com/wwlvss/qwerty-learner/blob/master/docs/personal-learning/farm-english.md",
+            "license": "用户提供的学习资料；原文未声明开放许可",
+            "kind": "user"
+          },
+          "context": "farm-english"
+        }
+      ]
+    },
+    {
+      "normalizedWord": "sampling",
+      "phrases": [],
+      "examples": [
+        {
+          "text": "Follow the sampling procedure.",
+          "translation": "按照抽样程序操作。",
+          "targetStart": 11,
+          "targetEnd": 19,
+          "source": {
+            "name": "龙潭农场英语学习资料_词根词缀与蓝莓生产QA扩展版(1).xlsx · 用户学习资料",
+            "url": "https://github.com/wwlvss/qwerty-learner/blob/master/docs/personal-learning/farm-english.md",
+            "license": "用户提供的学习资料；原文未声明开放许可",
+            "kind": "user"
+          },
+          "context": "farm-english"
+        }
+      ]
+    },
+    {
+      "normalizedWord": "defect rate",
+      "phrases": [
+        {
+          "text": "defect rate",
+          "translation": "缺陷率",
+          "source": {
+            "name": "龙潭农场英语学习资料_词根词缀与蓝莓生产QA扩展版(1).xlsx · 用户学习资料",
+            "url": "https://github.com/wwlvss/qwerty-learner/blob/master/docs/personal-learning/farm-english.md",
+            "license": "用户提供的学习资料；原文未声明开放许可",
+            "kind": "user"
+          },
+          "context": "farm-english"
+        }
+      ],
+      "examples": [
+        {
+          "text": "Record the defect rate for each batch.",
+          "translation": "记录每个批次的缺陷率。",
+          "targetStart": 11,
+          "targetEnd": 22,
+          "source": {
+            "name": "龙潭农场英语学习资料_词根词缀与蓝莓生产QA扩展版(1).xlsx · 用户学习资料",
+            "url": "https://github.com/wwlvss/qwerty-learner/blob/master/docs/personal-learning/farm-english.md",
+            "license": "用户提供的学习资料；原文未声明开放许可",
+            "kind": "user"
+          },
+          "context": "farm-english"
+        },
+        {
+          "text": "Record the defect rate for each variety.",
+          "translation": "记录每个品种的缺陷率。",
+          "targetStart": 11,
+          "targetEnd": 22,
+          "source": {
+            "name": "龙潭农场英语学习资料_词根词缀与蓝莓生产QA扩展版(1).xlsx · 用户学习资料",
+            "url": "https://github.com/wwlvss/qwerty-learner/blob/master/docs/personal-learning/farm-english.md",
+            "license": "用户提供的学习资料；原文未声明开放许可",
+            "kind": "user"
+          },
+          "context": "farm-english"
+        }
+      ]
+    },
+    {
+      "normalizedWord": "traceability",
+      "phrases": [],
+      "examples": [
+        {
+          "text": "Keep the records for product traceability.",
+          "translation": "保留记录以确保产品可追溯。",
+          "targetStart": 29,
+          "targetEnd": 41,
+          "source": {
+            "name": "龙潭农场英语学习资料_词根词缀与蓝莓生产QA扩展版(1).xlsx · 用户学习资料",
+            "url": "https://github.com/wwlvss/qwerty-learner/blob/master/docs/personal-learning/farm-english.md",
+            "license": "用户提供的学习资料；原文未声明开放许可",
+            "kind": "user"
+          },
+          "context": "farm-english"
+        },
+        {
+          "text": "Keep the spray records for traceability.",
+          "translation": "保留施药记录以便追溯。",
+          "targetStart": 27,
+          "targetEnd": 39,
+          "source": {
+            "name": "龙潭农场英语学习资料_词根词缀与蓝莓生产QA扩展版(1).xlsx · 用户学习资料",
+            "url": "https://github.com/wwlvss/qwerty-learner/blob/master/docs/personal-learning/farm-english.md",
+            "license": "用户提供的学习资料；原文未声明开放许可",
+            "kind": "user"
+          },
+          "context": "farm-english"
+        }
+      ]
+    },
+    {
+      "normalizedWord": "residue",
+      "phrases": [],
+      "examples": [
+        {
+          "text": "The fruit must meet the pesticide residue requirements.",
+          "translation": "果实必须符合农药残留要求。",
+          "targetStart": 34,
+          "targetEnd": 41,
+          "source": {
+            "name": "龙潭农场英语学习资料_词根词缀与蓝莓生产QA扩展版(1).xlsx · 用户学习资料",
+            "url": "https://github.com/wwlvss/qwerty-learner/blob/master/docs/personal-learning/farm-english.md",
+            "license": "用户提供的学习资料；原文未声明开放许可",
+            "kind": "user"
+          },
+          "context": "farm-english"
+        }
+      ]
+    },
+    {
+      "normalizedWord": "batch",
+      "phrases": [],
+      "examples": [
+        {
+          "text": "Record the batch number on the label.",
+          "translation": "在标签上记录批次号。",
+          "targetStart": 11,
+          "targetEnd": 16,
+          "source": {
+            "name": "龙潭农场英语学习资料_词根词缀与蓝莓生产QA扩展版(1).xlsx · 用户学习资料",
+            "url": "https://github.com/wwlvss/qwerty-learner/blob/master/docs/personal-learning/farm-english.md",
+            "license": "用户提供的学习资料；原文未声明开放许可",
+            "kind": "user"
+          },
+          "context": "farm-english"
+        },
+        {
+          "text": "Please take a representative sample from each batch.",
+          "translation": "请从每个批次抽取有代表性的样品。",
+          "targetStart": 46,
+          "targetEnd": 51,
+          "source": {
+            "name": "龙潭农场英语学习资料_词根词缀与蓝莓生产QA扩展版(1).xlsx · 用户学习资料",
+            "url": "https://github.com/wwlvss/qwerty-learner/blob/master/docs/personal-learning/farm-english.md",
+            "license": "用户提供的学习资料；原文未声明开放许可",
+            "kind": "user"
+          },
+          "context": "farm-english"
+        }
+      ]
+    },
+    {
+      "normalizedWord": "compliance",
+      "phrases": [],
+      "examples": [
+        {
+          "text": "The farm must maintain food safety compliance.",
+          "translation": "农场必须保持食品安全合规。",
+          "targetStart": 35,
+          "targetEnd": 45,
+          "source": {
+            "name": "龙潭农场英语学习资料_词根词缀与蓝莓生产QA扩展版(1).xlsx · 用户学习资料",
+            "url": "https://github.com/wwlvss/qwerty-learner/blob/master/docs/personal-learning/farm-english.md",
+            "license": "用户提供的学习资料；原文未声明开放许可",
+            "kind": "user"
+          },
+          "context": "farm-english"
+        }
+      ]
+    },
+    {
+      "normalizedWord": "food safety",
+      "phrases": [
+        {
+          "text": "food safety",
+          "translation": "食品安全",
+          "source": {
+            "name": "龙潭农场英语学习资料_词根词缀与蓝莓生产QA扩展版(1).xlsx · 用户学习资料",
+            "url": "https://github.com/wwlvss/qwerty-learner/blob/master/docs/personal-learning/farm-english.md",
+            "license": "用户提供的学习资料；原文未声明开放许可",
+            "kind": "user"
+          },
+          "context": "farm-english"
+        }
+      ],
+      "examples": [
+        {
+          "text": "All workers must follow food safety rules.",
+          "translation": "所有工人必须遵守食品安全规定。",
+          "targetStart": 24,
+          "targetEnd": 35,
+          "source": {
+            "name": "龙潭农场英语学习资料_词根词缀与蓝莓生产QA扩展版(1).xlsx · 用户学习资料",
+            "url": "https://github.com/wwlvss/qwerty-learner/blob/master/docs/personal-learning/farm-english.md",
+            "license": "用户提供的学习资料；原文未声明开放许可",
+            "kind": "user"
+          },
+          "context": "farm-english"
+        }
+      ]
+    },
+    {
+      "normalizedWord": "root system",
+      "phrases": [
+        {
+          "text": "root system",
+          "translation": "根系",
+          "source": {
+            "name": "龙潭农场英语学习资料_词根词缀与蓝莓生产QA扩展版(1).xlsx · 用户学习资料",
+            "url": "https://github.com/wwlvss/qwerty-learner/blob/master/docs/personal-learning/farm-english.md",
+            "license": "用户提供的学习资料；原文未声明开放许可",
+            "kind": "user"
+          },
+          "context": "farm-english"
+        }
+      ],
+      "examples": [
+        {
+          "text": "Check the root system for signs of damage.",
+          "translation": "检查根系是否有受损迹象。",
+          "targetStart": 10,
+          "targetEnd": 21,
+          "source": {
+            "name": "龙潭农场英语学习资料_词根词缀与蓝莓生产QA扩展版(1).xlsx · 用户学习资料",
+            "url": "https://github.com/wwlvss/qwerty-learner/blob/master/docs/personal-learning/farm-english.md",
+            "license": "用户提供的学习资料；原文未声明开放许可",
+            "kind": "user"
+          },
+          "context": "farm-english"
+        }
+      ]
+    },
+    {
+      "normalizedWord": "shoot growth",
+      "phrases": [
+        {
+          "text": "shoot growth",
+          "translation": "新梢生长",
+          "source": {
+            "name": "龙潭农场英语学习资料_词根词缀与蓝莓生产QA扩展版(1).xlsx · 用户学习资料",
+            "url": "https://github.com/wwlvss/qwerty-learner/blob/master/docs/personal-learning/farm-english.md",
+            "license": "用户提供的学习资料；原文未声明开放许可",
+            "kind": "user"
+          },
+          "context": "farm-english"
+        }
+      ],
+      "examples": [
+        {
+          "text": "Record shoot growth by variety.",
+          "translation": "按品种记录新梢生长。",
+          "targetStart": 7,
+          "targetEnd": 19,
+          "source": {
+            "name": "龙潭农场英语学习资料_词根词缀与蓝莓生产QA扩展版(1).xlsx · 用户学习资料",
+            "url": "https://github.com/wwlvss/qwerty-learner/blob/master/docs/personal-learning/farm-english.md",
+            "license": "用户提供的学习资料；原文未声明开放许可",
+            "kind": "user"
+          },
+          "context": "farm-english"
+        },
+        {
+          "text": "Please record shoot growth by variety.",
+          "translation": "请按品种记录新梢生长。",
+          "targetStart": 14,
+          "targetEnd": 26,
+          "source": {
+            "name": "龙潭农场英语学习资料_词根词缀与蓝莓生产QA扩展版(1).xlsx · 用户学习资料",
+            "url": "https://github.com/wwlvss/qwerty-learner/blob/master/docs/personal-learning/farm-english.md",
+            "license": "用户提供的学习资料；原文未声明开放许可",
+            "kind": "user"
+          },
+          "context": "farm-english"
+        }
+      ]
+    },
+    {
+      "normalizedWord": "flower bud",
+      "phrases": [
+        {
+          "text": "flower bud",
+          "translation": "花芽",
+          "source": {
+            "name": "龙潭农场英语学习资料_词根词缀与蓝莓生产QA扩展版(1).xlsx · 用户学习资料",
+            "url": "https://github.com/wwlvss/qwerty-learner/blob/master/docs/personal-learning/farm-english.md",
+            "license": "用户提供的学习资料；原文未声明开放许可",
+            "kind": "user"
+          },
+          "context": "farm-english"
+        }
+      ],
+      "examples": []
+    },
+    {
+      "normalizedWord": "fruit set",
+      "phrases": [
+        {
+          "text": "fruit set",
+          "translation": "坐果",
+          "source": {
+            "name": "龙潭农场英语学习资料_词根词缀与蓝莓生产QA扩展版(1).xlsx · 用户学习资料",
+            "url": "https://github.com/wwlvss/qwerty-learner/blob/master/docs/personal-learning/farm-english.md",
+            "license": "用户提供的学习资料；原文未声明开放许可",
+            "kind": "user"
+          },
+          "context": "farm-english"
+        }
+      ],
+      "examples": [
+        {
+          "text": "Poor fruit set may reduce yield.",
+          "translation": "坐果不良可能降低产量。",
+          "targetStart": 5,
+          "targetEnd": 14,
+          "source": {
+            "name": "龙潭农场英语学习资料_词根词缀与蓝莓生产QA扩展版(1).xlsx · 用户学习资料",
+            "url": "https://github.com/wwlvss/qwerty-learner/blob/master/docs/personal-learning/farm-english.md",
+            "license": "用户提供的学习资料；原文未声明开放许可",
+            "kind": "user"
+          },
+          "context": "farm-english"
+        }
+      ]
+    },
+    {
+      "normalizedWord": "fruit development",
+      "phrases": [
+        {
+          "text": "fruit development",
+          "translation": "果实发育",
+          "source": {
+            "name": "龙潭农场英语学习资料_词根词缀与蓝莓生产QA扩展版(1).xlsx · 用户学习资料",
+            "url": "https://github.com/wwlvss/qwerty-learner/blob/master/docs/personal-learning/farm-english.md",
+            "license": "用户提供的学习资料；原文未声明开放许可",
+            "kind": "user"
+          },
+          "context": "farm-english"
+        }
+      ],
+      "examples": [
+        {
+          "text": "Monitor fruit development every week.",
+          "translation": "每周监测果实发育。",
+          "targetStart": 8,
+          "targetEnd": 25,
+          "source": {
+            "name": "龙潭农场英语学习资料_词根词缀与蓝莓生产QA扩展版(1).xlsx · 用户学习资料",
+            "url": "https://github.com/wwlvss/qwerty-learner/blob/master/docs/personal-learning/farm-english.md",
+            "license": "用户提供的学习资料；原文未声明开放许可",
+            "kind": "user"
+          },
+          "context": "farm-english"
+        }
+      ]
+    },
+    {
+      "normalizedWord": "substrate moisture",
+      "phrases": [
+        {
+          "text": "substrate moisture",
+          "translation": "基质含水量",
+          "source": {
+            "name": "龙潭农场英语学习资料_词根词缀与蓝莓生产QA扩展版(1).xlsx · 用户学习资料",
+            "url": "https://github.com/wwlvss/qwerty-learner/blob/master/docs/personal-learning/farm-english.md",
+            "license": "用户提供的学习资料；原文未声明开放许可",
+            "kind": "user"
+          },
+          "context": "farm-english"
+        }
+      ],
+      "examples": [
+        {
+          "text": "Check substrate moisture before irrigation.",
+          "translation": "灌溉前检查基质含水量。",
+          "targetStart": 6,
+          "targetEnd": 24,
+          "source": {
+            "name": "龙潭农场英语学习资料_词根词缀与蓝莓生产QA扩展版(1).xlsx · 用户学习资料",
+            "url": "https://github.com/wwlvss/qwerty-learner/blob/master/docs/personal-learning/farm-english.md",
+            "license": "用户提供的学习资料；原文未声明开放许可",
+            "kind": "user"
+          },
+          "context": "farm-english"
+        },
+        {
+          "text": "We adjusted the irrigation schedule based on the substrate moisture.",
+          "translation": "我们根据基质含水量调整了灌溉计划。",
+          "targetStart": 49,
+          "targetEnd": 67,
+          "source": {
+            "name": "龙潭农场英语学习资料_词根词缀与蓝莓生产QA扩展版(1).xlsx · 用户学习资料",
+            "url": "https://github.com/wwlvss/qwerty-learner/blob/master/docs/personal-learning/farm-english.md",
+            "license": "用户提供的学习资料；原文未声明开放许可",
+            "kind": "user"
+          },
+          "context": "farm-english"
+        }
+      ]
+    },
+    {
+      "normalizedWord": "plant vigor",
+      "phrases": [
+        {
+          "text": "plant vigor",
+          "translation": "植株长势",
+          "source": {
+            "name": "龙潭农场英语学习资料_词根词缀与蓝莓生产QA扩展版(1).xlsx · 用户学习资料",
+            "url": "https://github.com/wwlvss/qwerty-learner/blob/master/docs/personal-learning/farm-english.md",
+            "license": "用户提供的学习资料；原文未声明开放许可",
+            "kind": "user"
+          },
+          "context": "farm-english"
+        }
+      ],
+      "examples": [
+        {
+          "text": "Plant vigor differs between blocks.",
+          "translation": "不同区块的植株长势不同。",
+          "targetStart": 0,
+          "targetEnd": 11,
+          "source": {
+            "name": "龙潭农场英语学习资料_词根词缀与蓝莓生产QA扩展版(1).xlsx · 用户学习资料",
+            "url": "https://github.com/wwlvss/qwerty-learner/blob/master/docs/personal-learning/farm-english.md",
+            "license": "用户提供的学习资料；原文未声明开放许可",
+            "kind": "user"
+          },
+          "context": "farm-english"
+        }
+      ]
+    },
+    {
+      "normalizedWord": "drainage percentage",
+      "phrases": [
+        {
+          "text": "drainage percentage",
+          "translation": "尾水率/排水率",
+          "source": {
+            "name": "龙潭农场英语学习资料_词根词缀与蓝莓生产QA扩展版(1).xlsx · 用户学习资料",
+            "url": "https://github.com/wwlvss/qwerty-learner/blob/master/docs/personal-learning/farm-english.md",
+            "license": "用户提供的学习资料；原文未声明开放许可",
+            "kind": "user"
+          },
+          "context": "farm-english"
+        }
+      ],
+      "examples": [
+        {
+          "text": "Record the drainage percentage for each valve.",
+          "translation": "记录每个阀门的尾水率。",
+          "targetStart": 11,
+          "targetEnd": 30,
+          "source": {
+            "name": "龙潭农场英语学习资料_词根词缀与蓝莓生产QA扩展版(1).xlsx · 用户学习资料",
+            "url": "https://github.com/wwlvss/qwerty-learner/blob/master/docs/personal-learning/farm-english.md",
+            "license": "用户提供的学习资料；原文未声明开放许可",
+            "kind": "user"
+          },
+          "context": "farm-english"
+        },
+        {
+          "text": "The drainage percentage was lower than the target.",
+          "translation": "尾水率低于目标值。",
+          "targetStart": 4,
+          "targetEnd": 23,
+          "source": {
+            "name": "龙潭农场英语学习资料_词根词缀与蓝莓生产QA扩展版(1).xlsx · 用户学习资料",
+            "url": "https://github.com/wwlvss/qwerty-learner/blob/master/docs/personal-learning/farm-english.md",
+            "license": "用户提供的学习资料；原文未声明开放许可",
+            "kind": "user"
+          },
+          "context": "farm-english"
+        }
+      ]
+    },
+    {
+      "normalizedWord": "irrigation uniformity",
+      "phrases": [
+        {
+          "text": "irrigation uniformity",
+          "translation": "灌溉均匀度",
+          "source": {
+            "name": "龙潭农场英语学习资料_词根词缀与蓝莓生产QA扩展版(1).xlsx · 用户学习资料",
+            "url": "https://github.com/wwlvss/qwerty-learner/blob/master/docs/personal-learning/farm-english.md",
+            "license": "用户提供的学习资料；原文未声明开放许可",
+            "kind": "user"
+          },
+          "context": "farm-english"
+        }
+      ],
+      "examples": [
+        {
+          "text": "We need to improve irrigation uniformity.",
+          "translation": "我们需要提高灌溉均匀度。",
+          "targetStart": 19,
+          "targetEnd": 40,
+          "source": {
+            "name": "龙潭农场英语学习资料_词根词缀与蓝莓生产QA扩展版(1).xlsx · 用户学习资料",
+            "url": "https://github.com/wwlvss/qwerty-learner/blob/master/docs/personal-learning/farm-english.md",
+            "license": "用户提供的学习资料；原文未声明开放许可",
+            "kind": "user"
+          },
+          "context": "farm-english"
+        },
+        {
+          "text": "If we delay this repair, irrigation uniformity may be affected.",
+          "translation": "如果推迟维修，灌溉均匀度可能受影响。",
+          "targetStart": 25,
+          "targetEnd": 46,
+          "source": {
+            "name": "龙潭农场英语学习资料_词根词缀与蓝莓生产QA扩展版(1).xlsx · 用户学习资料",
+            "url": "https://github.com/wwlvss/qwerty-learner/blob/master/docs/personal-learning/farm-english.md",
+            "license": "用户提供的学习资料；原文未声明开放许可",
+            "kind": "user"
+          },
+          "context": "farm-english"
+        }
+      ]
+    },
+    {
+      "normalizedWord": "fertilizer solution",
+      "phrases": [
+        {
+          "text": "fertilizer solution",
+          "translation": "肥料溶液",
+          "source": {
+            "name": "龙潭农场英语学习资料_词根词缀与蓝莓生产QA扩展版(1).xlsx · 用户学习资料",
+            "url": "https://github.com/wwlvss/qwerty-learner/blob/master/docs/personal-learning/farm-english.md",
+            "license": "用户提供的学习资料；原文未声明开放许可",
+            "kind": "user"
+          },
+          "context": "farm-english"
+        }
+      ],
+      "examples": [
+        {
+          "text": "Check the fertilizer solution EC.",
+          "translation": "检查肥料溶液的EC。",
+          "targetStart": 10,
+          "targetEnd": 29,
+          "source": {
+            "name": "龙潭农场英语学习资料_词根词缀与蓝莓生产QA扩展版(1).xlsx · 用户学习资料",
+            "url": "https://github.com/wwlvss/qwerty-learner/blob/master/docs/personal-learning/farm-english.md",
+            "license": "用户提供的学习资料；原文未声明开放许可",
+            "kind": "user"
+          },
+          "context": "farm-english"
+        }
+      ]
+    },
+    {
+      "normalizedWord": "stock solution",
+      "phrases": [
+        {
+          "text": "stock solution",
+          "translation": "母液",
+          "source": {
+            "name": "龙潭农场英语学习资料_词根词缀与蓝莓生产QA扩展版(1).xlsx · 用户学习资料",
+            "url": "https://github.com/wwlvss/qwerty-learner/blob/master/docs/personal-learning/farm-english.md",
+            "license": "用户提供的学习资料；原文未声明开放许可",
+            "kind": "user"
+          },
+          "context": "farm-english"
+        }
+      ],
+      "examples": [
+        {
+          "text": "Prepare the stock solution according to the recipe.",
+          "translation": "按照配方配制母液。",
+          "targetStart": 12,
+          "targetEnd": 26,
+          "source": {
+            "name": "龙潭农场英语学习资料_词根词缀与蓝莓生产QA扩展版(1).xlsx · 用户学习资料",
+            "url": "https://github.com/wwlvss/qwerty-learner/blob/master/docs/personal-learning/farm-english.md",
+            "license": "用户提供的学习资料；原文未声明开放许可",
+            "kind": "user"
+          },
+          "context": "farm-english"
+        }
+      ]
+    },
+    {
+      "normalizedWord": "nutrient deficiency",
+      "phrases": [
+        {
+          "text": "nutrient deficiency",
+          "translation": "营养缺乏",
+          "source": {
+            "name": "龙潭农场英语学习资料_词根词缀与蓝莓生产QA扩展版(1).xlsx · 用户学习资料",
+            "url": "https://github.com/wwlvss/qwerty-learner/blob/master/docs/personal-learning/farm-english.md",
+            "license": "用户提供的学习资料；原文未声明开放许可",
+            "kind": "user"
+          },
+          "context": "farm-english"
+        }
+      ],
+      "examples": [
+        {
+          "text": "Check the leaves for signs of nutrient deficiency.",
+          "translation": "检查叶片是否有营养缺乏的迹象。",
+          "targetStart": 30,
+          "targetEnd": 49,
+          "source": {
+            "name": "龙潭农场英语学习资料_词根词缀与蓝莓生产QA扩展版(1).xlsx · 用户学习资料",
+            "url": "https://github.com/wwlvss/qwerty-learner/blob/master/docs/personal-learning/farm-english.md",
+            "license": "用户提供的学习资料；原文未声明开放许可",
+            "kind": "user"
+          },
+          "context": "farm-english"
+        },
+        {
+          "text": "We found signs of nutrient deficiency on some leaves.",
+          "translation": "我们在部分叶片上发现营养缺乏的迹象。",
+          "targetStart": 18,
+          "targetEnd": 37,
+          "source": {
+            "name": "龙潭农场英语学习资料_词根词缀与蓝莓生产QA扩展版(1).xlsx · 用户学习资料",
+            "url": "https://github.com/wwlvss/qwerty-learner/blob/master/docs/personal-learning/farm-english.md",
+            "license": "用户提供的学习资料；原文未声明开放许可",
+            "kind": "user"
+          },
+          "context": "farm-english"
+        }
+      ]
+    },
+    {
+      "normalizedWord": "productivity",
+      "phrases": [],
+      "examples": [
+        {
+          "text": "We need to improve labor productivity.",
+          "translation": "我们需要提高劳动生产率。",
+          "targetStart": 25,
+          "targetEnd": 37,
+          "source": {
+            "name": "龙潭农场英语学习资料_词根词缀与蓝莓生产QA扩展版(1).xlsx · 用户学习资料",
+            "url": "https://github.com/wwlvss/qwerty-learner/blob/master/docs/personal-learning/farm-english.md",
+            "license": "用户提供的学习资料；原文未声明开放许可",
+            "kind": "user"
+          },
+          "context": "farm-english"
+        },
+        {
+          "text": "The current piece rate should be reviewed based on actual productivity.",
+          "translation": "当前计件单价应根据实际效率复核。",
+          "targetStart": 58,
+          "targetEnd": 70,
+          "source": {
+            "name": "龙潭农场英语学习资料_词根词缀与蓝莓生产QA扩展版(1).xlsx · 用户学习资料",
+            "url": "https://github.com/wwlvss/qwerty-learner/blob/master/docs/personal-learning/farm-english.md",
+            "license": "用户提供的学习资料；原文未声明开放许可",
+            "kind": "user"
+          },
+          "context": "farm-english"
+        },
+        {
+          "text": "We need to improve labor productivity during peak harvest.",
+          "translation": "采收高峰期我们需要提高劳动生产率。",
+          "targetStart": 25,
+          "targetEnd": 37,
+          "source": {
+            "name": "龙潭农场英语学习资料_词根词缀与蓝莓生产QA扩展版(1).xlsx · 用户学习资料",
+            "url": "https://github.com/wwlvss/qwerty-learner/blob/master/docs/personal-learning/farm-english.md",
+            "license": "用户提供的学习资料；原文未声明开放许可",
+            "kind": "user"
+          },
+          "context": "farm-english"
+        }
+      ]
+    },
+    {
+      "normalizedWord": "labor cost",
+      "phrases": [
+        {
+          "text": "labor cost",
+          "translation": "人工成本",
+          "source": {
+            "name": "龙潭农场英语学习资料_词根词缀与蓝莓生产QA扩展版(1).xlsx · 用户学习资料",
+            "url": "https://github.com/wwlvss/qwerty-learner/blob/master/docs/personal-learning/farm-english.md",
+            "license": "用户提供的学习资料；原文未声明开放许可",
+            "kind": "user"
+          },
+          "context": "farm-english"
+        }
+      ],
+      "examples": [
+        {
+          "text": "Track labor cost by task.",
+          "translation": "按任务跟踪人工成本。",
+          "targetStart": 6,
+          "targetEnd": 16,
+          "source": {
+            "name": "龙潭农场英语学习资料_词根词缀与蓝莓生产QA扩展版(1).xlsx · 用户学习资料",
+            "url": "https://github.com/wwlvss/qwerty-learner/blob/master/docs/personal-learning/farm-english.md",
+            "license": "用户提供的学习资料；原文未声明开放许可",
+            "kind": "user"
+          },
+          "context": "farm-english"
+        },
+        {
+          "text": "The labor cost per kilogram increased this week.",
+          "translation": "本周每公斤人工成本上升了。",
+          "targetStart": 4,
+          "targetEnd": 14,
+          "source": {
+            "name": "龙潭农场英语学习资料_词根词缀与蓝莓生产QA扩展版(1).xlsx · 用户学习资料",
+            "url": "https://github.com/wwlvss/qwerty-learner/blob/master/docs/personal-learning/farm-english.md",
+            "license": "用户提供的学习资料；原文未声明开放许可",
+            "kind": "user"
+          },
+          "context": "farm-english"
+        }
+      ]
+    },
+    {
+      "normalizedWord": "work efficiency",
+      "phrases": [
+        {
+          "text": "work efficiency",
+          "translation": "工作效率",
+          "source": {
+            "name": "龙潭农场英语学习资料_词根词缀与蓝莓生产QA扩展版(1).xlsx · 用户学习资料",
+            "url": "https://github.com/wwlvss/qwerty-learner/blob/master/docs/personal-learning/farm-english.md",
+            "license": "用户提供的学习资料；原文未声明开放许可",
+            "kind": "user"
+          },
+          "context": "farm-english"
+        }
+      ],
+      "examples": [
+        {
+          "text": "We review work efficiency every week.",
+          "translation": "我们每周复核工作效率。",
+          "targetStart": 10,
+          "targetEnd": 25,
+          "source": {
+            "name": "龙潭农场英语学习资料_词根词缀与蓝莓生产QA扩展版(1).xlsx · 用户学习资料",
+            "url": "https://github.com/wwlvss/qwerty-learner/blob/master/docs/personal-learning/farm-english.md",
+            "license": "用户提供的学习资料；原文未声明开放许可",
+            "kind": "user"
+          },
+          "context": "farm-english"
+        }
+      ]
+    },
+    {
+      "normalizedWord": "production forecast",
+      "phrases": [
+        {
+          "text": "production forecast",
+          "translation": "产量预测",
+          "source": {
+            "name": "龙潭农场英语学习资料_词根词缀与蓝莓生产QA扩展版(1).xlsx · 用户学习资料",
+            "url": "https://github.com/wwlvss/qwerty-learner/blob/master/docs/personal-learning/farm-english.md",
+            "license": "用户提供的学习资料；原文未声明开放许可",
+            "kind": "user"
+          },
+          "context": "farm-english"
+        }
+      ],
+      "examples": [
+        {
+          "text": "Update the production forecast every week.",
+          "translation": "每周更新产量预测。",
+          "targetStart": 11,
+          "targetEnd": 30,
+          "source": {
+            "name": "龙潭农场英语学习资料_词根词缀与蓝莓生产QA扩展版(1).xlsx · 用户学习资料",
+            "url": "https://github.com/wwlvss/qwerty-learner/blob/master/docs/personal-learning/farm-english.md",
+            "license": "用户提供的学习资料；原文未声明开放许可",
+            "kind": "user"
+          },
+          "context": "farm-english"
+        },
+        {
+          "text": "Please update the production forecast every Monday.",
+          "translation": "请每周一更新产量预测。",
+          "targetStart": 18,
+          "targetEnd": 37,
+          "source": {
+            "name": "龙潭农场英语学习资料_词根词缀与蓝莓生产QA扩展版(1).xlsx · 用户学习资料",
+            "url": "https://github.com/wwlvss/qwerty-learner/blob/master/docs/personal-learning/farm-english.md",
+            "license": "用户提供的学习资料；原文未声明开放许可",
+            "kind": "user"
+          },
+          "context": "farm-english"
+        }
+      ]
+    },
+    {
+      "normalizedWord": "performance",
+      "phrases": [],
+      "examples": [
+        {
+          "text": "Review team performance after harvest.",
+          "translation": "采收后复盘团队表现。",
+          "targetStart": 12,
+          "targetEnd": 23,
+          "source": {
+            "name": "龙潭农场英语学习资料_词根词缀与蓝莓生产QA扩展版(1).xlsx · 用户学习资料",
+            "url": "https://github.com/wwlvss/qwerty-learner/blob/master/docs/personal-learning/farm-english.md",
+            "license": "用户提供的学习资料；原文未声明开放许可",
+            "kind": "user"
+          },
+          "context": "farm-english"
+        }
+      ]
+    },
+    {
+      "normalizedWord": "production supervisor",
+      "phrases": [
+        {
+          "text": "production supervisor briefing",
+          "translation": "生产主管简报",
+          "source": {
+            "name": "农场场景原创补充教学材料",
+            "url": "https://github.com/wwlvss/qwerty-learner/blob/master/docs/personal-learning/farm-english.md",
+            "license": "CC0-1.0 (original teaching material)",
+            "kind": "original"
+          },
+          "context": "farm-english"
+        }
+      ],
+      "examples": [
+        {
+          "text": "The production supervisor will review today's task list.",
+          "translation": "生产主管将核对今天的任务清单。",
+          "targetStart": 4,
+          "targetEnd": 25,
+          "source": {
+            "name": "农场场景原创补充教学材料",
+            "url": "https://github.com/wwlvss/qwerty-learner/blob/master/docs/personal-learning/farm-english.md",
+            "license": "CC0-1.0 (original teaching material)",
+            "kind": "original"
+          },
+          "context": "farm-english"
+        }
+      ]
+    },
+    {
+      "normalizedWord": "blueberry",
+      "phrases": [
+        {
+          "text": "blueberry production",
+          "translation": "蓝莓生产",
+          "source": {
+            "name": "农场场景原创补充教学材料",
+            "url": "https://github.com/wwlvss/qwerty-learner/blob/master/docs/personal-learning/farm-english.md",
+            "license": "CC0-1.0 (original teaching material)",
+            "kind": "original"
+          },
+          "context": "farm-english"
+        }
+      ],
+      "examples": [
+        {
+          "text": "The blueberry harvest requires careful planning.",
+          "translation": "蓝莓采收需要细致安排。",
+          "targetStart": 4,
+          "targetEnd": 13,
+          "source": {
+            "name": "农场场景原创补充教学材料",
+            "url": "https://github.com/wwlvss/qwerty-learner/blob/master/docs/personal-learning/farm-english.md",
+            "license": "CC0-1.0 (original teaching material)",
+            "kind": "original"
+          },
+          "context": "farm-english"
+        }
+      ]
+    },
+    {
+      "normalizedWord": "cultivar",
+      "phrases": [
+        {
+          "text": "cultivar records",
+          "translation": "品种记录",
+          "source": {
+            "name": "农场场景原创补充教学材料",
+            "url": "https://github.com/wwlvss/qwerty-learner/blob/master/docs/personal-learning/farm-english.md",
+            "license": "CC0-1.0 (original teaching material)",
+            "kind": "original"
+          },
+          "context": "farm-english"
+        }
+      ],
+      "examples": [
+        {
+          "text": "Record the cultivar code before collecting samples.",
+          "translation": "采样前记录品种代号。",
+          "targetStart": 11,
+          "targetEnd": 19,
+          "source": {
+            "name": "农场场景原创补充教学材料",
+            "url": "https://github.com/wwlvss/qwerty-learner/blob/master/docs/personal-learning/farm-english.md",
+            "license": "CC0-1.0 (original teaching material)",
+            "kind": "original"
+          },
+          "context": "farm-english"
+        }
+      ]
+    },
+    {
+      "normalizedWord": "harvest crew",
+      "phrases": [
+        {
+          "text": "harvest crew briefing",
+          "translation": "采收班组简报",
+          "source": {
+            "name": "农场场景原创补充教学材料",
+            "url": "https://github.com/wwlvss/qwerty-learner/blob/master/docs/personal-learning/farm-english.md",
+            "license": "CC0-1.0 (original teaching material)",
+            "kind": "original"
+          },
+          "context": "farm-english"
+        }
+      ],
+      "examples": [
+        {
+          "text": "The harvest crew will meet before picking starts.",
+          "translation": "采收班组将在采摘开始前集合。",
+          "targetStart": 4,
+          "targetEnd": 16,
+          "source": {
+            "name": "农场场景原创补充教学材料",
+            "url": "https://github.com/wwlvss/qwerty-learner/blob/master/docs/personal-learning/farm-english.md",
+            "license": "CC0-1.0 (original teaching material)",
+            "kind": "original"
+          },
+          "context": "farm-english"
+        }
+      ]
+    },
+    {
+      "normalizedWord": "cold chain",
+      "phrases": [
+        {
+          "text": "cold chain records",
+          "translation": "冷链记录",
+          "source": {
+            "name": "农场场景原创补充教学材料",
+            "url": "https://github.com/wwlvss/qwerty-learner/blob/master/docs/personal-learning/farm-english.md",
+            "license": "CC0-1.0 (original teaching material)",
+            "kind": "original"
+          },
+          "context": "farm-english"
+        }
+      ],
+      "examples": [
+        {
+          "text": "Check the cold chain records when the fruit arrives.",
+          "translation": "果实到达时检查冷链记录。",
+          "targetStart": 10,
+          "targetEnd": 20,
+          "source": {
+            "name": "农场场景原创补充教学材料",
+            "url": "https://github.com/wwlvss/qwerty-learner/blob/master/docs/personal-learning/farm-english.md",
+            "license": "CC0-1.0 (original teaching material)",
+            "kind": "original"
+          },
+          "context": "farm-english"
+        }
+      ]
+    },
+    {
+      "normalizedWord": "pre-cooling",
+      "phrases": [
+        {
+          "text": "pre-cooling record",
+          "translation": "预冷记录",
+          "source": {
+            "name": "农场场景原创补充教学材料",
+            "url": "https://github.com/wwlvss/qwerty-learner/blob/master/docs/personal-learning/farm-english.md",
+            "license": "CC0-1.0 (original teaching material)",
+            "kind": "original"
+          },
+          "context": "farm-english"
+        }
+      ],
+      "examples": [
+        {
+          "text": "Please record when pre-cooling starts and ends.",
+          "translation": "请记录预冷开始和结束的时间。",
+          "targetStart": 19,
+          "targetEnd": 30,
+          "source": {
+            "name": "农场场景原创补充教学材料",
+            "url": "https://github.com/wwlvss/qwerty-learner/blob/master/docs/personal-learning/farm-english.md",
+            "license": "CC0-1.0 (original teaching material)",
+            "kind": "original"
+          },
+          "context": "farm-english"
+        }
+      ]
+    },
+    {
+      "normalizedWord": "cold room",
+      "phrases": [
+        {
+          "text": "cold room temperature",
+          "translation": "冷库温度",
+          "source": {
+            "name": "农场场景原创补充教学材料",
+            "url": "https://github.com/wwlvss/qwerty-learner/blob/master/docs/personal-learning/farm-english.md",
+            "license": "CC0-1.0 (original teaching material)",
+            "kind": "original"
+          },
+          "context": "farm-english"
+        }
+      ],
+      "examples": [
+        {
+          "text": "The cold room temperature is recorded on this form.",
+          "translation": "冷库温度记录在这张表上。",
+          "targetStart": 4,
+          "targetEnd": 13,
+          "source": {
+            "name": "农场场景原创补充教学材料",
+            "url": "https://github.com/wwlvss/qwerty-learner/blob/master/docs/personal-learning/farm-english.md",
+            "license": "CC0-1.0 (original teaching material)",
+            "kind": "original"
+          },
+          "context": "farm-english"
+        }
+      ]
+    },
+    {
+      "normalizedWord": "cold storage",
+      "phrases": [
+        {
+          "text": "cold storage conditions",
+          "translation": "冷藏条件",
+          "source": {
+            "name": "农场场景原创补充教学材料",
+            "url": "https://github.com/wwlvss/qwerty-learner/blob/master/docs/personal-learning/farm-english.md",
+            "license": "CC0-1.0 (original teaching material)",
+            "kind": "original"
+          },
+          "context": "farm-english"
+        }
+      ],
+      "examples": [
+        {
+          "text": "Check the approved cold storage requirements before dispatch.",
+          "translation": "发货前核对已批准的冷藏要求。",
+          "targetStart": 19,
+          "targetEnd": 31,
+          "source": {
+            "name": "农场场景原创补充教学材料",
+            "url": "https://github.com/wwlvss/qwerty-learner/blob/master/docs/personal-learning/farm-english.md",
+            "license": "CC0-1.0 (original teaching material)",
+            "kind": "original"
+          },
+          "context": "farm-english"
+        }
+      ]
+    },
+    {
+      "normalizedWord": "postharvest",
+      "phrases": [
+        {
+          "text": "postharvest handling",
+          "translation": "采后处理",
+          "source": {
+            "name": "农场场景原创补充教学材料",
+            "url": "https://github.com/wwlvss/qwerty-learner/blob/master/docs/personal-learning/farm-english.md",
+            "license": "CC0-1.0 (original teaching material)",
+            "kind": "original"
+          },
+          "context": "farm-english"
+        }
+      ],
+      "examples": [
+        {
+          "text": "The team will review the postharvest handling procedure.",
+          "translation": "团队将审阅采后处理流程。",
+          "targetStart": 25,
+          "targetEnd": 36,
+          "source": {
+            "name": "农场场景原创补充教学材料",
+            "url": "https://github.com/wwlvss/qwerty-learner/blob/master/docs/personal-learning/farm-english.md",
+            "license": "CC0-1.0 (original teaching material)",
+            "kind": "original"
+          },
+          "context": "farm-english"
+        }
+      ]
+    },
+    {
+      "normalizedWord": "sorting",
+      "phrases": [
+        {
+          "text": "fruit sorting",
+          "translation": "果实分选",
+          "source": {
+            "name": "农场场景原创补充教学材料",
+            "url": "https://github.com/wwlvss/qwerty-learner/blob/master/docs/personal-learning/farm-english.md",
+            "license": "CC0-1.0 (original teaching material)",
+            "kind": "original"
+          },
+          "context": "farm-english"
+        }
+      ],
+      "examples": [
+        {
+          "text": "Remove damaged berries during sorting.",
+          "translation": "分选时剔除受损蓝莓。",
+          "targetStart": 30,
+          "targetEnd": 37,
+          "source": {
+            "name": "农场场景原创补充教学材料",
+            "url": "https://github.com/wwlvss/qwerty-learner/blob/master/docs/personal-learning/farm-english.md",
+            "license": "CC0-1.0 (original teaching material)",
+            "kind": "original"
+          },
+          "context": "farm-english"
+        }
+      ]
+    },
+    {
+      "normalizedWord": "grading",
+      "phrases": [
+        {
+          "text": "fruit grading",
+          "translation": "果实分级",
+          "source": {
+            "name": "农场场景原创补充教学材料",
+            "url": "https://github.com/wwlvss/qwerty-learner/blob/master/docs/personal-learning/farm-english.md",
+            "license": "CC0-1.0 (original teaching material)",
+            "kind": "original"
+          },
+          "context": "farm-english"
+        }
+      ],
+      "examples": [
+        {
+          "text": "Use the agreed standard for fruit grading.",
+          "translation": "按已商定的标准进行果实分级。",
+          "targetStart": 34,
+          "targetEnd": 41,
+          "source": {
+            "name": "农场场景原创补充教学材料",
+            "url": "https://github.com/wwlvss/qwerty-learner/blob/master/docs/personal-learning/farm-english.md",
+            "license": "CC0-1.0 (original teaching material)",
+            "kind": "original"
+          },
+          "context": "farm-english"
+        }
+      ]
+    },
+    {
+      "normalizedWord": "packing line",
+      "phrases": [
+        {
+          "text": "packing line inspection",
+          "translation": "包装线检查",
+          "source": {
+            "name": "农场场景原创补充教学材料",
+            "url": "https://github.com/wwlvss/qwerty-learner/blob/master/docs/personal-learning/farm-english.md",
+            "license": "CC0-1.0 (original teaching material)",
+            "kind": "original"
+          },
+          "context": "farm-english"
+        }
+      ],
+      "examples": [
+        {
+          "text": "The packing line needs a check before the shift starts.",
+          "translation": "包装线需要在班次开始前检查。",
+          "targetStart": 4,
+          "targetEnd": 16,
+          "source": {
+            "name": "农场场景原创补充教学材料",
+            "url": "https://github.com/wwlvss/qwerty-learner/blob/master/docs/personal-learning/farm-english.md",
+            "license": "CC0-1.0 (original teaching material)",
+            "kind": "original"
+          },
+          "context": "farm-english"
+        }
+      ]
+    },
+    {
+      "normalizedWord": "clamshell",
+      "phrases": [
+        {
+          "text": "clamshell packaging",
+          "translation": "翻盖盒包装",
+          "source": {
+            "name": "农场场景原创补充教学材料",
+            "url": "https://github.com/wwlvss/qwerty-learner/blob/master/docs/personal-learning/farm-english.md",
+            "license": "CC0-1.0 (original teaching material)",
+            "kind": "original"
+          },
+          "context": "farm-english"
+        }
+      ],
+      "examples": [
+        {
+          "text": "Check each clamshell for damage before packing.",
+          "translation": "包装前检查每个翻盖盒是否受损。",
+          "targetStart": 11,
+          "targetEnd": 20,
+          "source": {
+            "name": "农场场景原创补充教学材料",
+            "url": "https://github.com/wwlvss/qwerty-learner/blob/master/docs/personal-learning/farm-english.md",
+            "license": "CC0-1.0 (original teaching material)",
+            "kind": "original"
+          },
+          "context": "farm-english"
+        }
+      ]
+    },
+    {
+      "normalizedWord": "storage temperature",
+      "phrases": [
+        {
+          "text": "storage temperature record",
+          "translation": "储存温度记录",
+          "source": {
+            "name": "农场场景原创补充教学材料",
+            "url": "https://github.com/wwlvss/qwerty-learner/blob/master/docs/personal-learning/farm-english.md",
+            "license": "CC0-1.0 (original teaching material)",
+            "kind": "original"
+          },
+          "context": "farm-english"
+        }
+      ],
+      "examples": [
+        {
+          "text": "Please verify the storage temperature against the approved specification.",
+          "translation": "请按已批准的规格核实储存温度。",
+          "targetStart": 18,
+          "targetEnd": 37,
+          "source": {
+            "name": "农场场景原创补充教学材料",
+            "url": "https://github.com/wwlvss/qwerty-learner/blob/master/docs/personal-learning/farm-english.md",
+            "license": "CC0-1.0 (original teaching material)",
+            "kind": "original"
+          },
+          "context": "farm-english"
+        }
+      ]
+    },
+    {
+      "normalizedWord": "temperature logger",
+      "phrases": [
+        {
+          "text": "temperature logger data",
+          "translation": "温度记录仪数据",
+          "source": {
+            "name": "农场场景原创补充教学材料",
+            "url": "https://github.com/wwlvss/qwerty-learner/blob/master/docs/personal-learning/farm-english.md",
+            "license": "CC0-1.0 (original teaching material)",
+            "kind": "original"
+          },
+          "context": "farm-english"
+        }
+      ],
+      "examples": [
+        {
+          "text": "Download the temperature logger data after delivery.",
+          "translation": "交货后下载温度记录仪数据。",
+          "targetStart": 13,
+          "targetEnd": 31,
+          "source": {
+            "name": "农场场景原创补充教学材料",
+            "url": "https://github.com/wwlvss/qwerty-learner/blob/master/docs/personal-learning/farm-english.md",
+            "license": "CC0-1.0 (original teaching material)",
+            "kind": "original"
+          },
+          "context": "farm-english"
+        }
+      ]
+    },
+    {
+      "normalizedWord": "shelf life",
+      "phrases": [
+        {
+          "text": "shelf life assessment",
+          "translation": "货架期评估",
+          "source": {
+            "name": "农场场景原创补充教学材料",
+            "url": "https://github.com/wwlvss/qwerty-learner/blob/master/docs/personal-learning/farm-english.md",
+            "license": "CC0-1.0 (original teaching material)",
+            "kind": "original"
+          },
+          "context": "farm-english"
+        }
+      ],
+      "examples": [
+        {
+          "text": "The quality team will assess shelf life during the trial.",
+          "translation": "质量团队将在试验期间评估货架期。",
+          "targetStart": 29,
+          "targetEnd": 39,
+          "source": {
+            "name": "农场场景原创补充教学材料",
+            "url": "https://github.com/wwlvss/qwerty-learner/blob/master/docs/personal-learning/farm-english.md",
+            "license": "CC0-1.0 (original teaching material)",
+            "kind": "original"
+          },
+          "context": "farm-english"
+        }
+      ]
+    },
+    {
+      "normalizedWord": "weight loss",
+      "phrases": [
+        {
+          "text": "fruit weight loss",
+          "translation": "果实失重",
+          "source": {
+            "name": "农场场景原创补充教学材料",
+            "url": "https://github.com/wwlvss/qwerty-learner/blob/master/docs/personal-learning/farm-english.md",
+            "license": "CC0-1.0 (original teaching material)",
+            "kind": "original"
+          },
+          "context": "farm-english"
+        }
+      ],
+      "examples": [
+        {
+          "text": "The trial records weight loss during storage.",
+          "translation": "试验记录储存期间的失重情况。",
+          "targetStart": 18,
+          "targetEnd": 29,
+          "source": {
+            "name": "农场场景原创补充教学材料",
+            "url": "https://github.com/wwlvss/qwerty-learner/blob/master/docs/personal-learning/farm-english.md",
+            "license": "CC0-1.0 (original teaching material)",
+            "kind": "original"
+          },
+          "context": "farm-english"
+        }
+      ]
+    },
+    {
+      "normalizedWord": "mechanical damage",
+      "phrases": [
+        {
+          "text": "prevent mechanical damage",
+          "translation": "防止机械损伤",
+          "source": {
+            "name": "农场场景原创补充教学材料",
+            "url": "https://github.com/wwlvss/qwerty-learner/blob/master/docs/personal-learning/farm-english.md",
+            "license": "CC0-1.0 (original teaching material)",
+            "kind": "original"
+          },
+          "context": "farm-english"
+        }
+      ],
+      "examples": [
+        {
+          "text": "Careful handling helps reduce mechanical damage.",
+          "translation": "小心搬运有助于减少机械损伤。",
+          "targetStart": 30,
+          "targetEnd": 47,
+          "source": {
+            "name": "农场场景原创补充教学材料",
+            "url": "https://github.com/wwlvss/qwerty-learner/blob/master/docs/personal-learning/farm-english.md",
+            "license": "CC0-1.0 (original teaching material)",
+            "kind": "original"
+          },
+          "context": "farm-english"
+        }
+      ]
+    },
+    {
+      "normalizedWord": "bruising",
+      "phrases": [
+        {
+          "text": "check for bruising",
+          "translation": "检查碰伤",
+          "source": {
+            "name": "农场场景原创补充教学材料",
+            "url": "https://github.com/wwlvss/qwerty-learner/blob/master/docs/personal-learning/farm-english.md",
+            "license": "CC0-1.0 (original teaching material)",
+            "kind": "original"
+          },
+          "context": "farm-english"
+        }
+      ],
+      "examples": [
+        {
+          "text": "Check the berries for bruising after transport.",
+          "translation": "运输后检查蓝莓是否有碰伤。",
+          "targetStart": 22,
+          "targetEnd": 30,
+          "source": {
+            "name": "农场场景原创补充教学材料",
+            "url": "https://github.com/wwlvss/qwerty-learner/blob/master/docs/personal-learning/farm-english.md",
+            "license": "CC0-1.0 (original teaching material)",
+            "kind": "original"
+          },
+          "context": "farm-english"
+        }
+      ]
+    },
+    {
+      "normalizedWord": "decay",
+      "phrases": [
+        {
+          "text": "fruit decay",
+          "translation": "果实腐烂",
+          "source": {
+            "name": "农场场景原创补充教学材料",
+            "url": "https://github.com/wwlvss/qwerty-learner/blob/master/docs/personal-learning/farm-english.md",
+            "license": "CC0-1.0 (original teaching material)",
+            "kind": "original"
+          },
+          "context": "farm-english"
+        }
+      ],
+      "examples": [
+        {
+          "text": "Record any decay found in the sample.",
+          "translation": "记录样品中发现的腐烂情况。",
+          "targetStart": 11,
+          "targetEnd": 16,
+          "source": {
+            "name": "农场场景原创补充教学材料",
+            "url": "https://github.com/wwlvss/qwerty-learner/blob/master/docs/personal-learning/farm-english.md",
+            "license": "CC0-1.0 (original teaching material)",
+            "kind": "original"
+          },
+          "context": "farm-english"
+        }
+      ]
+    },
+    {
+      "normalizedWord": "fruit rot",
+      "phrases": [
+        {
+          "text": "fruit rot symptoms",
+          "translation": "果腐症状",
+          "source": {
+            "name": "农场场景原创补充教学材料",
+            "url": "https://github.com/wwlvss/qwerty-learner/blob/master/docs/personal-learning/farm-english.md",
+            "license": "CC0-1.0 (original teaching material)",
+            "kind": "original"
+          },
+          "context": "farm-english"
+        }
+      ],
+      "examples": [
+        {
+          "text": "Please photograph any signs of fruit rot for assessment.",
+          "translation": "请拍下果腐迹象以便评估。",
+          "targetStart": 31,
+          "targetEnd": 40,
+          "source": {
+            "name": "农场场景原创补充教学材料",
+            "url": "https://github.com/wwlvss/qwerty-learner/blob/master/docs/personal-learning/farm-english.md",
+            "license": "CC0-1.0 (original teaching material)",
+            "kind": "original"
+          },
+          "context": "farm-english"
+        }
+      ]
+    },
+    {
+      "normalizedWord": "gray mold",
+      "phrases": [
+        {
+          "text": "gray mold symptoms",
+          "translation": "灰霉病症状",
+          "source": {
+            "name": "农场场景原创补充教学材料",
+            "url": "https://github.com/wwlvss/qwerty-learner/blob/master/docs/personal-learning/farm-english.md",
+            "license": "CC0-1.0 (original teaching material)",
+            "kind": "original"
+          },
+          "context": "farm-english"
+        }
+      ],
+      "examples": [
+        {
+          "text": "The agronomist will assess the suspected gray mold symptoms.",
+          "translation": "农艺师将评估疑似灰霉病症状。",
+          "targetStart": 41,
+          "targetEnd": 50,
+          "source": {
+            "name": "农场场景原创补充教学材料",
+            "url": "https://github.com/wwlvss/qwerty-learner/blob/master/docs/personal-learning/farm-english.md",
+            "license": "CC0-1.0 (original teaching material)",
+            "kind": "original"
+          },
+          "context": "farm-english"
+        }
+      ]
+    },
+    {
+      "normalizedWord": "anthracnose",
+      "phrases": [
+        {
+          "text": "anthracnose inspection",
+          "translation": "炭疽病检查",
+          "source": {
+            "name": "农场场景原创补充教学材料",
+            "url": "https://github.com/wwlvss/qwerty-learner/blob/master/docs/personal-learning/farm-english.md",
+            "license": "CC0-1.0 (original teaching material)",
+            "kind": "original"
+          },
+          "context": "farm-english"
+        }
+      ],
+      "examples": [
+        {
+          "text": "Record suspected anthracnose symptoms for professional assessment.",
+          "translation": "记录疑似炭疽病症状以便专业评估。",
+          "targetStart": 17,
+          "targetEnd": 28,
+          "source": {
+            "name": "农场场景原创补充教学材料",
+            "url": "https://github.com/wwlvss/qwerty-learner/blob/master/docs/personal-learning/farm-english.md",
+            "license": "CC0-1.0 (original teaching material)",
+            "kind": "original"
+          },
+          "context": "farm-english"
+        }
+      ]
+    },
+    {
+      "normalizedWord": "whitefly",
+      "phrases": [
+        {
+          "text": "whitefly monitoring",
+          "translation": "粉虱监测",
+          "source": {
+            "name": "农场场景原创补充教学材料",
+            "url": "https://github.com/wwlvss/qwerty-learner/blob/master/docs/personal-learning/farm-english.md",
+            "license": "CC0-1.0 (original teaching material)",
+            "kind": "original"
+          },
+          "context": "farm-english"
+        }
+      ],
+      "examples": [
+        {
+          "text": "Include whitefly observations in the scouting record.",
+          "translation": "在巡查记录中加入粉虱观察情况。",
+          "targetStart": 8,
+          "targetEnd": 16,
+          "source": {
+            "name": "农场场景原创补充教学材料",
+            "url": "https://github.com/wwlvss/qwerty-learner/blob/master/docs/personal-learning/farm-english.md",
+            "license": "CC0-1.0 (original teaching material)",
+            "kind": "original"
+          },
+          "context": "farm-english"
+        }
+      ]
+    },
+    {
+      "normalizedWord": "thrips",
+      "phrases": [
+        {
+          "text": "thrips monitoring",
+          "translation": "蓟马监测",
+          "source": {
+            "name": "农场场景原创补充教学材料",
+            "url": "https://github.com/wwlvss/qwerty-learner/blob/master/docs/personal-learning/farm-english.md",
+            "license": "CC0-1.0 (original teaching material)",
+            "kind": "original"
+          },
+          "context": "farm-english"
+        }
+      ],
+      "examples": [
+        {
+          "text": "The team will record thrips found during scouting.",
+          "translation": "团队将记录巡查中发现的蓟马。",
+          "targetStart": 21,
+          "targetEnd": 27,
+          "source": {
+            "name": "农场场景原创补充教学材料",
+            "url": "https://github.com/wwlvss/qwerty-learner/blob/master/docs/personal-learning/farm-english.md",
+            "license": "CC0-1.0 (original teaching material)",
+            "kind": "original"
+          },
+          "context": "farm-english"
+        }
+      ]
+    },
+    {
+      "normalizedWord": "personal protective equipment",
+      "phrases": [
+        {
+          "text": "check personal protective equipment",
+          "translation": "检查个人防护用品",
+          "source": {
+            "name": "农场场景原创补充教学材料",
+            "url": "https://github.com/wwlvss/qwerty-learner/blob/master/docs/personal-learning/farm-english.md",
+            "license": "CC0-1.0 (original teaching material)",
+            "kind": "original"
+          },
+          "context": "farm-english"
+        }
+      ],
+      "examples": [
+        {
+          "text": "Use the personal protective equipment required by the label and approved procedure.",
+          "translation": "使用标签和已批准流程要求的个人防护用品。",
+          "targetStart": 8,
+          "targetEnd": 37,
+          "source": {
+            "name": "农场场景原创补充教学材料",
+            "url": "https://github.com/wwlvss/qwerty-learner/blob/master/docs/personal-learning/farm-english.md",
+            "license": "CC0-1.0 (original teaching material)",
+            "kind": "original"
+          },
+          "context": "farm-english"
+        }
+      ]
+    },
+    {
+      "normalizedWord": "re-entry interval",
+      "phrases": [
+        {
+          "text": "check the re-entry interval",
+          "translation": "核对再进入间隔期",
+          "source": {
+            "name": "农场场景原创补充教学材料",
+            "url": "https://github.com/wwlvss/qwerty-learner/blob/master/docs/personal-learning/farm-english.md",
+            "license": "CC0-1.0 (original teaching material)",
+            "kind": "original"
+          },
+          "context": "farm-english"
+        }
+      ],
+      "examples": [
+        {
+          "text": "Check the re-entry interval on the product label before allowing entry.",
+          "translation": "允许进入前核对产品标签上的再进入间隔期。",
+          "targetStart": 10,
+          "targetEnd": 27,
+          "source": {
+            "name": "农场场景原创补充教学材料",
+            "url": "https://github.com/wwlvss/qwerty-learner/blob/master/docs/personal-learning/farm-english.md",
+            "license": "CC0-1.0 (original teaching material)",
+            "kind": "original"
+          },
+          "context": "farm-english"
+        }
+      ]
+    },
+    {
+      "normalizedWord": "pre-harvest interval",
+      "phrases": [
+        {
+          "text": "check the pre-harvest interval",
+          "translation": "核对安全间隔期",
+          "source": {
+            "name": "农场场景原创补充教学材料",
+            "url": "https://github.com/wwlvss/qwerty-learner/blob/master/docs/personal-learning/farm-english.md",
+            "license": "CC0-1.0 (original teaching material)",
+            "kind": "original"
+          },
+          "context": "farm-english"
+        }
+      ],
+      "examples": [
+        {
+          "text": "The pre-harvest interval must be checked against the approved label.",
+          "translation": "必须按已批准的标签核对安全间隔期。",
+          "targetStart": 4,
+          "targetEnd": 24,
+          "source": {
+            "name": "农场场景原创补充教学材料",
+            "url": "https://github.com/wwlvss/qwerty-learner/blob/master/docs/personal-learning/farm-english.md",
+            "license": "CC0-1.0 (original teaching material)",
+            "kind": "original"
+          },
+          "context": "farm-english"
+        }
+      ]
+    },
+    {
+      "normalizedWord": "maximum residue limit",
+      "phrases": [
+        {
+          "text": "applicable maximum residue limit",
+          "translation": "适用的最大残留限量",
+          "source": {
+            "name": "农场场景原创补充教学材料",
+            "url": "https://github.com/wwlvss/qwerty-learner/blob/master/docs/personal-learning/farm-english.md",
+            "license": "CC0-1.0 (original teaching material)",
+            "kind": "original"
+          },
+          "context": "farm-english"
+        }
+      ],
+      "examples": [
+        {
+          "text": "The quality team will check the applicable maximum residue limit.",
+          "translation": "质量团队将核对适用的最大残留限量。",
+          "targetStart": 43,
+          "targetEnd": 64,
+          "source": {
+            "name": "农场场景原创补充教学材料",
+            "url": "https://github.com/wwlvss/qwerty-learner/blob/master/docs/personal-learning/farm-english.md",
+            "license": "CC0-1.0 (original teaching material)",
+            "kind": "original"
+          },
+          "context": "farm-english"
+        }
+      ]
+    },
+    {
+      "normalizedWord": "quarantine",
+      "phrases": [
+        {
+          "text": "plant quarantine requirements",
+          "translation": "植物检疫要求",
+          "source": {
+            "name": "农场场景原创补充教学材料",
+            "url": "https://github.com/wwlvss/qwerty-learner/blob/master/docs/personal-learning/farm-english.md",
+            "license": "CC0-1.0 (original teaching material)",
+            "kind": "original"
+          },
+          "context": "farm-english"
+        }
+      ],
+      "examples": [
+        {
+          "text": "Check the quarantine requirements before moving plant material.",
+          "translation": "移动植物材料前核对检疫要求。",
+          "targetStart": 10,
+          "targetEnd": 20,
+          "source": {
+            "name": "农场场景原创补充教学材料",
+            "url": "https://github.com/wwlvss/qwerty-learner/blob/master/docs/personal-learning/farm-english.md",
+            "license": "CC0-1.0 (original teaching material)",
+            "kind": "original"
+          },
+          "context": "farm-english"
+        }
+      ]
+    },
+    {
+      "normalizedWord": "biosecurity",
+      "phrases": [
+        {
+          "text": "farm biosecurity procedure",
+          "translation": "农场生物安全流程",
+          "source": {
+            "name": "农场场景原创补充教学材料",
+            "url": "https://github.com/wwlvss/qwerty-learner/blob/master/docs/personal-learning/farm-english.md",
+            "license": "CC0-1.0 (original teaching material)",
+            "kind": "original"
+          },
+          "context": "farm-english"
+        }
+      ],
+      "examples": [
+        {
+          "text": "Visitors should follow the farm biosecurity procedure.",
+          "translation": "访客应遵守农场生物安全流程。",
+          "targetStart": 32,
+          "targetEnd": 43,
+          "source": {
+            "name": "农场场景原创补充教学材料",
+            "url": "https://github.com/wwlvss/qwerty-learner/blob/master/docs/personal-learning/farm-english.md",
+            "license": "CC0-1.0 (original teaching material)",
+            "kind": "original"
+          },
+          "context": "farm-english"
+        }
+      ]
+    },
+    {
+      "normalizedWord": "corrective action",
+      "phrases": [
+        {
+          "text": "corrective action record",
+          "translation": "纠正措施记录",
+          "source": {
+            "name": "农场场景原创补充教学材料",
+            "url": "https://github.com/wwlvss/qwerty-learner/blob/master/docs/personal-learning/farm-english.md",
+            "license": "CC0-1.0 (original teaching material)",
+            "kind": "original"
+          },
+          "context": "farm-english"
+        }
+      ],
+      "examples": [
+        {
+          "text": "Please record the corrective action and the person responsible.",
+          "translation": "请记录纠正措施和负责人。",
+          "targetStart": 18,
+          "targetEnd": 35,
+          "source": {
+            "name": "农场场景原创补充教学材料",
+            "url": "https://github.com/wwlvss/qwerty-learner/blob/master/docs/personal-learning/farm-english.md",
+            "license": "CC0-1.0 (original teaching material)",
+            "kind": "original"
+          },
+          "context": "farm-english"
+        }
+      ]
+    },
+    {
+      "normalizedWord": "preventive action",
+      "phrases": [
+        {
+          "text": "preventive action plan",
+          "translation": "预防措施计划",
+          "source": {
+            "name": "农场场景原创补充教学材料",
+            "url": "https://github.com/wwlvss/qwerty-learner/blob/master/docs/personal-learning/farm-english.md",
+            "license": "CC0-1.0 (original teaching material)",
+            "kind": "original"
+          },
+          "context": "farm-english"
+        }
+      ],
+      "examples": [
+        {
+          "text": "We need a preventive action plan for recurring issues.",
+          "translation": "我们需要针对反复出现的问题制定预防措施计划。",
+          "targetStart": 10,
+          "targetEnd": 27,
+          "source": {
+            "name": "农场场景原创补充教学材料",
+            "url": "https://github.com/wwlvss/qwerty-learner/blob/master/docs/personal-learning/farm-english.md",
+            "license": "CC0-1.0 (original teaching material)",
+            "kind": "original"
+          },
+          "context": "farm-english"
+        }
+      ]
+    },
+    {
+      "normalizedWord": "nonconformity",
+      "phrases": [
+        {
+          "text": "nonconformity report",
+          "translation": "不符合项报告",
+          "source": {
+            "name": "农场场景原创补充教学材料",
+            "url": "https://github.com/wwlvss/qwerty-learner/blob/master/docs/personal-learning/farm-english.md",
+            "license": "CC0-1.0 (original teaching material)",
+            "kind": "original"
+          },
+          "context": "farm-english"
+        }
+      ],
+      "examples": [
+        {
+          "text": "Document each nonconformity before closing the inspection.",
+          "translation": "结束检查前记录每个不符合项。",
+          "targetStart": 14,
+          "targetEnd": 27,
+          "source": {
+            "name": "农场场景原创补充教学材料",
+            "url": "https://github.com/wwlvss/qwerty-learner/blob/master/docs/personal-learning/farm-english.md",
+            "license": "CC0-1.0 (original teaching material)",
+            "kind": "original"
+          },
+          "context": "farm-english"
+        }
+      ]
+    },
+    {
+      "normalizedWord": "standard operating procedure",
+      "phrases": [
+        {
+          "text": "review the standard operating procedure",
+          "translation": "审阅标准操作规程",
+          "source": {
+            "name": "农场场景原创补充教学材料",
+            "url": "https://github.com/wwlvss/qwerty-learner/blob/master/docs/personal-learning/farm-english.md",
+            "license": "CC0-1.0 (original teaching material)",
+            "kind": "original"
+          },
+          "context": "farm-english"
+        }
+      ],
+      "examples": [
+        {
+          "text": "Follow the current standard operating procedure for sampling.",
+          "translation": "采样时遵循现行标准操作规程。",
+          "targetStart": 19,
+          "targetEnd": 47,
+          "source": {
+            "name": "农场场景原创补充教学材料",
+            "url": "https://github.com/wwlvss/qwerty-learner/blob/master/docs/personal-learning/farm-english.md",
+            "license": "CC0-1.0 (original teaching material)",
+            "kind": "original"
+          },
+          "context": "farm-english"
+        }
+      ]
+    },
+    {
+      "normalizedWord": "training record",
+      "phrases": [
+        {
+          "text": "update the training record",
+          "translation": "更新培训记录",
+          "source": {
+            "name": "农场场景原创补充教学材料",
+            "url": "https://github.com/wwlvss/qwerty-learner/blob/master/docs/personal-learning/farm-english.md",
+            "license": "CC0-1.0 (original teaching material)",
+            "kind": "original"
+          },
+          "context": "farm-english"
+        }
+      ],
+      "examples": [
+        {
+          "text": "Please update the training record after the briefing.",
+          "translation": "简报后请更新培训记录。",
+          "targetStart": 18,
+          "targetEnd": 33,
+          "source": {
+            "name": "农场场景原创补充教学材料",
+            "url": "https://github.com/wwlvss/qwerty-learner/blob/master/docs/personal-learning/farm-english.md",
+            "license": "CC0-1.0 (original teaching material)",
+            "kind": "original"
+          },
+          "context": "farm-english"
+        }
+      ]
+    },
+    {
+      "normalizedWord": "shift handover",
+      "phrases": [
+        {
+          "text": "shift handover notes",
+          "translation": "交接班记录",
+          "source": {
+            "name": "农场场景原创补充教学材料",
+            "url": "https://github.com/wwlvss/qwerty-learner/blob/master/docs/personal-learning/farm-english.md",
+            "license": "CC0-1.0 (original teaching material)",
+            "kind": "original"
+          },
+          "context": "farm-english"
+        }
+      ],
+      "examples": [
+        {
+          "text": "Include unresolved issues in the shift handover notes.",
+          "translation": "在交接班记录中列入未解决的问题。",
+          "targetStart": 33,
+          "targetEnd": 47,
+          "source": {
+            "name": "农场场景原创补充教学材料",
+            "url": "https://github.com/wwlvss/qwerty-learner/blob/master/docs/personal-learning/farm-english.md",
+            "license": "CC0-1.0 (original teaching material)",
+            "kind": "original"
+          },
+          "context": "farm-english"
+        }
+      ]
+    },
+    {
+      "normalizedWord": "daily briefing",
+      "phrases": [
+        {
+          "text": "daily briefing agenda",
+          "translation": "每日简报议程",
+          "source": {
+            "name": "农场场景原创补充教学材料",
+            "url": "https://github.com/wwlvss/qwerty-learner/blob/master/docs/personal-learning/farm-english.md",
+            "license": "CC0-1.0 (original teaching material)",
+            "kind": "original"
+          },
+          "context": "farm-english"
+        }
+      ],
+      "examples": [
+        {
+          "text": "The daily briefing covers priorities and safety reminders.",
+          "translation": "每日简报涵盖优先任务和安全提醒。",
+          "targetStart": 4,
+          "targetEnd": 18,
+          "source": {
+            "name": "农场场景原创补充教学材料",
+            "url": "https://github.com/wwlvss/qwerty-learner/blob/master/docs/personal-learning/farm-english.md",
+            "license": "CC0-1.0 (original teaching material)",
+            "kind": "original"
+          },
+          "context": "farm-english"
+        }
+      ]
+    },
+    {
+      "normalizedWord": "yield per hectare",
+      "phrases": [
+        {
+          "text": "compare yield per hectare",
+          "translation": "比较每公顷单产",
+          "source": {
+            "name": "农场场景原创补充教学材料",
+            "url": "https://github.com/wwlvss/qwerty-learner/blob/master/docs/personal-learning/farm-english.md",
+            "license": "CC0-1.0 (original teaching material)",
+            "kind": "original"
+          },
+          "context": "farm-english"
+        }
+      ],
+      "examples": [
+        {
+          "text": "Compare yield per hectare only when the units and areas are consistent.",
+          "translation": "只有单位和面积口径一致时才比较每公顷单产。",
+          "targetStart": 8,
+          "targetEnd": 25,
+          "source": {
+            "name": "农场场景原创补充教学材料",
+            "url": "https://github.com/wwlvss/qwerty-learner/blob/master/docs/personal-learning/farm-english.md",
+            "license": "CC0-1.0 (original teaching material)",
+            "kind": "original"
+          },
+          "context": "farm-english"
+        },
+        {
+          "text": "The yield per hectare was lower than expected.",
+          "translation": "每公顷单产低于预期。",
+          "targetStart": 4,
+          "targetEnd": 21,
+          "source": {
+            "name": "龙潭农场英语学习资料_词根词缀与蓝莓生产QA扩展版(1).xlsx · 用户学习资料",
+            "url": "https://github.com/wwlvss/qwerty-learner/blob/master/docs/personal-learning/farm-english.md",
+            "license": "用户提供的学习资料；原文未声明开放许可",
+            "kind": "user"
+          },
+          "context": "farm-english"
+        }
+      ]
+    },
+    {
+      "normalizedWord": "mengzi",
+      "phrases": [
+        {
+          "text": "farm work in Mengzi",
+          "translation": "蒙自的农场工作",
+          "source": {
+            "name": "农场场景原创补充教学材料",
+            "url": "https://github.com/wwlvss/qwerty-learner/blob/master/docs/personal-learning/farm-english.md",
+            "license": "CC0-1.0 (original teaching material)",
+            "kind": "original"
+          },
+          "context": "farm-english"
+        }
+      ],
+      "examples": [
+        {
+          "text": "I work as a production supervisor in Mengzi, Honghe, Yunnan.",
+          "translation": "我在云南红河蒙自担任生产主管。",
+          "targetStart": 37,
+          "targetEnd": 43,
+          "source": {
+            "name": "农场场景原创补充教学材料",
+            "url": "https://github.com/wwlvss/qwerty-learner/blob/master/docs/personal-learning/farm-english.md",
+            "license": "CC0-1.0 (original teaching material)",
+            "kind": "original"
+          },
+          "context": "farm-english"
+        }
+      ]
+    },
+    {
+      "normalizedWord": "variety code",
+      "phrases": [
+        {
+          "text": "check the variety code",
+          "translation": "核对品种代号",
+          "source": {
+            "name": "农场场景原创补充教学材料",
+            "url": "https://github.com/wwlvss/qwerty-learner/blob/master/docs/personal-learning/farm-english.md",
+            "license": "CC0-1.0 (original teaching material)",
+            "kind": "original"
+          },
+          "context": "farm-english"
+        }
+      ],
+      "examples": [
+        {
+          "text": "Please keep the records for each variety code separate, including L25, L29, L11, L36 and L37.",
+          "translation": "请按品种代号分别记录，包括 L25、L29、L11、L36 和 L37。",
+          "targetStart": 33,
+          "targetEnd": 45,
+          "source": {
+            "name": "农场场景原创补充教学材料",
+            "url": "https://github.com/wwlvss/qwerty-learner/blob/master/docs/personal-learning/farm-english.md",
+            "license": "CC0-1.0 (original teaching material)",
+            "kind": "original"
+          },
+          "context": "farm-english"
+        }
+      ]
+    }
+  ]
+}

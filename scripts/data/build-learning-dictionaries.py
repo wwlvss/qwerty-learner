@@ -18,7 +18,7 @@ def main():
     originals = {}
     meanings = {}
     for resource in resources:
-        if resource['id'] in COUNTS:
+        if resource['id'] in COUNTS or resource['id'] == 'farm-english':
             continue
         for entry in json.loads((ROOT / ('public' + resource['url'])).read_text()):
             key = str(entry.get('name', '')).strip().lower()

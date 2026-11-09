@@ -13,6 +13,7 @@ export default function PersonalLearningSetting() {
   const options = [
     ['simpleLayout', '简洁学习界面', '收起低频工具，隐藏社群、赞助等页脚入口。'],
     ['hideTranslationsInDictation', '默写时隐藏中文译文', '单词和短语在输入完成前不显示中文；答对后再显示学习资料。'],
+    ['showSynonyms', '答对后显示近义词与近义表达', '展示语境和差别，不把近义词当作总能互换。'],
     ['showDefinitions', '答对后显示词典其他释义', '保留场景重点，同时查阅原词库中的其他中文释义。'],
     ['showPhrases', '答对后显示常用短语', '短语旁可以直接收藏到不熟词本。'],
     ['showExamples', '答对后显示例句', '显示例句和中文译文。'],
@@ -60,6 +61,24 @@ export default function PersonalLearningSetting() {
           </select>
         </label>
       )}
+      <label className="flex items-center gap-3">
+        播放语速
+        <select
+          aria-label="播放语速"
+          className="rounded border bg-white p-1 dark:bg-gray-700"
+          value={pronunciation.rate}
+          onChange={(event) => setPronunciation((old) => ({ ...old, rate: Number(event.target.value) }))}
+        >
+          {![0.5, 0.75, 1, 1.25, 1.5, 2, 3, 4].includes(pronunciation.rate) && (
+            <option value={pronunciation.rate}>{pronunciation.rate}×</option>
+          )}
+          {[0.5, 0.75, 1, 1.25, 1.5, 2, 3, 4].map((rate) => (
+            <option key={rate} value={rate}>
+              {rate}×
+            </option>
+          ))}
+        </select>
+      </label>
       <label className="flex items-center gap-3">
         <input type="checkbox" checked={keys.isOpen} onChange={(e) => setKeys((old) => ({ ...old, isOpen: e.target.checked }))} />
         键盘音效

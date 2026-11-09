@@ -4158,6 +4158,17 @@ const indonesianDicts: DictionaryResource[] = [
 // Independent topic dictionaries: separate files, IDs, chapters and learning records.
 const personalLearning: DictionaryResource[] = [
   {
+    id: 'farm-english',
+    name: '农场英语',
+    description: '龙潭农场学习资料：工时、农机、灌溉水肥、蓝莓 QA 与生产主管沟通',
+    category: '我的学习词库',
+    tags: ['我的学习词库'],
+    url: '/dicts/farm-english.json',
+    length: 160,
+    language: 'en',
+    languageCategory: 'en',
+  },
+  {
     id: 'work-english',
     name: '工作英语',
     description: '工作沟通、安排任务、进度汇报；精选 120 词',

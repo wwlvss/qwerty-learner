@@ -1,20 +1,26 @@
 import EtymologyContent from './EtymologyContent'
 import type { EtymologyContentProps } from './EtymologyContent'
+import FarmWordNotes from '@/features/farm-english/FarmWordNotes'
 import { learningPreferencesAtom } from '@/features/learning-preferences/store'
+import SelectionLookup from '@/features/selection-lookup/SelectionLookup'
+import SynonymPanel from '@/features/word-support/SynonymPanel'
 import WordDefinitionsPanel from '@/features/word-support/WordDefinitionsPanel'
 import WordUsagePanel from '@/features/word-support/WordUsagePanel'
+import { currentDictIdAtom } from '@/store'
 import { useAtomValue } from 'jotai'
 import { useLayoutEffect, useRef } from 'react'
 
 const interactive = 'button, a, input, select, textarea, summary, [contenteditable="true"], [role="button"]'
 
 export default function EtymologyPanel({ onNext, ...content }: EtymologyContentProps & { onNext: () => void }) {
+  const dictId = useAtomValue(currentDictIdAtom)
   const prefs = useAtomValue(learningPreferencesAtom)
   const panel = useRef<HTMLElement>(null)
   useLayoutEffect(() => {
     panel.current?.focus({ preventScroll: true })
     let pressed = ''
     const isContinueKey = (event: KeyboardEvent) =>
+      !window.getSelection()?.toString().trim() &&
       (event.key === 'Enter' || event.key === ' ') &&
       !event.isComposing &&
       !event.altKey &&
@@ -65,11 +71,15 @@ export default function EtymologyPanel({ onNext, ...content }: EtymologyContentP
           下一个词
         </button>
       </div>
-      <div className={`grid gap-6 ${prefs.showDefinitions && (prefs.showPhrases || prefs.showExamples) ? 'lg:grid-cols-2' : ''}`}>
-        {prefs.showDefinitions && content.word && <WordDefinitionsPanel word={content.word} />}
-        {(prefs.showPhrases || prefs.showExamples) && <WordUsagePanel word={content.initialWord} />}
-      </div>
-      {prefs.showEtymology && <EtymologyContent {...content} compact onNavigate={onNext} />}
+      <SelectionLookup>
+        <div className={`grid gap-6 ${prefs.showDefinitions && (prefs.showPhrases || prefs.showExamples) ? 'lg:grid-cols-2' : ''}`}>
+          {prefs.showDefinitions && content.word && <WordDefinitionsPanel word={content.word} />}
+          {(prefs.showPhrases || prefs.showExamples) && <WordUsagePanel word={content.initialWord} />}
+        </div>
+        {prefs.showSynonyms && <SynonymPanel word={content.initialWord} />}
+        {dictId === 'farm-english' && <FarmWordNotes word={content.initialWord} />}
+        {prefs.showEtymology && <EtymologyContent {...content} compact onNavigate={onNext} />}
+      </SelectionLookup>
     </section>
   )
 }

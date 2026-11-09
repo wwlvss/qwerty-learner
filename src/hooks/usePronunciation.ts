@@ -44,8 +44,12 @@ export default function usePronunciationSound(word: string, isLoop?: boolean) {
     format: ['mp3'],
     loop,
     volume: pronunciationConfig.volume,
-    rate: pronunciationConfig.rate,
+    playbackRate: pronunciationConfig.rate,
   } as HookOptions)
+
+  useEffect(() => {
+    if (sound) sound.rate(pronunciationConfig.rate)
+  }, [sound, pronunciationConfig.rate])
 
   useEffect(() => {
     if (!sound) return

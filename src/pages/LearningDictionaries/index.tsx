@@ -49,7 +49,7 @@ export default function LearningDictionaries() {
       <div className="mx-auto max-w-5xl space-y-5 px-6">
         <section className="space-y-2 rounded-xl bg-white p-5 dark:bg-gray-800">
           <h1 className="text-2xl font-bold">我的词典</h1>
-          <p>六个独立词库，分别选择、分别练习、分别记录。</p>
+          <p>七个独立词库，分别选择、分别练习、分别记录。</p>
           <p className="text-sm text-gray-500">
             优先学习工作英语和农业专业英语；日常英语优先级高；商务英语与 CET-6 为中；IELTS 留作后续。每个词库按 20 词分章。
           </p>
@@ -87,6 +87,11 @@ export default function LearningDictionaries() {
                   </span>
                 </div>
                 <p>{plan.focus}</p>
+                {plan.id === 'farm-english' && (
+                  <Link className="text-sm text-indigo-500 underline" to="/farm">
+                    浏览农场词汇、沟通句与构词笔记
+                  </Link>
+                )}
                 <p className="text-sm text-gray-500">
                   {dict.length} 词 · {dict.chapterCount} 章 · {plan.stage}
                 </p>
@@ -146,7 +151,7 @@ export default function LearningDictionaries() {
         </div>
         <section className="rounded-xl bg-white p-5 text-sm dark:bg-gray-800">
           <h2 className="mb-2 font-semibold">另外保留：自定义词典</h2>
-          <p className="mb-3 text-gray-500">你此前自己添加、导入的词条仍在独立的自定义词典中，不会混入上述六个词库，也不会被覆盖。</p>
+          <p className="mb-3 text-gray-500">你此前自己添加、导入的词条仍在独立的自定义词典中，不会混入上述词库，也不会被覆盖。</p>
           <Link className="text-indigo-500 underline" to="/my-dictionary/custom">
             管理自定义词典
           </Link>

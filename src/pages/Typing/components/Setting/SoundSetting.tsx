@@ -157,7 +157,8 @@ export default function SoundSetting() {
               <span className={styles.blockLabel}>倍速</span>
               <div className="flex h-5 w-full items-center justify-between">
                 <Slider.Root
-                  defaultValue={[pronunciationConfig.rate ?? 1]}
+                  value={[pronunciationConfig.rate ?? 1]}
+                  aria-label="单词发音倍速"
                   max={4}
                   min={0.5}
                   step={0.1}

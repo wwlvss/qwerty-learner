@@ -11,7 +11,7 @@ function validateSource(source: UsageSource) {
     text(value)
     if (!value.trim()) throw new Error('来源及许可不得为空')
   }
-  if (!['original', 'builtin', 'tatoeba'].includes(source.kind)) throw new Error('资料来源类型无效')
+  if (!['original', 'builtin', 'tatoeba', 'user'].includes(source.kind)) throw new Error('资料来源类型无效')
   if (source.kind === 'builtin' && /^\/dicts\/[^/]+\.json$/.test(source.url) && !source.url.includes('..')) return
   const url = new URL(source.url)
   if (url.protocol !== 'https:' || url.username || url.password) throw new Error('来源必须使用无凭据的 HTTPS 链接')

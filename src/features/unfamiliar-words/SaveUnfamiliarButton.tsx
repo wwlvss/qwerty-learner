@@ -7,8 +7,17 @@ import { useLiveQuery } from 'dexie-react-hooks'
 import { useAtomValue } from 'jotai'
 import { useState } from 'react'
 
-export default function SaveUnfamiliarButton({ word, compact = false }: { word: Word; compact?: boolean }) {
-  const dict = useAtomValue(currentDictIdAtom)
+export default function SaveUnfamiliarButton({
+  word,
+  compact = false,
+  dictionaryId,
+}: {
+  word: Word
+  compact?: boolean
+  dictionaryId?: string
+}) {
+  const currentId = useAtomValue(currentDictIdAtom)
+  const dict = dictionaryId ?? currentId
   const saved = useLiveQuery(() => db.unfamiliarWords.get(normalizeWord(word.name)), [word.name])
   const savedHere = Boolean(saved && (dict === 'unfamiliar' || saved.sourceDicts.includes(dict)))
   const [error, setError] = useState('')

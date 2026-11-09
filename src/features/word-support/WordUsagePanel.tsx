@@ -11,7 +11,14 @@ function SourceLabel({ source }: { source: UsageSource }) {
   return (
     <details className="mt-1 text-xs text-gray-500">
       <summary className="cursor-pointer">
-        {source.kind === 'original' ? '原创教学示例' : source.kind === 'builtin' ? '原词库资料' : 'Tatoeba 语料'} · 来源
+        {source.kind === 'user'
+          ? '用户学习资料'
+          : source.kind === 'original'
+          ? '原创教学示例'
+          : source.kind === 'builtin'
+          ? '原词库资料'
+          : 'Tatoeba 语料'}{' '}
+        · 来源
       </summary>
       <a
         className="text-indigo-500 underline"
@@ -75,7 +82,10 @@ export default function WordUsagePanel({ word }: { word: string }) {
             <ul className="mt-2 space-y-2 text-sm">
               {phrases.slice(0, 3).map((phrase, index) => (
                 <li key={`${phrase.text}-${index}`}>
-                  <strong>{phrase.text}</strong> · {phrase.translation}
+                  <strong data-lookup-text={phrase.text} data-lookup-translation={phrase.translation}>
+                    {phrase.text}
+                  </strong>{' '}
+                  · {phrase.translation}
                   <SaveUnfamiliarButton compact word={{ name: phrase.text, trans: [phrase.translation], usphone: '', ukphone: '' }} />
                   <SourceLabel source={phrase.source} />
                 </li>

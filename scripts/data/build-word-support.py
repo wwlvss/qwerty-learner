@@ -47,7 +47,7 @@ def main():
     missing = []
     dictionaries = resources()
     # Keep lookup definitions from existing dictionaries stable; topic files only fill gaps.
-    topic_ids = {'work-english', 'agriculture-english', 'daily-english', 'business-english'}
+    topic_ids = {'farm-english', 'work-english', 'agriculture-english', 'daily-english', 'business-english'}
     for resource in sorted(dictionaries, key=lambda resource: resource['id'] in topic_ids):
         path = ROOT / ('public' + resource['url'])
         if not path.is_file():
@@ -80,7 +80,7 @@ def main():
             entry = usage.setdefault(target, {'normalizedWord': target, 'phrases': [], 'examples': []})
             if len(entry['phrases']) < 6:
                 entry['phrases'].append(data)
-    for authored_path in [output / 'authored.json', ROOT / 'public/data/learning-dictionaries/usage.json']:
+    for authored_path in [output / 'authored.json', ROOT / 'public/data/learning-dictionaries/usage.json', ROOT / 'public/data/farm-english/usage.json']:
         authored = json.loads(authored_path.read_text())
         for entry in authored['entries']:
             target = usage.setdefault(entry['normalizedWord'], {'normalizedWord': entry['normalizedWord'], 'phrases': [], 'examples': []})
@@ -104,11 +104,15 @@ def main():
         folder.mkdir(exist_ok=True)
         for letter, entries in shards.items():
             (folder / (letter + '.json')).write_text(json.dumps(entries, ensure_ascii=False, separators=(',', ':')) + '\n')
+    synonyms = json.loads((ROOT / 'scripts/data/synonyms.json').read_text())
+    (output / 'synonyms.json').write_text(json.dumps({'source': '项目原创近义表达教学提示；不是权威词典或可无条件互换的同义词表', 'license': 'CC0-1.0 (original teaching material)', 'groups': synonyms}, ensure_ascii=False, indent=2) + '\n')
+    synonym_words = {normalize(term['word']) for group in synonyms for term in group['terms']}
     etymologies = json.loads((ROOT / 'public/data/etymology/starter.json').read_text())
     manifest = {
         'englishDictionaries': len(dictionaries), 'availableDictionaries': len(dictionaries) - len(missing),
         'uniqueEntries': len(catalog), 'definitionEntries': len(definitions), 'phraseEntries': sum(bool(v['phrases']) for v in usage.values()),
         'exampleEntries': sum(bool(v['examples']) for v in usage.values()), 'etymologyEntries': len(etymologies['entries']),
+        'synonymGroups': len(synonyms), 'synonymEntries': len(synonym_words & catalog.keys()),
         'missingDictionaries': missing,
     }
     (output / 'manifest.json').write_text(json.dumps(manifest, ensure_ascii=False, indent=2) + '\n')

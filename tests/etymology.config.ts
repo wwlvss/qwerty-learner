@@ -11,6 +11,8 @@ export default defineConfig({
     'dictionary-settings.spec.ts',
     'anki-dictation.spec.ts',
     'mobile-learning.spec.ts',
+    'selection-farm.spec.ts',
+    'synonyms-audio.spec.ts',
   ],
   outputDir: '../test-results/etymology',
   timeout: 30000,

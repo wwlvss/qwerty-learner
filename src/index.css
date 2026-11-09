@@ -205,3 +205,14 @@ body,
     background-position: 0% 50%;
   }
 }
+
+/* Reading materials stay selectable even while the typing shell disables selection. */
+.learning-readable,
+.learning-readable * {
+  -webkit-user-select: text;
+  user-select: text;
+}
+.learning-readable button {
+  -webkit-user-select: none;
+  user-select: none;
+}

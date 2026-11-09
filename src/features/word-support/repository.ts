@@ -1,5 +1,6 @@
 import type { SupportManifest, WordUsage } from './types'
 import { normalizeWord } from '@/features/etymology/types'
+import type { FarmMaterials } from '@/features/farm-english/types'
 import type { Word } from '@/typings'
 import { db } from '@/utils/db'
 import { versionedDataUrl } from '@/utils/versionedDataUrl'
@@ -67,4 +68,18 @@ export async function getDictionaryMeanings(word: string): Promise<DictionaryMea
   const key = /^[a-z]{2}/.test(normalized) ? normalized.slice(0, 2) : /^[a-z]/.test(normalized) ? normalized[0] + '_' : 'other'
   const shard = await read<Record<string, DictionaryMeaning[]>>(`/data/word-support/definitions/${key}.json`)
   return shard[normalized] ?? []
+}
+
+export function getFarmMaterials() {
+  return read<FarmMaterials>('/data/farm-english/materials.json')
+}
+
+export interface SynonymGroup {
+  context: string
+  distinction: string
+  terms: { word: string; meaning: string }[]
+}
+export async function getSynonymGroups(word: string) {
+  const data = await read<{ groups: SynonymGroup[] }>('/data/word-support/synonyms.json')
+  return data.groups.filter((group) => group.terms.some((term) => normalizeWord(term.word) === normalizeWord(word)))
 }

@@ -10,7 +10,7 @@ test.beforeEach(async ({ page }) => {
   await page.goto('/my-dictionary')
 })
 
-test('six dictionaries have separate cards and real chapter counts', async ({ page }) => {
+test('seven dictionaries have separate cards and real chapter counts', async ({ page }) => {
   for (const [name, count] of [
     ['工作英语', '120 词'],
     ['农业专业英语', '160 词'],
@@ -21,7 +21,7 @@ test('six dictionaries have separate cards and real chapter counts', async ({ pa
   ]) {
     await expect(page.getByRole('region', { name: `${name}词库`, exact: true })).toContainText(count)
   }
-  await expect(page.getByRole('button', { name: /^开始/ })).toHaveCount(6)
+  await expect(page.getByRole('button', { name: /^开始/ })).toHaveCount(7)
   await expect(page.getByRole('link', { name: '管理自定义词典' })).toBeVisible()
 })
 

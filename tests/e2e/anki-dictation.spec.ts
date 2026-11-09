@@ -72,9 +72,9 @@ test('Anki TSV downloads contain three escaped fields, broad definitions, usage 
   expect(fields[2]).toContain('kind_confusable')
 })
 
-test('all six study dictionaries provide Anki export and a real topic export works', async ({ page }) => {
+test('all seven study dictionaries provide Anki export and a real topic export works', async ({ page }) => {
   await page.goto('/my-dictionary')
-  await expect(page.getByRole('button', { name: /^导出.* Anki$/ })).toHaveCount(6)
+  await expect(page.getByRole('button', { name: /^导出.* Anki$/ })).toHaveCount(7)
   const downloadPromise = page.waitForEvent('download')
   await page.getByRole('button', { name: '导出工作英语 Anki', exact: true }).click()
   const stream = await (await downloadPromise).createReadStream()

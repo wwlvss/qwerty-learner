@@ -16,10 +16,10 @@ test.beforeEach(async ({ page }) => {
   })
 })
 
-test('old mobile entry opens the six personal dictionaries with only local learning navigation', async ({ page }) => {
+test('old mobile entry opens the seven personal dictionaries with only local learning navigation', async ({ page }) => {
   await page.goto('/mobile')
   await expect(page).toHaveURL(/\/my-dictionary$/)
-  await expect(page.getByRole('button', { name: /^开始/ })).toHaveCount(6)
+  await expect(page.getByRole('button', { name: /^开始/ })).toHaveCount(7)
   await expect(page.getByRole('heading', { name: '工作英语', exact: true })).toBeVisible()
   await expect(page.locator('a[href*="qwerty.kaiyi.cool"]')).toHaveCount(0)
   expect(await page.evaluate(() => document.documentElement.scrollWidth <= innerWidth)).toBe(true)

@@ -16,7 +16,7 @@ export async function saveUnfamiliarWord(word: Word, dict: string, detail?: { ki
       ...word,
       id,
       name,
-      trans: word.trans.filter((item) => typeof item === 'string'),
+      trans: Array.from(new Set([...(existing?.trans ?? []), ...word.trans.filter((item) => typeof item === 'string')])),
       sourceDicts: Array.from(new Set([...(existing?.sourceDicts ?? []), ...(dict !== 'unfamiliar' ? [dict] : [])])),
       kind: detail?.kind ?? existing?.kind ?? (name.includes(' ') ? 'phrase' : 'unfamiliar'),
       note: detail?.note ?? existing?.note ?? '',

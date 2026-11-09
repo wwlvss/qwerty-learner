@@ -2,7 +2,7 @@ export interface UsageSource {
   name: string
   url: string
   license: string
-  kind: 'original' | 'builtin' | 'tatoeba'
+  kind: 'original' | 'builtin' | 'tatoeba' | 'user'
 }
 export interface UsagePhrase {
   context?: string
