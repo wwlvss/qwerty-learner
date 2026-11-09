@@ -2,6 +2,7 @@ import type { SupportManifest, WordUsage } from './types'
 import { normalizeWord } from '@/features/etymology/types'
 import type { Word } from '@/typings'
 import { db } from '@/utils/db'
+import { versionedDataUrl } from '@/utils/versionedDataUrl'
 import { normalizeTranslations } from '@/utils/wordData'
 
 const prefix = REACT_APP_DEPLOY_ENV === 'pages' ? '/qwerty-learner' : ''
@@ -10,7 +11,7 @@ function read<T>(path: string): Promise<T> {
   if (!cache.has(path))
     cache.set(
       path,
-      fetch(prefix + path)
+      fetch(versionedDataUrl(prefix + path))
         .then((r) => {
           if (!r.ok) throw new Error('本地学习资料读取失败')
           return r.json()

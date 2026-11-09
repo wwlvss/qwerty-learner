@@ -79,3 +79,23 @@ test('existing exam dictionaries reuse original content and IDs', async ({ page,
     await page.goto('/my-dictionary')
   }
 })
+
+test('new builds bypass stale dictionary and usage URLs from the previous release', async ({ page }) => {
+  const requests: string[] = []
+  page.on('request', (request) => requests.push(request.url()))
+  await page.route(
+    (url) => url.pathname === '/dicts/work-english.json' && !url.searchParams.has('v'),
+    (route) => route.fulfill({ json: [{ name: 'stale', trans: ['旧缓存'], usphone: '', ukphone: '' }] }),
+  )
+  await page.getByLabel('工作英语章节').selectOption('3')
+  await page.getByRole('button', { name: '开始工作英语', exact: true }).click()
+  await expect(page.getByTestId('typing-word')).toHaveText('training')
+  await page.getByRole('button', { name: '开始', exact: true }).click()
+  await page.keyboard.type('training')
+  await expect(page.getByTestId('word-usage')).toContainText('attend training')
+  for (const path of ['/dicts/work-english.json', '/data/word-support/usage/t.json']) {
+    const matching = requests.filter((url) => new URL(url).pathname === path)
+    expect(matching.length).toBeGreaterThan(0)
+    expect(matching.every((url) => Boolean(new URL(url).searchParams.get('v')))).toBe(true)
+  }
+})
