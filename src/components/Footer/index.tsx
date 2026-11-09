@@ -3,6 +3,7 @@ import { StickerButton } from '../DonatingCard/components/StickerButton'
 import redBookCode from '@/assets/redBook-code.jpg'
 import InfoPanel from '@/components/InfoPanel'
 import Tooltip from '@/components/Tooltip'
+import { learningPreferencesAtom } from '@/features/learning-preferences/store'
 import { infoPanelStateAtom } from '@/store'
 import type { InfoPanelType } from '@/typings'
 import { recordOpenInfoPanelAction } from '@/utils'
@@ -25,6 +26,7 @@ import IconFlagChina from '~icons/twemoji/flag-china'
 
 const Footer: React.FC = () => {
   const [infoPanelState, setInfoPanelState] = useAtom(infoPanelStateAtom)
+  const [prefs] = useAtom(learningPreferencesAtom)
   const navigate = useNavigate()
 
   const handleOpenInfoPanel = useCallback(
@@ -42,6 +44,13 @@ const Footer: React.FC = () => {
     [setInfoPanelState],
   )
 
+  if (prefs.simpleLayout)
+    return (
+      <footer className="mt-auto flex flex-wrap justify-center gap-4 px-6 py-5 text-xs text-gray-400">
+        <span>学习记录保存在当前浏览器，记得定期备份</span>
+        <span>Qwerty Learner · {LATEST_COMMIT_HASH}</span>
+      </footer>
+    )
   return (
     <>
       <InfoPanel

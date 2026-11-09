@@ -32,6 +32,7 @@ export interface SupportManifest {
   englishDictionaries: number
   availableDictionaries: number
   uniqueEntries: number
+  definitionEntries?: number
   phraseEntries: number
   exampleEntries: number
   etymologyEntries: number

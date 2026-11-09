@@ -1,12 +1,12 @@
 import { TypingContext, TypingStateActionType } from '../../store'
 import AdvancedSetting from './AdvancedSetting'
 import DataSetting from './DataSetting'
+import PersonalLearningSetting from './PersonalLearningSetting'
 import SoundSetting from './SoundSetting'
 import ViewSetting from '@/pages/Typing/components/Setting/ViewSetting'
 import { Dialog, Tab, Transition } from '@headlessui/react'
 import classNames from 'classnames'
 import { Fragment, useContext, useState } from 'react'
-import IconCog6Tooth from '~icons/heroicons/cog-6-tooth-solid'
 import IconEye from '~icons/heroicons/eye-solid'
 import IconAdjustmentsHorizontal from '~icons/tabler/adjustments-horizontal'
 import IconDatabaseCog from '~icons/tabler/database-cog'
@@ -38,7 +38,7 @@ export default function Setting() {
         }`}
         title="打开设置对话框"
       >
-        <IconCog6Tooth className="icon" />
+        <span className="px-2 text-sm">设置</span>
       </button>
 
       <Transition appear show={isOpen} as={Fragment}>
@@ -68,15 +68,31 @@ export default function Setting() {
               >
                 <Dialog.Panel className="flex w-200 flex-col overflow-hidden rounded-2xl bg-white p-0 shadow-xl dark:bg-gray-800">
                   <div className="relative flex h-22 items-end justify-between rounded-t-lg border-b border-neutral-100 bg-stone-50 px-6 py-3 dark:border-neutral-700 dark:bg-gray-900">
-                    <span className="text-3xl font-bold text-gray-600">设置</span>
-                    <button type="button" onClick={() => setIsOpen(false)} title="关闭对话框">
-                      <IconX className="absolute right-7 top-5 cursor-pointer text-gray-400" />
+                    <Dialog.Title className="text-3xl font-bold text-gray-600 dark:text-gray-200">设置</Dialog.Title>
+                    <button
+                      type="button"
+                      className="absolute right-5 top-4 flex h-8 w-8 items-center justify-center rounded text-gray-400 hover:bg-gray-200 dark:hover:bg-gray-700"
+                      onClick={() => setIsOpen(false)}
+                      title="关闭对话框"
+                      aria-label="关闭设置"
+                    >
+                      <IconX className="h-5 w-5" />
                     </button>
                   </div>
 
                   <Tab.Group vertical>
                     <div className="flex h-120 w-full ">
                       <Tab.List className="flex h-full w-52 flex-col items-start space-y-3  border-r border-neutral-100 bg-stone-50 px-6 py-3 dark:border-transparent dark:bg-gray-900">
+                        <Tab
+                          className={({ selected }) =>
+                            classNames(
+                              'flex h-14 w-full items-center rounded-lg px-4 py-2 text-left text-neutral-500 dark:text-neutral-300',
+                              selected && 'bg-gray-200 bg-opacity-50 dark:bg-gray-800',
+                            )
+                          }
+                        >
+                          个人学习
+                        </Tab>
                         <Tab
                           className={({ selected }) =>
                             classNames(
@@ -123,7 +139,10 @@ export default function Setting() {
                         </Tab>
                       </Tab.List>
 
-                      <Tab.Panels className="h-full w-full flex-1">
+                      <Tab.Panels className="h-full w-full min-w-0 flex-1">
+                        <Tab.Panel className="flex h-full focus:outline-none">
+                          <PersonalLearningSetting />
+                        </Tab.Panel>
                         <Tab.Panel className="flex h-full w-full  focus:outline-none">
                           <SoundSetting />
                         </Tab.Panel>

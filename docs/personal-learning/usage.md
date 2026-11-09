@@ -68,8 +68,10 @@ python3 scripts/data/prepare-tatoeba-usage.py \
 
 无付费 API、无新运行时依赖、无管理员权限要求。网站整体仍未实现 Service Worker 离线冷启动；IndexedDB 中的个人词典和导入资料本地保存，但应定期导出备份。
 
-最终检查：40 项 Chromium 回归和 8 项 Python 数据测试通过；构建和修改代码的 lint/格式检查通过。全项目类型检查仍仅有原来的 4 处 TS2339 错误，没有新增类型错误。
+最终检查：43 项 Chromium 回归和 9 项 Python 数据测试通过；构建和修改代码的 lint/格式检查通过。全项目类型检查仍仅有原来的 4 处 TS2339 错误，没有新增类型错误。
 
 新增不熟词收藏、分类、备注与练习说明见 [unfamiliar-words.md](unfamiliar-words.md)。同样文本的短语/例句按当前场景优先后去重展示，减少重复。
 
 词库文件、查询索引和短语/例句分片 URL 携带构建版本，避免发布后继续读取浏览器中旧词数/旧资料的缓存。
+
+多义词释义保留与个人学习设置见 [dictionary-and-settings.md](dictionary-and-settings.md)。

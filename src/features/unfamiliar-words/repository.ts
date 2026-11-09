@@ -44,6 +44,13 @@ export function validateUnfamiliarPackage(value: unknown): UnfamiliarWord[] {
       throw new Error('词条名称或 ID 无效或重复')
     ids.add(word.id)
     if (
+      word.contextTrans !== undefined &&
+      (!Array.isArray(word.contextTrans) ||
+        word.contextTrans.length > 100 ||
+        word.contextTrans.some((text) => typeof text !== 'string' || text.length > 2000))
+    )
+      throw new Error('场景释义无效')
+    if (
       !Array.isArray(word.trans) ||
       word.trans.length > 100 ||
       word.trans.some((item) => typeof item !== 'string' || item.length > 5000) ||

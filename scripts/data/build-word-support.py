@@ -42,6 +42,7 @@ def translations(value):
 def main():
     output = ROOT / 'public/data/word-support'
     catalog = {}
+    definitions = {}
     phrases = {}
     missing = []
     dictionaries = resources()
@@ -57,6 +58,16 @@ def main():
             if not word:
                 continue
             catalog.setdefault(word, {'url': resource['url'], 'index': index})
+            for meaning in translations(entry.get('contextTrans', []) if resource['id'] in topic_ids else entry.get('trans')):
+                if not re.search(r'[一-鿿]', meaning):
+                    continue
+                meaning = meaning.strip()
+                senses = definitions.setdefault(word, {})
+                sense = senses.setdefault(meaning, {'text': meaning, 'sources': []})
+                source = resource['id']
+                if source not in sense['sources']:
+                    sense['sources'].append(source)
+
             if ' ' in word and re.fullmatch(r"[a-z]+(?:[ '\-][a-z]+){1,5}", word):
                 phrases.setdefault(word, {'text': entry['name'], 'translation': '；'.join(translations(entry.get('trans'))), 'source': {
                     'name': resource['name'] + ' · 原有词库短语', 'url': resource['url'],
@@ -82,10 +93,13 @@ def main():
                     if key not in seen:
                         target[field].append(item)
                         seen.add(key)
-    for name, data in [('catalog', catalog), ('usage', usage)]:
-        shards = {letter: {} for letter in list('abcdefghijklmnopqrstuvwxyz') + ['other']}
+    definitions = {word: list(senses.values()) for word, senses in definitions.items()}
+    for name, data in [('catalog', catalog), ('usage', usage), ('definitions', definitions)]:
+        letters = ([first + second for first in 'abcdefghijklmnopqrstuvwxyz' for second in 'abcdefghijklmnopqrstuvwxyz_'] if name == 'definitions' else list('abcdefghijklmnopqrstuvwxyz')) + ['other']
+        shards = {letter: {} for letter in letters}
         for word, entry in sorted(data.items()):
-            shards[bucket(word)][word] = entry
+            letter = (word[:2] if re.match(r'^[a-z]{2}', word) else word[0] + '_' if re.match(r'^[a-z]', word) else 'other') if name == 'definitions' else bucket(word)
+            shards[letter][word] = entry
         folder = output / name
         folder.mkdir(exist_ok=True)
         for letter, entries in shards.items():
@@ -93,7 +107,7 @@ def main():
     etymologies = json.loads((ROOT / 'public/data/etymology/starter.json').read_text())
     manifest = {
         'englishDictionaries': len(dictionaries), 'availableDictionaries': len(dictionaries) - len(missing),
-        'uniqueEntries': len(catalog), 'phraseEntries': sum(bool(v['phrases']) for v in usage.values()),
+        'uniqueEntries': len(catalog), 'definitionEntries': len(definitions), 'phraseEntries': sum(bool(v['phrases']) for v in usage.values()),
         'exampleEntries': sum(bool(v['examples']) for v in usage.values()), 'etymologyEntries': len(etymologies['entries']),
         'missingDictionaries': missing,
     }

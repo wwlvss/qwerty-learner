@@ -1,11 +1,15 @@
 import EtymologyContent from './EtymologyContent'
 import type { EtymologyContentProps } from './EtymologyContent'
+import { learningPreferencesAtom } from '@/features/learning-preferences/store'
+import WordDefinitionsPanel from '@/features/word-support/WordDefinitionsPanel'
 import WordUsagePanel from '@/features/word-support/WordUsagePanel'
+import { useAtomValue } from 'jotai'
 import { useLayoutEffect, useRef } from 'react'
 
 const interactive = 'button, a, input, select, textarea, summary, [contenteditable="true"], [role="button"]'
 
 export default function EtymologyPanel({ onNext, ...content }: EtymologyContentProps & { onNext: () => void }) {
+  const prefs = useAtomValue(learningPreferencesAtom)
   const panel = useRef<HTMLElement>(null)
   useLayoutEffect(() => {
     panel.current?.focus({ preventScroll: true })
@@ -61,8 +65,11 @@ export default function EtymologyPanel({ onNext, ...content }: EtymologyContentP
           下一个词
         </button>
       </div>
-      <WordUsagePanel word={content.initialWord} />
-      <EtymologyContent {...content} compact onNavigate={onNext} />
+      <div className={`grid gap-6 ${prefs.showDefinitions && (prefs.showPhrases || prefs.showExamples) ? 'lg:grid-cols-2' : ''}`}>
+        {prefs.showDefinitions && content.word && <WordDefinitionsPanel word={content.word} />}
+        {(prefs.showPhrases || prefs.showExamples) && <WordUsagePanel word={content.initialWord} />}
+      </div>
+      {prefs.showEtymology && <EtymologyContent {...content} compact onNavigate={onNext} />}
     </section>
   )
 }

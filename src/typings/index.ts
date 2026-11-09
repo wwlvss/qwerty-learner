@@ -22,6 +22,7 @@ export const PRONUNCIATION_PHONETIC_MAP: Pronunciation2PhoneticMap = {
 export type Word = {
   name: string
   trans: string[]
+  contextTrans?: string[]
   usphone: string
   ukphone: string
   notation?: string

@@ -13,6 +13,7 @@ import { TypingContext, TypingStateActionType, initialState, typingReducer } fro
 import { DonateCard } from '@/components/DonateCard'
 import Header from '@/components/Header'
 import Tooltip from '@/components/Tooltip'
+import { learningPreferencesAtom } from '@/features/learning-preferences/store'
 import { idDictionaryMap } from '@/resources/dictionary'
 import { currentChapterAtom, currentDictIdAtom, isReviewModeAtom, randomConfigAtom, reviewModeInfoAtom } from '@/store'
 import { IsDesktop, isLegal } from '@/utils'
@@ -26,6 +27,7 @@ import { useImmerReducer } from 'use-immer'
 
 const App: React.FC = () => {
   const [state, dispatch] = useImmerReducer(typingReducer, structuredClone(initialState))
+  const prefs = useAtomValue(learningPreferencesAtom)
   const [isLoading, setIsLoading] = useState<boolean>(true)
   const { words, isLoading: wordListLoading } = useWordList()
 
@@ -129,7 +131,7 @@ const App: React.FC = () => {
 
   return (
     <TypingContext.Provider value={{ state: state, dispatch }}>
-      {state.isFinished && <DonateCard />}
+      {state.isFinished && !prefs.simpleLayout && <DonateCard />}
       {state.isFinished && <ResultScreen />}
       <Layout>
         <Header>

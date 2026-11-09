@@ -1,0 +1,66 @@
+import { expect, test } from '@playwright/test'
+
+test.beforeEach(async ({ page }) => {
+  await page.addInitScript(() => {
+    localStorage.setItem('hasSeenEnhancedPromotion', 'true')
+    localStorage.setItem('pronunciation', JSON.stringify({ isOpen: false, isTransRead: false }))
+    localStorage.setItem('keySoundsConfig', JSON.stringify({ isOpen: false }))
+    localStorage.setItem('hintSoundsConfig', JSON.stringify({ isOpen: false }))
+  })
+})
+
+test('nursery retains broad dictionary meanings alongside its agricultural meaning', async ({ page, request }) => {
+  const words = await (await request.get('/dicts/agriculture-english.json')).json()
+  const nursery = words.find((word: { name: string }) => word.name === 'nursery')
+  expect(nursery.contextTrans).toEqual(['育苗场；苗圃'])
+  expect(nursery.trans.join('；')).toContain('托儿所')
+  expect(nursery.trans.join('；')).toContain('育婴室')
+  await page.goto('/my-dictionary')
+  await page.getByRole('button', { name: '开始农业专业英语', exact: true }).click()
+  await page.getByRole('button', { name: '开始', exact: true }).click()
+  for (const word of ['crop', 'seed', 'seedling']) {
+    await page.keyboard.type(word)
+    await expect(page.getByTestId('etymology-panel')).toBeVisible()
+    await page.keyboard.press('Enter')
+  }
+  await expect(page.getByTestId('typing-word')).toHaveText('nursery')
+  await page.keyboard.type('nursery')
+  const panel = page.getByTestId('word-definitions')
+  await expect(panel).toContainText('当前场景重点')
+  await expect(panel).toContainText('托儿所')
+  await expect(panel).toContainText('育婴室')
+  await expect(panel).toContainText('温床')
+  await expect(page.getByTestId('typing-word')).toHaveText('nursery')
+})
+
+test('personal settings persist and only hide materials without advancing the completed word', async ({ page }) => {
+  await page.goto('/')
+  await page.getByTitle('打开设置对话框', { exact: true }).click()
+  await expect(page.getByRole('tab', { name: '个人学习', exact: true })).toHaveAttribute('aria-selected', 'true')
+  await page.getByRole('checkbox', { name: '答对后显示词典其他释义', exact: false }).uncheck()
+  await page.getByRole('checkbox', { name: '答对后显示例句', exact: false }).uncheck()
+  await page.getByTitle('关闭对话框', { exact: true }).click()
+  await page.reload()
+  await page.getByRole('button', { name: '开始', exact: true }).click()
+  await page.keyboard.type('cancel')
+  await expect(page.getByTestId('word-usage')).toContainText('cancel a meeting')
+  await expect(page.getByTestId('word-definitions')).toHaveCount(0)
+  await expect(page.getByTestId('word-usage').getByRole('heading', { name: '例句', exact: true })).toHaveCount(0)
+  await expect(page.getByTestId('typing-word')).toHaveText('cancel')
+  await page.keyboard.press('Enter')
+  await expect(page.getByTestId('typing-word')).toHaveText('explosive')
+})
+
+test('simple layout keeps legacy tools accessible and classic layout can be restored', async ({ page }) => {
+  await page.goto('/')
+  await expect(page.getByTitle('查看错题本', { exact: true })).toBeHidden()
+  await page.getByRole('button', { name: '更多工具', exact: true }).click()
+  await expect(page.getByTitle('查看错题本', { exact: true })).toBeVisible()
+  await page.getByTitle('打开设置对话框', { exact: true }).click()
+  await page.getByRole('checkbox', { name: '简洁学习界面', exact: false }).uncheck()
+  await page.getByTitle('关闭对话框', { exact: true }).click()
+  await expect(page.getByRole('button', { name: '更多工具', exact: true })).toHaveCount(0)
+  await expect(page.getByTitle('查看错题本', { exact: true })).toBeVisible()
+  await page.reload()
+  await expect(page.getByTitle('查看错题本', { exact: true })).toBeVisible()
+})

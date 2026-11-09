@@ -12,11 +12,24 @@ export function validateWords(input: unknown): Word[] {
     if (typeof word.name !== 'string' || !word.name.trim() || word.name.length > 120 || !/^[a-zA-Z][a-zA-Z '\-.,?!]*$/.test(word.name))
       throw new Error('请使用英语单词或短语（最多 120 个字符）')
     const trans = word.trans ?? []
-    if (!Array.isArray(trans) || trans.length > 30 || trans.some((t) => typeof t !== 'string' || t.length > 2000))
+    if (!Array.isArray(trans) || trans.length > 100 || trans.some((t) => typeof t !== 'string' || t.length > 2000))
       throw new Error('释义格式无效')
     if (word.usphone !== undefined && (typeof word.usphone !== 'string' || word.usphone.length > 200)) throw new Error('美式音标无效')
     if (word.ukphone !== undefined && (typeof word.ukphone !== 'string' || word.ukphone.length > 200)) throw new Error('英式音标无效')
-    return { name: word.name.trim(), trans, usphone: word.usphone ?? '', ukphone: word.ukphone ?? '' }
+    if (
+      word.contextTrans !== undefined &&
+      (!Array.isArray(word.contextTrans) ||
+        word.contextTrans.length > 100 ||
+        word.contextTrans.some((text) => typeof text !== 'string' || text.length > 2000))
+    )
+      throw new Error('场景释义无效')
+    return {
+      name: word.name.trim(),
+      trans,
+      usphone: word.usphone ?? '',
+      ukphone: word.ukphone ?? '',
+      ...(word.contextTrans ? { contextTrans: word.contextTrans } : {}),
+    }
   })
 }
 export async function addPersonalWords(input: unknown, fillFromBuiltIn = true) {

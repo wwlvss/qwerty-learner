@@ -7,10 +7,11 @@ import Setting from '../Setting'
 import SoundSwitcher from '../SoundSwitcher'
 import WordDictationSwitcher from '../WordDictationSwitcher'
 import Tooltip from '@/components/Tooltip'
+import { learningPreferencesAtom } from '@/features/learning-preferences/store'
 import { isOpenDarkModeAtom } from '@/store'
 import { CTRL } from '@/utils'
 import { useAtom } from 'jotai'
-import { useContext } from 'react'
+import { useContext, useState } from 'react'
 import { useHotkeys } from 'react-hotkeys-hook'
 import IconMoon from '~icons/heroicons/moon-solid'
 import IconSun from '~icons/heroicons/sun-solid'
@@ -18,6 +19,8 @@ import IconLanguage from '~icons/tabler/language'
 import IconLanguageOff from '~icons/tabler/language-off'
 
 export default function Switcher() {
+  const [prefs] = useAtom(learningPreferencesAtom)
+  const [more, setMore] = useState(false)
   const [isOpenDarkMode, setIsOpenDarkMode] = useAtom(isOpenDarkModeAtom)
   const { state, dispatch } = useContext(TypingContext) ?? {}
 
@@ -42,55 +45,69 @@ export default function Switcher() {
 
   return (
     <div className="flex items-center justify-center gap-2">
-      <Tooltip content="音效设置">
-        <SoundSwitcher />
-      </Tooltip>
-
-      <Tooltip className="h-7 w-7" content="设置单个单词循环">
-        <LoopWordSwitcher />
-      </Tooltip>
-
-      <Tooltip className="h-7 w-7" content={`开关默写模式（${CTRL} + V）`}>
-        <WordDictationSwitcher />
-      </Tooltip>
-      <Tooltip className="h-7 w-7" content={`开关释义显示（${CTRL} + Shift + V）`}>
+      {prefs.simpleLayout && (
         <button
-          className={`p-[2px] ${state?.isTransVisible ? 'text-indigo-500' : 'text-gray-500'} text-lg focus:outline-none`}
           type="button"
-          onClick={(e) => {
-            changeTransVisibleState()
-            e.currentTarget.blur()
+          className="whitespace-nowrap px-2 text-sm text-indigo-500"
+          onClick={() => {
+            setMore(!more)
+            dispatch?.({ type: TypingStateActionType.SET_IS_TYPING, payload: false })
           }}
-          aria-label={`开关释义显示（${CTRL} + Shift + V）`}
         >
-          {state?.isTransVisible ? <IconLanguage /> : <IconLanguageOff />}
+          {more ? '收起工具' : '更多工具'}
         </button>
-      </Tooltip>
+      )}
+      <div className={`${prefs.simpleLayout && !more ? 'hidden' : 'flex'} flex-wrap items-center gap-2`}>
+        <Tooltip content="音效设置">
+          <SoundSwitcher />
+        </Tooltip>
 
-      <Tooltip content="错题本">
-        <ErrorBookButton />
-      </Tooltip>
+        <Tooltip className="h-7 w-7" content="设置单个单词循环">
+          <LoopWordSwitcher />
+        </Tooltip>
 
-      <Tooltip className="h-7 w-7" content="查看数据统计">
-        <AnalysisButton />
-      </Tooltip>
+        <Tooltip className="h-7 w-7" content={`开关默写模式（${CTRL} + V）`}>
+          <WordDictationSwitcher />
+        </Tooltip>
+        <Tooltip className="h-7 w-7" content={`开关释义显示（${CTRL} + Shift + V）`}>
+          <button
+            className={`p-[2px] ${state?.isTransVisible ? 'text-indigo-500' : 'text-gray-500'} text-lg focus:outline-none`}
+            type="button"
+            onClick={(e) => {
+              changeTransVisibleState()
+              e.currentTarget.blur()
+            }}
+            aria-label={`开关释义显示（${CTRL} + Shift + V）`}
+          >
+            {state?.isTransVisible ? <IconLanguage /> : <IconLanguageOff />}
+          </button>
+        </Tooltip>
 
-      <Tooltip className="h-7 w-7" content="开关深色模式">
-        <button
-          className={`p-[2px] text-lg text-indigo-500 focus:outline-none`}
-          type="button"
-          onClick={(e) => {
-            changeDarkModeState()
-            e.currentTarget.blur()
-          }}
-          aria-label="开关深色模式"
-        >
-          {isOpenDarkMode ? <IconMoon className="icon" /> : <IconSun className="icon" />}
-        </button>
-      </Tooltip>
-      <Tooltip className="h-7 w-7" content="指法图示">
-        <HandPositionIllustration></HandPositionIllustration>
-      </Tooltip>
+        <Tooltip content="错题本">
+          <ErrorBookButton />
+        </Tooltip>
+
+        <Tooltip className="h-7 w-7" content="查看数据统计">
+          <AnalysisButton />
+        </Tooltip>
+
+        <Tooltip className="h-7 w-7" content="开关深色模式">
+          <button
+            className={`p-[2px] text-lg text-indigo-500 focus:outline-none`}
+            type="button"
+            onClick={(e) => {
+              changeDarkModeState()
+              e.currentTarget.blur()
+            }}
+            aria-label="开关深色模式"
+          >
+            {isOpenDarkMode ? <IconMoon className="icon" /> : <IconSun className="icon" />}
+          </button>
+        </Tooltip>
+        <Tooltip className="h-7 w-7" content="指法图示">
+          <HandPositionIllustration></HandPositionIllustration>
+        </Tooltip>
+      </div>
       <Tooltip content="设置">
         <Setting />
       </Tooltip>

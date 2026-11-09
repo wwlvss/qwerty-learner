@@ -12,6 +12,16 @@ class LearningDictionariesTest(unittest.TestCase):
             current = json.loads((ROOT / f'public/dicts/{context}.json').read_text())
             self.assertEqual([word['name'] for word in current[:len(names)]], names)
 
+    def test_dictionary_meanings_are_retained_in_topic_words_and_sourced_shards(self):
+        words = json.loads((ROOT / 'public/dicts/agriculture-english.json').read_text())
+        nursery = next(word for word in words if word['name'] == 'nursery')
+        self.assertEqual(nursery['contextTrans'], ['育苗场；苗圃'])
+        self.assertIn('托儿所', '；'.join(nursery['trans']))
+        self.assertIn('育婴室', '；'.join(nursery['trans']))
+        meanings = json.loads((ROOT / 'public/data/word-support/definitions/nu.json').read_text())['nursery']
+        self.assertTrue(any('托儿所' in meaning['text'] for meaning in meanings))
+        self.assertTrue(all(meaning['sources'] for meaning in meanings))
+
     def test_each_topic_word_has_its_own_contextual_phrase_and_example(self):
         pack = json.loads((ROOT / 'public/data/learning-dictionaries/usage.json').read_text())
         usage = {entry['normalizedWord']: entry for entry in pack['entries']}

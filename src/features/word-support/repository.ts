@@ -57,3 +57,14 @@ export async function lookupBuiltInWord(word: string): Promise<Word | undefined>
       }
     : undefined
 }
+
+export interface DictionaryMeaning {
+  text: string
+  sources: string[]
+}
+export async function getDictionaryMeanings(word: string): Promise<DictionaryMeaning[]> {
+  const normalized = normalizeWord(word)
+  const key = /^[a-z]{2}/.test(normalized) ? normalized.slice(0, 2) : /^[a-z]/.test(normalized) ? normalized[0] + '_' : 'other'
+  const shard = await read<Record<string, DictionaryMeaning[]>>(`/data/word-support/definitions/${key}.json`)
+  return shard[normalized] ?? []
+}

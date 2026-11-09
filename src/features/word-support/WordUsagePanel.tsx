@@ -1,5 +1,6 @@
 import { getWordUsage } from './repository'
 import type { UsageExample, UsagePhrase, UsageSource, WordUsage } from './types'
+import { learningPreferencesAtom } from '@/features/learning-preferences/store'
 import SaveUnfamiliarButton from '@/features/unfamiliar-words/SaveUnfamiliarButton'
 import { currentDictIdAtom } from '@/store'
 import { useAtomValue } from 'jotai'
@@ -25,6 +26,7 @@ function SourceLabel({ source }: { source: UsageSource }) {
   )
 }
 export default function WordUsagePanel({ word }: { word: string }) {
+  const prefs = useAtomValue(learningPreferencesAtom)
   const dictId = useAtomValue(currentDictIdAtom)
   const [data, setData] = useState<WordUsage>()
   const [loading, setLoading] = useState(true)
@@ -64,48 +66,52 @@ export default function WordUsagePanel({ word }: { word: string }) {
       className="mb-4 space-y-3 border-b border-gray-100 pb-4 text-gray-700 dark:border-gray-700 dark:text-gray-200"
       data-testid="word-usage"
     >
-      <section>
-        <h3 className="font-semibold">常用搭配与相关短语</h3>
-        {loading ? (
-          <p className="text-sm text-gray-500">读取本地短语…</p>
-        ) : data?.phrases.length ? (
-          <ul className="mt-2 space-y-2 text-sm">
-            {phrases.slice(0, 3).map((phrase, index) => (
-              <li key={`${phrase.text}-${index}`}>
-                <strong>{phrase.text}</strong> · {phrase.translation}
-                <SaveUnfamiliarButton compact word={{ name: phrase.text, trans: [phrase.translation], usphone: '', ukphone: '' }} />
-                <SourceLabel source={phrase.source} />
-              </li>
-            ))}
-          </ul>
-        ) : (
-          <p className="text-sm text-gray-500">这个词暂未收录可靠的短语，可通过用法数据包补充。</p>
-        )}
-      </section>
-      <section>
-        <h3 className="font-semibold">例句</h3>
-        {loading ? (
-          <p className="text-sm text-gray-500">读取本地例句…</p>
-        ) : data?.examples.length ? (
-          <ul className="mt-2 space-y-3 text-sm">
-            {examples.slice(0, 2).map((example, index) => (
-              <li key={index}>
-                <p>
-                  {example.text.slice(0, example.targetStart)}
-                  <mark className="rounded bg-indigo-100 px-0.5 text-indigo-800 dark:bg-indigo-900 dark:text-indigo-100">
-                    {example.text.slice(example.targetStart, example.targetEnd)}
-                  </mark>
-                  {example.text.slice(example.targetEnd)}
-                </p>
-                {example.translation && <p className="mt-1 text-gray-500">{example.translation}</p>}
-                <SourceLabel source={example.source} />
-              </li>
-            ))}
-          </ul>
-        ) : (
-          <p className="text-sm text-gray-500">这个词暂未收录例句，未自动生成或冒充语料原句。</p>
-        )}
-      </section>
+      {prefs.showPhrases && (
+        <section>
+          <h3 className="font-semibold">常用搭配与相关短语</h3>
+          {loading ? (
+            <p className="text-sm text-gray-500">读取本地短语…</p>
+          ) : data?.phrases.length ? (
+            <ul className="mt-2 space-y-2 text-sm">
+              {phrases.slice(0, 3).map((phrase, index) => (
+                <li key={`${phrase.text}-${index}`}>
+                  <strong>{phrase.text}</strong> · {phrase.translation}
+                  <SaveUnfamiliarButton compact word={{ name: phrase.text, trans: [phrase.translation], usphone: '', ukphone: '' }} />
+                  <SourceLabel source={phrase.source} />
+                </li>
+              ))}
+            </ul>
+          ) : (
+            <p className="text-sm text-gray-500">这个词暂未收录可靠的短语，可通过用法数据包补充。</p>
+          )}
+        </section>
+      )}
+      {prefs.showExamples && (
+        <section>
+          <h3 className="font-semibold">例句</h3>
+          {loading ? (
+            <p className="text-sm text-gray-500">读取本地例句…</p>
+          ) : data?.examples.length ? (
+            <ul className="mt-2 space-y-3 text-sm">
+              {examples.slice(0, 2).map((example, index) => (
+                <li key={index}>
+                  <p>
+                    {example.text.slice(0, example.targetStart)}
+                    <mark className="rounded bg-indigo-100 px-0.5 text-indigo-800 dark:bg-indigo-900 dark:text-indigo-100">
+                      {example.text.slice(example.targetStart, example.targetEnd)}
+                    </mark>
+                    {example.text.slice(example.targetEnd)}
+                  </p>
+                  {example.translation && <p className="mt-1 text-gray-500">{example.translation}</p>}
+                  <SourceLabel source={example.source} />
+                </li>
+              ))}
+            </ul>
+          ) : (
+            <p className="text-sm text-gray-500">这个词暂未收录例句，未自动生成或冒充语料原句。</p>
+          )}
+        </section>
+      )}
     </div>
   )
 }
