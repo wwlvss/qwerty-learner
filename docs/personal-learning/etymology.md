@@ -4,9 +4,9 @@
 
 本模块为原 React 18 / TS 4.9 / Vite 4 / Dexie 3.2 应用的增量功能。没有替换词库、重排章节、更改单词标识、升级依赖或新增付费服务。
 
-- 英语单词完整正确输入后，先等待原逐词保存完成，再决定是否显示卡片。默认首次答对显示，也可选每次显示或关闭。
+- 英语单词完整正确输入后，先等待原逐词保存完成，再决定是否在单词下方显示内嵌词源说明（不弹窗、不遮罩）。默认首次答对显示，也可选每次显示或关闭。
 - 输入错误不会触发卡片。没有可靠词源资料（含待核实资料）时直接继续，并显示提示。资料读取超过 1.5 秒也继续，不阻塞练习。
-- 卡片打开或查找期间暂停原练习计时、输入与切词快捷键。关闭/继续一次只推进一次。答对卡片中的词根链接在新标签页打开，避免离开当前章节时丢失待完成的汇总。单词循环仍按原次数逐次记录。
+- 卡片打开或查找期间暂停原练习计时、输入与切词快捷键。按回车或空格（松开按键后）或点击继续，只推进一次；长按不会把按键误输到下一个词，操作链接、按钮和展开项时保留控件原生键盘行为。答对卡片中的词根链接在新标签页打开，避免离开当前章节时丢失待完成的汇总。单词循环仍按原次数逐次记录。
 - “查看词源”随时手动打开，包括未核实内容。手动查阅不消耗首次答对的自动展示机会。
 - 我的词根库 `/roots` 支持词根/含义/关联单词搜索、语言和学习状态筛选、收藏、手动标记掌握/待复习、关联词跳转及查看历史。
 - 阅读不代表掌握；不增加 wordRecords、chapterRecords、reviewRecords 或任何 FSRS 次数。当前仓库没有例句填空或 FSRS 实现，只提供可复用的完成反馈 hook。
@@ -120,7 +120,7 @@ node_modules/.bin/tsc --noEmit
 
 - `src/features/etymology/types.ts`、`schema.ts`、`repository.ts`：数据模型、表定义和读写。
 - `src/features/etymology/packages.ts`、`backup.ts`：严格数据包校验、导入和本模块备份恢复。
-- `src/features/etymology/EtymologyCard.tsx`、`EtymologyDialog.tsx`、`EtymologySettings.tsx`：卡片、对话框和设置。
+- `src/features/etymology/EtymologyCard.tsx`、`EtymologyContent.tsx`、`EtymologyPanel.tsx`、`EtymologyDialog.tsx`、`EtymologySettings.tsx`：卡片、共享内容、练习内嵌说明、词根库详情对话框和设置。
 - `src/features/etymology/useEtymologyFeedback.ts`：可供未来例句模式复用的反馈 hook。
 - `src/pages/RootLibrary/index.tsx`：我的词根库。
 - `public/data/etymology/starter.json`：附证据的 14 词 / 4 词根资料包。
@@ -129,7 +129,7 @@ node_modules/.bin/tsc --noEmit
 - `tests/data/test_prepare_etymology.py`：候选资料提取规则测试。
 - 本文档。
 
-最终验证：15 项 Chromium 功能/迁移/备份测试通过；1 项 Python 数据转换测试通过。新增及修改的运行时代码通过 ESLint，格式与 diff 检查通过；普通生产构建与 GitHub Pages 前缀构建均通过，两种部署下的生产深层详情 URL 都能加载词根和词源卡片，浏览器没有 pageerror。全项目类型检查仍有上述 4 处既有错误，没有新增类型错误。未提交或推送 GitHub。
+最终验证：18 项 Chromium 功能/迁移/备份测试通过；1 项 Python 数据转换测试通过。新增及修改的运行时代码通过 ESLint，格式与 diff 检查通过；普通生产构建与 GitHub Pages 前缀构建均通过，两种部署下的生产深层详情 URL 都能加载词根和词源卡片，浏览器没有 pageerror。全项目类型检查仍有上述 4 处既有错误，没有新增类型错误。未提交或推送 GitHub。
 
 ## GitHub Pages 发布
 
@@ -137,4 +137,4 @@ node_modules/.bin/tsc --noEmit
 
 首次需要在仓库 Settings → Pages 中选择 Deploy from a branch，分支 `gh-pages`、目录 `/(root)`。预期地址为 `https://wwlvss.github.io/qwerty-learner/`，实际启用和可访问状态以 GitHub Pages 显示与 HTTP 验证为准。如果 fork 的 Actions 被禁用，先在 Actions 页面启用工作流，然后手动运行部署工作流。
 
-`e2e.yml` 使用专用本地测试配置运行 15 项回归测试，不再把线上官网作为测试目标。
+`e2e.yml` 使用专用本地测试配置运行 18 项回归测试，不再把线上官网作为测试目标。

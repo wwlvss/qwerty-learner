@@ -5,7 +5,7 @@ import Progress from '../Progress'
 import Phonetic from './components/Phonetic'
 import Translation from './components/Translation'
 import WordComponent from './components/Word'
-import EtymologyDialog from '@/features/etymology/EtymologyDialog'
+import EtymologyPanel from '@/features/etymology/EtymologyPanel'
 import { useEtymologyFeedback } from '@/features/etymology/useEtymologyFeedback'
 import { usePrefetchPronunciationSound } from '@/hooks/usePronunciation'
 import {
@@ -169,7 +169,7 @@ export default function WordPanel() {
 
   return (
     <div className="container flex h-full w-full flex-col items-center justify-center">
-      <div className="container flex h-24 w-full shrink-0 grow-0 justify-between px-12 pt-10">
+      <div className={`container flex w-full shrink-0 grow-0 justify-between px-12 ${etymology.active ? 'h-4' : 'h-24 pt-10'}`}>
         {isShowPrevAndNextWord && state.isTyping && !etymology.active && (
           <>
             <PrevAndNextWord type="prev" />
@@ -189,7 +189,7 @@ export default function WordPanel() {
                 </div>
               </div>
             )}
-            <div className="relative">
+            <div className={`relative ${etymology.feedback ? 'w-full max-w-3xl' : ''}`}>
               <WordComponent
                 word={currentWord}
                 onFinish={() => {
@@ -204,6 +204,15 @@ export default function WordPanel() {
                 onMouseEnter={() => handleShowTranslation(true)}
                 onMouseLeave={() => handleShowTranslation(false)}
               />
+              {etymology.feedback && (
+                <EtymologyPanel
+                  initialWord={currentWord.name}
+                  initialEntry={etymology.feedback.entry}
+                  word={currentWord}
+                  completion={etymology.feedback.completion}
+                  onClose={etymology.close}
+                />
+              )}
             </div>
           </div>
         )}
@@ -222,15 +231,6 @@ export default function WordPanel() {
             {etymology.notice}
           </p>
         </div>
-      )}
-      {etymology.dialog && currentWord && (
-        <EtymologyDialog
-          initialWord={currentWord.name}
-          initialEntry={etymology.dialog.entry}
-          word={currentWord}
-          completion={etymology.dialog.completion}
-          onClose={etymology.close}
-        />
       )}
       <Progress className={`mb-10 mt-auto ${state.isTyping ? 'opacity-100' : 'opacity-0'}`} />
     </div>

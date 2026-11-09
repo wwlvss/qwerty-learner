@@ -5,7 +5,7 @@ import { useCallback, useEffect, useRef, useState } from 'react'
 // Reusable completion boundary for future cloze exercises. Does not score or schedule reviews.
 export function useEtymologyFeedback(word: string, enabled: boolean, onContinue: () => void) {
   const [active, setActive] = useState(false)
-  const [dialog, setDialog] = useState<{ entry?: EtymologyEntry; completion: boolean }>()
+  const [feedback, setFeedback] = useState<{ entry?: EtymologyEntry; completion: boolean }>()
   const [notice, setNotice] = useState('')
   const advance = useRef(onContinue)
   advance.current = onContinue
@@ -14,7 +14,7 @@ export function useEtymologyFeedback(word: string, enabled: boolean, onContinue:
   useEffect(() => {
     generation.current += 1
     inFlight.current = false
-    setDialog(undefined)
+    setFeedback(undefined)
     setActive(false)
     if (enabled)
       void ensureEtymologyData().catch(() => {
@@ -25,14 +25,14 @@ export function useEtymologyFeedback(word: string, enabled: boolean, onContinue:
     }
   }, [word, enabled])
   const close = useCallback(() => {
-    const shouldAdvance = dialog?.completion
-    setDialog(undefined)
+    const shouldAdvance = feedback?.completion
+    setFeedback(undefined)
     setActive(false)
     if (shouldAdvance && inFlight.current) {
       inFlight.current = false
       advance.current()
     }
-  }, [dialog])
+  }, [feedback])
   const complete = useCallback(async () => {
     if (inFlight.current) return
     if (!enabled) {
@@ -56,7 +56,7 @@ export function useEtymologyFeedback(word: string, enabled: boolean, onContinue:
       ])
       if (current !== generation.current) return
       if ('entry' in result && result.entry?.verificationStatus === 'verified') {
-        setDialog({ entry: result.entry, completion: true })
+        setFeedback({ entry: result.entry, completion: true })
         return
       }
       if (!('skip' in result)) setNotice(`${word}：暂无可靠词源资料，可通过“查看词源”检查待核实内容。`)
@@ -74,7 +74,7 @@ export function useEtymologyFeedback(word: string, enabled: boolean, onContinue:
   const open = useCallback(() => {
     if (inFlight.current) return
     setActive(true)
-    setDialog({ completion: false })
+    setFeedback({ completion: false })
   }, [])
-  return { active, dialog, notice, complete, close, open }
+  return { active, feedback, notice, complete, close, open }
 }

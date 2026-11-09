@@ -37,6 +37,7 @@ export default function EtymologyCard({
   onNavigate,
   fromCorrect = false,
   openRootsInNewTab = false,
+  compact = false,
 }: {
   entry: EtymologyEntry
   word?: Word
@@ -44,6 +45,7 @@ export default function EtymologyCard({
   onNavigate?: () => void
   fromCorrect?: boolean
   openRootsInNewTab?: boolean
+  compact?: boolean
 }) {
   const dict = useAtomValue(currentDictInfoAtom)
   const { data: words } = useSWR(word ? null : dict.url, wordListFetcher)
@@ -83,14 +85,14 @@ export default function EtymologyCard({
     <article className="space-y-3 text-left text-gray-700 dark:text-gray-200" data-testid="etymology-card">
       <div>
         <h2 className="text-xl font-bold">{entry.normalizedWord} · 词根词源</h2>
-        <p className="text-sm">{baseWord?.trans.join('；') || '当前词库未收录释义'}</p>
-        {baseWord && (
+        {!compact && <p className="text-sm">{baseWord?.trans.join('；') || '当前词库未收录释义'}</p>}
+        {!compact && baseWord && (
           <p className="text-xs text-gray-500">
             {baseWord.usphone && `美 [${baseWord.usphone}] `}
             {baseWord.ukphone && `英 [${baseWord.ukphone}]`}
           </p>
         )}
-        <p className="text-xs text-gray-500">英文释义、词性和用法：当前基础词库未提供，暂不推测。</p>
+        {!compact && <p className="text-xs text-gray-500">英文释义、词性和用法：当前基础词库未提供，暂不推测。</p>}
         <span className="text-xs text-amber-700 dark:text-amber-300">
           {entry.verificationStatus === 'verified' ? '有来源支持' : '待核实 · 不作为确定事实'} · 资料可信度{' '}
           {Math.round(entry.confidence * 100)}%
@@ -136,43 +138,46 @@ export default function EtymologyCard({
           <p>{entry.etymologyExplanation}</p>
         </details>
       </section>
-      <section>
-        <h3 className="font-semibold">词源关系网络</h3>
-        {openRootsInNewTab && <p className="text-xs text-gray-500">词根详情在新标签页打开，当前答题保持不变；阅读后返回并继续练习。</p>}
-        <div className="flex flex-wrap gap-2">
-          {related?.roots.map(
-            (root) =>
-              root && (
-                <Link
-                  key={root.id}
-                  onClick={onNavigate}
-                  target={openRootsInNewTab ? '_blank' : undefined}
-                  rel="noreferrer"
-                  to={`/roots/${encodeURIComponent(root.id)}`}
-                  className="rounded bg-indigo-50 px-2 py-1 text-sm text-indigo-600 dark:bg-gray-700"
-                >
-                  {root.root} · {root.meaning}
-                </Link>
-              ),
-          )}
-        </div>
-        <p className="mt-1 text-xs text-gray-500">A/B 可有历史交集，这里按主要关系展示；C 类不作为同源证据。</p>
-        <ul className="mt-2 max-h-40 space-y-2 overflow-y-auto text-sm">
-          {related?.relations.map((rel) => (
-            <li key={rel.id}>
-              <button type="button" onClick={() => onWord(rel.normalizedWord)} className="font-semibold text-indigo-500 underline">
-                {rel.normalizedWord}
-              </button>
-              <span className="ml-2 text-xs">
-                {relationLabels[rel.relationType]} · {rel.verificationStatus === 'verified' ? '已核实' : '待核实'}
-              </span>
-              <p>{words?.find((w) => w.name.toLowerCase() === rel.normalizedWord)?.trans.join('；') || rel.explanation}</p>
-              <p className="text-xs text-gray-500">{rel.explanation}</p>
-              <Sources sources={rel.sources} />
-            </li>
-          ))}
-        </ul>
-      </section>
+      <details open={compact ? undefined : true}>
+        <summary className="cursor-pointer text-sm text-indigo-500">同源词、词根与关系详情</summary>
+        <section>
+          <h3 className="font-semibold">词源关系网络</h3>
+          {openRootsInNewTab && <p className="text-xs text-gray-500">词根详情在新标签页打开，当前答题保持不变；阅读后返回并继续练习。</p>}
+          <div className="flex flex-wrap gap-2">
+            {related?.roots.map(
+              (root) =>
+                root && (
+                  <Link
+                    key={root.id}
+                    onClick={onNavigate}
+                    target={openRootsInNewTab ? '_blank' : undefined}
+                    rel="noreferrer"
+                    to={`/roots/${encodeURIComponent(root.id)}`}
+                    className="rounded bg-indigo-50 px-2 py-1 text-sm text-indigo-600 dark:bg-gray-700"
+                  >
+                    {root.root} · {root.meaning}
+                  </Link>
+                ),
+            )}
+          </div>
+          <p className="mt-1 text-xs text-gray-500">A/B 可有历史交集，这里按主要关系展示；C 类不作为同源证据。</p>
+          <ul className="mt-2 max-h-40 space-y-2 overflow-y-auto text-sm">
+            {related?.relations.map((rel) => (
+              <li key={rel.id}>
+                <button type="button" onClick={() => onWord(rel.normalizedWord)} className="font-semibold text-indigo-500 underline">
+                  {rel.normalizedWord}
+                </button>
+                <span className="ml-2 text-xs">
+                  {relationLabels[rel.relationType]} · {rel.verificationStatus === 'verified' ? '已核实' : '待核实'}
+                </span>
+                <p>{words?.find((w) => w.name.toLowerCase() === rel.normalizedWord)?.trans.join('；') || rel.explanation}</p>
+                <p className="text-xs text-gray-500">{rel.explanation}</p>
+                <Sources sources={rel.sources} />
+              </li>
+            ))}
+          </ul>
+        </section>
+      </details>
       <section className="rounded bg-stone-50 p-3 text-sm dark:bg-gray-700">
         <h3 className="font-semibold">辅助记忆（与词源事实分开）</h3>
         <p>{entry.memoryTip}</p>
