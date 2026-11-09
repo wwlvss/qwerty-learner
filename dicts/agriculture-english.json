@@ -638,5 +638,645 @@
     ],
     "usphone": "rɪ'zɪstəns",
     "ukphone": "rɪ'zɪstəns"
+  },
+  {
+    "name": "root",
+    "trans": [
+      "根"
+    ],
+    "usphone": "ruːt",
+    "ukphone": "ruːt"
+  },
+  {
+    "name": "stem",
+    "trans": [
+      "茎"
+    ],
+    "usphone": "stɛm",
+    "ukphone": "stem"
+  },
+  {
+    "name": "leaf",
+    "trans": [
+      "叶片"
+    ],
+    "usphone": "liːf",
+    "ukphone": "liːf"
+  },
+  {
+    "name": "shoot",
+    "trans": [
+      "新梢；芽条"
+    ],
+    "usphone": "ʃuːt",
+    "ukphone": "ʃuːt"
+  },
+  {
+    "name": "bud",
+    "trans": [
+      "芽"
+    ],
+    "usphone": "bʌd",
+    "ukphone": "bʌd"
+  },
+  {
+    "name": "canopy",
+    "trans": [
+      "冠层"
+    ],
+    "usphone": "'kænəpi",
+    "ukphone": "'kænəpɪ"
+  },
+  {
+    "name": "biomass",
+    "trans": [
+      "生物量"
+    ],
+    "usphone": "ˈbaɪəʊmæs",
+    "ukphone": "ˈbaɪoʊmæs"
+  },
+  {
+    "name": "growth stage",
+    "trans": [
+      "生育期"
+    ],
+    "usphone": "",
+    "ukphone": ""
+  },
+  {
+    "name": "vegetative growth",
+    "trans": [
+      "营养生长"
+    ],
+    "usphone": "",
+    "ukphone": ""
+  },
+  {
+    "name": "reproductive growth",
+    "trans": [
+      "生殖生长"
+    ],
+    "usphone": "",
+    "ukphone": ""
+  },
+  {
+    "name": "maturity",
+    "trans": [
+      "成熟；成熟度"
+    ],
+    "usphone": "mə'tʃʊrəti",
+    "ukphone": "mə'tʃuərəti"
+  },
+  {
+    "name": "dormancy",
+    "trans": [
+      "休眠"
+    ],
+    "usphone": "'dɔrmənsi",
+    "ukphone": "'dɔːrmənsi"
+  },
+  {
+    "name": "propagation",
+    "trans": [
+      "繁殖"
+    ],
+    "usphone": "ˌprɒpəˈɡeɪʃ(ə)n",
+    "ukphone": "ˌprɑːpəˈɡeɪʃn"
+  },
+  {
+    "name": "cutting",
+    "trans": [
+      "插条；扦插材料"
+    ],
+    "usphone": "ˈkʌtɪŋ",
+    "ukphone": "ˈkʌtɪŋ"
+  },
+  {
+    "name": "grafting",
+    "trans": [
+      "嫁接"
+    ],
+    "usphone": "",
+    "ukphone": ""
+  },
+  {
+    "name": "rootstock",
+    "trans": [
+      "砧木"
+    ],
+    "usphone": "",
+    "ukphone": ""
+  },
+  {
+    "name": "scion",
+    "trans": [
+      "接穗"
+    ],
+    "usphone": "",
+    "ukphone": ""
+  },
+  {
+    "name": "seed treatment",
+    "trans": [
+      "种子处理"
+    ],
+    "usphone": "",
+    "ukphone": ""
+  },
+  {
+    "name": "seedbed",
+    "trans": [
+      "苗床；播种床"
+    ],
+    "usphone": "'siːdbed",
+    "ukphone": "'siːdbed"
+  },
+  {
+    "name": "plug tray",
+    "trans": [
+      "穴盘"
+    ],
+    "usphone": "",
+    "ukphone": ""
+  },
+  {
+    "name": "substrate",
+    "trans": [
+      "基质"
+    ],
+    "usphone": "ˈsʌbˌstret",
+    "ukphone": "ˈsʌbstreɪt"
+  },
+  {
+    "name": "peat",
+    "trans": [
+      "泥炭"
+    ],
+    "usphone": "pit",
+    "ukphone": "piːt"
+  },
+  {
+    "name": "coco coir",
+    "trans": [
+      "椰糠"
+    ],
+    "usphone": "",
+    "ukphone": ""
+  },
+  {
+    "name": "perlite",
+    "trans": [
+      "珍珠岩"
+    ],
+    "usphone": "",
+    "ukphone": ""
+  },
+  {
+    "name": "aeration",
+    "trans": [
+      "通气；曝气"
+    ],
+    "usphone": ",eə'reʃən",
+    "ukphone": "ˌeə'reɪʃn"
+  },
+  {
+    "name": "waterlogging",
+    "trans": [
+      "渍水；涝害"
+    ],
+    "usphone": "",
+    "ukphone": ""
+  },
+  {
+    "name": "drought",
+    "trans": [
+      "干旱"
+    ],
+    "usphone": "draʊt",
+    "ukphone": "draut"
+  },
+  {
+    "name": "wilting",
+    "trans": [
+      "萎蔫"
+    ],
+    "usphone": "",
+    "ukphone": ""
+  },
+  {
+    "name": "field capacity",
+    "trans": [
+      "田间持水量"
+    ],
+    "usphone": "",
+    "ukphone": ""
+  },
+  {
+    "name": "infiltration",
+    "trans": [
+      "入渗"
+    ],
+    "usphone": "ˌɪnfɪlˈtreʃən",
+    "ukphone": "ˌɪnfɪl'treɪʃn"
+  },
+  {
+    "name": "evaporation",
+    "trans": [
+      "蒸发"
+    ],
+    "usphone": "ɪˌvæpə'reɪʃn",
+    "ukphone": "ɪˌvæpə'reɪʃn"
+  },
+  {
+    "name": "transpiration",
+    "trans": [
+      "蒸腾"
+    ],
+    "usphone": "",
+    "ukphone": "/ˌtrænspɪˈreɪʃn/"
+  },
+  {
+    "name": "evapotranspiration",
+    "trans": [
+      "蒸散"
+    ],
+    "usphone": "",
+    "ukphone": ""
+  },
+  {
+    "name": "runoff",
+    "trans": [
+      "地表径流"
+    ],
+    "usphone": "'rʌnɔf",
+    "ukphone": "'rʌnɒf"
+  },
+  {
+    "name": "leaching",
+    "trans": [
+      "淋失；淋洗"
+    ],
+    "usphone": "",
+    "ukphone": ""
+  },
+  {
+    "name": "water table",
+    "trans": [
+      "地下水位"
+    ],
+    "usphone": "",
+    "ukphone": ""
+  },
+  {
+    "name": "soil sample",
+    "trans": [
+      "土壤样品"
+    ],
+    "usphone": "",
+    "ukphone": ""
+  },
+  {
+    "name": "soil test",
+    "trans": [
+      "土壤检测"
+    ],
+    "usphone": "",
+    "ukphone": ""
+  },
+  {
+    "name": "bulk density",
+    "trans": [
+      "容重"
+    ],
+    "usphone": "",
+    "ukphone": ""
+  },
+  {
+    "name": "porosity",
+    "trans": [
+      "孔隙度"
+    ],
+    "usphone": "",
+    "ukphone": ""
+  },
+  {
+    "name": "clay",
+    "trans": [
+      "黏土；黏粒"
+    ],
+    "usphone": "kle",
+    "ukphone": "kleɪ"
+  },
+  {
+    "name": "silt",
+    "trans": [
+      "粉砂；粉粒"
+    ],
+    "usphone": "sɪlt",
+    "ukphone": "sɪlt"
+  },
+  {
+    "name": "loam",
+    "trans": [
+      "壤土"
+    ],
+    "usphone": "",
+    "ukphone": ""
+  },
+  {
+    "name": "sandy soil",
+    "trans": [
+      "砂质土壤"
+    ],
+    "usphone": "",
+    "ukphone": ""
+  },
+  {
+    "name": "cation exchange capacity",
+    "trans": [
+      "阳离子交换量"
+    ],
+    "usphone": "",
+    "ukphone": ""
+  },
+  {
+    "name": "calcium",
+    "trans": [
+      "钙"
+    ],
+    "usphone": "'kælsɪəm",
+    "ukphone": "'kælsiəm"
+  },
+  {
+    "name": "magnesium",
+    "trans": [
+      "镁"
+    ],
+    "usphone": "mæg'nizɪrm",
+    "ukphone": "mæg'niːzɪəm"
+  },
+  {
+    "name": "sulfur",
+    "trans": [
+      "硫"
+    ],
+    "usphone": "'sʌlfɚ",
+    "ukphone": "'sʌlfə"
+  },
+  {
+    "name": "iron",
+    "trans": [
+      "铁"
+    ],
+    "usphone": "ˈaɪən",
+    "ukphone": "ˈaɪərn"
+  },
+  {
+    "name": "zinc",
+    "trans": [
+      "锌"
+    ],
+    "usphone": "zɪŋk",
+    "ukphone": "zɪŋk"
+  },
+  {
+    "name": "boron",
+    "trans": [
+      "硼"
+    ],
+    "usphone": "",
+    "ukphone": ""
+  },
+  {
+    "name": "manganese",
+    "trans": [
+      "锰"
+    ],
+    "usphone": "",
+    "ukphone": ""
+  },
+  {
+    "name": "copper",
+    "trans": [
+      "铜"
+    ],
+    "usphone": "'kɑpɚ",
+    "ukphone": "'kɒpə"
+  },
+  {
+    "name": "molybdenum",
+    "trans": [
+      "钼"
+    ],
+    "usphone": "",
+    "ukphone": ""
+  },
+  {
+    "name": "nitrate",
+    "trans": [
+      "硝酸根；硝酸盐"
+    ],
+    "usphone": "'naɪtret",
+    "ukphone": "'naɪtreɪt"
+  },
+  {
+    "name": "ammonium",
+    "trans": [
+      "铵离子；铵态"
+    ],
+    "usphone": "",
+    "ukphone": ""
+  },
+  {
+    "name": "stock solution",
+    "trans": [
+      "母液"
+    ],
+    "usphone": "",
+    "ukphone": ""
+  },
+  {
+    "name": "injection ratio",
+    "trans": [
+      "注入比例"
+    ],
+    "usphone": "",
+    "ukphone": ""
+  },
+  {
+    "name": "dosing pump",
+    "trans": [
+      "计量泵"
+    ],
+    "usphone": "",
+    "ukphone": ""
+  },
+  {
+    "name": "pressure regulator",
+    "trans": [
+      "压力调节器"
+    ],
+    "usphone": "",
+    "ukphone": ""
+  },
+  {
+    "name": "lateral line",
+    "trans": [
+      "支管；灌溉毛管"
+    ],
+    "usphone": "",
+    "ukphone": ""
+  },
+  {
+    "name": "mainline",
+    "trans": [
+      "主管"
+    ],
+    "usphone": "'meɪnlaɪn",
+    "ukphone": "ˈmeɪnlaɪn"
+  },
+  {
+    "name": "backflow preventer",
+    "trans": [
+      "防回流装置"
+    ],
+    "usphone": "",
+    "ukphone": ""
+  },
+  {
+    "name": "flushing",
+    "trans": [
+      "冲洗"
+    ],
+    "usphone": "",
+    "ukphone": ""
+  },
+  {
+    "name": "clogging",
+    "trans": [
+      "堵塞"
+    ],
+    "usphone": "",
+    "ukphone": ""
+  },
+  {
+    "name": "uniformity",
+    "trans": [
+      "均匀性"
+    ],
+    "usphone": "ˌjuːnɪˈfɔːməti",
+    "ukphone": "ˌjuːnɪˈfɔːrməti"
+  },
+  {
+    "name": "calibration",
+    "trans": [
+      "校准"
+    ],
+    "usphone": "ˌkæləˈbreʃən",
+    "ukphone": "ˌkælɪˈbreɪʃn"
+  },
+  {
+    "name": "flow meter",
+    "trans": [
+      "流量计"
+    ],
+    "usphone": "",
+    "ukphone": ""
+  },
+  {
+    "name": "pressure gauge",
+    "trans": [
+      "压力表"
+    ],
+    "usphone": "",
+    "ukphone": ""
+  },
+  {
+    "name": "moisture sensor",
+    "trans": [
+      "水分传感器"
+    ],
+    "usphone": "",
+    "ukphone": ""
+  },
+  {
+    "name": "tensiometer",
+    "trans": [
+      "张力计"
+    ],
+    "usphone": "",
+    "ukphone": ""
+  },
+  {
+    "name": "irrigation interval",
+    "trans": [
+      "灌溉间隔"
+    ],
+    "usphone": "",
+    "ukphone": ""
+  },
+  {
+    "name": "irrigation duration",
+    "trans": [
+      "灌溉时长"
+    ],
+    "usphone": "",
+    "ukphone": ""
+  },
+  {
+    "name": "crop protection",
+    "trans": [
+      "作物保护；植保"
+    ],
+    "usphone": "",
+    "ukphone": ""
+  },
+  {
+    "name": "beneficial insect",
+    "trans": [
+      "益虫"
+    ],
+    "usphone": "",
+    "ukphone": ""
+  },
+  {
+    "name": "predator",
+    "trans": [
+      "捕食性天敌"
+    ],
+    "usphone": "ˈpredətə",
+    "ukphone": "ˈpredətər"
+  },
+  {
+    "name": "parasitoid",
+    "trans": [
+      "寄生性天敌；拟寄生生物"
+    ],
+    "usphone": "",
+    "ukphone": ""
+  },
+  {
+    "name": "sticky trap",
+    "trans": [
+      "粘虫板；粘虫陷阱"
+    ],
+    "usphone": "",
+    "ukphone": ""
+  },
+  {
+    "name": "pheromone trap",
+    "trans": [
+      "信息素诱捕器"
+    ],
+    "usphone": "",
+    "ukphone": ""
+  },
+  {
+    "name": "economic threshold",
+    "trans": [
+      "经济阈值；防治指标"
+    ],
+    "usphone": "",
+    "ukphone": ""
   }
 ]

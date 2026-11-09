@@ -318,5 +318,485 @@
     ],
     "usphone": "ko'ɔrdɪnet",
     "ukphone": "kəʊ'ɔ:dɪneɪt"
+  },
+  {
+    "name": "inquiry",
+    "trans": [
+      "询价；询问"
+    ],
+    "usphone": "ɪn'kwaɪri; 'ɪn,kwaɪri; 'ɪnkwəri; 'ɪŋkwaɪri",
+    "ukphone": "ɪn'kwaɪəri"
+  },
+  {
+    "name": "request for quotation",
+    "trans": [
+      "询价单；报价请求"
+    ],
+    "usphone": "",
+    "ukphone": ""
+  },
+  {
+    "name": "pro forma invoice",
+    "trans": [
+      "形式发票"
+    ],
+    "usphone": "",
+    "ukphone": ""
+  },
+  {
+    "name": "commercial invoice",
+    "trans": [
+      "商业发票"
+    ],
+    "usphone": "",
+    "ukphone": ""
+  },
+  {
+    "name": "packing list",
+    "trans": [
+      "装箱单"
+    ],
+    "usphone": "",
+    "ukphone": ""
+  },
+  {
+    "name": "bill of lading",
+    "trans": [
+      "提单"
+    ],
+    "usphone": "",
+    "ukphone": ""
+  },
+  {
+    "name": "certificate of origin",
+    "trans": [
+      "原产地证书"
+    ],
+    "usphone": "",
+    "ukphone": ""
+  },
+  {
+    "name": "purchase requisition",
+    "trans": [
+      "采购申请"
+    ],
+    "usphone": "",
+    "ukphone": ""
+  },
+  {
+    "name": "vendor",
+    "trans": [
+      "供应商"
+    ],
+    "usphone": "ˈvendə",
+    "ukphone": "ˈvendər"
+  },
+  {
+    "name": "manufacturer",
+    "trans": [
+      "制造商"
+    ],
+    "usphone": ",mænju'fæktʃərɚ",
+    "ukphone": "ˌmænju'fæktʃərə"
+  },
+  {
+    "name": "distributor",
+    "trans": [
+      "经销商"
+    ],
+    "usphone": "dɪˈstrɪbjətə",
+    "ukphone": "dɪˈstrɪbjətər"
+  },
+  {
+    "name": "wholesaler",
+    "trans": [
+      "批发商"
+    ],
+    "usphone": "'həʊlseɪlə(r)",
+    "ukphone": "ˈhəʊlseɪlə"
+  },
+  {
+    "name": "retailer",
+    "trans": [
+      "零售商"
+    ],
+    "usphone": "ˈriːteɪlə",
+    "ukphone": "ˈriːteɪlər"
+  },
+  {
+    "name": "stakeholder",
+    "trans": [
+      "利益相关方"
+    ],
+    "usphone": "ˈsteɪkhəʊldə",
+    "ukphone": "ˈsteɪkhoʊldər"
+  },
+  {
+    "name": "end user",
+    "trans": [
+      "最终用户"
+    ],
+    "usphone": "",
+    "ukphone": ""
+  },
+  {
+    "name": "product catalog",
+    "trans": [
+      "产品目录"
+    ],
+    "usphone": "",
+    "ukphone": ""
+  },
+  {
+    "name": "technical specification",
+    "trans": [
+      "技术规格"
+    ],
+    "usphone": "",
+    "ukphone": ""
+  },
+  {
+    "name": "sample",
+    "trans": [
+      "样品"
+    ],
+    "usphone": "'sæmpl",
+    "ukphone": "'sɑːmpl"
+  },
+  {
+    "name": "minimum order quantity",
+    "trans": [
+      "最小起订量"
+    ],
+    "usphone": "",
+    "ukphone": ""
+  },
+  {
+    "name": "bulk order",
+    "trans": [
+      "批量订单"
+    ],
+    "usphone": "",
+    "ukphone": ""
+  },
+  {
+    "name": "trial order",
+    "trans": [
+      "试订单"
+    ],
+    "usphone": "",
+    "ukphone": ""
+  },
+  {
+    "name": "repeat order",
+    "trans": [
+      "重复订单；返单"
+    ],
+    "usphone": "",
+    "ukphone": ""
+  },
+  {
+    "name": "order confirmation",
+    "trans": [
+      "订单确认"
+    ],
+    "usphone": "",
+    "ukphone": ""
+  },
+  {
+    "name": "order status",
+    "trans": [
+      "订单状态"
+    ],
+    "usphone": "",
+    "ukphone": ""
+  },
+  {
+    "name": "backorder",
+    "trans": [
+      "延期交货订单；欠货"
+    ],
+    "usphone": "",
+    "ukphone": ""
+  },
+  {
+    "name": "purchase agreement",
+    "trans": [
+      "采购协议"
+    ],
+    "usphone": "",
+    "ukphone": ""
+  },
+  {
+    "name": "payment terms",
+    "trans": [
+      "付款条件"
+    ],
+    "usphone": "",
+    "ukphone": ""
+  },
+  {
+    "name": "advance payment",
+    "trans": [
+      "预付款"
+    ],
+    "usphone": "",
+    "ukphone": ""
+  },
+  {
+    "name": "bank transfer",
+    "trans": [
+      "银行转账"
+    ],
+    "usphone": "",
+    "ukphone": ""
+  },
+  {
+    "name": "letter of credit",
+    "trans": [
+      "信用证"
+    ],
+    "usphone": "",
+    "ukphone": ""
+  },
+  {
+    "name": "currency",
+    "trans": [
+      "货币"
+    ],
+    "usphone": "ˈkɜrənsi",
+    "ukphone": "'kʌrənsi"
+  },
+  {
+    "name": "exchange rate",
+    "trans": [
+      "汇率"
+    ],
+    "usphone": "",
+    "ukphone": ""
+  },
+  {
+    "name": "transaction fee",
+    "trans": [
+      "交易手续费"
+    ],
+    "usphone": "",
+    "ukphone": ""
+  },
+  {
+    "name": "credit note",
+    "trans": [
+      "贷项通知单；贷记单"
+    ],
+    "usphone": "",
+    "ukphone": ""
+  },
+  {
+    "name": "outstanding balance",
+    "trans": [
+      "未结余额；未付款项"
+    ],
+    "usphone": "",
+    "ukphone": ""
+  },
+  {
+    "name": "payment reminder",
+    "trans": [
+      "付款提醒"
+    ],
+    "usphone": "",
+    "ukphone": ""
+  },
+  {
+    "name": "delivery date",
+    "trans": [
+      "交货日期"
+    ],
+    "usphone": "",
+    "ukphone": ""
+  },
+  {
+    "name": "shipping address",
+    "trans": [
+      "收货地址"
+    ],
+    "usphone": "",
+    "ukphone": ""
+  },
+  {
+    "name": "dispatch",
+    "trans": [
+      "发货；派送"
+    ],
+    "usphone": "dɪ'spætʃ",
+    "ukphone": "dɪ'spætʃ"
+  },
+  {
+    "name": "tracking number",
+    "trans": [
+      "物流单号"
+    ],
+    "usphone": "",
+    "ukphone": ""
+  },
+  {
+    "name": "estimated arrival",
+    "trans": [
+      "预计到达时间"
+    ],
+    "usphone": "",
+    "ukphone": ""
+  },
+  {
+    "name": "partial shipment",
+    "trans": [
+      "分批装运"
+    ],
+    "usphone": "",
+    "ukphone": ""
+  },
+  {
+    "name": "freight forwarder",
+    "trans": [
+      "货运代理"
+    ],
+    "usphone": "",
+    "ukphone": ""
+  },
+  {
+    "name": "carrier",
+    "trans": [
+      "承运商"
+    ],
+    "usphone": "'kærɪɚ",
+    "ukphone": "'kæriə"
+  },
+  {
+    "name": "warehouse",
+    "trans": [
+      "仓库"
+    ],
+    "usphone": "'wɛrhaʊs",
+    "ukphone": "'weəhaus"
+  },
+  {
+    "name": "customs clearance",
+    "trans": [
+      "清关"
+    ],
+    "usphone": "",
+    "ukphone": ""
+  },
+  {
+    "name": "import duty",
+    "trans": [
+      "进口关税"
+    ],
+    "usphone": "",
+    "ukphone": ""
+  },
+  {
+    "name": "tax",
+    "trans": [
+      "税；税款"
+    ],
+    "usphone": "tæks",
+    "ukphone": "tæks"
+  },
+  {
+    "name": "insurance coverage",
+    "trans": [
+      "保险保障范围"
+    ],
+    "usphone": "",
+    "ukphone": ""
+  },
+  {
+    "name": "damaged goods",
+    "trans": [
+      "受损货物"
+    ],
+    "usphone": "",
+    "ukphone": ""
+  },
+  {
+    "name": "shortage",
+    "trans": [
+      "短缺；少货"
+    ],
+    "usphone": "'ʃɔrtɪdʒ",
+    "ukphone": "'ʃɔːtɪdʒ"
+  },
+  {
+    "name": "discrepancy",
+    "trans": [
+      "不符；差异"
+    ],
+    "usphone": "dɪs'krɛpənsi",
+    "ukphone": "dɪs'krepənsi"
+  },
+  {
+    "name": "replacement",
+    "trans": [
+      "替换品；更换"
+    ],
+    "usphone": "rɪ'plesmənt",
+    "ukphone": "rɪ'pleɪsmənt"
+  },
+  {
+    "name": "return authorization",
+    "trans": [
+      "退货授权"
+    ],
+    "usphone": "",
+    "ukphone": ""
+  },
+  {
+    "name": "after-sales service",
+    "trans": [
+      "售后服务"
+    ],
+    "usphone": "",
+    "ukphone": ""
+  },
+  {
+    "name": "service agreement",
+    "trans": [
+      "服务协议"
+    ],
+    "usphone": "",
+    "ukphone": ""
+  },
+  {
+    "name": "non-disclosure agreement",
+    "trans": [
+      "保密协议"
+    ],
+    "usphone": "",
+    "ukphone": ""
+  },
+  {
+    "name": "validity",
+    "trans": [
+      "有效期；有效性"
+    ],
+    "usphone": "vəˈlɪdəti",
+    "ukphone": "vəˈlɪdəti"
+  },
+  {
+    "name": "expiration date",
+    "trans": [
+      "到期日；失效日期"
+    ],
+    "usphone": "",
+    "ukphone": ""
+  },
+  {
+    "name": "mutual agreement",
+    "trans": [
+      "双方协议；共同同意"
+    ],
+    "usphone": "",
+    "ukphone": ""
   }
 ]
