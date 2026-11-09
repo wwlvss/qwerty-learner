@@ -1,0 +1,25 @@
+你不需要先学会编程或自己配置所有开发工具。
+
+你只需先完成：
+1. 从官方页面安装适合自己系统的本地 Codex 并登录自己的 ChatGPT 账号：
+   https://chatgpt.com/codex?app-landing-page=true
+2. 在电脑新建一个“英语学习项目”文件夹，并在本地 Codex 中打开这个文件夹。
+3. 打开本包的 FIRST_MESSAGE_TO_CODEX.txt，把全文发给它。
+
+后续让本地 Codex 帮你：检测电脑 → 准备 Node.js/Git/Yarn → 获取源码 → 安装项目依赖 → 启动网页 → 检查功能 → 指导迁移学习数据。
+账号登录、系统安装确认等只能由你完成的步骤，按它给的一步提示操作即可。
+
+项目源码：https://github.com/wwlvss/qwerty-learner
+网页：https://wwlvss.github.io/qwerty-learner/
+
+这个交接包不是完整源码，不要直接在此包里运行 npm install 来启动网站。
+SOURCE_GITHUB.txt里有源码入口，真正的源码由本地 Codex 获取。
+local-study.zip 是另一个“直接学习”的静态启动包，也不是源码开发目录。
+
+浏览器里的学习记录不会随Git克隆自动迁移。先到网页版设置导出完整.gz备份，之后由本地Codex指导导入新的本地地址。
+
+完整背景见 docs/personal-learning/MASTER_HANDOFF.md，安装技术交接见 LOCAL_CODEX_HANDOFF.md，进度表见 PROJECT_PROGRESS.xlsx。
+最初的分析和词根需求在 docs/personal-learning/requirements/，其中有些早期交互已被后续规则替代，文件中已标注。
+
+如果你发现当前Codex还在网页的云环境中，它不能直接安装你电脑的软件。需要先安装官方本地应用/工具。
+如果官方下载页或安装中出现问题，把当前具体提示交给助手，一次处理一步，不要随意安装同名第三方软件。

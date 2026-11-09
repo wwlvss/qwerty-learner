@@ -40,6 +40,17 @@ export default function ProjectProgress() {
         >
           下载本地 Codex 交接说明
         </a>
+        <div className="flex flex-wrap items-center gap-3 rounded-lg bg-white p-4 text-sm dark:bg-gray-800">
+          <a className="my-btn-primary" href={versionedDataUrl(prefix + '/data/codex-handoff.zip')} download>
+            下载完整 Codex 交接包
+          </a>
+          <a className="text-indigo-500 underline" href={versionedDataUrl(prefix + '/data/local-codex-first-message.txt')} download>
+            下载发给本地 Codex 的第一条消息
+          </a>
+          <p className="w-full text-gray-500">
+            只需先安装并登录本地 Codex，再把交接包里的 FIRST_MESSAGE_TO_CODEX.txt 发给它；环境安装和项目启动交给它处理。
+          </p>
+        </div>
         {error && <p role="alert">{error}</p>}
         {data && (
           <>
