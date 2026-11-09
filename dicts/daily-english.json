@@ -1,0 +1,322 @@
+[
+  {
+    "name": "hello",
+    "trans": [
+      "你好；问候"
+    ],
+    "usphone": "həˈləʊ",
+    "ukphone": "həˈloʊ"
+  },
+  {
+    "name": "please",
+    "trans": [
+      "请"
+    ],
+    "usphone": "pliːz",
+    "ukphone": "pliːz"
+  },
+  {
+    "name": "thanks",
+    "trans": [
+      "谢谢"
+    ],
+    "usphone": "θæŋks",
+    "ukphone": "θæŋks"
+  },
+  {
+    "name": "sorry",
+    "trans": [
+      "抱歉；对不起"
+    ],
+    "usphone": "ˈsɒri",
+    "ukphone": "ˈsɑːri"
+  },
+  {
+    "name": "help",
+    "trans": [
+      "帮助"
+    ],
+    "usphone": "help",
+    "ukphone": "help"
+  },
+  {
+    "name": "directions",
+    "trans": [
+      "路线指引"
+    ],
+    "usphone": "dɪ'rekʃ(ə)nz",
+    "ukphone": "dɪ'rekʃ(ə)nz"
+  },
+  {
+    "name": "address",
+    "trans": [
+      "地址"
+    ],
+    "usphone": "əˈdres",
+    "ukphone": "əˈdres"
+  },
+  {
+    "name": "appointment",
+    "trans": [
+      "预约"
+    ],
+    "usphone": "ə'pɔɪntmənt",
+    "ukphone": "ə'pɔɪntmənt"
+  },
+  {
+    "name": "groceries",
+    "trans": [
+      "食品杂货"
+    ],
+    "usphone": "'grəusəriz",
+    "ukphone": "'grəʊs(ə)rɪz"
+  },
+  {
+    "name": "receipt",
+    "trans": [
+      "收据；小票"
+    ],
+    "usphone": "rɪ'sit",
+    "ukphone": "rɪ'siːt"
+  },
+  {
+    "name": "change",
+    "trans": [
+      "零钱；找零"
+    ],
+    "usphone": "tʃeɪndʒ",
+    "ukphone": "tʃeɪndʒ"
+  },
+  {
+    "name": "reservation",
+    "trans": [
+      "预订"
+    ],
+    "usphone": ",rɛzɚ'veʃən",
+    "ukphone": "ˌrezə'veɪʃn"
+  },
+  {
+    "name": "delivery",
+    "trans": [
+      "配送；送货"
+    ],
+    "usphone": "dɪ'lɪvəri",
+    "ukphone": "dɪ'lɪvəri"
+  },
+  {
+    "name": "available",
+    "trans": [
+      "可用的；有空的"
+    ],
+    "usphone": "ə'veləbl",
+    "ukphone": "ə'veɪləbl"
+  },
+  {
+    "name": "nearby",
+    "trans": [
+      "附近的；在附近"
+    ],
+    "usphone": ",nɪr'baɪ",
+    "ukphone": "ˌnɪə'baɪ"
+  },
+  {
+    "name": "comfortable",
+    "trans": [
+      "舒适的"
+    ],
+    "usphone": "ˈkʌmftəbl",
+    "ukphone": "ˈkʌmftəbl"
+  },
+  {
+    "name": "convenient",
+    "trans": [
+      "方便的"
+    ],
+    "usphone": "kənˈviːniənt",
+    "ukphone": "kənˈviːniənt"
+  },
+  {
+    "name": "usually",
+    "trans": [
+      "通常"
+    ],
+    "usphone": "ˈjuːʒuəli",
+    "ukphone": "ˈjuːʒuəli"
+  },
+  {
+    "name": "sometimes",
+    "trans": [
+      "有时"
+    ],
+    "usphone": "ˈsʌmtaɪmz",
+    "ukphone": "ˈsʌmtaɪmz"
+  },
+  {
+    "name": "tomorrow",
+    "trans": [
+      "明天"
+    ],
+    "usphone": "təˈmɒrəʊ",
+    "ukphone": "təˈmɑːroʊ"
+  },
+  {
+    "name": "yesterday",
+    "trans": [
+      "昨天"
+    ],
+    "usphone": "ˈjestədeɪ",
+    "ukphone": "ˈjestərdeɪ"
+  },
+  {
+    "name": "weekend",
+    "trans": [
+      "周末"
+    ],
+    "usphone": "ˌwiːkˈend",
+    "ukphone": "ˈwiːkend"
+  },
+  {
+    "name": "breakfast",
+    "trans": [
+      "早餐"
+    ],
+    "usphone": "ˈbrekfəst",
+    "ukphone": "ˈbrekfəst"
+  },
+  {
+    "name": "lunch",
+    "trans": [
+      "午餐"
+    ],
+    "usphone": "lʌntʃ",
+    "ukphone": "lʌntʃ"
+  },
+  {
+    "name": "dinner",
+    "trans": [
+      "晚餐"
+    ],
+    "usphone": "ˈdɪnə",
+    "ukphone": "ˈdɪnər"
+  },
+  {
+    "name": "bus",
+    "trans": [
+      "公交车；巴士"
+    ],
+    "usphone": "bʌs",
+    "ukphone": "bʌs"
+  },
+  {
+    "name": "train",
+    "trans": [
+      "火车"
+    ],
+    "usphone": "treɪn",
+    "ukphone": "treɪn"
+  },
+  {
+    "name": "station",
+    "trans": [
+      "车站"
+    ],
+    "usphone": "ˈsteɪʃn",
+    "ukphone": "ˈsteɪʃn"
+  },
+  {
+    "name": "ticket",
+    "trans": [
+      "票"
+    ],
+    "usphone": "ˈtɪkɪt",
+    "ukphone": "ˈtɪkɪt"
+  },
+  {
+    "name": "medicine",
+    "trans": [
+      "药；药物"
+    ],
+    "usphone": "ˈmedsn",
+    "ukphone": "ˈmedɪsn"
+  },
+  {
+    "name": "pharmacy",
+    "trans": [
+      "药店"
+    ],
+    "usphone": "ˈfɑːməsi",
+    "ukphone": "ˈfɑːrməsi"
+  },
+  {
+    "name": "symptom",
+    "trans": [
+      "症状"
+    ],
+    "usphone": "'sɪmptəm",
+    "ukphone": "'sɪmptəm"
+  },
+  {
+    "name": "weather",
+    "trans": [
+      "天气"
+    ],
+    "usphone": "ˈweðə",
+    "ukphone": "ˈweðər"
+  },
+  {
+    "name": "rainy",
+    "trans": [
+      "下雨的"
+    ],
+    "usphone": "'reni",
+    "ukphone": "'reɪnɪ"
+  },
+  {
+    "name": "sunny",
+    "trans": [
+      "晴朗的"
+    ],
+    "usphone": "'sʌni",
+    "ukphone": "'sʌnɪ"
+  },
+  {
+    "name": "borrow",
+    "trans": [
+      "借入"
+    ],
+    "usphone": "ˈbɒrəʊ",
+    "ukphone": "ˈbɔːroʊ"
+  },
+  {
+    "name": "return",
+    "trans": [
+      "归还"
+    ],
+    "usphone": "rɪˈtɜːn",
+    "ukphone": "rɪˈtɜːrn"
+  },
+  {
+    "name": "invite",
+    "trans": [
+      "邀请"
+    ],
+    "usphone": "ɪnˈvaɪt , ˈɪnvaɪt",
+    "ukphone": "ɪnˈvaɪt , ˈɪnvaɪt"
+  },
+  {
+    "name": "ready",
+    "trans": [
+      "准备好的"
+    ],
+    "usphone": "ˈredi",
+    "ukphone": "ˈredi"
+  },
+  {
+    "name": "leave",
+    "trans": [
+      "离开"
+    ],
+    "usphone": "liːv",
+    "ukphone": "liːv"
+  }
+]

@@ -1,0 +1,642 @@
+[
+  {
+    "name": "crop",
+    "trans": [
+      "作物"
+    ],
+    "usphone": "krɒp",
+    "ukphone": "krɑːp"
+  },
+  {
+    "name": "seed",
+    "trans": [
+      "种子"
+    ],
+    "usphone": "siːd",
+    "ukphone": "siːd"
+  },
+  {
+    "name": "seedling",
+    "trans": [
+      "幼苗；秧苗"
+    ],
+    "usphone": "'sidlɪŋ",
+    "ukphone": "'siːdlɪŋ"
+  },
+  {
+    "name": "nursery",
+    "trans": [
+      "育苗场；苗圃"
+    ],
+    "usphone": "'nɝsəri",
+    "ukphone": "'nɜːsəri"
+  },
+  {
+    "name": "transplant",
+    "trans": [
+      "移栽"
+    ],
+    "usphone": "træns'plænt",
+    "ukphone": "træns'plɑːnt"
+  },
+  {
+    "name": "germination",
+    "trans": [
+      "萌发；发芽"
+    ],
+    "usphone": "ˌdʒɜːrmɪˈneɪʃ(ə)n",
+    "ukphone": "ˌdʒɜːmɪˈneɪʃn"
+  },
+  {
+    "name": "sowing",
+    "trans": [
+      "播种"
+    ],
+    "usphone": "",
+    "ukphone": ""
+  },
+  {
+    "name": "planting",
+    "trans": [
+      "种植"
+    ],
+    "usphone": "ˈplæntɪŋ",
+    "ukphone": "ˈplɑ:ntɪŋ"
+  },
+  {
+    "name": "harvest",
+    "trans": [
+      "收获；采收"
+    ],
+    "usphone": "ˈhɑːvɪst",
+    "ukphone": "ˈhɑːrvɪst"
+  },
+  {
+    "name": "yield",
+    "trans": [
+      "产量"
+    ],
+    "usphone": "jild",
+    "ukphone": "jiːld"
+  },
+  {
+    "name": "cultivar",
+    "trans": [
+      "栽培品种"
+    ],
+    "usphone": "-ˌvɛr",
+    "ukphone": "ˈkʌltɪvɑ:(r)"
+  },
+  {
+    "name": "variety",
+    "trans": [
+      "品种"
+    ],
+    "usphone": "və'raɪəti",
+    "ukphone": "və'raɪəti"
+  },
+  {
+    "name": "field",
+    "trans": [
+      "田块；农田"
+    ],
+    "usphone": "fiːld",
+    "ukphone": "fiːld"
+  },
+  {
+    "name": "plot",
+    "trans": [
+      "小区；地块"
+    ],
+    "usphone": "plɑt",
+    "ukphone": "plɒt"
+  },
+  {
+    "name": "greenhouse",
+    "trans": [
+      "温室"
+    ],
+    "usphone": "'ɡrinhaʊs",
+    "ukphone": "'griːnhaus"
+  },
+  {
+    "name": "orchard",
+    "trans": [
+      "果园"
+    ],
+    "usphone": "'ɔrtʃɚd",
+    "ukphone": "'ɔːtʃəd"
+  },
+  {
+    "name": "row",
+    "trans": [
+      "种植行"
+    ],
+    "usphone": "rəʊ , raʊ",
+    "ukphone": "roʊ , raʊ"
+  },
+  {
+    "name": "spacing",
+    "trans": [
+      "株距或行距等种植间距"
+    ],
+    "usphone": "ˈspesɪŋ",
+    "ukphone": "ˈspeɪsɪŋ"
+  },
+  {
+    "name": "density",
+    "trans": [
+      "密度"
+    ],
+    "usphone": "'dɛnsəti",
+    "ukphone": "'densəti"
+  },
+  {
+    "name": "pruning",
+    "trans": [
+      "修剪"
+    ],
+    "usphone": "pru:nɪŋ",
+    "ukphone": "pru:nɪŋ"
+  },
+  {
+    "name": "pollination",
+    "trans": [
+      "授粉"
+    ],
+    "usphone": "ˌpɑːlə'neɪʃn",
+    "ukphone": "ˌpɒlə'neɪʃn"
+  },
+  {
+    "name": "flowering",
+    "trans": [
+      "开花"
+    ],
+    "usphone": "",
+    "ukphone": ""
+  },
+  {
+    "name": "fruit set",
+    "trans": [
+      "坐果"
+    ],
+    "usphone": "",
+    "ukphone": ""
+  },
+  {
+    "name": "ripening",
+    "trans": [
+      "成熟；果实成熟"
+    ],
+    "usphone": "",
+    "ukphone": ""
+  },
+  {
+    "name": "soil",
+    "trans": [
+      "土壤"
+    ],
+    "usphone": "sɔɪl",
+    "ukphone": "sɔɪl"
+  },
+  {
+    "name": "topsoil",
+    "trans": [
+      "表土"
+    ],
+    "usphone": "'tɑp'sɔɪl",
+    "ukphone": "'tɒpsɒɪl"
+  },
+  {
+    "name": "texture",
+    "trans": [
+      "质地"
+    ],
+    "usphone": "'tɛkstʃɚ",
+    "ukphone": "'tekstʃə"
+  },
+  {
+    "name": "compaction",
+    "trans": [
+      "压实；板结"
+    ],
+    "usphone": "",
+    "ukphone": ""
+  },
+  {
+    "name": "drainage",
+    "trans": [
+      "排水"
+    ],
+    "usphone": "'drenɪdʒ",
+    "ukphone": "'dreɪnɪdʒ"
+  },
+  {
+    "name": "moisture",
+    "trans": [
+      "水分"
+    ],
+    "usphone": "'mɔɪstʃɚ",
+    "ukphone": "'mɔɪstʃə"
+  },
+  {
+    "name": "organic matter",
+    "trans": [
+      "有机质"
+    ],
+    "usphone": "",
+    "ukphone": ""
+  },
+  {
+    "name": "compost",
+    "trans": [
+      "堆肥"
+    ],
+    "usphone": "ˈkɑ:mpoʊst",
+    "ukphone": "ˈkɒmpɒst"
+  },
+  {
+    "name": "mulch",
+    "trans": [
+      "覆盖物"
+    ],
+    "usphone": "mʌltʃ",
+    "ukphone": "mʌltʃ"
+  },
+  {
+    "name": "cover crop",
+    "trans": [
+      "覆盖作物"
+    ],
+    "usphone": "",
+    "ukphone": ""
+  },
+  {
+    "name": "crop rotation",
+    "trans": [
+      "轮作"
+    ],
+    "usphone": "",
+    "ukphone": ""
+  },
+  {
+    "name": "tillage",
+    "trans": [
+      "耕作；土壤耕作"
+    ],
+    "usphone": "tillage",
+    "ukphone": "ˈtɪlɪʤ"
+  },
+  {
+    "name": "erosion",
+    "trans": [
+      "侵蚀；水土流失"
+    ],
+    "usphone": "ɪ'roʒən",
+    "ukphone": "ɪ'rəuʒn"
+  },
+  {
+    "name": "salinity",
+    "trans": [
+      "盐度"
+    ],
+    "usphone": "sə'lɪnətɪ",
+    "ukphone": "sə'lɪnətɪ"
+  },
+  {
+    "name": "acidity",
+    "trans": [
+      "酸性；酸度"
+    ],
+    "usphone": "əˈsɪdɪti",
+    "ukphone": "əˈsɪdəti"
+  },
+  {
+    "name": "alkalinity",
+    "trans": [
+      "碱度"
+    ],
+    "usphone": "",
+    "ukphone": ""
+  },
+  {
+    "name": "irrigation",
+    "trans": [
+      "灌溉"
+    ],
+    "usphone": "ˌɪrɪˈɡeʃn",
+    "ukphone": "ˌɪrɪ'geɪʃn"
+  },
+  {
+    "name": "drip irrigation",
+    "trans": [
+      "滴灌"
+    ],
+    "usphone": "",
+    "ukphone": ""
+  },
+  {
+    "name": "sprinkler",
+    "trans": [
+      "喷头；喷灌装置"
+    ],
+    "usphone": "ˈsprɪŋklɚ",
+    "ukphone": "ˈsprɪŋklə(r)"
+  },
+  {
+    "name": "emitter",
+    "trans": [
+      "滴头"
+    ],
+    "usphone": "",
+    "ukphone": ""
+  },
+  {
+    "name": "valve",
+    "trans": [
+      "阀门"
+    ],
+    "usphone": "vælv",
+    "ukphone": "vælv"
+  },
+  {
+    "name": "filter",
+    "trans": [
+      "过滤器"
+    ],
+    "usphone": "'fɪltɚ",
+    "ukphone": "'fɪltə"
+  },
+  {
+    "name": "pipeline",
+    "trans": [
+      "管道"
+    ],
+    "usphone": "ˈpaɪplaɪn",
+    "ukphone": "ˈpaɪplaɪn"
+  },
+  {
+    "name": "pump",
+    "trans": [
+      "泵；水泵"
+    ],
+    "usphone": "pʌmp",
+    "ukphone": "pʌmp"
+  },
+  {
+    "name": "pressure",
+    "trans": [
+      "压力"
+    ],
+    "usphone": "'prɛʃɚ",
+    "ukphone": "'preʃə"
+  },
+  {
+    "name": "flow rate",
+    "trans": [
+      "流量"
+    ],
+    "usphone": "",
+    "ukphone": ""
+  },
+  {
+    "name": "reservoir",
+    "trans": [
+      "蓄水池；水库"
+    ],
+    "usphone": "'rɛzɚ,vɔr",
+    "ukphone": "'rezəvwɑː"
+  },
+  {
+    "name": "water quality",
+    "trans": [
+      "水质"
+    ],
+    "usphone": "",
+    "ukphone": ""
+  },
+  {
+    "name": "fertigation",
+    "trans": [
+      "水肥一体化施用；灌溉施肥"
+    ],
+    "usphone": "",
+    "ukphone": ""
+  },
+  {
+    "name": "fertilizer",
+    "trans": [
+      "肥料"
+    ],
+    "usphone": "'fɝtəlaɪzɚ",
+    "ukphone": "'fɜːtəlaɪzə"
+  },
+  {
+    "name": "nutrient",
+    "trans": [
+      "养分；营养元素"
+    ],
+    "usphone": "ˈnjuːtriənt",
+    "ukphone": "ˈnuːtriənt"
+  },
+  {
+    "name": "nitrogen",
+    "trans": [
+      "氮"
+    ],
+    "usphone": "'naɪtrədʒən",
+    "ukphone": "'naɪtrədʒən"
+  },
+  {
+    "name": "phosphorus",
+    "trans": [
+      "磷"
+    ],
+    "usphone": "'fɑsfərəs",
+    "ukphone": "'fɒsf(ə)rəs"
+  },
+  {
+    "name": "potassium",
+    "trans": [
+      "钾"
+    ],
+    "usphone": "pəˈtæsiəm",
+    "ukphone": "pəˈtæsiəm"
+  },
+  {
+    "name": "micronutrient",
+    "trans": [
+      "微量营养元素"
+    ],
+    "usphone": "",
+    "ukphone": ""
+  },
+  {
+    "name": "nutrient solution",
+    "trans": [
+      "营养液"
+    ],
+    "usphone": "",
+    "ukphone": ""
+  },
+  {
+    "name": "deficiency",
+    "trans": [
+      "缺乏；缺素症"
+    ],
+    "usphone": "dɪ'fɪʃənsi",
+    "ukphone": "dɪ'fɪʃnsi"
+  },
+  {
+    "name": "application rate",
+    "trans": [
+      "施用量；施用率"
+    ],
+    "usphone": "",
+    "ukphone": ""
+  },
+  {
+    "name": "dilution",
+    "trans": [
+      "稀释"
+    ],
+    "usphone": "dɪ-",
+    "ukphone": "daɪ'lju:ʃn"
+  },
+  {
+    "name": "electrical conductivity",
+    "trans": [
+      "电导率"
+    ],
+    "usphone": "",
+    "ukphone": ""
+  },
+  {
+    "name": "pH",
+    "trans": [
+      "酸碱度；pH 值"
+    ],
+    "usphone": "",
+    "ukphone": ""
+  },
+  {
+    "name": "pest",
+    "trans": [
+      "害虫；有害生物"
+    ],
+    "usphone": "pɛst",
+    "ukphone": "pest"
+  },
+  {
+    "name": "disease",
+    "trans": [
+      "病害"
+    ],
+    "usphone": "dɪ'ziz",
+    "ukphone": "dɪ'ziːz"
+  },
+  {
+    "name": "weed",
+    "trans": [
+      "杂草"
+    ],
+    "usphone": "wid",
+    "ukphone": "wiːd"
+  },
+  {
+    "name": "aphid",
+    "trans": [
+      "蚜虫"
+    ],
+    "usphone": "ˈæfɪd",
+    "ukphone": "ˈeɪfɪd"
+  },
+  {
+    "name": "mite",
+    "trans": [
+      "螨；螨类害虫"
+    ],
+    "usphone": "maɪt",
+    "ukphone": "maɪt"
+  },
+  {
+    "name": "nematode",
+    "trans": [
+      "线虫"
+    ],
+    "usphone": "'nɛmətod",
+    "ukphone": "'nɪmətoud"
+  },
+  {
+    "name": "fungus",
+    "trans": [
+      "真菌"
+    ],
+    "usphone": "'fʌŋɡəs",
+    "ukphone": "'fʌŋgəs"
+  },
+  {
+    "name": "pathogen",
+    "trans": [
+      "病原体"
+    ],
+    "usphone": "ˈpæθədʒən",
+    "ukphone": "ˈpæθədʒən"
+  },
+  {
+    "name": "insecticide",
+    "trans": [
+      "杀虫剂"
+    ],
+    "usphone": "ɪn'sɛktɪsaɪd",
+    "ukphone": "ɪn'sektɪsaɪd"
+  },
+  {
+    "name": "fungicide",
+    "trans": [
+      "杀菌剂"
+    ],
+    "usphone": "",
+    "ukphone": ""
+  },
+  {
+    "name": "herbicide",
+    "trans": [
+      "除草剂"
+    ],
+    "usphone": "ˈhɜːbɪsaɪd",
+    "ukphone": "ˈɜːrbɪsaɪd"
+  },
+  {
+    "name": "biological control",
+    "trans": [
+      "生物防治"
+    ],
+    "usphone": "",
+    "ukphone": ""
+  },
+  {
+    "name": "integrated pest management",
+    "trans": [
+      "有害生物综合治理"
+    ],
+    "usphone": "",
+    "ukphone": ""
+  },
+  {
+    "name": "scouting",
+    "trans": [
+      "田间巡查；监测"
+    ],
+    "usphone": "",
+    "ukphone": ""
+  },
+  {
+    "name": "resistance",
+    "trans": [
+      "抗性；抗药性"
+    ],
+    "usphone": "rɪ'zɪstəns",
+    "ukphone": "rɪ'zɪstəns"
+  }
+]

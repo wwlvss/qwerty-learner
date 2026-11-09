@@ -1,0 +1,322 @@
+[
+  {
+    "name": "meeting",
+    "trans": [
+      "商务会议"
+    ],
+    "usphone": "ˈmiːtɪŋ",
+    "ukphone": "ˈmiːtɪŋ"
+  },
+  {
+    "name": "agenda",
+    "trans": [
+      "商务会议议程"
+    ],
+    "usphone": "ə'dʒɛndə",
+    "ukphone": "ə'dʒendə"
+  },
+  {
+    "name": "email",
+    "trans": [
+      "电子邮件"
+    ],
+    "usphone": "ˈiːmeɪl",
+    "ukphone": "ˈiːmeɪl"
+  },
+  {
+    "name": "subject line",
+    "trans": [
+      "邮件主题行"
+    ],
+    "usphone": "",
+    "ukphone": ""
+  },
+  {
+    "name": "attachment",
+    "trans": [
+      "邮件附件"
+    ],
+    "usphone": "əˈtætʃmənt",
+    "ukphone": "əˈtætʃmənt"
+  },
+  {
+    "name": "quotation",
+    "trans": [
+      "报价；报价单"
+    ],
+    "usphone": "kwo'teʃən",
+    "ukphone": "kwəu'teɪʃn"
+  },
+  {
+    "name": "purchase order",
+    "trans": [
+      "采购订单"
+    ],
+    "usphone": "",
+    "ukphone": ""
+  },
+  {
+    "name": "invoice",
+    "trans": [
+      "发票；付款单"
+    ],
+    "usphone": "'ɪnvɔɪs",
+    "ukphone": "'ɪnvɒɪs"
+  },
+  {
+    "name": "payment",
+    "trans": [
+      "付款"
+    ],
+    "usphone": "'pemənt",
+    "ukphone": "'peɪmənt"
+  },
+  {
+    "name": "contract",
+    "trans": [
+      "合同"
+    ],
+    "usphone": "'kɑntrækt",
+    "ukphone": "'kɒntrækt"
+  },
+  {
+    "name": "supplier",
+    "trans": [
+      "供应商"
+    ],
+    "usphone": "səˈplaɪə",
+    "ukphone": "səˈplaɪər"
+  },
+  {
+    "name": "customer",
+    "trans": [
+      "顾客；客户"
+    ],
+    "usphone": "ˈkʌstəmə",
+    "ukphone": "ˈkʌstəmər"
+  },
+  {
+    "name": "client",
+    "trans": [
+      "委托客户；客户"
+    ],
+    "usphone": "'klaɪənt",
+    "ukphone": "'klaɪənt"
+  },
+  {
+    "name": "negotiation",
+    "trans": [
+      "谈判"
+    ],
+    "usphone": "nɪˌɡəʊʃiˈeɪʃn",
+    "ukphone": "nɪˌɡoʊʃiˈeɪʃn"
+  },
+  {
+    "name": "discount",
+    "trans": [
+      "折扣"
+    ],
+    "usphone": "dɪs'kaʊnt",
+    "ukphone": "'dɪskaʊnt"
+  },
+  {
+    "name": "unit price",
+    "trans": [
+      "单价"
+    ],
+    "usphone": "",
+    "ukphone": ""
+  },
+  {
+    "name": "quantity",
+    "trans": [
+      "数量"
+    ],
+    "usphone": "ˈkwɒntəti",
+    "ukphone": "ˈkwɑːntəti"
+  },
+  {
+    "name": "specification",
+    "trans": [
+      "规格；技术要求"
+    ],
+    "usphone": "'spɛsəfə'keʃən",
+    "ukphone": "ˌspesɪfɪ'keɪʃn"
+  },
+  {
+    "name": "lead time",
+    "trans": [
+      "交付周期；提前期"
+    ],
+    "usphone": "ˈlidˌtaɪm",
+    "ukphone": "li:d"
+  },
+  {
+    "name": "shipment",
+    "trans": [
+      "货运；一批货物"
+    ],
+    "usphone": "'ʃɪpmənt",
+    "ukphone": "'ʃɪpmənt"
+  },
+  {
+    "name": "freight",
+    "trans": [
+      "货运；运费"
+    ],
+    "usphone": "fret",
+    "ukphone": "freɪt"
+  },
+  {
+    "name": "customs",
+    "trans": [
+      "海关"
+    ],
+    "usphone": "ˈkʌstəmz",
+    "ukphone": "ˈkʌstəmz"
+  },
+  {
+    "name": "warranty",
+    "trans": [
+      "保修；质保"
+    ],
+    "usphone": "ˈwɒrənti",
+    "ukphone": "ˈwɔːrənti"
+  },
+  {
+    "name": "claim",
+    "trans": [
+      "索赔"
+    ],
+    "usphone": "klem",
+    "ukphone": "kleɪm"
+  },
+  {
+    "name": "proposal",
+    "trans": [
+      "提案；方案"
+    ],
+    "usphone": "prə'pozl",
+    "ukphone": "prə'pəuzl"
+  },
+  {
+    "name": "agreement",
+    "trans": [
+      "协议"
+    ],
+    "usphone": "əˈɡriːmənt",
+    "ukphone": "əˈɡriːmənt"
+  },
+  {
+    "name": "terms",
+    "trans": [
+      "条款"
+    ],
+    "usphone": "tɜ:rmz",
+    "ukphone": "tɜ:mz"
+  },
+  {
+    "name": "due date",
+    "trans": [
+      "到期日；截止日期"
+    ],
+    "usphone": "",
+    "ukphone": ""
+  },
+  {
+    "name": "deposit",
+    "trans": [
+      "定金；预付款"
+    ],
+    "usphone": "dɪ'pɑzɪt",
+    "ukphone": "dɪ'pɒzɪt"
+  },
+  {
+    "name": "balance",
+    "trans": [
+      "余款；余额"
+    ],
+    "usphone": "'bæləns",
+    "ukphone": "'bæləns"
+  },
+  {
+    "name": "overdue",
+    "trans": [
+      "逾期的"
+    ],
+    "usphone": "ˌəʊvəˈdjuː",
+    "ukphone": "ˌoʊvərˈduː"
+  },
+  {
+    "name": "refund",
+    "trans": [
+      "退款"
+    ],
+    "usphone": "ˈrifʌnd",
+    "ukphone": "ˈriːfʌnd"
+  },
+  {
+    "name": "cancellation",
+    "trans": [
+      "取消；撤销"
+    ],
+    "usphone": "ˌkænsəˈleʃən",
+    "ukphone": "ˌkænsəˈleɪʃn"
+  },
+  {
+    "name": "procurement",
+    "trans": [
+      "采购"
+    ],
+    "usphone": "prəˈkjʊrmənt",
+    "ukphone": "prəˈkjʊəmənt"
+  },
+  {
+    "name": "inventory",
+    "trans": [
+      "库存"
+    ],
+    "usphone": "'ɪnvəntɔri",
+    "ukphone": "'ɪnvəntri"
+  },
+  {
+    "name": "stock",
+    "trans": [
+      "库存货物"
+    ],
+    "usphone": "stɑk",
+    "ukphone": "stɒk"
+  },
+  {
+    "name": "replenishment",
+    "trans": [
+      "补货"
+    ],
+    "usphone": "",
+    "ukphone": ""
+  },
+  {
+    "name": "demand",
+    "trans": [
+      "需求"
+    ],
+    "usphone": "dɪ'mænd",
+    "ukphone": "dɪ'mɑːnd"
+  },
+  {
+    "name": "partner",
+    "trans": [
+      "合作伙伴"
+    ],
+    "usphone": "'pɑrtnɚ",
+    "ukphone": "'pɑːtnə"
+  },
+  {
+    "name": "coordinate",
+    "trans": [
+      "商务协调"
+    ],
+    "usphone": "ko'ɔrdɪnet",
+    "ukphone": "kəʊ'ɔ:dɪneɪt"
+  }
+]
