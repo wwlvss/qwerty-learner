@@ -7,6 +7,7 @@ import Translation from './components/Translation'
 import WordComponent from './components/Word'
 import EtymologyPanel from '@/features/etymology/EtymologyPanel'
 import { useEtymologyFeedback } from '@/features/etymology/useEtymologyFeedback'
+import { learningPreferencesAtom } from '@/features/learning-preferences/store'
 import SaveUnfamiliarButton from '@/features/unfamiliar-words/SaveUnfamiliarButton'
 import { usePrefetchPronunciationSound } from '@/hooks/usePronunciation'
 import {
@@ -16,6 +17,7 @@ import {
   loopWordConfigAtom,
   phoneticConfigAtom,
   reviewModeInfoAtom,
+  wordDictationConfigAtom,
 } from '@/store'
 import type { Word } from '@/typings'
 import { useAtomValue, useSetAtom } from 'jotai'
@@ -25,6 +27,8 @@ import { useHotkeys } from 'react-hotkeys-hook'
 export default function WordPanel() {
   // eslint-disable-next-line  @typescript-eslint/no-non-null-assertion
   const { state, dispatch } = useContext(TypingContext)!
+  const prefs = useAtomValue(learningPreferencesAtom)
+  const dictation = useAtomValue(wordDictationConfigAtom)
   const phoneticConfig = useAtomValue(phoneticConfigAtom)
   const dict = useAtomValue(currentDictInfoAtom)
   const isShowPrevAndNextWord = useAtomValue(isShowPrevAndNextWordAtom)
@@ -201,7 +205,7 @@ export default function WordPanel() {
               {phoneticConfig.isOpen && <Phonetic word={currentWord} />}
               <Translation
                 trans={(currentWord.contextTrans ?? currentWord.trans).join('；')}
-                showTrans={shouldShowTranslation}
+                showTrans={etymology.active || (shouldShowTranslation && !(dictation.isOpen && prefs.hideTranslationsInDictation))}
                 onMouseEnter={() => handleShowTranslation(true)}
                 onMouseLeave={() => handleShowTranslation(false)}
               />

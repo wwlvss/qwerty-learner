@@ -1,13 +1,18 @@
 import Header from '@/components/Header'
+import { downloadAnkiTsv } from '@/features/anki/export'
 import { learningDictionaryPlan } from '@/features/learning-dictionaries/plan'
 import { idDictionaryMap } from '@/resources/dictionary'
 import { currentChapterAtom, currentDictIdAtom, learningDictionaryChaptersAtom, reviewModeInfoAtom } from '@/store'
 import { db } from '@/utils/db'
+import { wordListFetcher } from '@/utils/wordListFetcher'
 import { useLiveQuery } from 'dexie-react-hooks'
 import { useAtom, useAtomValue, useSetAtom } from 'jotai'
+import { useState } from 'react'
 import { Link, useNavigate } from 'react-router-dom'
 
 export default function LearningDictionaries() {
+  const [exporting, setExporting] = useState('')
+  const [exportMessage, setExportMessage] = useState('')
   const [chapters, setChapters] = useAtom(learningDictionaryChaptersAtom)
   const currentId = useAtomValue(currentDictIdAtom)
   const setId = useSetAtom(currentDictIdAtom)
@@ -54,6 +59,11 @@ export default function LearningDictionaries() {
             </a>
           )}
         </section>
+        {exportMessage && (
+          <p role="status" className="text-sm text-indigo-500">
+            {exportMessage}
+          </p>
+        )}
         <div className="grid gap-5 md:grid-cols-2">
           {learningDictionaryPlan.map((plan) => {
             const dict = idDictionaryMap[plan.id]
@@ -110,6 +120,24 @@ export default function LearningDictionaries() {
                     }}
                   >
                     开始{plan.name}
+                  </button>
+                  <button
+                    className="text-sm text-indigo-500 underline disabled:opacity-40"
+                    disabled={Boolean(exporting)}
+                    onClick={async () => {
+                      setExporting(dict.id)
+                      setExportMessage(`正在导出${dict.name}…`)
+                      try {
+                        await downloadAnkiTsv(await wordListFetcher(dict.url), dict.id)
+                        setExportMessage(`${dict.name} Anki TSV 已导出，使用基础卡片导入`)
+                      } catch {
+                        setExportMessage('导出失败，请重试')
+                      } finally {
+                        setExporting('')
+                      }
+                    }}
+                  >
+                    导出{plan.name} Anki
                   </button>
                 </div>
               </section>

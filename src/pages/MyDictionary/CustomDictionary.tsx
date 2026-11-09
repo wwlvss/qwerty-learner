@@ -1,4 +1,5 @@
 import Header from '@/components/Header'
+import { downloadAnkiTsv } from '@/features/anki/export'
 import { downloadJson, readJsonFile } from '@/features/etymology/packages'
 import { PERSONAL_DICT_ID } from '@/features/personal-dictionary/constants'
 import { addPersonalWords, parseWordText } from '@/features/personal-dictionary/repository'
@@ -185,12 +186,30 @@ export default function MyDictionary() {
           <div className="flex flex-wrap gap-3 text-sm">
             <button
               className="my-btn-primary"
+              disabled={busy || !words?.length}
+              onClick={() =>
+                void run(async () => {
+                  await downloadAnkiTsv(words ?? [], 'personal')
+                }, '已导出 Anki TSV：导入时选择基础卡片，Front/Back/Tags 三列')
+              }
+            >
+              导出 Anki TSV
+            </button>
+            <button
+              className="my-btn-primary"
               disabled={busy}
               onClick={() =>
                 downloadJson('my-dictionary.json', {
                   format: 'qwerty-personal-dictionary',
                   version: 1,
-                  words: words?.map(({ name, trans, usphone, ukphone }) => ({ name, trans, usphone, ukphone })) ?? [],
+                  words:
+                    words?.map(({ name, trans, usphone, ukphone, contextTrans }) => ({
+                      name,
+                      trans,
+                      usphone,
+                      ukphone,
+                      ...(contextTrans ? { contextTrans } : {}),
+                    })) ?? [],
                 })
               }
             >

@@ -64,3 +64,12 @@ test('simple layout keeps legacy tools accessible and classic layout can be rest
   await page.reload()
   await expect(page.getByTitle('查看错题本', { exact: true })).toBeVisible()
 })
+
+test('the logo returns to this site instead of the original author site', async ({ page }) => {
+  await page.goto('/my-dictionary')
+  const logo = page.getByRole('link').filter({ has: page.getByAltText('Qwerty Learner Logo') })
+  await expect(logo).toHaveAttribute('href', '/')
+  await logo.click()
+  await expect(page).toHaveURL('http://127.0.0.1:5173/')
+  await expect(page.getByTestId('typing-word')).toBeVisible()
+})

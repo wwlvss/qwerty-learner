@@ -12,13 +12,14 @@ export default function PersonalLearningSetting() {
   const [dark, setDark] = useAtom(isOpenDarkModeAtom)
   const options = [
     ['simpleLayout', '简洁学习界面', '收起低频工具，隐藏社群、赞助等页脚入口。'],
+    ['hideTranslationsInDictation', '默写时隐藏中文译文', '单词和短语在输入完成前不显示中文；答对后再显示学习资料。'],
     ['showDefinitions', '答对后显示词典其他释义', '保留场景重点，同时查阅原词库中的其他中文释义。'],
     ['showPhrases', '答对后显示常用短语', '短语旁可以直接收藏到不熟词本。'],
     ['showExamples', '答对后显示例句', '显示例句和中文译文。'],
     ['showEtymology', '答对后显示词根词源', '资料不全时会明确提示，关闭后仍需回车或空格进入下一词。'],
   ] as const
   return (
-    <div className="h-full w-full space-y-5 overflow-y-auto p-6 text-sm text-gray-700 dark:text-gray-200">
+    <div className="h-full w-full space-y-5 overflow-y-auto p-6 text-left text-sm text-gray-700 dark:text-gray-200">
       <h2 className="text-lg font-semibold">个人学习</h2>
       {options.map(([key, label, description]) => (
         <label key={key} className="flex cursor-pointer items-start gap-3">

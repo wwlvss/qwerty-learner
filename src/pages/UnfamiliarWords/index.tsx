@@ -1,4 +1,5 @@
 import Header from '@/components/Header'
+import { downloadAnkiTsv } from '@/features/anki/export'
 import { downloadJson, readJsonFile } from '@/features/etymology/packages'
 import { importUnfamiliarPackage, saveUnfamiliarWord } from '@/features/unfamiliar-words/repository'
 import type { UnfamiliarKind, UnfamiliarWord } from '@/features/unfamiliar-words/types'
@@ -170,6 +171,18 @@ export default function UnfamiliarWords() {
               onClick={() => downloadJson('unfamiliar-words.json', { format: 'qwerty-unfamiliar-words', version: 1, words })}
             >
               导出不熟词本
+            </button>
+            <button
+              disabled={!count || busy}
+              className="text-sm text-indigo-500 underline"
+              onClick={() =>
+                void run(async () => {
+                  await downloadAnkiTsv(words ?? [], 'unfamiliar')
+                  return '已导出 Anki TSV：Front/Back/Tags 三列，使用基础卡片导入'
+                })
+              }
+            >
+              导出 Anki TSV
             </button>
             <label className="cursor-pointer text-sm text-indigo-500 underline">
               导入不熟词本
