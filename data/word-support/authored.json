@@ -1,0 +1,1746 @@
+{
+  "format": "qwerty-word-usage",
+  "version": 1,
+  "entries": [
+    {
+      "normalizedWord": "cancel",
+      "phrases": [
+        {
+          "text": "cancel a meeting",
+          "translation": "取消会议",
+          "source": {
+            "name": "项目原创教学示例（非语料引用）",
+            "url": "https://github.com/wwlvss/qwerty-learner/blob/master/docs/personal-learning/usage.md",
+            "license": "CC0-1.0 (original teaching examples and translations)",
+            "kind": "original"
+          }
+        }
+      ],
+      "examples": [
+        {
+          "text": "We need to cancel the meeting today.",
+          "translation": "我们需要取消今天的会议。",
+          "targetStart": 11,
+          "targetEnd": 17,
+          "source": {
+            "name": "项目原创教学示例（非语料引用）",
+            "url": "https://github.com/wwlvss/qwerty-learner/blob/master/docs/personal-learning/usage.md",
+            "license": "CC0-1.0 (original teaching examples and translations)",
+            "kind": "original"
+          }
+        }
+      ]
+    },
+    {
+      "normalizedWord": "explosive",
+      "phrases": [
+        {
+          "text": "explosive growth",
+          "translation": "爆发式增长",
+          "source": {
+            "name": "项目原创教学示例（非语料引用）",
+            "url": "https://github.com/wwlvss/qwerty-learner/blob/master/docs/personal-learning/usage.md",
+            "license": "CC0-1.0 (original teaching examples and translations)",
+            "kind": "original"
+          }
+        }
+      ],
+      "examples": [
+        {
+          "text": "The company experienced explosive growth last year.",
+          "translation": "这家公司去年经历了爆发式增长。",
+          "targetStart": 24,
+          "targetEnd": 33,
+          "source": {
+            "name": "项目原创教学示例（非语料引用）",
+            "url": "https://github.com/wwlvss/qwerty-learner/blob/master/docs/personal-learning/usage.md",
+            "license": "CC0-1.0 (original teaching examples and translations)",
+            "kind": "original"
+          }
+        }
+      ]
+    },
+    {
+      "normalizedWord": "numerous",
+      "phrases": [
+        {
+          "text": "numerous studies",
+          "translation": "大量研究",
+          "source": {
+            "name": "项目原创教学示例（非语料引用）",
+            "url": "https://github.com/wwlvss/qwerty-learner/blob/master/docs/personal-learning/usage.md",
+            "license": "CC0-1.0 (original teaching examples and translations)",
+            "kind": "original"
+          }
+        }
+      ],
+      "examples": [
+        {
+          "text": "Numerous studies support this conclusion.",
+          "translation": "大量研究支持这个结论。",
+          "targetStart": 0,
+          "targetEnd": 8,
+          "source": {
+            "name": "项目原创教学示例（非语料引用）",
+            "url": "https://github.com/wwlvss/qwerty-learner/blob/master/docs/personal-learning/usage.md",
+            "license": "CC0-1.0 (original teaching examples and translations)",
+            "kind": "original"
+          }
+        }
+      ]
+    },
+    {
+      "normalizedWord": "govern",
+      "phrases": [
+        {
+          "text": "govern a country",
+          "translation": "治理国家",
+          "source": {
+            "name": "项目原创教学示例（非语料引用）",
+            "url": "https://github.com/wwlvss/qwerty-learner/blob/master/docs/personal-learning/usage.md",
+            "license": "CC0-1.0 (original teaching examples and translations)",
+            "kind": "original"
+          }
+        }
+      ],
+      "examples": [
+        {
+          "text": "Clear rules help us govern the organization fairly.",
+          "translation": "明确的规则有助于我们公平地管理这个组织。",
+          "targetStart": 20,
+          "targetEnd": 26,
+          "source": {
+            "name": "项目原创教学示例（非语料引用）",
+            "url": "https://github.com/wwlvss/qwerty-learner/blob/master/docs/personal-learning/usage.md",
+            "license": "CC0-1.0 (original teaching examples and translations)",
+            "kind": "original"
+          }
+        }
+      ]
+    },
+    {
+      "normalizedWord": "analyse",
+      "phrases": [
+        {
+          "text": "analyse the data",
+          "translation": "分析数据",
+          "source": {
+            "name": "项目原创教学示例（非语料引用）",
+            "url": "https://github.com/wwlvss/qwerty-learner/blob/master/docs/personal-learning/usage.md",
+            "license": "CC0-1.0 (original teaching examples and translations)",
+            "kind": "original"
+          }
+        }
+      ],
+      "examples": [
+        {
+          "text": "Please analyse the data before the meeting.",
+          "translation": "请在开会前分析这些数据。",
+          "targetStart": 7,
+          "targetEnd": 14,
+          "source": {
+            "name": "项目原创教学示例（非语料引用）",
+            "url": "https://github.com/wwlvss/qwerty-learner/blob/master/docs/personal-learning/usage.md",
+            "license": "CC0-1.0 (original teaching examples and translations)",
+            "kind": "original"
+          }
+        }
+      ]
+    },
+    {
+      "normalizedWord": "discourage",
+      "phrases": [
+        {
+          "text": "discourage someone from doing something",
+          "translation": "劝阻某人做某事",
+          "source": {
+            "name": "项目原创教学示例（非语料引用）",
+            "url": "https://github.com/wwlvss/qwerty-learner/blob/master/docs/personal-learning/usage.md",
+            "license": "CC0-1.0 (original teaching examples and translations)",
+            "kind": "original"
+          }
+        }
+      ],
+      "examples": [
+        {
+          "text": "Do not discourage children from asking questions.",
+          "translation": "不要阻止孩子提问。",
+          "targetStart": 7,
+          "targetEnd": 17,
+          "source": {
+            "name": "项目原创教学示例（非语料引用）",
+            "url": "https://github.com/wwlvss/qwerty-learner/blob/master/docs/personal-learning/usage.md",
+            "license": "CC0-1.0 (original teaching examples and translations)",
+            "kind": "original"
+          }
+        }
+      ]
+    },
+    {
+      "normalizedWord": "resemble",
+      "phrases": [
+        {
+          "text": "closely resemble",
+          "translation": "十分相像",
+          "source": {
+            "name": "项目原创教学示例（非语料引用）",
+            "url": "https://github.com/wwlvss/qwerty-learner/blob/master/docs/personal-learning/usage.md",
+            "license": "CC0-1.0 (original teaching examples and translations)",
+            "kind": "original"
+          }
+        }
+      ],
+      "examples": [
+        {
+          "text": "These two buildings closely resemble each other.",
+          "translation": "这两栋建筑十分相像。",
+          "targetStart": 28,
+          "targetEnd": 36,
+          "source": {
+            "name": "项目原创教学示例（非语料引用）",
+            "url": "https://github.com/wwlvss/qwerty-learner/blob/master/docs/personal-learning/usage.md",
+            "license": "CC0-1.0 (original teaching examples and translations)",
+            "kind": "original"
+          }
+        }
+      ]
+    },
+    {
+      "normalizedWord": "remote",
+      "phrases": [
+        {
+          "text": "remote work",
+          "translation": "远程工作",
+          "source": {
+            "name": "项目原创教学示例（非语料引用）",
+            "url": "https://github.com/wwlvss/qwerty-learner/blob/master/docs/personal-learning/usage.md",
+            "license": "CC0-1.0 (original teaching examples and translations)",
+            "kind": "original"
+          }
+        }
+      ],
+      "examples": [
+        {
+          "text": "Our team offers remote work on Fridays.",
+          "translation": "我们团队每周五可以远程办公。",
+          "targetStart": 16,
+          "targetEnd": 22,
+          "source": {
+            "name": "项目原创教学示例（非语料引用）",
+            "url": "https://github.com/wwlvss/qwerty-learner/blob/master/docs/personal-learning/usage.md",
+            "license": "CC0-1.0 (original teaching examples and translations)",
+            "kind": "original"
+          }
+        }
+      ]
+    },
+    {
+      "normalizedWord": "salary",
+      "phrases": [
+        {
+          "text": "annual salary",
+          "translation": "年薪",
+          "source": {
+            "name": "项目原创教学示例（非语料引用）",
+            "url": "https://github.com/wwlvss/qwerty-learner/blob/master/docs/personal-learning/usage.md",
+            "license": "CC0-1.0 (original teaching examples and translations)",
+            "kind": "original"
+          }
+        }
+      ],
+      "examples": [
+        {
+          "text": "Her annual salary increased this year.",
+          "translation": "她今年的年薪提高了。",
+          "targetStart": 11,
+          "targetEnd": 17,
+          "source": {
+            "name": "项目原创教学示例（非语料引用）",
+            "url": "https://github.com/wwlvss/qwerty-learner/blob/master/docs/personal-learning/usage.md",
+            "license": "CC0-1.0 (original teaching examples and translations)",
+            "kind": "original"
+          }
+        }
+      ]
+    },
+    {
+      "normalizedWord": "pollution",
+      "phrases": [
+        {
+          "text": "air pollution",
+          "translation": "空气污染",
+          "source": {
+            "name": "项目原创教学示例（非语料引用）",
+            "url": "https://github.com/wwlvss/qwerty-learner/blob/master/docs/personal-learning/usage.md",
+            "license": "CC0-1.0 (original teaching examples and translations)",
+            "kind": "original"
+          }
+        }
+      ],
+      "examples": [
+        {
+          "text": "We need to reduce air pollution in the city.",
+          "translation": "我们需要减少城市里的空气污染。",
+          "targetStart": 22,
+          "targetEnd": 31,
+          "source": {
+            "name": "项目原创教学示例（非语料引用）",
+            "url": "https://github.com/wwlvss/qwerty-learner/blob/master/docs/personal-learning/usage.md",
+            "license": "CC0-1.0 (original teaching examples and translations)",
+            "kind": "original"
+          }
+        }
+      ]
+    },
+    {
+      "normalizedWord": "pretend",
+      "phrases": [
+        {
+          "text": "pretend to be",
+          "translation": "假装是",
+          "source": {
+            "name": "项目原创教学示例（非语料引用）",
+            "url": "https://github.com/wwlvss/qwerty-learner/blob/master/docs/personal-learning/usage.md",
+            "license": "CC0-1.0 (original teaching examples and translations)",
+            "kind": "original"
+          }
+        }
+      ],
+      "examples": [
+        {
+          "text": "The children pretend to be astronauts.",
+          "translation": "孩子们假装自己是宇航员。",
+          "targetStart": 13,
+          "targetEnd": 20,
+          "source": {
+            "name": "项目原创教学示例（非语料引用）",
+            "url": "https://github.com/wwlvss/qwerty-learner/blob/master/docs/personal-learning/usage.md",
+            "license": "CC0-1.0 (original teaching examples and translations)",
+            "kind": "original"
+          }
+        }
+      ]
+    },
+    {
+      "normalizedWord": "kettle",
+      "phrases": [
+        {
+          "text": "boil the kettle",
+          "translation": "烧一壶水",
+          "source": {
+            "name": "项目原创教学示例（非语料引用）",
+            "url": "https://github.com/wwlvss/qwerty-learner/blob/master/docs/personal-learning/usage.md",
+            "license": "CC0-1.0 (original teaching examples and translations)",
+            "kind": "original"
+          }
+        }
+      ],
+      "examples": [
+        {
+          "text": "Please fill the kettle with water.",
+          "translation": "请往水壶里加水。",
+          "targetStart": 16,
+          "targetEnd": 22,
+          "source": {
+            "name": "项目原创教学示例（非语料引用）",
+            "url": "https://github.com/wwlvss/qwerty-learner/blob/master/docs/personal-learning/usage.md",
+            "license": "CC0-1.0 (original teaching examples and translations)",
+            "kind": "original"
+          }
+        }
+      ]
+    },
+    {
+      "normalizedWord": "wreck",
+      "phrases": [
+        {
+          "text": "a train wreck",
+          "translation": "列车事故",
+          "source": {
+            "name": "项目原创教学示例（非语料引用）",
+            "url": "https://github.com/wwlvss/qwerty-learner/blob/master/docs/personal-learning/usage.md",
+            "license": "CC0-1.0 (original teaching examples and translations)",
+            "kind": "original"
+          }
+        }
+      ],
+      "examples": [
+        {
+          "text": "Divers found the wreck near the coast.",
+          "translation": "潜水员在海岸附近发现了残骸。",
+          "targetStart": 17,
+          "targetEnd": 22,
+          "source": {
+            "name": "项目原创教学示例（非语料引用）",
+            "url": "https://github.com/wwlvss/qwerty-learner/blob/master/docs/personal-learning/usage.md",
+            "license": "CC0-1.0 (original teaching examples and translations)",
+            "kind": "original"
+          }
+        }
+      ]
+    },
+    {
+      "normalizedWord": "drunk",
+      "phrases": [
+        {
+          "text": "get drunk",
+          "translation": "喝醉",
+          "source": {
+            "name": "项目原创教学示例（非语料引用）",
+            "url": "https://github.com/wwlvss/qwerty-learner/blob/master/docs/personal-learning/usage.md",
+            "license": "CC0-1.0 (original teaching examples and translations)",
+            "kind": "original"
+          }
+        }
+      ],
+      "examples": [
+        {
+          "text": "He was too drunk to drive safely.",
+          "translation": "他醉得无法安全驾驶。",
+          "targetStart": 11,
+          "targetEnd": 16,
+          "source": {
+            "name": "项目原创教学示例（非语料引用）",
+            "url": "https://github.com/wwlvss/qwerty-learner/blob/master/docs/personal-learning/usage.md",
+            "license": "CC0-1.0 (original teaching examples and translations)",
+            "kind": "original"
+          }
+        }
+      ]
+    },
+    {
+      "normalizedWord": "calculate",
+      "phrases": [
+        {
+          "text": "calculate the cost",
+          "translation": "计算成本",
+          "source": {
+            "name": "项目原创教学示例（非语料引用）",
+            "url": "https://github.com/wwlvss/qwerty-learner/blob/master/docs/personal-learning/usage.md",
+            "license": "CC0-1.0 (original teaching examples and translations)",
+            "kind": "original"
+          }
+        }
+      ],
+      "examples": [
+        {
+          "text": "We need to calculate the total cost.",
+          "translation": "我们需要计算总成本。",
+          "targetStart": 11,
+          "targetEnd": 20,
+          "source": {
+            "name": "项目原创教学示例（非语料引用）",
+            "url": "https://github.com/wwlvss/qwerty-learner/blob/master/docs/personal-learning/usage.md",
+            "license": "CC0-1.0 (original teaching examples and translations)",
+            "kind": "original"
+          }
+        }
+      ]
+    },
+    {
+      "normalizedWord": "persistent",
+      "phrases": [
+        {
+          "text": "persistent effort",
+          "translation": "坚持不懈的努力",
+          "source": {
+            "name": "项目原创教学示例（非语料引用）",
+            "url": "https://github.com/wwlvss/qwerty-learner/blob/master/docs/personal-learning/usage.md",
+            "license": "CC0-1.0 (original teaching examples and translations)",
+            "kind": "original"
+          }
+        }
+      ],
+      "examples": [
+        {
+          "text": "Her persistent effort finally paid off.",
+          "translation": "她坚持不懈的努力终于得到了回报。",
+          "targetStart": 4,
+          "targetEnd": 14,
+          "source": {
+            "name": "项目原创教学示例（非语料引用）",
+            "url": "https://github.com/wwlvss/qwerty-learner/blob/master/docs/personal-learning/usage.md",
+            "license": "CC0-1.0 (original teaching examples and translations)",
+            "kind": "original"
+          }
+        }
+      ]
+    },
+    {
+      "normalizedWord": "sake",
+      "phrases": [
+        {
+          "text": "for the sake of",
+          "translation": "为了……",
+          "source": {
+            "name": "项目原创教学示例（非语料引用）",
+            "url": "https://github.com/wwlvss/qwerty-learner/blob/master/docs/personal-learning/usage.md",
+            "license": "CC0-1.0 (original teaching examples and translations)",
+            "kind": "original"
+          }
+        }
+      ],
+      "examples": [
+        {
+          "text": "For the sake of safety, please wear a helmet.",
+          "translation": "为了安全，请戴上头盔。",
+          "targetStart": 8,
+          "targetEnd": 12,
+          "source": {
+            "name": "项目原创教学示例（非语料引用）",
+            "url": "https://github.com/wwlvss/qwerty-learner/blob/master/docs/personal-learning/usage.md",
+            "license": "CC0-1.0 (original teaching examples and translations)",
+            "kind": "original"
+          }
+        }
+      ]
+    },
+    {
+      "normalizedWord": "conceal",
+      "phrases": [
+        {
+          "text": "conceal the truth",
+          "translation": "隐瞒真相",
+          "source": {
+            "name": "项目原创教学示例（非语料引用）",
+            "url": "https://github.com/wwlvss/qwerty-learner/blob/master/docs/personal-learning/usage.md",
+            "license": "CC0-1.0 (original teaching examples and translations)",
+            "kind": "original"
+          }
+        }
+      ],
+      "examples": [
+        {
+          "text": "He tried to conceal the truth from his family.",
+          "translation": "他试图向家人隐瞒真相。",
+          "targetStart": 12,
+          "targetEnd": 19,
+          "source": {
+            "name": "项目原创教学示例（非语料引用）",
+            "url": "https://github.com/wwlvss/qwerty-learner/blob/master/docs/personal-learning/usage.md",
+            "license": "CC0-1.0 (original teaching examples and translations)",
+            "kind": "original"
+          }
+        }
+      ]
+    },
+    {
+      "normalizedWord": "audience",
+      "phrases": [
+        {
+          "text": "target audience",
+          "translation": "目标受众",
+          "source": {
+            "name": "项目原创教学示例（非语料引用）",
+            "url": "https://github.com/wwlvss/qwerty-learner/blob/master/docs/personal-learning/usage.md",
+            "license": "CC0-1.0 (original teaching examples and translations)",
+            "kind": "original"
+          }
+        }
+      ],
+      "examples": [
+        {
+          "text": "We need to understand our target audience.",
+          "translation": "我们需要了解我们的目标受众。",
+          "targetStart": 33,
+          "targetEnd": 41,
+          "source": {
+            "name": "项目原创教学示例（非语料引用）",
+            "url": "https://github.com/wwlvss/qwerty-learner/blob/master/docs/personal-learning/usage.md",
+            "license": "CC0-1.0 (original teaching examples and translations)",
+            "kind": "original"
+          }
+        }
+      ]
+    },
+    {
+      "normalizedWord": "meanwhile",
+      "phrases": [
+        {
+          "text": "in the meanwhile",
+          "translation": "与此同时",
+          "source": {
+            "name": "项目原创教学示例（非语料引用）",
+            "url": "https://github.com/wwlvss/qwerty-learner/blob/master/docs/personal-learning/usage.md",
+            "license": "CC0-1.0 (original teaching examples and translations)",
+            "kind": "original"
+          }
+        }
+      ],
+      "examples": [
+        {
+          "text": "The rice is cooking; meanwhile, we can prepare the vegetables.",
+          "translation": "米饭正在煮；与此同时，我们可以准备蔬菜。",
+          "targetStart": 21,
+          "targetEnd": 30,
+          "source": {
+            "name": "项目原创教学示例（非语料引用）",
+            "url": "https://github.com/wwlvss/qwerty-learner/blob/master/docs/personal-learning/usage.md",
+            "license": "CC0-1.0 (original teaching examples and translations)",
+            "kind": "original"
+          }
+        }
+      ]
+    },
+    {
+      "normalizedWord": "inspect",
+      "phrases": [
+        {
+          "text": "inspect the equipment",
+          "translation": "检查设备",
+          "source": {
+            "name": "项目原创教学示例（非语料引用）",
+            "url": "https://github.com/wwlvss/qwerty-learner/blob/master/docs/personal-learning/usage.md",
+            "license": "CC0-1.0 (original teaching examples and translations)",
+            "kind": "original"
+          }
+        }
+      ],
+      "examples": [
+        {
+          "text": "Please inspect the equipment before use.",
+          "translation": "使用前请检查设备。",
+          "targetStart": 7,
+          "targetEnd": 14,
+          "source": {
+            "name": "项目原创教学示例（非语料引用）",
+            "url": "https://github.com/wwlvss/qwerty-learner/blob/master/docs/personal-learning/usage.md",
+            "license": "CC0-1.0 (original teaching examples and translations)",
+            "kind": "original"
+          }
+        }
+      ]
+    },
+    {
+      "normalizedWord": "inspection",
+      "phrases": [
+        {
+          "text": "a safety inspection",
+          "translation": "安全检查",
+          "source": {
+            "name": "项目原创教学示例（非语料引用）",
+            "url": "https://github.com/wwlvss/qwerty-learner/blob/master/docs/personal-learning/usage.md",
+            "license": "CC0-1.0 (original teaching examples and translations)",
+            "kind": "original"
+          }
+        }
+      ],
+      "examples": [
+        {
+          "text": "The building passed its safety inspection.",
+          "translation": "这栋建筑通过了安全检查。",
+          "targetStart": 31,
+          "targetEnd": 41,
+          "source": {
+            "name": "项目原创教学示例（非语料引用）",
+            "url": "https://github.com/wwlvss/qwerty-learner/blob/master/docs/personal-learning/usage.md",
+            "license": "CC0-1.0 (original teaching examples and translations)",
+            "kind": "original"
+          }
+        }
+      ]
+    },
+    {
+      "normalizedWord": "spectator",
+      "phrases": [
+        {
+          "text": "a spectator sport",
+          "translation": "观赏性体育运动",
+          "source": {
+            "name": "项目原创教学示例（非语料引用）",
+            "url": "https://github.com/wwlvss/qwerty-learner/blob/master/docs/personal-learning/usage.md",
+            "license": "CC0-1.0 (original teaching examples and translations)",
+            "kind": "original"
+          }
+        }
+      ],
+      "examples": [
+        {
+          "text": "Football is a popular spectator sport.",
+          "translation": "足球是一项受欢迎的观赏性体育运动。",
+          "targetStart": 22,
+          "targetEnd": 31,
+          "source": {
+            "name": "项目原创教学示例（非语料引用）",
+            "url": "https://github.com/wwlvss/qwerty-learner/blob/master/docs/personal-learning/usage.md",
+            "license": "CC0-1.0 (original teaching examples and translations)",
+            "kind": "original"
+          }
+        }
+      ]
+    },
+    {
+      "normalizedWord": "spectacle",
+      "phrases": [
+        {
+          "text": "a wonderful spectacle",
+          "translation": "精彩的景象",
+          "source": {
+            "name": "项目原创教学示例（非语料引用）",
+            "url": "https://github.com/wwlvss/qwerty-learner/blob/master/docs/personal-learning/usage.md",
+            "license": "CC0-1.0 (original teaching examples and translations)",
+            "kind": "original"
+          }
+        }
+      ],
+      "examples": [
+        {
+          "text": "The fireworks were a wonderful spectacle.",
+          "translation": "烟花构成了一幅精彩的景象。",
+          "targetStart": 31,
+          "targetEnd": 40,
+          "source": {
+            "name": "项目原创教学示例（非语料引用）",
+            "url": "https://github.com/wwlvss/qwerty-learner/blob/master/docs/personal-learning/usage.md",
+            "license": "CC0-1.0 (original teaching examples and translations)",
+            "kind": "original"
+          }
+        }
+      ]
+    },
+    {
+      "normalizedWord": "respect",
+      "phrases": [
+        {
+          "text": "show respect for",
+          "translation": "尊重……",
+          "source": {
+            "name": "项目原创教学示例（非语料引用）",
+            "url": "https://github.com/wwlvss/qwerty-learner/blob/master/docs/personal-learning/usage.md",
+            "license": "CC0-1.0 (original teaching examples and translations)",
+            "kind": "original"
+          }
+        }
+      ],
+      "examples": [
+        {
+          "text": "We should respect other people's time.",
+          "translation": "我们应该尊重他人的时间。",
+          "targetStart": 10,
+          "targetEnd": 17,
+          "source": {
+            "name": "项目原创教学示例（非语料引用）",
+            "url": "https://github.com/wwlvss/qwerty-learner/blob/master/docs/personal-learning/usage.md",
+            "license": "CC0-1.0 (original teaching examples and translations)",
+            "kind": "original"
+          }
+        }
+      ]
+    },
+    {
+      "normalizedWord": "perspective",
+      "phrases": [
+        {
+          "text": "from my perspective",
+          "translation": "从我的角度看",
+          "source": {
+            "name": "项目原创教学示例（非语料引用）",
+            "url": "https://github.com/wwlvss/qwerty-learner/blob/master/docs/personal-learning/usage.md",
+            "license": "CC0-1.0 (original teaching examples and translations)",
+            "kind": "original"
+          }
+        }
+      ],
+      "examples": [
+        {
+          "text": "From my perspective, the plan needs more work.",
+          "translation": "从我的角度看，这个计划还需要完善。",
+          "targetStart": 8,
+          "targetEnd": 19,
+          "source": {
+            "name": "项目原创教学示例（非语料引用）",
+            "url": "https://github.com/wwlvss/qwerty-learner/blob/master/docs/personal-learning/usage.md",
+            "license": "CC0-1.0 (original teaching examples and translations)",
+            "kind": "original"
+          }
+        }
+      ]
+    },
+    {
+      "normalizedWord": "transport",
+      "phrases": [
+        {
+          "text": "public transport",
+          "translation": "公共交通",
+          "source": {
+            "name": "项目原创教学示例（非语料引用）",
+            "url": "https://github.com/wwlvss/qwerty-learner/blob/master/docs/personal-learning/usage.md",
+            "license": "CC0-1.0 (original teaching examples and translations)",
+            "kind": "original"
+          }
+        }
+      ],
+      "examples": [
+        {
+          "text": "Public transport makes travel easier in the city.",
+          "translation": "公共交通让城市出行更加方便。",
+          "targetStart": 7,
+          "targetEnd": 16,
+          "source": {
+            "name": "项目原创教学示例（非语料引用）",
+            "url": "https://github.com/wwlvss/qwerty-learner/blob/master/docs/personal-learning/usage.md",
+            "license": "CC0-1.0 (original teaching examples and translations)",
+            "kind": "original"
+          }
+        }
+      ]
+    },
+    {
+      "normalizedWord": "portable",
+      "phrases": [
+        {
+          "text": "a portable charger",
+          "translation": "便携式充电器",
+          "source": {
+            "name": "项目原创教学示例（非语料引用）",
+            "url": "https://github.com/wwlvss/qwerty-learner/blob/master/docs/personal-learning/usage.md",
+            "license": "CC0-1.0 (original teaching examples and translations)",
+            "kind": "original"
+          }
+        }
+      ],
+      "examples": [
+        {
+          "text": "I always carry a portable charger.",
+          "translation": "我总是随身带着便携式充电器。",
+          "targetStart": 17,
+          "targetEnd": 25,
+          "source": {
+            "name": "项目原创教学示例（非语料引用）",
+            "url": "https://github.com/wwlvss/qwerty-learner/blob/master/docs/personal-learning/usage.md",
+            "license": "CC0-1.0 (original teaching examples and translations)",
+            "kind": "original"
+          }
+        }
+      ]
+    },
+    {
+      "normalizedWord": "import",
+      "phrases": [
+        {
+          "text": "import data",
+          "translation": "导入数据",
+          "source": {
+            "name": "项目原创教学示例（非语料引用）",
+            "url": "https://github.com/wwlvss/qwerty-learner/blob/master/docs/personal-learning/usage.md",
+            "license": "CC0-1.0 (original teaching examples and translations)",
+            "kind": "original"
+          }
+        }
+      ],
+      "examples": [
+        {
+          "text": "You can import data from a local file.",
+          "translation": "你可以从本地文件导入数据。",
+          "targetStart": 8,
+          "targetEnd": 14,
+          "source": {
+            "name": "项目原创教学示例（非语料引用）",
+            "url": "https://github.com/wwlvss/qwerty-learner/blob/master/docs/personal-learning/usage.md",
+            "license": "CC0-1.0 (original teaching examples and translations)",
+            "kind": "original"
+          }
+        }
+      ]
+    },
+    {
+      "normalizedWord": "export",
+      "phrases": [
+        {
+          "text": "export a file",
+          "translation": "导出文件",
+          "source": {
+            "name": "项目原创教学示例（非语料引用）",
+            "url": "https://github.com/wwlvss/qwerty-learner/blob/master/docs/personal-learning/usage.md",
+            "license": "CC0-1.0 (original teaching examples and translations)",
+            "kind": "original"
+          }
+        }
+      ],
+      "examples": [
+        {
+          "text": "Remember to export a copy of your work.",
+          "translation": "记得导出一份你的工作副本。",
+          "targetStart": 12,
+          "targetEnd": 18,
+          "source": {
+            "name": "项目原创教学示例（非语料引用）",
+            "url": "https://github.com/wwlvss/qwerty-learner/blob/master/docs/personal-learning/usage.md",
+            "license": "CC0-1.0 (original teaching examples and translations)",
+            "kind": "original"
+          }
+        }
+      ]
+    },
+    {
+      "normalizedWord": "construct",
+      "phrases": [
+        {
+          "text": "construct a building",
+          "translation": "建造一栋建筑",
+          "source": {
+            "name": "项目原创教学示例（非语料引用）",
+            "url": "https://github.com/wwlvss/qwerty-learner/blob/master/docs/personal-learning/usage.md",
+            "license": "CC0-1.0 (original teaching examples and translations)",
+            "kind": "original"
+          }
+        }
+      ],
+      "examples": [
+        {
+          "text": "The workers will construct a new bridge.",
+          "translation": "工人们将建造一座新桥。",
+          "targetStart": 17,
+          "targetEnd": 26,
+          "source": {
+            "name": "项目原创教学示例（非语料引用）",
+            "url": "https://github.com/wwlvss/qwerty-learner/blob/master/docs/personal-learning/usage.md",
+            "license": "CC0-1.0 (original teaching examples and translations)",
+            "kind": "original"
+          }
+        }
+      ]
+    },
+    {
+      "normalizedWord": "structure",
+      "phrases": [
+        {
+          "text": "sentence structure",
+          "translation": "句子结构",
+          "source": {
+            "name": "项目原创教学示例（非语料引用）",
+            "url": "https://github.com/wwlvss/qwerty-learner/blob/master/docs/personal-learning/usage.md",
+            "license": "CC0-1.0 (original teaching examples and translations)",
+            "kind": "original"
+          }
+        }
+      ],
+      "examples": [
+        {
+          "text": "This exercise helps you understand sentence structure.",
+          "translation": "这个练习有助于你理解句子结构。",
+          "targetStart": 44,
+          "targetEnd": 53,
+          "source": {
+            "name": "项目原创教学示例（非语料引用）",
+            "url": "https://github.com/wwlvss/qwerty-learner/blob/master/docs/personal-learning/usage.md",
+            "license": "CC0-1.0 (original teaching examples and translations)",
+            "kind": "original"
+          }
+        }
+      ]
+    },
+    {
+      "normalizedWord": "maintain",
+      "phrases": [
+        {
+          "text": "maintain a system",
+          "translation": "维护系统",
+          "source": {
+            "name": "项目原创教学示例（非语料引用）",
+            "url": "https://github.com/wwlvss/qwerty-learner/blob/master/docs/personal-learning/usage.md",
+            "license": "CC0-1.0 (original teaching examples and translations)",
+            "kind": "original"
+          }
+        }
+      ],
+      "examples": [
+        {
+          "text": "We need to maintain the irrigation system regularly.",
+          "translation": "我们需要定期维护灌溉系统。",
+          "targetStart": 11,
+          "targetEnd": 19,
+          "source": {
+            "name": "项目原创教学示例（非语料引用）",
+            "url": "https://github.com/wwlvss/qwerty-learner/blob/master/docs/personal-learning/usage.md",
+            "license": "CC0-1.0 (original teaching examples and translations)",
+            "kind": "original"
+          }
+        }
+      ]
+    },
+    {
+      "normalizedWord": "maintenance",
+      "phrases": [
+        {
+          "text": "regular maintenance",
+          "translation": "定期维护",
+          "source": {
+            "name": "项目原创教学示例（非语料引用）",
+            "url": "https://github.com/wwlvss/qwerty-learner/blob/master/docs/personal-learning/usage.md",
+            "license": "CC0-1.0 (original teaching examples and translations)",
+            "kind": "original"
+          }
+        }
+      ],
+      "examples": [
+        {
+          "text": "The machine needs regular maintenance.",
+          "translation": "这台机器需要定期维护。",
+          "targetStart": 26,
+          "targetEnd": 37,
+          "source": {
+            "name": "项目原创教学示例（非语料引用）",
+            "url": "https://github.com/wwlvss/qwerty-learner/blob/master/docs/personal-learning/usage.md",
+            "license": "CC0-1.0 (original teaching examples and translations)",
+            "kind": "original"
+          }
+        }
+      ]
+    },
+    {
+      "normalizedWord": "irrigation",
+      "phrases": [
+        {
+          "text": "an irrigation system",
+          "translation": "灌溉系统",
+          "source": {
+            "name": "项目原创教学示例（非语料引用）",
+            "url": "https://github.com/wwlvss/qwerty-learner/blob/master/docs/personal-learning/usage.md",
+            "license": "CC0-1.0 (original teaching examples and translations)",
+            "kind": "original"
+          }
+        }
+      ],
+      "examples": [
+        {
+          "text": "The farm uses an irrigation system to save water.",
+          "translation": "这个农场使用灌溉系统节水。",
+          "targetStart": 17,
+          "targetEnd": 27,
+          "source": {
+            "name": "项目原创教学示例（非语料引用）",
+            "url": "https://github.com/wwlvss/qwerty-learner/blob/master/docs/personal-learning/usage.md",
+            "license": "CC0-1.0 (original teaching examples and translations)",
+            "kind": "original"
+          }
+        }
+      ]
+    },
+    {
+      "normalizedWord": "learn",
+      "phrases": [
+        {
+          "text": "learn from mistakes",
+          "translation": "从错误中学习",
+          "source": {
+            "name": "项目原创教学示例（非语料引用）",
+            "url": "https://github.com/wwlvss/qwerty-learner/blob/master/docs/personal-learning/usage.md",
+            "license": "CC0-1.0 (original teaching examples and translations)",
+            "kind": "original"
+          }
+        }
+      ],
+      "examples": [
+        {
+          "text": "We can learn from our mistakes.",
+          "translation": "我们可以从自己的错误中学习。",
+          "targetStart": 7,
+          "targetEnd": 12,
+          "source": {
+            "name": "项目原创教学示例（非语料引用）",
+            "url": "https://github.com/wwlvss/qwerty-learner/blob/master/docs/personal-learning/usage.md",
+            "license": "CC0-1.0 (original teaching examples and translations)",
+            "kind": "original"
+          }
+        }
+      ]
+    },
+    {
+      "normalizedWord": "study",
+      "phrases": [
+        {
+          "text": "study English",
+          "translation": "学习英语",
+          "source": {
+            "name": "项目原创教学示例（非语料引用）",
+            "url": "https://github.com/wwlvss/qwerty-learner/blob/master/docs/personal-learning/usage.md",
+            "license": "CC0-1.0 (original teaching examples and translations)",
+            "kind": "original"
+          }
+        }
+      ],
+      "examples": [
+        {
+          "text": "I study English for twenty minutes every day.",
+          "translation": "我每天学习英语二十分钟。",
+          "targetStart": 2,
+          "targetEnd": 7,
+          "source": {
+            "name": "项目原创教学示例（非语料引用）",
+            "url": "https://github.com/wwlvss/qwerty-learner/blob/master/docs/personal-learning/usage.md",
+            "license": "CC0-1.0 (original teaching examples and translations)",
+            "kind": "original"
+          }
+        }
+      ]
+    },
+    {
+      "normalizedWord": "practice",
+      "phrases": [
+        {
+          "text": "daily practice",
+          "translation": "每日练习",
+          "source": {
+            "name": "项目原创教学示例（非语料引用）",
+            "url": "https://github.com/wwlvss/qwerty-learner/blob/master/docs/personal-learning/usage.md",
+            "license": "CC0-1.0 (original teaching examples and translations)",
+            "kind": "original"
+          }
+        }
+      ],
+      "examples": [
+        {
+          "text": "Daily practice helps me remember new words.",
+          "translation": "每日练习有助于我记住新单词。",
+          "targetStart": 6,
+          "targetEnd": 14,
+          "source": {
+            "name": "项目原创教学示例（非语料引用）",
+            "url": "https://github.com/wwlvss/qwerty-learner/blob/master/docs/personal-learning/usage.md",
+            "license": "CC0-1.0 (original teaching examples and translations)",
+            "kind": "original"
+          }
+        }
+      ]
+    },
+    {
+      "normalizedWord": "work",
+      "phrases": [
+        {
+          "text": "work together",
+          "translation": "一起工作",
+          "source": {
+            "name": "项目原创教学示例（非语料引用）",
+            "url": "https://github.com/wwlvss/qwerty-learner/blob/master/docs/personal-learning/usage.md",
+            "license": "CC0-1.0 (original teaching examples and translations)",
+            "kind": "original"
+          }
+        }
+      ],
+      "examples": [
+        {
+          "text": "We work together to solve problems.",
+          "translation": "我们一起解决问题。",
+          "targetStart": 3,
+          "targetEnd": 7,
+          "source": {
+            "name": "项目原创教学示例（非语料引用）",
+            "url": "https://github.com/wwlvss/qwerty-learner/blob/master/docs/personal-learning/usage.md",
+            "license": "CC0-1.0 (original teaching examples and translations)",
+            "kind": "original"
+          }
+        }
+      ]
+    },
+    {
+      "normalizedWord": "meeting",
+      "phrases": [
+        {
+          "text": "attend a meeting",
+          "translation": "参加会议",
+          "source": {
+            "name": "项目原创教学示例（非语料引用）",
+            "url": "https://github.com/wwlvss/qwerty-learner/blob/master/docs/personal-learning/usage.md",
+            "license": "CC0-1.0 (original teaching examples and translations)",
+            "kind": "original"
+          }
+        }
+      ],
+      "examples": [
+        {
+          "text": "I will attend a meeting this afternoon.",
+          "translation": "我今天下午将参加一个会议。",
+          "targetStart": 16,
+          "targetEnd": 23,
+          "source": {
+            "name": "项目原创教学示例（非语料引用）",
+            "url": "https://github.com/wwlvss/qwerty-learner/blob/master/docs/personal-learning/usage.md",
+            "license": "CC0-1.0 (original teaching examples and translations)",
+            "kind": "original"
+          }
+        }
+      ]
+    },
+    {
+      "normalizedWord": "time",
+      "phrases": [
+        {
+          "text": "on time",
+          "translation": "准时",
+          "source": {
+            "name": "项目原创教学示例（非语料引用）",
+            "url": "https://github.com/wwlvss/qwerty-learner/blob/master/docs/personal-learning/usage.md",
+            "license": "CC0-1.0 (original teaching examples and translations)",
+            "kind": "original"
+          }
+        }
+      ],
+      "examples": [
+        {
+          "text": "Please arrive on time.",
+          "translation": "请准时到达。",
+          "targetStart": 17,
+          "targetEnd": 21,
+          "source": {
+            "name": "项目原创教学示例（非语料引用）",
+            "url": "https://github.com/wwlvss/qwerty-learner/blob/master/docs/personal-learning/usage.md",
+            "license": "CC0-1.0 (original teaching examples and translations)",
+            "kind": "original"
+          }
+        }
+      ]
+    },
+    {
+      "normalizedWord": "problem",
+      "phrases": [
+        {
+          "text": "solve a problem",
+          "translation": "解决问题",
+          "source": {
+            "name": "项目原创教学示例（非语料引用）",
+            "url": "https://github.com/wwlvss/qwerty-learner/blob/master/docs/personal-learning/usage.md",
+            "license": "CC0-1.0 (original teaching examples and translations)",
+            "kind": "original"
+          }
+        }
+      ],
+      "examples": [
+        {
+          "text": "Let us solve this problem step by step.",
+          "translation": "让我们一步一步解决这个问题。",
+          "targetStart": 18,
+          "targetEnd": 25,
+          "source": {
+            "name": "项目原创教学示例（非语料引用）",
+            "url": "https://github.com/wwlvss/qwerty-learner/blob/master/docs/personal-learning/usage.md",
+            "license": "CC0-1.0 (original teaching examples and translations)",
+            "kind": "original"
+          }
+        }
+      ]
+    },
+    {
+      "normalizedWord": "solution",
+      "phrases": [
+        {
+          "text": "find a solution",
+          "translation": "找到解决办法",
+          "source": {
+            "name": "项目原创教学示例（非语料引用）",
+            "url": "https://github.com/wwlvss/qwerty-learner/blob/master/docs/personal-learning/usage.md",
+            "license": "CC0-1.0 (original teaching examples and translations)",
+            "kind": "original"
+          }
+        }
+      ],
+      "examples": [
+        {
+          "text": "We need to find a practical solution.",
+          "translation": "我们需要找到一个切实可行的解决办法。",
+          "targetStart": 28,
+          "targetEnd": 36,
+          "source": {
+            "name": "项目原创教学示例（非语料引用）",
+            "url": "https://github.com/wwlvss/qwerty-learner/blob/master/docs/personal-learning/usage.md",
+            "license": "CC0-1.0 (original teaching examples and translations)",
+            "kind": "original"
+          }
+        }
+      ]
+    },
+    {
+      "normalizedWord": "important",
+      "phrases": [
+        {
+          "text": "an important decision",
+          "translation": "重要的决定",
+          "source": {
+            "name": "项目原创教学示例（非语料引用）",
+            "url": "https://github.com/wwlvss/qwerty-learner/blob/master/docs/personal-learning/usage.md",
+            "license": "CC0-1.0 (original teaching examples and translations)",
+            "kind": "original"
+          }
+        }
+      ],
+      "examples": [
+        {
+          "text": "Choosing a school is an important decision.",
+          "translation": "选择学校是一个重要的决定。",
+          "targetStart": 24,
+          "targetEnd": 33,
+          "source": {
+            "name": "项目原创教学示例（非语料引用）",
+            "url": "https://github.com/wwlvss/qwerty-learner/blob/master/docs/personal-learning/usage.md",
+            "license": "CC0-1.0 (original teaching examples and translations)",
+            "kind": "original"
+          }
+        }
+      ]
+    },
+    {
+      "normalizedWord": "improve",
+      "phrases": [
+        {
+          "text": "improve your skills",
+          "translation": "提高技能",
+          "source": {
+            "name": "项目原创教学示例（非语料引用）",
+            "url": "https://github.com/wwlvss/qwerty-learner/blob/master/docs/personal-learning/usage.md",
+            "license": "CC0-1.0 (original teaching examples and translations)",
+            "kind": "original"
+          }
+        }
+      ],
+      "examples": [
+        {
+          "text": "Reading can improve your writing skills.",
+          "translation": "阅读可以提高你的写作技能。",
+          "targetStart": 12,
+          "targetEnd": 19,
+          "source": {
+            "name": "项目原创教学示例（非语料引用）",
+            "url": "https://github.com/wwlvss/qwerty-learner/blob/master/docs/personal-learning/usage.md",
+            "license": "CC0-1.0 (original teaching examples and translations)",
+            "kind": "original"
+          }
+        }
+      ]
+    },
+    {
+      "normalizedWord": "remember",
+      "phrases": [
+        {
+          "text": "remember to do something",
+          "translation": "记得去做某事",
+          "source": {
+            "name": "项目原创教学示例（非语料引用）",
+            "url": "https://github.com/wwlvss/qwerty-learner/blob/master/docs/personal-learning/usage.md",
+            "license": "CC0-1.0 (original teaching examples and translations)",
+            "kind": "original"
+          }
+        }
+      ],
+      "examples": [
+        {
+          "text": "Please remember to save your work.",
+          "translation": "请记得保存你的工作。",
+          "targetStart": 7,
+          "targetEnd": 15,
+          "source": {
+            "name": "项目原创教学示例（非语料引用）",
+            "url": "https://github.com/wwlvss/qwerty-learner/blob/master/docs/personal-learning/usage.md",
+            "license": "CC0-1.0 (original teaching examples and translations)",
+            "kind": "original"
+          }
+        }
+      ]
+    },
+    {
+      "normalizedWord": "forget",
+      "phrases": [
+        {
+          "text": "forget to do something",
+          "translation": "忘记去做某事",
+          "source": {
+            "name": "项目原创教学示例（非语料引用）",
+            "url": "https://github.com/wwlvss/qwerty-learner/blob/master/docs/personal-learning/usage.md",
+            "license": "CC0-1.0 (original teaching examples and translations)",
+            "kind": "original"
+          }
+        }
+      ],
+      "examples": [
+        {
+          "text": "Do not forget to bring your keys.",
+          "translation": "不要忘记带钥匙。",
+          "targetStart": 7,
+          "targetEnd": 13,
+          "source": {
+            "name": "项目原创教学示例（非语料引用）",
+            "url": "https://github.com/wwlvss/qwerty-learner/blob/master/docs/personal-learning/usage.md",
+            "license": "CC0-1.0 (original teaching examples and translations)",
+            "kind": "original"
+          }
+        }
+      ]
+    },
+    {
+      "normalizedWord": "manage",
+      "phrases": [
+        {
+          "text": "manage your time",
+          "translation": "管理时间",
+          "source": {
+            "name": "项目原创教学示例（非语料引用）",
+            "url": "https://github.com/wwlvss/qwerty-learner/blob/master/docs/personal-learning/usage.md",
+            "license": "CC0-1.0 (original teaching examples and translations)",
+            "kind": "original"
+          }
+        }
+      ],
+      "examples": [
+        {
+          "text": "A clear plan helps you manage your time.",
+          "translation": "明确的计划有助于你管理时间。",
+          "targetStart": 23,
+          "targetEnd": 29,
+          "source": {
+            "name": "项目原创教学示例（非语料引用）",
+            "url": "https://github.com/wwlvss/qwerty-learner/blob/master/docs/personal-learning/usage.md",
+            "license": "CC0-1.0 (original teaching examples and translations)",
+            "kind": "original"
+          }
+        }
+      ]
+    },
+    {
+      "normalizedWord": "prepare",
+      "phrases": [
+        {
+          "text": "prepare for an exam",
+          "translation": "准备考试",
+          "source": {
+            "name": "项目原创教学示例（非语料引用）",
+            "url": "https://github.com/wwlvss/qwerty-learner/blob/master/docs/personal-learning/usage.md",
+            "license": "CC0-1.0 (original teaching examples and translations)",
+            "kind": "original"
+          }
+        }
+      ],
+      "examples": [
+        {
+          "text": "I need to prepare for an exam next week.",
+          "translation": "我需要为下周的考试做准备。",
+          "targetStart": 10,
+          "targetEnd": 17,
+          "source": {
+            "name": "项目原创教学示例（非语料引用）",
+            "url": "https://github.com/wwlvss/qwerty-learner/blob/master/docs/personal-learning/usage.md",
+            "license": "CC0-1.0 (original teaching examples and translations)",
+            "kind": "original"
+          }
+        }
+      ]
+    },
+    {
+      "normalizedWord": "support",
+      "phrases": [
+        {
+          "text": "provide support",
+          "translation": "提供支持",
+          "source": {
+            "name": "项目原创教学示例（非语料引用）",
+            "url": "https://github.com/wwlvss/qwerty-learner/blob/master/docs/personal-learning/usage.md",
+            "license": "CC0-1.0 (original teaching examples and translations)",
+            "kind": "original"
+          }
+        }
+      ],
+      "examples": [
+        {
+          "text": "My friends support my decision.",
+          "translation": "我的朋友们支持我的决定。",
+          "targetStart": 11,
+          "targetEnd": 18,
+          "source": {
+            "name": "项目原创教学示例（非语料引用）",
+            "url": "https://github.com/wwlvss/qwerty-learner/blob/master/docs/personal-learning/usage.md",
+            "license": "CC0-1.0 (original teaching examples and translations)",
+            "kind": "original"
+          }
+        }
+      ]
+    },
+    {
+      "normalizedWord": "example",
+      "phrases": [
+        {
+          "text": "for example",
+          "translation": "例如",
+          "source": {
+            "name": "项目原创教学示例（非语料引用）",
+            "url": "https://github.com/wwlvss/qwerty-learner/blob/master/docs/personal-learning/usage.md",
+            "license": "CC0-1.0 (original teaching examples and translations)",
+            "kind": "original"
+          }
+        }
+      ],
+      "examples": [
+        {
+          "text": "You can exercise at home; for example, you can do yoga.",
+          "translation": "你可以在家锻炼；例如，你可以做瑜伽。",
+          "targetStart": 30,
+          "targetEnd": 37,
+          "source": {
+            "name": "项目原创教学示例（非语料引用）",
+            "url": "https://github.com/wwlvss/qwerty-learner/blob/master/docs/personal-learning/usage.md",
+            "license": "CC0-1.0 (original teaching examples and translations)",
+            "kind": "original"
+          }
+        }
+      ]
+    },
+    {
+      "normalizedWord": "opportunity",
+      "phrases": [
+        {
+          "text": "a good opportunity",
+          "translation": "好机会",
+          "source": {
+            "name": "项目原创教学示例（非语料引用）",
+            "url": "https://github.com/wwlvss/qwerty-learner/blob/master/docs/personal-learning/usage.md",
+            "license": "CC0-1.0 (original teaching examples and translations)",
+            "kind": "original"
+          }
+        }
+      ],
+      "examples": [
+        {
+          "text": "This course is a good opportunity to practise speaking.",
+          "translation": "这门课程是练习口语的好机会。",
+          "targetStart": 22,
+          "targetEnd": 33,
+          "source": {
+            "name": "项目原创教学示例（非语料引用）",
+            "url": "https://github.com/wwlvss/qwerty-learner/blob/master/docs/personal-learning/usage.md",
+            "license": "CC0-1.0 (original teaching examples and translations)",
+            "kind": "original"
+          }
+        }
+      ]
+    },
+    {
+      "normalizedWord": "experience",
+      "phrases": [
+        {
+          "text": "work experience",
+          "translation": "工作经验",
+          "source": {
+            "name": "项目原创教学示例（非语料引用）",
+            "url": "https://github.com/wwlvss/qwerty-learner/blob/master/docs/personal-learning/usage.md",
+            "license": "CC0-1.0 (original teaching examples and translations)",
+            "kind": "original"
+          }
+        }
+      ],
+      "examples": [
+        {
+          "text": "She has valuable work experience.",
+          "translation": "她有宝贵的工作经验。",
+          "targetStart": 22,
+          "targetEnd": 32,
+          "source": {
+            "name": "项目原创教学示例（非语料引用）",
+            "url": "https://github.com/wwlvss/qwerty-learner/blob/master/docs/personal-learning/usage.md",
+            "license": "CC0-1.0 (original teaching examples and translations)",
+            "kind": "original"
+          }
+        }
+      ]
+    },
+    {
+      "normalizedWord": "decision",
+      "phrases": [
+        {
+          "text": "make a decision",
+          "translation": "做决定",
+          "source": {
+            "name": "项目原创教学示例（非语料引用）",
+            "url": "https://github.com/wwlvss/qwerty-learner/blob/master/docs/personal-learning/usage.md",
+            "license": "CC0-1.0 (original teaching examples and translations)",
+            "kind": "original"
+          }
+        }
+      ],
+      "examples": [
+        {
+          "text": "We need to make a decision today.",
+          "translation": "我们需要今天做出决定。",
+          "targetStart": 18,
+          "targetEnd": 26,
+          "source": {
+            "name": "项目原创教学示例（非语料引用）",
+            "url": "https://github.com/wwlvss/qwerty-learner/blob/master/docs/personal-learning/usage.md",
+            "license": "CC0-1.0 (original teaching examples and translations)",
+            "kind": "original"
+          }
+        }
+      ]
+    },
+    {
+      "normalizedWord": "progress",
+      "phrases": [
+        {
+          "text": "make progress",
+          "translation": "取得进步",
+          "source": {
+            "name": "项目原创教学示例（非语料引用）",
+            "url": "https://github.com/wwlvss/qwerty-learner/blob/master/docs/personal-learning/usage.md",
+            "license": "CC0-1.0 (original teaching examples and translations)",
+            "kind": "original"
+          }
+        }
+      ],
+      "examples": [
+        {
+          "text": "Regular practice helps you make progress.",
+          "translation": "经常练习有助于你取得进步。",
+          "targetStart": 32,
+          "targetEnd": 40,
+          "source": {
+            "name": "项目原创教学示例（非语料引用）",
+            "url": "https://github.com/wwlvss/qwerty-learner/blob/master/docs/personal-learning/usage.md",
+            "license": "CC0-1.0 (original teaching examples and translations)",
+            "kind": "original"
+          }
+        }
+      ]
+    },
+    {
+      "normalizedWord": "knowledge",
+      "phrases": [
+        {
+          "text": "gain knowledge",
+          "translation": "获得知识",
+          "source": {
+            "name": "项目原创教学示例（非语料引用）",
+            "url": "https://github.com/wwlvss/qwerty-learner/blob/master/docs/personal-learning/usage.md",
+            "license": "CC0-1.0 (original teaching examples and translations)",
+            "kind": "original"
+          }
+        }
+      ],
+      "examples": [
+        {
+          "text": "Reading helps us gain knowledge.",
+          "translation": "阅读有助于我们获得知识。",
+          "targetStart": 22,
+          "targetEnd": 31,
+          "source": {
+            "name": "项目原创教学示例（非语料引用）",
+            "url": "https://github.com/wwlvss/qwerty-learner/blob/master/docs/personal-learning/usage.md",
+            "license": "CC0-1.0 (original teaching examples and translations)",
+            "kind": "original"
+          }
+        }
+      ]
+    },
+    {
+      "normalizedWord": "information",
+      "phrases": [
+        {
+          "text": "useful information",
+          "translation": "有用的信息",
+          "source": {
+            "name": "项目原创教学示例（非语料引用）",
+            "url": "https://github.com/wwlvss/qwerty-learner/blob/master/docs/personal-learning/usage.md",
+            "license": "CC0-1.0 (original teaching examples and translations)",
+            "kind": "original"
+          }
+        }
+      ],
+      "examples": [
+        {
+          "text": "This report contains useful information.",
+          "translation": "这份报告包含有用的信息。",
+          "targetStart": 28,
+          "targetEnd": 39,
+          "source": {
+            "name": "项目原创教学示例（非语料引用）",
+            "url": "https://github.com/wwlvss/qwerty-learner/blob/master/docs/personal-learning/usage.md",
+            "license": "CC0-1.0 (original teaching examples and translations)",
+            "kind": "original"
+          }
+        }
+      ]
+    },
+    {
+      "normalizedWord": "understand",
+      "phrases": [
+        {
+          "text": "understand the meaning",
+          "translation": "理解含义",
+          "source": {
+            "name": "项目原创教学示例（非语料引用）",
+            "url": "https://github.com/wwlvss/qwerty-learner/blob/master/docs/personal-learning/usage.md",
+            "license": "CC0-1.0 (original teaching examples and translations)",
+            "kind": "original"
+          }
+        }
+      ],
+      "examples": [
+        {
+          "text": "I want to understand the meaning of this word.",
+          "translation": "我想理解这个词的含义。",
+          "targetStart": 10,
+          "targetEnd": 20,
+          "source": {
+            "name": "项目原创教学示例（非语料引用）",
+            "url": "https://github.com/wwlvss/qwerty-learner/blob/master/docs/personal-learning/usage.md",
+            "license": "CC0-1.0 (original teaching examples and translations)",
+            "kind": "original"
+          }
+        }
+      ]
+    },
+    {
+      "normalizedWord": "communicate",
+      "phrases": [
+        {
+          "text": "communicate with",
+          "translation": "与……交流",
+          "source": {
+            "name": "项目原创教学示例（非语料引用）",
+            "url": "https://github.com/wwlvss/qwerty-learner/blob/master/docs/personal-learning/usage.md",
+            "license": "CC0-1.0 (original teaching examples and translations)",
+            "kind": "original"
+          }
+        }
+      ],
+      "examples": [
+        {
+          "text": "We communicate with our colleagues every day.",
+          "translation": "我们每天与同事交流。",
+          "targetStart": 3,
+          "targetEnd": 14,
+          "source": {
+            "name": "项目原创教学示例（非语料引用）",
+            "url": "https://github.com/wwlvss/qwerty-learner/blob/master/docs/personal-learning/usage.md",
+            "license": "CC0-1.0 (original teaching examples and translations)",
+            "kind": "original"
+          }
+        }
+      ]
+    },
+    {
+      "normalizedWord": "confident",
+      "phrases": [
+        {
+          "text": "feel confident",
+          "translation": "感到自信",
+          "source": {
+            "name": "项目原创教学示例（非语料引用）",
+            "url": "https://github.com/wwlvss/qwerty-learner/blob/master/docs/personal-learning/usage.md",
+            "license": "CC0-1.0 (original teaching examples and translations)",
+            "kind": "original"
+          }
+        }
+      ],
+      "examples": [
+        {
+          "text": "Regular practice makes me feel confident.",
+          "translation": "经常练习让我感到自信。",
+          "targetStart": 31,
+          "targetEnd": 40,
+          "source": {
+            "name": "项目原创教学示例（非语料引用）",
+            "url": "https://github.com/wwlvss/qwerty-learner/blob/master/docs/personal-learning/usage.md",
+            "license": "CC0-1.0 (original teaching examples and translations)",
+            "kind": "original"
+          }
+        }
+      ]
+    }
+  ]
+}
