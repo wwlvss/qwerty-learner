@@ -294,7 +294,7 @@ export default function WordComponent({ word, onFinish }: { word: Word; onFinish
       >
         {['romaji', 'hapin'].includes(currentLanguage) && word.notation && <Notation notation={word.notation} />}
         <div
-          className={`tooltip-info relative w-fit bg-transparent p-0 leading-normal shadow-none dark:bg-transparent ${
+          className={`tooltip-info relative w-fit max-w-[calc(100vw-6rem)] bg-transparent p-0 leading-normal shadow-none dark:bg-transparent sm:max-w-full ${
             wordDictationConfig.isOpen ? 'tooltip' : ''
           }`}
           data-tip="按 Tab 快捷键显示完整单词"
@@ -303,7 +303,9 @@ export default function WordComponent({ word, onFinish }: { word: Word; onFinish
             data-testid="typing-word"
             onMouseEnter={() => handleHoverWord(true)}
             onMouseLeave={() => handleHoverWord(false)}
-            className={`flex items-center ${isTextSelectable && 'select-all'} justify-center ${wordState.hasWrong ? style.wrong : ''}`}
+            className={`flex flex-wrap items-center sm:flex-nowrap ${isTextSelectable && 'select-all'} justify-center ${
+              wordState.hasWrong ? style.wrong : ''
+            }`}
           >
             {wordState.displayWord.split('').map((t, index) => {
               return <Letter key={`${index}-${t}`} letter={t} visible={getLetterVisible(index)} state={wordState.letterStates[index]} />

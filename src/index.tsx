@@ -12,7 +12,7 @@ import 'animate.css'
 import { useAtomValue } from 'jotai'
 import mixpanel from 'mixpanel-browser'
 import process from 'process'
-import React, { Suspense, lazy, useEffect, useState } from 'react'
+import React, { Suspense, lazy, useEffect } from 'react'
 import 'react-app-polyfill/stable'
 import { createRoot } from 'react-dom/client'
 import { BrowserRouter, Navigate, Route, Routes } from 'react-router-dom'
@@ -38,21 +38,6 @@ function Root() {
     darkMode ? document.documentElement.classList.add('dark') : document.documentElement.classList.remove('dark')
   }, [darkMode])
 
-  const [isMobile, setIsMobile] = useState(window.innerWidth <= 600)
-
-  useEffect(() => {
-    const handleResize = () => {
-      const isMobile = window.innerWidth <= 600
-      if (!isMobile) {
-        window.location.href = '/'
-      }
-      setIsMobile(isMobile)
-    }
-
-    window.addEventListener('resize', handleResize)
-    return () => window.removeEventListener('resize', handleResize)
-  }, [])
-
   return (
     <React.StrictMode>
       <PersonalDictionarySync />
@@ -60,23 +45,17 @@ function Root() {
       <BrowserRouter basename={REACT_APP_DEPLOY_ENV === 'pages' ? '/qwerty-learner' : ''}>
         <Suspense fallback={<Loading />}>
           <Routes>
-            {isMobile ? (
-              <Route path="/*" element={<Navigate to="/mobile" />} />
-            ) : (
-              <>
-                <Route index element={<TypingPage />} />
-                <Route path="/gallery" element={<GalleryPage />} />
-                <Route path="/analysis" element={<AnalysisPage />} />
-                <Route path="/error-book" element={<ErrorBook />} />
-                <Route path="/friend-links" element={<FriendLinks />} />
-                <Route path="/my-dictionary" element={<MyDictionary />} />
-                <Route path="/my-dictionary/custom" element={<CustomDictionary />} />
-                <Route path="/unfamiliar" element={<UnfamiliarWords />} />
-                <Route path="/roots" element={<RootLibrary />} />
-                <Route path="/roots/:rootId" element={<RootLibrary />} />
-                <Route path="/*" element={<Navigate to="/" />} />
-              </>
-            )}
+            <Route index element={<TypingPage />} />
+            <Route path="/gallery" element={<GalleryPage />} />
+            <Route path="/analysis" element={<AnalysisPage />} />
+            <Route path="/error-book" element={<ErrorBook />} />
+            <Route path="/friend-links" element={<FriendLinks />} />
+            <Route path="/my-dictionary" element={<MyDictionary />} />
+            <Route path="/my-dictionary/custom" element={<CustomDictionary />} />
+            <Route path="/unfamiliar" element={<UnfamiliarWords />} />
+            <Route path="/roots" element={<RootLibrary />} />
+            <Route path="/roots/:rootId" element={<RootLibrary />} />
+            <Route path="/*" element={<Navigate to="/" />} />
             <Route path="/mobile" element={<MobilePage />} />
           </Routes>
         </Suspense>

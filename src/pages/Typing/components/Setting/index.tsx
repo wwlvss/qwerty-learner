@@ -42,7 +42,7 @@ export default function Setting() {
       </button>
 
       <Transition appear show={isOpen} as={Fragment}>
-        <Dialog as="div" className="relative z-50" onClose={closeModal}>
+        <Dialog as="div" className="fixed inset-0 z-50" onClose={closeModal}>
           <Transition.Child
             as={Fragment}
             enter="ease-out duration-300"
@@ -66,8 +66,8 @@ export default function Setting() {
                 leaveFrom="opacity-100 scale-100"
                 leaveTo="opacity-0 scale-95"
               >
-                <Dialog.Panel className="flex w-200 flex-col overflow-hidden rounded-2xl bg-white p-0 shadow-xl dark:bg-gray-800">
-                  <div className="relative flex h-22 items-end justify-between rounded-t-lg border-b border-neutral-100 bg-stone-50 px-6 py-3 dark:border-neutral-700 dark:bg-gray-900">
+                <Dialog.Panel className="flex w-200 max-w-full flex-col overflow-hidden rounded-2xl bg-white p-0 shadow-xl dark:bg-gray-800">
+                  <div className="relative flex h-22 items-end justify-between rounded-t-lg border-b border-neutral-100 bg-stone-50 px-2 py-3 dark:border-neutral-700 dark:bg-gray-900 sm:px-6">
                     <Dialog.Title className="text-3xl font-bold text-gray-600 dark:text-gray-200">设置</Dialog.Title>
                     <button
                       type="button"
@@ -81,8 +81,8 @@ export default function Setting() {
                   </div>
 
                   <Tab.Group vertical>
-                    <div className="flex h-120 w-full ">
-                      <Tab.List className="flex h-full w-52 flex-col items-start space-y-3  border-r border-neutral-100 bg-stone-50 px-6 py-3 dark:border-transparent dark:bg-gray-900">
+                    <div className="flex h-120 max-h-[65vh] w-full ">
+                      <Tab.List className="flex h-full w-28 shrink-0 flex-col items-start space-y-3 border-r  border-neutral-100 bg-stone-50 px-2 py-3 dark:border-transparent dark:bg-gray-900 sm:w-52 sm:px-6">
                         <Tab
                           className={({ selected }) =>
                             classNames(

@@ -16,7 +16,7 @@ import Tooltip from '@/components/Tooltip'
 import { learningPreferencesAtom } from '@/features/learning-preferences/store'
 import { idDictionaryMap } from '@/resources/dictionary'
 import { currentChapterAtom, currentDictIdAtom, isReviewModeAtom, randomConfigAtom, reviewModeInfoAtom } from '@/store'
-import { IsDesktop, isLegal } from '@/utils'
+import { isLegal } from '@/utils'
 import { useSaveChapterRecord } from '@/utils/db'
 import { useMixPanelChapterLogUploader } from '@/utils/mixpanel'
 import { useAtom, useAtomValue, useSetAtom } from 'jotai'
@@ -39,17 +39,6 @@ const App: React.FC = () => {
 
   const reviewModeInfo = useAtomValue(reviewModeInfoAtom)
   const isReviewMode = useAtomValue(isReviewModeAtom)
-
-  useEffect(() => {
-    // 检测用户设备
-    if (!IsDesktop()) {
-      setTimeout(() => {
-        alert(
-          ' Qwerty Learner 目的为提高键盘工作者的英语输入效率，目前暂未适配移动端，希望您使用桌面端浏览器访问。如您使用的是 Ipad 等平板电脑设备，可以使用外接键盘使用本软件。',
-        )
-      }, 500)
-    }
-  }, [])
 
   // 在组件挂载和currentDictId改变时，检查当前字典是否存在，如果不存在，则将其重置为默认值
   useEffect(() => {
@@ -150,6 +139,12 @@ const App: React.FC = () => {
             </button>
           </Tooltip>
         </Header>
+        <p className="mx-4 mb-3 rounded-lg bg-indigo-50 p-3 text-sm text-indigo-700 dark:bg-gray-800 dark:text-indigo-200 min-[601px]:hidden">
+          手机可查看词库、收藏、例句及导出资料；打字练习目前需要外接键盘。
+          <Link className="ml-2 underline" to="/my-dictionary">
+            打开我的词典
+          </Link>
+        </p>
         <div className="container mx-auto flex h-full flex-1 flex-col items-center justify-center pb-5">
           <div className="container relative mx-auto flex h-full flex-col items-center">
             <div className="container flex flex-grow items-center justify-center">

@@ -10,6 +10,7 @@ export default defineConfig({
     'unfamiliar-words.spec.ts',
     'dictionary-settings.spec.ts',
     'anki-dictation.spec.ts',
+    'mobile-learning.spec.ts',
   ],
   outputDir: '../test-results/etymology',
   timeout: 30000,

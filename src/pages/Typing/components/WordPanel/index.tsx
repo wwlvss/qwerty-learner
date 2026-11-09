@@ -194,7 +194,7 @@ export default function WordPanel() {
                 </div>
               </div>
             )}
-            <div className={`relative ${etymology.feedback ? 'w-full max-w-3xl' : ''}`}>
+            <div className={`relative ${etymology.feedback ? 'w-full max-w-3xl' : 'max-w-full'}`}>
               <WordComponent
                 word={currentWord}
                 onFinish={() => {
